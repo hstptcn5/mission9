@@ -1,0 +1,5955 @@
+{
+  "source": "https://www.monad.xyz/ecosystem",
+  "collectedAt": "2025-11-07T05:27:16.499Z",
+  "itemCount": 303,
+  "expectedCount": 303,
+  "data": [
+    {
+      "name": "0x",
+      "description": "0x allows you to embed swaps in any onchain app. Tap into aggregated liquidity from 130+ sources, best prices & optimal trade execution.",
+      "projectType": "Infra",
+      "categories": [
+        "Dev Tooling",
+        "Other Infra"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/0xProject",
+        "https://0x.org/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b910681d1e917a4b1a10d9_0x_banner.webp"
+      }
+    },
+    {
+      "name": "AUSD",
+      "description": "Agora is a stablecoin issuer of AUSD, backed 1:1 by cash and cash equivalent reserves managed by VanEck and custodied by State Street.",
+      "projectType": "App/Infra",
+      "categories": [
+        "DeFi",
+        "RWA",
+        "Payments"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/withAUSD",
+        "https://agora.finance"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67c620f148f4cde61d6cf7fb_ausd%20(1).webp"
+      }
+    },
+    {
+      "name": "AZEx",
+      "description": "Your A-Z DeFi Hub in One Click. Trade any asset as margin with 100x leverage. Multi-Chain Protocol. AI-Powered Copytrading.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/azex_io",
+        "https://azex.io/home"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67e316c93c4aa7bb9abb6b5c_azex%20banner.webp"
+      }
+    },
+    {
+      "name": "Aarna",
+      "description": "Next-generation DeFi asset management platform via crypto structured products, merging AI and tokenization.",
+      "projectType": "App",
+      "categories": [
+        "DeFi",
+        "AI"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/aarnasays",
+        "https://www.aarna.ai/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6834a164fae794782857fffd_1500x500-2-.webp"
+      }
+    },
+    {
+      "name": "Accountable",
+      "description": "YieldApp is the first yield marketplace backed by live, cryptographically verifiable data users can trust.",
+      "projectType": "App",
+      "categories": [
+        "DeFi",
+        "RWA"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/AccountableData",
+        "https://yield.accountable.capital/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68a730300920180531983ce9_x_cover_business%20(1).webp"
+      }
+    },
+    {
+      "name": "Across Protocol",
+      "description": "Across is the first intent-based crosschain bridge protocol. It's fast, cheap, and secure. Powering $30B+ in volume for 4M+ users.",
+      "projectType": "Infra",
+      "categories": [
+        "Cross-Chain"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/AcrossProtocol",
+        "https://across.to/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68e035994e3c2ccadb2a907d_X-Banner-1500x500-.webp"
+      }
+    },
+    {
+      "name": "Acurast",
+      "description": "Confidential AI, hyper-personalized agents, and privacy-focused computation using thousands of smartphones worldwide.",
+      "projectType": "App/Infra",
+      "categories": [
+        "DePIN",
+        "Dev Tooling"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/Acurast",
+        "https://acurast.com/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b910bace65acecef527de2_Acurast_banner.webp"
+      }
+    },
+    {
+      "name": "AethonSwap",
+      "description": "AethonSwap is a CLAMM V4 DEX combining next-gen tech with intelligent design, for low-slippage trading & efficient liquidity management",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/AethonSwap",
+        "https://www.aethonswap.com/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68e0395d301c8d49539f8ff5_aethonswap-twitter-banner-3-1-.webp"
+      }
+    },
+    {
+      "name": "Alchemy",
+      "description": "Alchemy's end-to-end platform gives devs everything to build and scale web3 apps - from APIs to monitoring, across multiple chains.",
+      "projectType": "Infra",
+      "categories": [
+        "Dev Tooling",
+        "RPC",
+        "Indexer"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/Alchemy",
+        "https://alchemy.com"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b910df442716854f1f207e_Alchemy_banner.webp"
+      }
+    },
+    {
+      "name": "AllDomains",
+      "description": "AllDomains: the web3 identity asset layer to create and trade web3 domains | Customizable for everyone.",
+      "projectType": "Infra",
+      "categories": [
+        "Identity"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/AllDomains_",
+        "https://monad.alldomains.id/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67e316a9407f35c90acd334b_1500x500-2-.webp"
+      }
+    },
+    {
+      "name": "Allium",
+      "description": "Allium delivers blockchain data for analytics, applications, and accounting use cases via dashboards, APIs, datashares, and data streams.",
+      "projectType": "Infra",
+      "categories": [
+        "Analytics",
+        "Indexer",
+        "Dev Tooling"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/AlliumLabs",
+        "https://www.allium.so/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b910ed033e2b1def73adaa_Allium_banner.webp"
+      }
+    },
+    {
+      "name": "Ambient",
+      "description": "Spot AMM with combining multiple liquidity types with modular hooks, dynamic fees and MEV protection.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/ambient_finance",
+        "https://monad.ambient.finance"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b910f8442716854f1f312c_Ambient_banner.webp"
+      }
+    },
+    {
+      "name": "Ambire Wallet",
+      "description": "Еasy and secure self-custody for smart accounts, EOAs, and hardware wallets. EIP-7702 ready wallet.",
+      "projectType": "Infra",
+      "categories": [
+        "Wallet"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/ambirewallet",
+        "https://www.ambire.com"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67d3a0a7984211865e3ea8ec_Change-X-Hero-Image-Issue-1537.webp"
+      }
+    },
+    {
+      "name": "Amertis",
+      "description": "Connecting users to deep liquidity across multiple sources, ensuring the best rates, minimal slippage, and an optimised DeFi experience.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/AmertisExchange",
+        "https://amertis.exchange/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67cb75a41f9084980878c243_amertis_banner.webp"
+      }
+    },
+    {
+      "name": "Ammalgam",
+      "description": "Ammalgam is a new primitive that combines lending and trading into one protocol called a Decentralized Lending Exchange.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/Ammalgam",
+        "https://alpha.ammalgam.xyz/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91108f6be2d85fbd272a3_Ammalgam_banner.webp"
+      }
+    },
+    {
+      "name": "ApeBond",
+      "description": "The #1 Bonding Protocol in DeFi, with $20M+ bonded and 80k+ bonds sold, transforming how projects raise funds and secure liquidity.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/apebond",
+        "https://ape.bond"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67eff2c5822ee4e28e47f441_banner.webp"
+      }
+    },
+    {
+      "name": "Apriori",
+      "description": "aPriori is an MEV infrastructure and liquid staking protocol, designed for the parallel execution era and natively built on Monad.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/apriori",
+        "http://testnet-staking.apr.io"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b911371d1e917a4b1ad43f_Apriori_banner.webp"
+      }
+    },
+    {
+      "name": "Atlantis",
+      "description": "Modular V4 DEX offering cross-chain swaps, DeFAI, a launchpad, farming, staking, fiat on-ramp, & more.",
+      "projectType": "App",
+      "categories": [
+        "DeFi",
+        "AI"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/atlantisdex_xyz",
+        "https://atlantisdex.xyz"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67d3a0a71b288e2e961f005c_1500x500.webp"
+      }
+    },
+    {
+      "name": "Atomic Wallet",
+      "description": "Manage, exchange, and stake 1000+ assets securely on desktop & mobile.",
+      "projectType": "Infra",
+      "categories": [
+        "Wallet"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/atomicwallet",
+        "https://atomicwallet.io/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6853207f608eafe16f68161b_atomic%20banner.webp"
+      }
+    },
+    {
+      "name": "Azaar",
+      "description": "Azaar is a high-performance DEX aggregator and trading platform built for Monad.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/AzaarExchange",
+        "https://azaar.com/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91173b0307a90b7b1b0c4_Azaar_banner.webp"
+      }
+    },
+    {
+      "name": "Backpack Wallet",
+      "description": "Backpack is a next-level wallet and exchange. Buy tokens, trade futures, and explore on-chain apps—seamlessly and securely. 🎒",
+      "projectType": "Infra",
+      "categories": [
+        "Wallet"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/Backpack",
+        "https://backpack.app/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91180f43c1f7d1769200f_Backpack%20Wallet_banner.webp"
+      }
+    },
+    {
+      "name": "Balancer",
+      "description": "Balancer is a decentralized automated market maker (AMM) protocol built on Ethereum.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/Balancer",
+        "https://balancer.fi/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91e60ab78b729a9289a4c_Balancer%20Banner.webp"
+      }
+    },
+    {
+      "name": "Band Protocol",
+      "description": "Band Protocol is a cross-chain data oracle platform that aggregates and connects real-world data and APIs to smart contracts.",
+      "projectType": "Infra",
+      "categories": [
+        "Oracle"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/BandProtocol",
+        "https://www.bandprotocol.com/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67e317a6a79803c3bc66316e_band%20brotocol%20banner.webp"
+      }
+    },
+    {
+      "name": "Bean Exchange",
+      "description": "Bean Exchange is a gamified decentralized spot & perpetual exchange natively built on Monad Network.",
+      "projectType": "App",
+      "categories": [
+        "DeFi",
+        "Prediction Market"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/Bean_DEX",
+        "https://bean.exchange/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9118e5481bdf7e82958ac_Bean%20Exchange_banner.webp"
+      }
+    },
+    {
+      "name": "Bebop",
+      "description": "Seamless and efficient crypto trading for everyone. Web3 trading app and API that finds the best route for all your trades.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/bebop_dex/",
+        "https://bebop.xyz/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9119a8b0b0587034738d1_Bebop_banner.webp"
+      }
+    },
+    {
+      "name": "Biconomy",
+      "description": "Biconomy helps devs build user-friendly dApps with modular tools. Our stack powers 300+ dApps & 50M+ transactions, accelerating adoption.",
+      "projectType": "Infra",
+      "categories": [
+        "Account Abstraction"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/biconomy",
+        "http://biconomy.io"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b911ab033e2b1def743657_Biconomy_banner.webp"
+      }
+    },
+    {
+      "name": "Bima",
+      "description": "BIMA is a DeFi platform that lets you earn yield on your BTC across multiple chains by using USBD, a Bitcoin-backed stablecoin.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/bimabtc",
+        "https://bima.money/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b911b4032221af82c42e0a_Bima_banner.webp"
+      }
+    },
+    {
+      "name": "Birdeye",
+      "description": "The all-in-one trading data tool for alpha traders: real-time charts, smart money flows, gems & historical data across 300+ exchanges.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/birdeye_so",
+        "https://birdeye.so/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68f69b4da7d3625a521dd18f_BSO-x-Banner.webp"
+      }
+    },
+    {
+      "name": "Birdeye Data Services",
+      "description": "High-performance onchain data provider with real-time, accurate data across tokens, wallets & protocols.",
+      "projectType": "Infra",
+      "categories": [
+        "Indexer",
+        "Analytics",
+        "Cross-Chain"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/birdeye_data",
+        "https://bds.birdeye.so/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68f69b4d2971afdf6a18ab28_BDS-x-Banner.webp"
+      }
+    },
+    {
+      "name": "Bitget Wallet",
+      "description": "Bitget Wallet is a non-custodial wallet with advanced multi-chain capabilities and a powerful swap function.",
+      "projectType": "Infra",
+      "categories": [
+        "Wallet"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "#",
+        "https://web3.bitget.com/en?source=bitget"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b911c0033e2b1def74443d_Bitget%20Wallet_banner.webp"
+      }
+    },
+    {
+      "name": "Blazpay",
+      "description": "Blazpay AI: Simplifying Crypto | 1.2M+ Users | AI-Swap | Portfolio | Alerts | Cross-Chain | Gamified Learning | Multi-Platform",
+      "projectType": "App",
+      "categories": [
+        "DeFi",
+        "AI"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/blazpaylabs",
+        "https://blazpay.com"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b911d2de4da514b324986f_Blazpay_banner.webp"
+      }
+    },
+    {
+      "name": "BlockStreet",
+      "description": "Unified liquidity layer for tokenized equities - delivering secure settlement, deep liquidity, and institutional-grade efficiency.",
+      "projectType": "Infra",
+      "categories": [
+        "Other Infra"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/blockst_hq",
+        "https://blockstreet.money/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68b20be38a9f4a238e4ca7ef_monad-bg-1500_500.webp"
+      }
+    },
+    {
+      "name": "BlockVision",
+      "description": "BlockVision provides blockchain infrastructure services, offering APIs, RPC services to empower developers and users alike.",
+      "projectType": "Infra",
+      "categories": [
+        "Indexer",
+        "Analytics"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/blockvisionhq",
+        "https://blockvision.org/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b911e2de4da514b324a0d5_BlockVision_banner.webp"
+      }
+    },
+    {
+      "name": "Blockdaemon",
+      "description": "Blockdaemon provides enterprise-grade web3 infrastructure, including dedicated nodes, APIs, staking, liquid staking, MPC wallets, and more.",
+      "projectType": "Infra",
+      "categories": [
+        "RPC"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/BlockdaemonHQ",
+        "https://www.blockdaemon.com/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b911ee033e2b1def746334_Blockdaemon_banner.webp"
+      }
+    },
+    {
+      "name": "Blocklive",
+      "description": "Blocklive is a platform for end-to-end onchain event management and ticketing, using proof of history to target and reward fans.",
+      "projectType": "App",
+      "categories": [
+        "NFT",
+        "RWA",
+        "Social"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/blocklive_/",
+        "https://blocklive.io"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b911ffebe3a25cc1bc5a93_Blocklive_banner.webp"
+      }
+    },
+    {
+      "name": "Breath of Estova",
+      "description": "Breath of Estova is a play-to-earn 2D action-based MMORPG where classic nostalgia meets a vast open world.",
+      "projectType": "App",
+      "categories": [
+        "Gaming"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/BreathOfEstova",
+        "https://www.breathofestova.com/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/687816be44e9942c1c1ef114_estova%20background%201500x500%20(1).webp"
+      }
+    },
+    {
+      "name": "Buzzing Club",
+      "description": "Buzzing Club is an app where users trade opinions on trending topics.",
+      "projectType": "App",
+      "categories": [
+        "Prediction Market"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "#",
+        "https://www.buzzing.club/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/687817535bd84bf1c05d423e_buzzing%201500x500%20(1).webp"
+      }
+    },
+    {
+      "name": "Bybit Web3 Wallet",
+      "description": "Bybit Web3 is your gateway to Web3. Explore DeFi offerings, and trade thousands of tokens across various networks.",
+      "projectType": "Infra",
+      "categories": [
+        "Wallet"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/Bybit_Web3",
+        "https://www.bybit.com/en/web3"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91252b76bbf068dcd1c8c_Bybit%20Web3%20Wallet_banner.webp"
+      }
+    },
+    {
+      "name": "CPLX",
+      "description": "Institutional-grade DeFi derivatives exchange. Unified liquidity pools & pioneering RWA products. Built by TradFi exchange pioneers.",
+      "projectType": "App",
+      "categories": [
+        "DeFi",
+        "RWA"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/cplx_io",
+        "https://cplx.io"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6883e31a7a1418a2a81fc34e_x_banner_3.webp"
+      }
+    },
+    {
+      "name": "CULT",
+      "description": "Cult is where culture meets crypto. A new reputation system rewards loyalty for holders, tokens, and creators alike.",
+      "projectType": "App",
+      "categories": [
+        "Social",
+        "DeFi",
+        "AI"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/cultdottrade",
+        "https://www.cult.trade/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/688e9f87183ff7b96a8a5684_cult%20banner.webp"
+      }
+    },
+    {
+      "name": "Caddy Finance",
+      "description": "Building Bitcoin yield vaults for retail, aggregated retail liquidity for institutional yields.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/caddyfi",
+        "https://caddy.finance/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6875a11225c65482825c4f2b_caddyfinancebanner.webp"
+      }
+    },
+    {
+      "name": "Capa",
+      "description": "Capa connects LATAM to global finance. It simplifies global payments, enabling companies to move money across borders via stablecoins.",
+      "projectType": "Infra",
+      "categories": [
+        "Onramp",
+        "Stablecoin"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/capa_fi",
+        "https://capa.fi/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68bb68aee3866caf6b346c04_capa%20background.webp"
+      }
+    },
+    {
+      "name": "Castora",
+      "description": "Funfair price prediction markets on Monad.",
+      "projectType": "App",
+      "categories": [
+        "Prediction Market"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/Castora_xyz",
+        "https://castora.xyz"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9127dea5cc3512a8b5a62_Castora_banner.webp"
+      }
+    },
+    {
+      "name": "Catton AI",
+      "description": "Catton AI, backed by Forj & Ape Accelerator, leads AI NPC gaming on Telegram with 900K users and 300k holders.",
+      "projectType": "App",
+      "categories": [
+        "AI",
+        "Gaming"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/Cattontw",
+        "https://catton.ai"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67eff2c59b8145c6ecb86f1e_1500x500.webp"
+      }
+    },
+    {
+      "name": "Celeris",
+      "description": "Celeris is the first fully on-chain orderbook Perps++ DEX that is fully permissionless with ultra-low latency & parallelized liquidity.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/0xCeleris",
+        "https://celeris.exchange"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6863135bff21aa78233f1aa5_20250624_015320.webp"
+      }
+    },
+    {
+      "name": "Chainbase",
+      "description": "Chainbase enables AI-era data interoperability and access with a decentralized, composable, and incentivized economy.",
+      "projectType": "Infra",
+      "categories": [
+        "Dev Tooling",
+        "Analytics",
+        "Cross-Chain"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://twitter.com/ChainbaseHQ",
+        "https://chainbase.com/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b912986ca74a700163fbc2_Chainbase_banner.webp"
+      }
+    },
+    {
+      "name": "Chainlink",
+      "description": "Chainlink is the standard for onchain finance, verifiable data, and cross-chain interoperability.",
+      "projectType": "Infra",
+      "categories": [
+        "Cross-Chain",
+        "Oracle"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/chainlink",
+        "https://chain.link/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67c4e79e50923072710e914c_chainlink%20banner.webp"
+      }
+    },
+    {
+      "name": "Chainsight",
+      "description": "Chainsight redefines oracles with no-code tools, lowering costs, reducing single-operator risks, and driving scalable, open innovation.",
+      "projectType": "Infra",
+      "categories": [
+        "Indexer",
+        "Oracle",
+        "Analytics"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/Chainsight_",
+        "https://chainsight.network/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b912a378fa3e34d9099949_Chainsight_banner.webp"
+      }
+    },
+    {
+      "name": "Chronicle",
+      "description": "Decentralized, verifiable oracles. Chronicle connects product builders to realtime data & custom verification.",
+      "projectType": "Infra",
+      "categories": [
+        "Oracle",
+        "Dev Tooling"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/ChronicleLabs",
+        "https://chroniclelabs.org/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg"
+      }
+    },
+    {
+      "name": "Clober",
+      "description": "Clober is a fully on-chain CLOB DEX protocol with a gas-efficient matching engine optimized for on-chain execution.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/CloberDEX",
+        "https://alpha.clober.io/?utm_source=monad_eco&utm_medium=referral"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67bebcbda054d8dee3799b11_clober%20monad.webp"
+      }
+    },
+    {
+      "name": "CoNFT",
+      "description": "coNFT.app-NFT aggregator where users can create/trade NFT and register web3 domains.120k MAU. 1M+ mints. 70k+ web3 registrations.",
+      "projectType": "App",
+      "categories": [
+        "NFT"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/ConftApp",
+        "https://conft.app"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67cb771049486c6eb222c702_conft%20(1).webp"
+      }
+    },
+    {
+      "name": "Codex",
+      "description": "The Codex API provides fast and accurate enriched data, meticulously structured to easily plug straight into your application.",
+      "projectType": "Infra",
+      "categories": [
+        "Indexer",
+        "Dev Tooling",
+        "Analytics"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/trycodex",
+        "https://www.codex.io"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b912ddae2274c79f98768c_Codex_banner.webp"
+      }
+    },
+    {
+      "name": "Coin98 AI Wallet",
+      "description": "Crypto Messenger & AI Wallet. Everyone's Gateway to The Open Internet.",
+      "projectType": "Infra",
+      "categories": [
+        "AI",
+        "Wallet"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/coin98_wallet",
+        "https://coin98.com/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b912e8de3f023f51d1d7c4_Coin98%20AI%20Wallet_banner.webp"
+      }
+    },
+    {
+      "name": "Covenant",
+      "description": "Lever up your favorite token, or earn yield, through liquid, tradeable debt markets.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/covenantFi",
+        "https://covenant.finance"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9131fa3562438106116ea_Covenant_banner.webp"
+      }
+    },
+    {
+      "name": "Crust Finance",
+      "description": "Crust Finance is a metadex with concentrated liquidity and native ALM support, built on Monad.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/CrustFinance",
+        "https://crust.finance"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6802d4c3f491d1780dd47583_1500x500%20(1)%20(1).webp"
+      }
+    },
+    {
+      "name": "Crystal",
+      "description": "Crystal is a fully on-chain CLOB exchange that brings CEX-grade performance to the EVM without compromising on security or composability.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/CrystalExch",
+        "https://crystal.exchange"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91336a1ed529049cd029d_Crystal_banner.webp"
+      }
+    },
+    {
+      "name": "Cult Markets",
+      "description": "Gamified omnichain NFT marketplace powering dynamic drops, collectibles, and interactive shard-based campaigns.",
+      "projectType": "App",
+      "categories": [
+        "NFT",
+        "Social",
+        "Gaming"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/cultmarkets",
+        "https://testnet.cultmarkets.com/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6847444702a242ed322515ec_cultmarkets_banner.webp"
+      }
+    },
+    {
+      "name": "Curvance",
+      "description": "Curvance is a multichain liquidity protocol that maximizes capital efficiency in DeFi.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/Curvance",
+        "https://monad.curvance.com/monad"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9137cce65acecef54658a_Curvance_banner.webp"
+      }
+    },
+    {
+      "name": "Cycle Network",
+      "description": "Cycle Network offers bridgeless liquidity abstraction through verifiable state aggregation, supporting all BTC and EVM networks",
+      "projectType": "Infra",
+      "categories": [
+        "Cross-Chain",
+        "Other Infra"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/cyclenetwork_GO",
+        "https://www.cyclenetwork.io/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91386dec63edfce3f80b2_Cycle%20Network_banner.webp"
+      }
+    },
+    {
+      "name": "Cyferio",
+      "description": "Award-winning Cyferio Hub offers modular FHE rollup tech for confidential, scalable blockchain computing and privacy-preserving apps.",
+      "projectType": "Infra",
+      "categories": [
+        "Privacy",
+        "Zero-Knowledge"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/cyferio_labs",
+        "https://cyferio.com"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9139678fa3e34d90a5b90_Cyferio_banner.webp"
+      }
+    },
+    {
+      "name": "DAU Cards",
+      "description": "DAU Cards bridges your crypto to everyday spending in seconds. Our interface-agnostic platform unlocks access to 40M+ global merchants.",
+      "projectType": "App",
+      "categories": [
+        "Payments",
+        "RWA"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/DAUCards",
+        "https://gmonad.daucards.com/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b913a4ea5cc3512a8c6485_DAU%20Cards_banner.webp"
+      }
+    },
+    {
+      "name": "DRKVRS",
+      "description": "DRKVRS is a Web3 Multiplayer Action RPG game with innovative mechanics, set in a dystopian and brutalist world.",
+      "projectType": "App",
+      "categories": [
+        "Gaming",
+        "AI",
+        "NFT"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/drkvrs",
+        "https://www.drkvrs.io"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67d3a1aea4d25d753f9215c7_drkvrs%20banner%20(1).webp"
+      }
+    },
+    {
+      "name": "DRPC",
+      "description": "dRPC is an off-chain routing protocol for delivering reliable API infrastructure leveraging a distributed network of nodes.",
+      "projectType": "Infra",
+      "categories": [
+        "RPC"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/drpcorg",
+        "https://drpc.org"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b913b9c0e02b5b7bef2682_DRPC_banner.webp"
+      }
+    },
+    {
+      "name": "DashX",
+      "description": "DashX: One-click payments for everything. A DeFi platform with the fastest cross-chain transactions, ramps, and rewards!",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/dashxhq",
+        "https://dashx.xyz"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg"
+      }
+    },
+    {
+      "name": "Defined",
+      "description": "Defined is the fastest charting platform serving 70+ networks and 25+ million tokens.",
+      "projectType": "Infra",
+      "categories": [
+        "Analytics"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/definedfi",
+        "https://defined.fi"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b913c62a3730e911b60d80_Defined_banner.webp"
+      }
+    },
+    {
+      "name": "Demask Finance",
+      "description": "Demask Finance is an on-chain AMM protocol that enables trading between NFT collectibles and native tokens.",
+      "projectType": "App",
+      "categories": [
+        "NFT",
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/demaskfinance",
+        "https://demask.finance/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b913dac0e02b5b7bef3bef_Demask%20Finance_banner.webp"
+      }
+    },
+    {
+      "name": "Dialect",
+      "description": "A toolkit to integrate onchain experiences into your app, instantly.",
+      "projectType": "Infra",
+      "categories": [
+        "Other Infra"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "http://www.x.com/saydialect",
+        "http://www.dialect.to"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b913e5e21ffe4d1050d95f_Dialect_banner.webp"
+      }
+    },
+    {
+      "name": "Diffuse",
+      "description": "Diffuse is a zk serverless protocol that delivers fast, cost-efficient, and verifiable both on/off-chain data any project needs.",
+      "projectType": "Infra",
+      "categories": [
+        "Zero-Knowledge",
+        "Oracle",
+        "Dev Tooling"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/DiffuseFi",
+        "https://www.diffuse.fi/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b913edb126dbefee70369b_Diffuse_banner.webp"
+      }
+    },
+    {
+      "name": "Dirol Protocol",
+      "description": "Dirol is a native DeFi Hub on Monad with a full suite of DeFi features. You can do everything on Dirol.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/DirolProtocol",
+        "https://dex.dirol.io/swap"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67cb776ce2f730919914482f_Dirol%20Banner%20(1).webp"
+      }
+    },
+    {
+      "name": "DiscoCats",
+      "description": "We make locked assets liquid, offering multi-layer yield through Liquid NFTs and Bribe mechanisms with our four products.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/mydiscocats",
+        "https://mydiscocats.com/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg"
+      }
+    },
+    {
+      "name": "Doppler",
+      "description": "Doppler is an easy to integrate token creation protocol. It automates finding fair prices and getting AMMs like Uniswap bootstrapped.",
+      "projectType": "Infra",
+      "categories": [
+        "Other Infra",
+        "Dev Tooling"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/dopplerprotocol",
+        "https://doppler.lol/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67bebd1e315fb4f90a5cf4ba_doppler%20banner.webp"
+      }
+    },
+    {
+      "name": "Drake",
+      "description": "Drake's hybrid CLOB unlocks CEX speed, DEX transparency, and frictionless yields, resulting in what matters most: perps that feel right",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/DrakeExchange",
+        "https://drake.exchange/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6847444675685e46bfbc9a8a_v2-banner.webp"
+      }
+    },
+    {
+      "name": "Dune",
+      "description": "Dune is the leading data platform for onchain data, empowering users to query, visualize, and build across 90+ blockchains.",
+      "projectType": "Infra",
+      "categories": [
+        "Analytics",
+        "Dev Tooling"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/Dune",
+        "http://dune.com/home"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91411e21ffe4d1050f3ad_Dune_banner.webp"
+      }
+    },
+    {
+      "name": "Dusted",
+      "description": "Connect with every community member in token-specific chat rooms, earn Dusted points, and win prizes from other Monad projects.",
+      "projectType": "App",
+      "categories": [
+        "Social"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://www.x.com/dusted_app",
+        "https://www.dusted.app"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9141ce0429ca00f4f3f18_Dusted_banner.webp"
+      }
+    },
+    {
+      "name": "Dynamic",
+      "description": "Dynamic combines authentication, smart wallets, and secure key management into one flexible SDK.",
+      "projectType": "Infra",
+      "categories": [
+        "Account Abstraction"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/dynamic_xyz",
+        "https://www.dynamic.xyz/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9142473996311554ca9af_Dynamic_banner.webp"
+      }
+    },
+    {
+      "name": "Dyson Finance",
+      "description": "Dyson Finance makes DeFi more inclusive and profitable by combining dynamic AMM, Dual Investment, and a Membership Program.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/DysonFinance",
+        "https://dyson.finance/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67e316a97d15a048a0c7a46c_twitter_pre_launch_cover_4x.webp"
+      }
+    },
+    {
+      "name": "ELFi",
+      "description": "ELFi is the first DEX with ultra portfolio margin & zero-risk stablecoin pool. No KYC. $1.62B volume, 32K users, up to 1000x leverage.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/ELFiProtocol",
+        "https://www.elfi.xyz/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68474446020515eb7453f84b_banner.webp"
+      }
+    },
+    {
+      "name": "EOracle",
+      "description": "eOracle provides decentralized price feeds through a cryptoeconomically secure oracle network.",
+      "projectType": "Infra",
+      "categories": [
+        "Oracle"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/eoracle_network",
+        "https://www.eoracle.io/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b914357f3041834a54a50e_EOracle_banner.webp"
+      }
+    },
+    {
+      "name": "Eisen Finance",
+      "description": "Eisen is a multichain DEX aggregator expanding with V2 to unify CEX/DEX spot & derivatives for advanced DeFi strategies.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/EisenLabs",
+        "https://eisenfinance.com/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6893bd214907ffb0bd6905b6_x-banner.webp"
+      }
+    },
+    {
+      "name": "Enjoyoors",
+      "description": "Enoyoors is a protocol that unlocks yield on any asset on any chain.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/enjoyoorsxyz",
+        "https://enjoyoors.xyz"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/682eef78202dc7cc8af07d6d_Header_enjoyoors.webp"
+      }
+    },
+    {
+      "name": "Entangle",
+      "description": "Blockchains are fragmented, blocking data, liquidity/tokens. Our interoperability stack unifies Web3.",
+      "projectType": "Infra",
+      "categories": [
+        "Cross-Chain",
+        "Oracle",
+        "Dev Tooling"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/Entanglefi",
+        "https://entangle.fi/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67cb77e668afbbbcfdeaab59_entangle-banner.webp"
+      }
+    },
+    {
+      "name": "Envio",
+      "description": "Envio is a modern, multi-chain EVM blockchain indexer for querying real-time and historical data.",
+      "projectType": "Infra",
+      "categories": [
+        "Indexer",
+        "Dev Tooling",
+        "Analytics"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/envio_indexer",
+        "https://envio.dev/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91446e882d110b44a24af_Envio_banner.webp"
+      }
+    },
+    {
+      "name": "Euclid Protocol",
+      "description": "Euclid is the first liquidity consensus layer, letting any dApp instantly access liquidity from 50+ networks—no bridging needed.",
+      "projectType": "Infra",
+      "categories": [
+        "Dev Tooling",
+        "Analytics"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/EuclidProtocol",
+        "https://www.euclidprotocol.io/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6883f9f05ed6d256a415dd27_euclid%20banner.webp"
+      }
+    },
+    {
+      "name": "Euler",
+      "description": "Euler revolutionizes DeFi by letting any asset become collateral for a lending market.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/eulerfinance/",
+        "http://euler.finance"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9148784cbdc367d624331_Euler_banner.webp"
+      }
+    },
+    {
+      "name": "FUKU",
+      "description": "A Defi Saving protocol on Monad, blending savings with the excitement of betting and winning prizes without risking your deposit.",
+      "projectType": "App",
+      "categories": [
+        "DeFi",
+        "Betting"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/Fuku_nad",
+        "https://testnet.fukunad.xyz/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67c4e7d195901a1d7451f9d8_fuku%20b.webp"
+      }
+    },
+    {
+      "name": "FWX",
+      "description": "FWX: Permissionless leverage trading on DEX. Add any token, create a lending pool, and margin trade. Lenders are protected via hedging.",
+      "projectType": "App",
+      "categories": [
+        "DeFi",
+        "Prediction Market"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/fwxfinance",
+        "https://fwx.finance"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6847444652fc2d7b6454b312_fwx-banner.webp"
+      }
+    },
+    {
+      "name": "Fans3 AI",
+      "description": "Fans3 empowers creators to build emotionally intelligent AI personas that engage fans 24/7",
+      "projectType": "App",
+      "categories": [
+        "AI",
+        "Social"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/Fans3AI",
+        "https://www.fans3.ai/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/688d2cfa82f4a5eaf6956e46_fan3%20new%20banner.webp"
+      }
+    },
+    {
+      "name": "Farcaster",
+      "description": "Farcaster is a decentralized social app that has an embedded wallet and mini apps that support Monad",
+      "projectType": "App",
+      "categories": [
+        "Social"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/farcaster_xyz",
+        "http://farcaster.xyz/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6883e31c7002016d7f174e3e_fcb.webp"
+      }
+    },
+    {
+      "name": "FastLane",
+      "description": "FastLane is an MEV protocol for validators + apps with an integrated 4337 bundler, an on-chain task scheduler, and the first holistic LST.",
+      "projectType": "App/Infra",
+      "categories": [
+        "Dev Tooling",
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/0xFastLane",
+        "https://www.fastlane.xyz/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67bcd3c2c6d79d1cd6445d82_fastlane.webp"
+      }
+    },
+    {
+      "name": "Fiamma",
+      "description": "Unlocking Bitcoin’s real-world use, making it a dynamic asset & foundation of a decentralized internet & finance.",
+      "projectType": "Infra",
+      "categories": [
+        "Cross-Chain"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/fiamma_labs",
+        "https://fiammalabs.io/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b914b57dbc3256a01c9255_Fiamma_banner.webp"
+      }
+    },
+    {
+      "name": "Fizen.io",
+      "description": "Backed by Tether, Fizen.io provides a Wallet-based Crypto Super App Pay for everything with crypto.",
+      "projectType": "App",
+      "categories": [
+        "Payments",
+        "AI"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/fizenapp",
+        "https://fizen.io/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b914c1779fac86351a7c11_Fizen.io_banner.webp"
+      }
+    },
+    {
+      "name": "Flap",
+      "description": "Launch your coin with just one click on Monad with Flap, the premier memecoin launchpad.",
+      "projectType": "App",
+      "categories": [
+        "DeFi",
+        "Social"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/flapdotsh",
+        "https://monad.flap.sh/board"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b914cc3a3a575251c3c907_Flap_banner.webp"
+      }
+    },
+    {
+      "name": "Flipside Crypto",
+      "description": "Flipside orchestrates blockchain growth with data, science & community, turning onchain insights into measurable ecosystem value.",
+      "projectType": "Infra",
+      "categories": [
+        "Analytics",
+        "Governance"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/flipsidecrypto",
+        "https://flipsidecrypto.com"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b914d6af1ff23f24a5b7d6_Flipside%20Crypto_banner.webp"
+      }
+    },
+    {
+      "name": "Folks Finance",
+      "description": "Folks Finance offers cross-chain lending, borrowing, staking and trading, building the TradFi experience on a DeFi foundation.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/FolksFinance",
+        "https://folks.finance/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b914e01e79a03f6da50e6f_Folks%20Finance_banner.webp"
+      }
+    },
+    {
+      "name": "Fonbnk",
+      "description": "Fonbnk links cash-based, mobile-first economies to Web3 by converting prepaid payments into stablecoins for instant global access.",
+      "projectType": "Infra",
+      "categories": [
+        "Onramp",
+        "Stablecoin",
+        "Cross-Chain"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/fonbnk1",
+        "https://www.fonbnk.com/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68b20d1c0eb83dc9210d08cc_fnbank%201500x500%20(1).jpeg"
+      }
+    },
+    {
+      "name": "Fortytwo",
+      "description": "A decentralized AI network growing smarter with each node where every computer contributes to planetary-scale limitless intelligence.",
+      "projectType": "App/Infra",
+      "categories": [
+        "AI",
+        "Other Infra"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/fortytwonetwork",
+        "https://fortytwo.network/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b914e8fc64a6c6e43a887e_Fortytwo_banner.webp"
+      }
+    },
+    {
+      "name": "FoxWallet",
+      "description": "Leading multi-chain mobile and extension wallet solution that seamlessly integrates with major blockchains.",
+      "projectType": "Infra",
+      "categories": [
+        "Wallet"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://twitter.com/FoxWallet",
+        "https://foxwallet.com/en"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67eff2c5b61ab3ee66b95f50_1500x500.webp"
+      }
+    },
+    {
+      "name": "GM Agents",
+      "description": "GM Agents is an AI super app that brings together a wide range of AI agents — for text, image, audio, and video.",
+      "projectType": "App",
+      "categories": [
+        "AI"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/GMAgents_AI",
+        "https://gmagents.ai/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/687816d6dfa57cb6f0341205_gm%20background%201500x500%20(1).webp"
+      }
+    },
+    {
+      "name": "Garden",
+      "description": "Garden is a Bitcoin bridge, enabling cross-chain swaps in 30 seconds with trustless, zero-custody risk settlements for users.",
+      "projectType": "Infra",
+      "categories": [
+        "Cross-Chain"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/garden_finance",
+        "https://garden.finance/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68ceb77fe2afc590d7d7eb0e_monad_cover.png"
+      }
+    },
+    {
+      "name": "Gasp",
+      "description": "Gasp is a cross-chain DEX for exchanging crypto across blockchains like Ethereum L2s, Solana, Bitcoin, RWA, and much more.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/Gasp_xyz",
+        "https://www.gasp.xyz/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67eff2c5fe6b7047c00492dc_1500x500.webp"
+      }
+    },
+    {
+      "name": "Gateway",
+      "description": "Gateway is making encrypted data as programmable as public state, allowing for full execution over high-value data.",
+      "projectType": "Infra",
+      "categories": [
+        "Privacy"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/Gateway_xyz",
+        "https://gateway.tech/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b915055075b90f1687d2bc_Gateway_banner.webp"
+      }
+    },
+    {
+      "name": "Gearbox Protocol",
+      "description": "Gearbox is DeFi’s credit layer: permissionless lending for institutional-grade efficiency and yield.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/GearboxProtocol",
+        "https://gearbox.fi/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68f69b4cbcdd9c8e6c15073d_1500x500.webp"
+      }
+    },
+    {
+      "name": "Gelato",
+      "description": "Gelato Web3 Services bring enhanced UX to Monad's high-speed L1, enabling devs build automated apps with gasless transactions & VRF.",
+      "projectType": "Infra",
+      "categories": [
+        "Account Abstraction",
+        "RPC"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/gelatonetwork",
+        "https://www.gelato.network/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91510859d08f0b8d7fccc_Gelato_banner.webp"
+      }
+    },
+    {
+      "name": "Ghost",
+      "description": "Build blazing fast indexers for smart contracts with Ghost: write transformations in Solidity, query data via GraphQL on hosted endpoints.",
+      "projectType": "Infra",
+      "categories": [
+        "Indexer",
+        "Dev Tooling"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://twitter.com/0xGhostLogs",
+        "https://tryghost.xyz"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9151948ee25af9bdf3ea6_Ghost_banner.webp"
+      }
+    },
+    {
+      "name": "Gifted.art",
+      "description": "Gifted.art is a email delivery platform.",
+      "projectType": "App",
+      "categories": [
+        "NFT",
+        "RWA",
+        "Social"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/gifteddotart",
+        "https://gifted.art/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b915216e9a2707acfaa17a_Gifted.art_banner.webp"
+      }
+    },
+    {
+      "name": "GoPlus",
+      "description": "Redefining Web3 user security with its Modular User Security Layer, offering open access to security intelligence and firewall services.",
+      "projectType": "Infra",
+      "categories": [
+        "Other Infra"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/goplussecurity",
+        "http://gopluslabs.io"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9152dab78b729a922069b_GoPlus_banner.webp"
+      }
+    },
+    {
+      "name": "GoldRush by Covalent",
+      "description": "Foundational multichain data APIs and toolkits for easy web3 development across 100+ chains including Monad.",
+      "projectType": "Infra",
+      "categories": [
+        "Indexer",
+        "Dev Tooling"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/Covalent_HQ",
+        "https://goldrush.dev/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg"
+      }
+    },
+    {
+      "name": "Golden Goose",
+      "description": "Golden Goose is an yield-bearing game incubated by Cycle Network that combines blind boxes, nurturing gameplay and DeFi!",
+      "projectType": "App",
+      "categories": [
+        "DeFi",
+        "Gaming"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/GoldenGoose_app",
+        "https://test.goose.farm/goose"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9153f6e9a2707acfac800_Golden%20Goose_banner.webp"
+      }
+    },
+    {
+      "name": "Goldsky",
+      "description": "Indexing (subgraphs with RPC failover, webhooks, and more), and streaming pipelines (replicating data to your own infra).",
+      "projectType": "Infra",
+      "categories": [
+        "Indexer",
+        "Dev Tooling"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/goldskyio",
+        "https://goldsky.com"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b915498330a99a870e9e79_Goldsky_banner.webp"
+      }
+    },
+    {
+      "name": "Gorillionaire",
+      "description": "Gorillionaire transforms blockchain data chaos into clear signals. Compete on leaderboards while our intelligence guides your trades.",
+      "projectType": "App",
+      "categories": [
+        "DeFi",
+        "Prediction Market",
+        "Social"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/gorillionaireai",
+        "https://www.gorillionai.re/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68474cb48bed528dd7a3cec4_gorillionaire%20banner.webp"
+      }
+    },
+    {
+      "name": "HaHa Wallet",
+      "description": "Native smart wallet with DeFi automations and a community rewards system.",
+      "projectType": "Infra",
+      "categories": [
+        "Account Abstraction",
+        "Wallet"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/haha_app",
+        "https://www.haha.me"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9155cf6998cf242066b95_HaHa%20Wallet_banner.webp"
+      }
+    },
+    {
+      "name": "Hashflow",
+      "description": "Hashflow is the leading RFQ protocol that connects professional market makers and takers—powering $25B+ in volume across multiple chains.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/hashflow",
+        "https://app.hashflow.com/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91567cfd1b7580b46401c_Hashflow_banner.webp"
+      }
+    },
+    {
+      "name": "Hawk Terminal",
+      "description": "Launchpad for on-chain builders augmented by AI agents.",
+      "projectType": "App",
+      "categories": [
+        "Gaming",
+        "NFT",
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/hawkterminal_HQ",
+        "https://hawkterminal.com/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67e31755c7faf77a521f32de_hawk%20terminal%20banner.webp"
+      }
+    },
+    {
+      "name": "Hemera",
+      "description": "Hemera is a programmable and verifiable data layer powered by the Account-Centric Indexing protocol.",
+      "projectType": "Infra",
+      "categories": [
+        "Dev Tooling",
+        "Indexer"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/HemeraProtocol",
+        "https://thehemera.com/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9157bb126dbefee712be4_Hemera_banner.webp"
+      }
+    },
+    {
+      "name": "Henry Labs",
+      "description": "Henry Labs makes it possible for apps to enable in-app shopping with a simple SDK, using agents to execute purchases.",
+      "projectType": "App",
+      "categories": [
+        "AI"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/henrylabs",
+        "https://www.henrylabs.xyz/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/687816e959d71c67e80d8968_henry%20background%201500x500%20(1).webp"
+      }
+    },
+    {
+      "name": "Hive",
+      "description": "Hive is a native stablecoin protocol on Monad, unlocking real yield, liquidity, through native-chain collateral and active deployment.",
+      "projectType": "App",
+      "categories": [
+        "DeFi",
+        "RWA"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/Hive_Monad",
+        "https://bhive.finance/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/680607ee5d66251ea96a2f47_hive%20banner.webp"
+      }
+    },
+    {
+      "name": "Hyperlane",
+      "description": "Hyperlane is a permissionless interoperability protocol for cross-chain message passing & asset transfers. It's fast, free, and open-source!",
+      "projectType": "Infra",
+      "categories": [
+        "Cross-Chain"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/hyperlane",
+        "https://hyperlane.xyz"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9158311a6f58966799b1e_Hyperlane_banner.webp"
+      }
+    },
+    {
+      "name": "INFINIT",
+      "description": "INFINIT is the first DeFi Abstraction Layer that enables permissionless creation of DeFi Agents to simplify on-chain transactions.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/infinit_labs",
+        "https://infinit.tech/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9158bf6998cf242068ccf_INFINIT_banner.webp"
+      }
+    },
+    {
+      "name": "IZUMi Finance",
+      "description": "iZUMi Finance is a multi-chain DeFi protocol providing one-stop DEX-as-a-Service (DaaS).",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/izumi_Finance",
+        "https://alpha.izumi.finance/trade/swap"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91596779fac86351afd4c_IZUMi%20Finance_banner.webp"
+      }
+    },
+    {
+      "name": "Impossible Finance",
+      "description": "A research advisory firm with a DeFi launchpad. Empowering users with top-tier opportunities.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/impossiblefi",
+        "https://impossible.finance/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b915a3f6998cf242069f83_Impossible%20Finance_banner.webp"
+      }
+    },
+    {
+      "name": "Index Network",
+      "description": "The first intent graph for social interactions, a new primitive where people express what they want and AI agents deliver best matches/",
+      "projectType": "Infra",
+      "categories": [
+        "Identity",
+        "Dev Tooling",
+        "Privacy"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/indexnetwork_",
+        "https://index.network/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68d6e931940f75ea0a8764e4_IndexCover.webp"
+      }
+    },
+    {
+      "name": "Jenius",
+      "description": "Tiktok x PumpFun sprinkled with AI. Users can tokenize content, graduate and join the wild ride to viral videos",
+      "projectType": "App",
+      "categories": [
+        "AI",
+        "DeFi",
+        "Social"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/JeniusRndm",
+        "https://jenius.rndm.io"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68e96d207864335c4112126f_jenius%20background.webp"
+      }
+    },
+    {
+      "name": "Jumper Exchange",
+      "description": "Jumper Exchange lets users swap and bridge across 50+ chains, finding the best rates from top bridges, DEXs, and liquidity sources.",
+      "projectType": "App",
+      "categories": [
+        "DeFi",
+        "Other Apps"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/jumperexchange?utm_source=monad_ecosystem&utm_medium=referral&utm_campaign=monad_integration",
+        "https://jumper.exchange/?utm_source=monad_ecosystem&utm_medium=referral&utm_campaign=monad_integration"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68fe71a6e033a4712c4c3746_jumper-cover-image.webp"
+      }
+    },
+    {
+      "name": "KINETK",
+      "description": "Invisible watermarking, agentic AI detection & on-chain registration – building IP infrastructure for the future of digital creativity",
+      "projectType": "App",
+      "categories": [
+        "AI",
+        "RWA",
+        "Other Apps"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/KINETK_AI",
+        "https://www.kinetk.ai/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68ceba28a6e940587e1a4ae5_kinetk%20background.webp"
+      }
+    },
+    {
+      "name": "Kansei",
+      "description": "All-in-one trading superapp with near instant UX, decentralized",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/0xKansei",
+        "https://kansei.finance/trade"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68ceb780461d68370d63b7c0_1500x500.webp"
+      }
+    },
+    {
+      "name": "KiloEx",
+      "description": "KiloEx is the next generation of user-friendly perpetual DEX, fully integration with LSTfi. Backed by Binance Labs.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/KiloEx_perp",
+        "https://www.kiloex.io/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b915b689130464ea416042_KiloEx_banner.webp"
+      }
+    },
+    {
+      "name": "Kingdomly",
+      "description": "An all in one NFT Dapp, where users can launch, mint, trade, bridge, stake on Kingdomly 🏰",
+      "projectType": "App",
+      "categories": [
+        "NFT"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/Kingdomlyapp",
+        "https://www.kingdomly.app/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6883ea3535ec43a0494e97cb_kingdom%20banner.webp"
+      }
+    },
+    {
+      "name": "Kintsu",
+      "description": "Kintsu is setting a new paradigm in Liquid Staking, fully native to Monad with DAO curated Validator Registry weights.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/kintsu_xyz",
+        "https://kintsu.xyz/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b915c0f6998cf24206bae3_Kintsu_banner.webp"
+      }
+    },
+    {
+      "name": "Kinza Finance",
+      "description": "Permissionless lending.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/kinzafinance",
+        "https://monad-test.kinza.finance/#/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b915c884cbdc367d631043_Kinza%20Finance_banner.webp"
+      }
+    },
+    {
+      "name": "Kizzy",
+      "description": "Kizzy is a social media betting app. Bet on how your favorite influencers and celebrities will perform on Twitter and YouTube.",
+      "projectType": "App",
+      "categories": [
+        "Social",
+        "Betting"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/kizzymobile",
+        "https://kizzy.io/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b915d286bf1f948b421241_Kizzy_banner.webp"
+      }
+    },
+    {
+      "name": "Kodeus AI",
+      "description": "Kodeus lets users build on-chain Agentic apps from prompts - powered by LLM orchestration, 4k+ tools, and IP monetization.",
+      "projectType": "App",
+      "categories": [
+        "AI"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/TheKodeusLabs",
+        "https://kodeus.ai/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68ceb77ff5972224015058a6_twitter-banner.webp"
+      }
+    },
+    {
+      "name": "Koywe",
+      "description": "Koywe provides crypto ramps and stablecoin financial tools: payments, billing, treasury management for businesses in LATAM.",
+      "projectType": "Infra",
+      "categories": [
+        "Onramp",
+        "Stablecoin",
+        "Wallet"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/koywe_latam",
+        "https://www.koywe.com/en/home"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68b20be38a9f4a238e4ca805_Banner_1500x500_koywe-1-.webp"
+      }
+    },
+    {
+      "name": "KuCoin Web3 Wallet",
+      "description": "The KuCoin Web3 Wallet is a decentralized, self-custodial wallet for easy on-chain asset management.",
+      "projectType": "Infra",
+      "categories": [
+        "Wallet"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/KuCoin_Web3",
+        "https://www.kucoin.com/download"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b915e4ab78b729a9227ef1_KuCoin%20Web3%20Wallet_banner.webp"
+      }
+    },
+    {
+      "name": "Kuru",
+      "description": "Find, trade and launch your coins on a fully on-chain CLOB. Built for traders, powered by Monad.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/KuruExchange",
+        "https://kuru.io/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b915ee1610ca8a55c3bd46_Kuru_banner.webp"
+      }
+    },
+    {
+      "name": "LAGOON",
+      "description": "LAGOON is an EVM-based vault infrastructure for curators, turning sophisticated farming strategies into 1-click yield products.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/lagoon_finance",
+        "https://lagoon.finance/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/687546f428ab754a943f12c8_Banner-Cover_LAGOON_1500x500-pixels.webp"
+      }
+    },
+    {
+      "name": "LEVR.bet",
+      "description": "Leverage Sports Betting with Fully Liquid Positions.",
+      "projectType": "App",
+      "categories": [
+        "DeFi",
+        "Betting"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/levr_bet",
+        "http://levr.bet/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b915fa9fa4892d6236d66a_LEVR.bet_banner.webp"
+      }
+    },
+    {
+      "name": "LFJ",
+      "description": "The onchain trading platform built for winners. One-stop DEX, Aggregator & Screener for Monad. Discover & buy every token at the best prices.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/LFJ_gg",
+        "https://pandaria.lfj.gg/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b916025d51b1bcd91c3c36_LFJ_banner.webp"
+      }
+    },
+    {
+      "name": "LI.FI",
+      "description": "One API for seamless swaps & bridging across EVM, Solana and Bitcoin. Integrated by Robinhood Wallet, MetaMask, Phantom + 600 partners.",
+      "projectType": "Infra",
+      "categories": [
+        "Cross-Chain",
+        "Dev Tooling",
+        "Account Abstraction"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/lifiprotocol",
+        "https://li.fi/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68ceb780e6d195deeeed6da4_lifi_background.webp"
+      }
+    },
+    {
+      "name": "LayerZero",
+      "description": "LayerZero is an omnichain interoperability protocol that enables seamless communication between different blockchains.",
+      "projectType": "Infra",
+      "categories": [
+        "Cross-Chain"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/LayerZero_Core",
+        "https://layerzero.network/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9160b3a3a575251c4a40a_LayerZero_banner.webp"
+      }
+    },
+    {
+      "name": "Layerhub",
+      "description": "LayerHub is an on-chain analytics platform offering dashboards, wallet insights, leaderboards, and ecosystem tracking tools.",
+      "projectType": "Infra",
+      "categories": [
+        "Analytics"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/layerhub",
+        "https://layerhub.xyz/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68f69b4cc576152375cc74af_image_156.webp"
+      }
+    },
+    {
+      "name": "Leap Wallet",
+      "description": "Leap is a multi-chain wallet spanning across EVM, Cosmos & Bitcoin.",
+      "projectType": "Infra",
+      "categories": [
+        "Account Abstraction",
+        "Wallet"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/leap_wallet",
+        "https://www.leapwallet.io/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91615859d08f0b8d8af34_Leap%20Wallet_banner.webp"
+      }
+    },
+    {
+      "name": "Legends of Elysium",
+      "description": "A fantasy strategy game that combines TCG and board game mechanics. Collect cards, build custom decks, and engage in tactical battles.",
+      "projectType": "App",
+      "categories": [
+        "Gaming"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/LegendsElysium",
+        "https://legendsofelysium.io/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6802d455ad9e71e887275dc8_Monad1500x500.webp"
+      }
+    },
+    {
+      "name": "LeverUp",
+      "description": "Next-gen perps DEX with LP-free trading, deep liquidity, and up to 1001x leverage.",
+      "projectType": "App",
+      "categories": [
+        "DeFi",
+        "RWA"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/LeverUp_xyz",
+        "https://leverup.xyz/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68fe71a6e79a1b8bcd68fa33_background-1500x500.webp"
+      }
+    },
+    {
+      "name": "Likwid",
+      "description": "The first fully permissionless, oracle-less, margin trading protocol based on uniswap V4.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/likwid_fi",
+        "https://likwid.fi/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68631425dbb476f319b06489_liqd%20banner.webp"
+      }
+    },
+    {
+      "name": "Lombard",
+      "description": "Lombard connects Bitcoin to every chain, defi protocol, and yield opportunity via LBTC. LBTC currently has $1.9B+ in deposits.",
+      "projectType": "Infra",
+      "categories": [
+        "Other Infra"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/Lombard_Finance",
+        "https://lombard.finance"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b916331610ca8a55c3ed8f_Lombard_banner.webp"
+      }
+    },
+    {
+      "name": "LootGO",
+      "description": "LootGO is a free walk-to-earn mobile app turning your daily life into a treasure hunt for next 100x memecoins.",
+      "projectType": "App",
+      "categories": [
+        "Gaming",
+        "Social"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/lootgo_official",
+        "https://lootgo.app"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9163e89130464ea41cda8_LootGO_banner.webp"
+      }
+    },
+    {
+      "name": "Lootify",
+      "description": "Lootify is a lootbox platform on Monad, offering NFTs, gaming assets, and tokenized trading cards as rewards.",
+      "projectType": "App",
+      "categories": [
+        "Gaming",
+        "NFT",
+        "Betting"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/Lootify_xyz",
+        "https://beta.lootify.xyz/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67bebc5fc3129d45e63750cf_lootify%20b.webp"
+      }
+    },
+    {
+      "name": "Lumiterra",
+      "description": "Lumiterra is the first agentic interactive multiplayer sandbox",
+      "projectType": "App",
+      "categories": [
+        "AI",
+        "Gaming",
+        "Social"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/LumiterraGame",
+        "https://lumiterra.net"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/689f814d36a7d97c9a6b7bdb_background.webp"
+      }
+    },
+    {
+      "name": "M0narch",
+      "description": "Provably fair iGaming platform on Monad - every wager, outcome, and payout is secured on-chain.",
+      "projectType": "App",
+      "categories": [
+        "Betting",
+        "Gaming"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/MonadM0narch",
+        "https://m0narch.xyz"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6883e31a85ccb6f309a67734_1500500.webp"
+      }
+    },
+    {
+      "name": "MERV",
+      "description": "IP creation platform powered by AI.",
+      "projectType": "App",
+      "categories": [
+        "AI"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/merv_wtf",
+        "https://merv.wtf/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9164611a6f589667a3393_MERV_banner.webp"
+      }
+    },
+    {
+      "name": "Mace",
+      "description": "Mace is a DEX aggregator on Monad that optimizes trades by routing through AMMs, orderbooks & RFQ market makers for best execution.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "http://x.com/mace_ag",
+        "https://www.mace.ag/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91d8ef9180e8745b830a4_mace%20banner.webp"
+      }
+    },
+    {
+      "name": "Mach Exchange",
+      "description": "Mach Exchange is a one click onboarding tool, allowing any users to instantly and securely onboard from any crypto asset on any chain.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/mach_exchange",
+        "https://mach.exchange"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67cb75a3f18868e40358259b_1500x500-1-.jpeg"
+      }
+    },
+    {
+      "name": "Madhouse",
+      "description": "Madhouse is a DEX aggregator on Monad that finds the best swap rates by routing trades across all major liquidity sources.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/usemadhouse",
+        "https://madhouse.ag/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68474447f8592a42601ad214_Madhouse_Ecosystem_1500x500.webp"
+      }
+    },
+    {
+      "name": "Magic Eden",
+      "description": "Magic Eden brings all chains and all assets together in one easy-to-use platform.",
+      "projectType": "App",
+      "categories": [
+        "NFT"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/magiceden",
+        "https://magiceden.io/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9165d7095d061fc68eef0_Magic%20Eden_banner.webp"
+      }
+    },
+    {
+      "name": "Magma",
+      "description": "Magma is a Liquid Staking Protocol building the first Distributed Validator on Monad and developing MEV to reduce latency by up to 4x.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/MagmaStaking",
+        "https://www.magmastaking.xyz/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b916666b6cb4307d54557e_Magma_banner.webp"
+      }
+    },
+    {
+      "name": "Mahjong123",
+      "description": "Match tiles, progress through levels, boost your ranking, and get more airdrop rewards!",
+      "projectType": "App",
+      "categories": [
+        "Gaming"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/0xMJM",
+        "https://monad.mahjong123.io/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9166f048c532f61e000cd_Mahjong123_banner.webp"
+      }
+    },
+    {
+      "name": "Memesteroid",
+      "description": "Memesteroid powers the full lifecycle of memecoins with prediction markets and perps from viral launch to maturity.",
+      "projectType": "App",
+      "categories": [
+        "DeFi",
+        "Social",
+        "Prediction Market"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/memesteroid",
+        "https://memesteroid.fun"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68f69b4d753f1c7638402828_banner1500x500-eco.webp"
+      }
+    },
+    {
+      "name": "Mentaport",
+      "description": "Keep your creative works safe from the internet troublemakers.",
+      "projectType": "Infra",
+      "categories": [
+        "Identity",
+        "Other Infra"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://twitter.com/mentaportinc",
+        "https://www.mentaport.com"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67eff2c59473541e98a5dea9_mentaport-landing-page.webp"
+      }
+    },
+    {
+      "name": "Meow Finance",
+      "description": "The most capital and time-efficient liquidity infrastructure built to unlock additional layers of liquidity.",
+      "projectType": "App",
+      "categories": [
+        "DeFi",
+        "AI",
+        "NFT"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/meowfi_",
+        "https://meowfi.xyz/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6883e31d5763deb46e176909_MeowFi_Banner.webp"
+      }
+    },
+    {
+      "name": "Meta Leap",
+      "description": "Meta Leap is a plug-and-play AI Gaming solution that empowers developers to seamlessly onboard their Web2 games onto Web3 within 30 minutes.",
+      "projectType": "App",
+      "categories": [
+        "Gaming"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/MetaLeap_io",
+        "https://metaleap.io/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9167d9fa4892d62373cf7_Meta%20Leap_banner.webp"
+      }
+    },
+    {
+      "name": "MetaKeep",
+      "description": "Onboard 300x more users in 1 API call, 5 mins. The #1 self-custody infra for users & AI is now on Monad—built by ex-GOOG, MSFT, X, META.",
+      "projectType": "Infra",
+      "categories": [
+        "Account Abstraction",
+        "Wallet"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/metakeep",
+        "https://metakeep.xyz"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9168583477f8bd77c78e8_MetaKeep_banner.webp"
+      }
+    },
+    {
+      "name": "Mflo",
+      "description": "The Data Kernel for AI agents - by MCP and x402, enabling on-demand access across any datasets.",
+      "projectType": "App",
+      "categories": [
+        "Payments",
+        "AI",
+        "RWA"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/mfloai",
+        "https://mflo.ai"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68d6e931832086d684a61612_Mflo_background_1500x500.webp"
+      }
+    },
+    {
+      "name": "MindAgentsAI",
+      "description": "Dual-purpose platform: AI Agent Marketplace and a Decentralized Launchpad",
+      "projectType": "App",
+      "categories": [
+        "AI"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/MindAgentsAI",
+        "http://mindagents.net/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68e96f50ceca150235bab075_IMG_8831.jpeg"
+      }
+    },
+    {
+      "name": "Mintpad",
+      "description": "Mintpad makes it easy to start an NFT collection. All creators need is their artwork and a cryptocurrency wallet.",
+      "projectType": "App",
+      "categories": [
+        "NFT"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/mintpadco",
+        "https://mintpad.co/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9168e6561ec94bfa4998f_Mintpad_banner.webp"
+      }
+    },
+    {
+      "name": "Mobula",
+      "description": "Mobula provides Data APIs for dApps, blockchain analytics for foundations and warehousing for builders.",
+      "projectType": "Infra",
+      "categories": [
+        "Indexer",
+        "Analytics",
+        "Dev Tooling"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/Mobulaio",
+        "https://mobula.io"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91697023891683685853e_Mobula_banner.webp"
+      }
+    },
+    {
+      "name": "MonadExplorer by BlockVision",
+      "description": "MonadExplorer is a block explorer built by BlockVision. It helps users analyze transactions, contracts, and network activity on Monad.",
+      "projectType": "Infra",
+      "categories": [
+        "Analytics"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/blockvisionhq",
+        "https://monadexplorer.com/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b916ab89130464ea4215e4_MonadExplorer%20by%20BlockVision_banner.webp"
+      }
+    },
+    {
+      "name": "Monadata AI",
+      "description": "Monadata is an AI and Data Platform on Monad. Interact, Train, and Earn!",
+      "projectType": "App",
+      "categories": [
+        "AI"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/monadata_ai",
+        "https://monadata.ai/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b916bcb126dbefee7211ec_Monadata%20AI_banner.webp"
+      }
+    },
+    {
+      "name": "Monday Trade",
+      "description": "Monday Trade is Monad’s native spot DEX combining the precision of a fully on-chain order book with the simplicity of AMMs.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/MondayTrade_",
+        "https://monday.trade/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6834a164bf63f433352200af_twitter.webp"
+      }
+    },
+    {
+      "name": "Monorail",
+      "description": "Trade anything across Monad. Monorail is the first aggregator to combine onchain orderbooks and AMMs to give you the best trade possible.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/monorail_xyz",
+        "https://monorail.xyz"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91702be2243a8e820b2af_Monorail_banner.webp"
+      }
+    },
+    {
+      "name": "Morpheus",
+      "description": "Launch a token, trade, and market-make in one step with Morpheus - a Monad-based DEX using CMM and Wormhole NTT for cross-chain flow.",
+      "projectType": "App",
+      "categories": [
+        "DeFi",
+        "Social"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/Morpheus_Farm",
+        "https://morpheus.farm"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6863135baa23b039d89be31e_banner.webp"
+      }
+    },
+    {
+      "name": "Moseiki",
+      "description": "Moseiki is Web3 Social Networking Application that merges the familiar experience of Web2 with the financial power of blockchain.",
+      "projectType": "App",
+      "categories": [
+        "Social",
+        "AI",
+        "NFT"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/MoseikiApp",
+        "https://moseiki.app/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9170caf1ff23f24a7847b_Moseiki_banner.webp"
+      }
+    },
+    {
+      "name": "Mozi",
+      "description": "MOZI is a next-generation social trading platform built on Monad, it combines a Web Wallet with powerful social trading tools.",
+      "projectType": "App/Infra",
+      "categories": [
+        "Social",
+        "DeFi",
+        "Wallet"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/mozifinance",
+        "https://mozi.finance/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91714f454824cadfc031c_Mozi_banner.webp"
+      }
+    },
+    {
+      "name": "Mu Digital",
+      "description": "RWA protocol bringing Asia's Best Yields Onchain.",
+      "projectType": "App",
+      "categories": [
+        "DeFi",
+        "RWA"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/MuDigitalHQ",
+        "https://mudigital.net/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91725c0e02b5b7bf189e3_Mu%20Digital_banner.webp"
+      }
+    },
+    {
+      "name": "Multipli.fi",
+      "description": "Multipli is a Zk based yield protocol specifically designed for making yield on traditionally non-yield bearing assets.",
+      "projectType": "App",
+      "categories": [
+        "DeFi",
+        "RWA"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/multiplifi",
+        "https://multipli.fi/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91735e21ffe4d10532ad6_Multipli.fi_banner.webp"
+      }
+    },
+    {
+      "name": "Multisynq",
+      "description": "The first shared, real-time application layer of the internet. A decentralized network where every app is multiplayer by default.",
+      "projectType": "App/Infra",
+      "categories": [
+        "DePIN",
+        "AI"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/multisynq",
+        "https://multisynq.io/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/687816619e7ebd9c2ba23da0_multisynq%20banner%201500x500%20(1).webp"
+      }
+    },
+    {
+      "name": "NADSA",
+      "description": "NADSA is the purpose-built command center for seamless exploration on Monad.",
+      "projectType": "App",
+      "categories": [
+        "DeFi",
+        "Gaming"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/0xNADSA",
+        "https://nadsa.space"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68b20be49797d18c63a72c2c_nadsa-banner.webp"
+      }
+    },
+    {
+      "name": "NFTs2Me",
+      "description": "NFTs2Me is a user-friendly comprehensive platform to create, deploy and manage your NFT collection on Monad, 100% free.",
+      "projectType": "App",
+      "categories": [
+        "NFT",
+        "Social"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/NFTs2Me",
+        "http://nfts2me.com/app/monad-testnet/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91741ab78b729a9235c7d_NFTs2Me_banner.webp"
+      }
+    },
+    {
+      "name": "NXTchain",
+      "description": "NXTchain empowers anyone to join the decentralized cloud through plug-and-play devices or data center ownership.",
+      "projectType": "App",
+      "categories": [
+        "DePIN"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/NXT_chain",
+        "https://www.nxtchain.com"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68f69b4c2914de7af9a367b3_NXTchain_Monad_BG.webp"
+      }
+    },
+    {
+      "name": "Nabla Finance",
+      "description": "Nabla Finance is a yield protocol where the yield is generated by the hyper-efficient Nabla AMM.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://www.twitter.com/nablafi",
+        "https://www.nabla.fi"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9174b8f00b5fa4ab712b3_Nabla%20Finance_banner.webp"
+      }
+    },
+    {
+      "name": "Nad.fun",
+      "description": "Nad.fun is a Social Memecoin Playground powered by Monad, enabling seamless token launches and trading.",
+      "projectType": "App",
+      "categories": [
+        "DeFi",
+        "Social"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/naddotfun",
+        "https://testnet.nad.fun"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91754f9180e8745b48efe_Nad.fun_banner.webp"
+      }
+    },
+    {
+      "name": "NadSmith",
+      "description": "AI Agent OS on Monad | Tokenizing Agents & Automating Markets - built exclusively on Monad.",
+      "projectType": "App",
+      "categories": [
+        "AI",
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/NadSmith_",
+        "https://x.com/NadSmith_"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg"
+      }
+    },
+    {
+      "name": "Narrative",
+      "description": "Perpetual information markets",
+      "projectType": "App",
+      "categories": [
+        "DeFi",
+        "Other Apps",
+        "Prediction Market"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/narrativexyz",
+        "https://www.testnet.narrative.xyz/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68965d4424485e6a8ec2d656_8.6.webp"
+      }
+    },
+    {
+      "name": "Narwhal Finance",
+      "description": "Narwhal Finance is an AI-driven decentralized perpetual trading platform exclusively on Monad. Backed by Jump Crypto and CMS Holdings.",
+      "projectType": "App",
+      "categories": [
+        "DeFi",
+        "Social"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/Narwhal_Finance",
+        "https://testnet.narwhal.finance/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91765b126dbefee72cdc5_Narwhal%20Finance_banner.webp"
+      }
+    },
+    {
+      "name": "Neverland",
+      "description": "Neverland is a Monad-native lending protocol blending Aave V3 security with novel veTokenomics, self-repaying loans & yield strategies.",
+      "projectType": "App",
+      "categories": [
+        "DeFi",
+        "Governance"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/neverland_money",
+        "https://neverland.money"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68d6e9319f6a7484c5ec0149_1500x500.webp"
+      }
+    },
+    {
+      "name": "Nillion",
+      "description": "Humanity's first blind computer. The internet’s base layer for all private data.",
+      "projectType": "Infra",
+      "categories": [
+        "AI",
+        "Privacy"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/nillionnetwork",
+        "http://www.nillion.com"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9177ed052009891787b62_Nillion_banner.webp"
+      }
+    },
+    {
+      "name": "Nitro by Router Protocol",
+      "description": "Nitro is an intent-based bridge, provides fast, cheap bridges and swaps between 30+ chains",
+      "projectType": "Infra",
+      "categories": [
+        "Cross-Chain"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/routerprotocol",
+        "https://app.routernitro.com/swap"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9178df6998cf24208281a_Nitro%20by%20Router%20Protocol_banner.webp"
+      }
+    },
+    {
+      "name": "NitroFinance",
+      "description": "NitroFinance: An AMM on steroids—fusing DEX and Money Market into one pool to maximize efficiency and simplify liquidity management.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/NitroFinance",
+        "https://nitrofinance.xyz/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9179789130464ea42be06_NitroFinance_banner.webp"
+      }
+    },
+    {
+      "name": "Nomas Wallet",
+      "description": "Reinvent the Web3 experience. Powered by AI.",
+      "projectType": "Infra",
+      "categories": [
+        "Account Abstraction",
+        "Wallet"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/NomasWallet",
+        "https://nomaswallet.com/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9179f5d51b1bcd91d4149_Nomas%20Wallet_banner.webp"
+      }
+    },
+    {
+      "name": "Nostra",
+      "description": "Nostra is the crypto Super App where users can lend, borrow, swap and bridge cryptocurrencies.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/nostrafinance",
+        "https://monad.nostra.finance/lend-borrow"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b917a995f6c7651321abbc_Nostra_banner.webp"
+      }
+    },
+    {
+      "name": "Notifi",
+      "description": "Real-time, white-labeled alerts for on/off-chain events (loan health, liquidity, etc.) in DeFi via email, Telegram, Discord, & more.",
+      "projectType": "Infra",
+      "categories": [
+        "Dev Tooling",
+        "Other Infra"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/NotifiNetwork",
+        "https://notifi.network/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b917b25075b90f1689eb7e_Notifi_banner.webp"
+      }
+    },
+    {
+      "name": "Noves",
+      "description": "With Noves, users can get financial-grade onchain data on Monad: clean, reconciled, and standardized, for tax, accounting, and finance.",
+      "projectType": "Infra",
+      "categories": [
+        "Dev Tooling",
+        "Indexer"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/noves_fi",
+        "https://noves.fi"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6883e31a3cf8aec80270f6e3_noves-banner.webp"
+      }
+    },
+    {
+      "name": "Nubila",
+      "description": "Nubila is building the physical perception layer for the autonomous economy and AI.",
+      "projectType": "App",
+      "categories": [
+        "AI",
+        "DePIN",
+        "RWA"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/nubilanetwork",
+        "https://nubila.ai/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68e035995a5f630974e62bad_1500x500.webp"
+      }
+    },
+    {
+      "name": "Nunchi",
+      "description": "A perpetuals exchange for the invisible currents of finance. Long or short any yield. Sense the unsaid. Trade the unseen.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/nunchitrade",
+        "https://nunchi.trade/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68ceb77f687b9b48c01abe3f_nunchi_1500x500.webp"
+      }
+    },
+    {
+      "name": "OKX Explorer",
+      "description": "All-In-One blockchain explorer, supporting 60+ blockchains, with OpenAPI and EaaS to securely explore and build onchain.",
+      "projectType": "Infra",
+      "categories": [
+        "Analytics",
+        "Indexer"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/okxexplorer",
+        "https://www.okx.com/web3/explorer/monad-testnet"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b917bef6998cf242083de7_OKX%20Explorer_banner.webp"
+      }
+    },
+    {
+      "name": "OKX Wallet",
+      "description": "OKX Wallet is your all-in-one gateway to the Web3 world.",
+      "projectType": "Infra",
+      "categories": [
+        "Wallet"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/wallet",
+        "https://www.okx.com/web3"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b917c873996311554ef5ae_OKX%20Wallet_banner.webp"
+      }
+    },
+    {
+      "name": "OSL Pay",
+      "description": "OSL Pay, the licensed payments arm of OSL Group, delivers secure, compliant digital-to-fiat conversion for global clients.",
+      "projectType": "Infra",
+      "categories": [
+        "Onramp"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/oslpay",
+        "https://www.osl-pay.com/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68fe71a61a4eecacc687e171_1500x500-2.webp"
+      }
+    },
+    {
+      "name": "OctoSwap",
+      "description": "OctoSwap offers lightning-fast token swaps and capital-efficient liquidity pools with a user friendly interface.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/octoswapdex",
+        "https://octo.exchange"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67ce4cf1eb2c11cb1c3b90bc_octoswap.webp"
+      }
+    },
+    {
+      "name": "Omnia",
+      "description": "Omnia is a pet battle and adventure game, built by the Sappy Seals team.",
+      "projectType": "App",
+      "categories": [
+        "NFT",
+        "Gaming"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/ExploreOmnia",
+        "https://www.omnia.lol/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6878162f2e58f4023f2fae19_omnia%20background%201500x500%20(1).webp"
+      }
+    },
+    {
+      "name": "Opals",
+      "description": "Opals: Kickstarter meets NFTs for projects. Buy cards → auto-launch when funded → cards claim tokens + rewards. Discover gems.",
+      "projectType": "App",
+      "categories": [
+        "Social",
+        "NFT",
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/Opals_io",
+        "https://opals.io/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b917d1e882d110b44cba74_Opals_banner.webp"
+      }
+    },
+    {
+      "name": "OpenOcean",
+      "description": "A leading DEX aggregator on 30+ chains, with its swap API powering 180+ projects like MetaMask, Rabby, Li.Fi, and more.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/OpenOceanGlobal",
+        "https://openocean.finance/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b917d91610ca8a55c50d3f_OpenOcean_banner.webp"
+      }
+    },
+    {
+      "name": "OpenSea",
+      "description": "The largest NFT marketplace. Buy, sell, & discover the internet of goods.",
+      "projectType": "App",
+      "categories": [
+        "NFT"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/opensea",
+        "https://opensea.io/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b917e2f0b471b3c1bef3d0_OpenSea_banner.webp"
+      }
+    },
+    {
+      "name": "Orbiter Finance",
+      "description": "Orbiter Finance is a decentralized cross-rollup bridge that offers secure, low cost and almost instant transfer.",
+      "projectType": "Infra",
+      "categories": [
+        "Cross-Chain"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/Orbiter_Finance",
+        "https://www.orbiter.finance/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b917ed83477f8bd77d6444_Orbiter%20Finance_banner.webp"
+      }
+    },
+    {
+      "name": "Orderly",
+      "description": "Infra that lets anyone trade anything, anywhere. Our permissionless liquidity layer provides deep, unified liquidity via a shared orderbook.",
+      "projectType": "App/Infra",
+      "categories": [
+        "DeFi",
+        "Dev Tooling"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/orderlynetwork",
+        "https://orderly.network/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b917fb1610ca8a55c520be_Orderly_banner.webp"
+      }
+    },
+    {
+      "name": "Orochi Network",
+      "description": "Orochi Network is the world’s first Verifiable Data Infrastructure, addressing scalability, privacy, and data integrity challenges.",
+      "projectType": "Infra",
+      "categories": [
+        "Oracle",
+        "Gaming Infra",
+        "Zero-Knowledge"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://twitter.com/OrochiNetwork",
+        "http://www.orochi.network/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b918055075b90f168a20e1_Orochi%20Network_banner.webp"
+      }
+    },
+    {
+      "name": "Outpost Surge",
+      "description": "A city-building society survival game on Mars. Manage resources, grow your outpost, and earn rewards.",
+      "projectType": "App",
+      "categories": [
+        "Gaming",
+        "NFT"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/OutpostSurge",
+        "https://www.outpostsurge.com/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67e316a927462cd6dc6aa4b2_1500x500-4-.webp"
+      }
+    },
+    {
+      "name": "Owlto Finance",
+      "description": "Owlto Finance is an intent-centric interoperability protocol - bridge the world with AI agents.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/Owlto_Finance",
+        "https://owlto.finance/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9180f6ae7e18300e22899_Owlto%20Finance_banner.webp"
+      }
+    },
+    {
+      "name": "PLAY Network",
+      "description": "PLAY turbocharges games with crypto rails. Any game, any chain.",
+      "projectType": "App/Infra",
+      "categories": [
+        "Gaming",
+        "Gaming Infra"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/0xplay_network",
+        "https://www.theplay.network/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9181bab78b729a924a14b_PLAY%20Network_banner.webp"
+      }
+    },
+    {
+      "name": "POINK",
+      "description": "Poink lets users interact with Web3 directly on X (Twitter), helping dapps onboard users directly from X.",
+      "projectType": "Infra",
+      "categories": [
+        "Other Infra"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/poinkofficial",
+        "https://poink.xyz/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67efe1413f6ff09f41971a60_1500x500.webp"
+      }
+    },
+    {
+      "name": "PancakeSwap",
+      "description": "Trade and earn crypto on the all-in-one decentralized exchange. Enjoy low fees, high liquidity, and a user-friendly interface.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/PancakeSwap",
+        "https://pancakeswap.finance/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9188d5d51b1bcd91df395_PancakeSwap-Banner.webp"
+      }
+    },
+    {
+      "name": "Pangea",
+      "description": "Pangea is the immersive web3 environment, a trustless data network to explore and interact with blockchains, enabling the best experience.",
+      "projectType": "Infra",
+      "categories": [
+        "Indexer"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/In_Pangea",
+        "https://pangea.foundation/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b918fbd031c30308e92055_Pangea_banner.webp"
+      }
+    },
+    {
+      "name": "Para",
+      "description": "Para is the easiest and most secure way to onboard all your users and support them throughout their crypto journey.",
+      "projectType": "Infra",
+      "categories": [
+        "Account Abstraction",
+        "Wallet"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/get_para",
+        "https://getpara.com"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91905ab78b729a92534e8_Para_banner.webp"
+      }
+    },
+    {
+      "name": "Pecker",
+      "description": "Pecker is a liquidity layer on Monad for stables and LSTs, solving fragmentation slippage and yield inefficiency with unified tokens",
+      "projectType": "App",
+      "categories": [
+        "DeFi",
+        "AI",
+        "Other Apps"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/pecker_so",
+        "https://pecker.so"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68966e7ce3a542ddd633928c_pecker%20banner.webp"
+      }
+    },
+    {
+      "name": "Peridot",
+      "description": "Peridot Protocol is a Cross-Chain Money Market enabling seamless Lending & Borrowing across all integrated Blockchains",
+      "projectType": "App",
+      "categories": [
+        "DeFi",
+        "Governance",
+        "Other Apps"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/peridotprotocol",
+        "https://peridot.finance/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6883e31aba83cb513135eaf1_X-Banner-Secondary-BG.webp"
+      }
+    },
+    {
+      "name": "Permute Finance",
+      "description": "Permute is a native Bitcoin bridge for secure, low-cost BTC cross-chain swaps & more with 0.1% fees and non-custodial security.",
+      "projectType": "Infra",
+      "categories": [
+        "Cross-Chain"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/permute_finance",
+        "https://permute.finance/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68e96f513a156f995f3de12f_Cover_correct_dimension.webp"
+      }
+    },
+    {
+      "name": "Perpl",
+      "description": "Perpl is a CLOB‑based perpetual futures DEX.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/perpltrade",
+        "https://perpl.xyz/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6878163c2dfad1e468c0d11f_Perpl%201500x500%20(1).webp"
+      }
+    },
+    {
+      "name": "Phantom",
+      "description": "The friendly crypto wallet built for DeFi & NFTs.",
+      "projectType": "Infra",
+      "categories": [
+        "Wallet"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/phantom",
+        "https://phantom.com/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9190dc1a6a111c7212374_Phantom_banner.webp"
+      }
+    },
+    {
+      "name": "Pimlico",
+      "description": "Pimlico provides a suite of tools and services to help you build, deploy, and manage smart accounts on EVM-compatible chains.",
+      "projectType": "Infra",
+      "categories": [
+        "Account Abstraction",
+        "Wallet"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/pimlicoHQ",
+        "https://www.pimlico.io"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91916c3ad7da1ddf53534_Pimlico_banner.webp"
+      }
+    },
+    {
+      "name": "Pingu Exchange",
+      "description": "Pingu Exchange is a fully on-chain, coin-margined Perp DEX with top-tier performance for traders of all sizes to access global markets.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/PinguExchange",
+        "https://pingu.exchange/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91925ab78b729a925454d_Pingu%20Exchange_banner.webp"
+      }
+    },
+    {
+      "name": "Plato",
+      "description": "SocialFi for dining, making eating fun, engaging, and social.",
+      "projectType": "App",
+      "categories": [
+        "Social",
+        "AI",
+        "Gaming"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/plato2earn",
+        "https://m.getplato.app/monad"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9192fc0e02b5b7bf2de8f_Plato_banner.webp"
+      }
+    },
+    {
+      "name": "PolyFlow",
+      "description": "PayFi protocol linking RWAs with DeFi.",
+      "projectType": "App",
+      "categories": [
+        "RWA"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/Polyflow_PayFi",
+        "https://app.polyflow.tech/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6878157cb0e6797254c8ec2f_polyflow%20background%201500x500%20(1).webp"
+      }
+    },
+    {
+      "name": "Poply",
+      "description": "Community-based NFT marketplace where anyone can generate custom NFT collections using an integrated AI engine.",
+      "projectType": "App",
+      "categories": [
+        "NFT"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/poply_xyz",
+        "https://poply.xyz"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67cb75a56fa2925b3b2e9a9e_poply-banner.webp"
+      }
+    },
+    {
+      "name": "Poster.fun",
+      "description": "Poster.fun: the full-stack meme studio powered by Info-Fi™—mint in seconds, track on-chain virality, and pocket tips & bounties.",
+      "projectType": "App",
+      "categories": [
+        "Social",
+        "NFT"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/Posterdotfun",
+        "poster.fun"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6863135b0d47a347f7731405_Poster-Twitter-banner-7-.webp"
+      }
+    },
+    {
+      "name": "Primex Finance",
+      "description": "Primex Finance is a leveraged farming & trading protocol offering top APYs & margin trading for unlimited tokens on DEXs.",
+      "projectType": "App",
+      "categories": [
+        "DeFi",
+        "RWA",
+        "AI"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/primex_official",
+        "https://primex.finance/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67d3a0a714e1d6afadc6f5f6_Banner.webp"
+      }
+    },
+    {
+      "name": "Primus",
+      "description": "Primus enables secure AI operations and data processing with zkTLS and zkFHE, driving blockchain innovation.",
+      "projectType": "Infra",
+      "categories": [
+        "Zero-Knowledge"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/primus_labs",
+        "https://primuslabs.xyz/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91939d05200989179a72e_Primus_banner.webp"
+      }
+    },
+    {
+      "name": "Privy",
+      "description": "Privy helps onboard any user to crypto. Power flexible, powerful wallets under the hood for any application.",
+      "projectType": "Infra",
+      "categories": [
+        "Account Abstraction",
+        "Wallet"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/privy_io",
+        "http://privy.io"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91943d821392f194081e7_Privy_banner.webp"
+      }
+    },
+    {
+      "name": "Proof-of-Skill",
+      "description": "A protocol to verify real-world skills along with ID & work history, enabling faster, smarter skill-based hiring.",
+      "projectType": "App",
+      "categories": [
+        "Other Apps"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/proofofskill",
+        "https://proofofskill.org"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67cb75a516c2025d35bf2f11_group_48096052.png"
+      }
+    },
+    {
+      "name": "Puffer Finance",
+      "description": "Puffer Finance is a leading liquid staking protocol that lets users stake $ETH, receive $pufETH, and access DeFi opportunities.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/Puffer_Finance",
+        "https://linktr.ee/puffer_finance"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg"
+      }
+    },
+    {
+      "name": "PumpBTC",
+      "description": "PumpBTC’s aim to allow Bitcoin holders to maximize their returns by participating in DeFi with security, scalability, and transparency.",
+      "projectType": "App",
+      "categories": [
+        "AI",
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/Pumpbtcxyz",
+        "https://testnet.pumpbtc.xyz/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91e8c6561ec94bfa97fdb_pumpBTC%20banner.webp"
+      }
+    },
+    {
+      "name": "Purps",
+      "description": "A perpetual DEX and liquidity hub on Monad, offering deep liquidity, fast trading, and support for native projects.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/PurpsExchange",
+        "https://www.purps.xyz/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/682acfc9a3a8f6e2335cda9b_photo_2025-05-08_23-05-50_720.webp"
+      }
+    },
+    {
+      "name": "Pyth Network",
+      "description": "The price layer of the global financial market.",
+      "projectType": "Infra",
+      "categories": [
+        "Oracle"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "http://x.com/PythNetwork",
+        "http://pyth.network"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91950d821392f194088b9_Pyth%20Network_banner.webp"
+      }
+    },
+    {
+      "name": "QuickNode",
+      "description": "QuickNode provides blockchain infrastructure and tools for Web3 development, offering high-performance access to 60+ blockchains.",
+      "projectType": "Infra",
+      "categories": [
+        "RPC"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/QuickNode",
+        "https://www.quicknode.com/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9195ac1a6a111c7214f9a_QuickNode_banner.webp"
+      }
+    },
+    {
+      "name": "Rabble",
+      "description": "Rabble is a MultiChain telegram client, now on Monad. Explore 1 click Monad DeFi apps baked into the Telegram social graph.",
+      "projectType": "App",
+      "categories": [
+        "Social",
+        "AI",
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/0xRabble",
+        "https://app.rabble.pro/?utm=MONAD"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9196afc64a6c6e43d5a95_Rabble_banner.webp"
+      }
+    },
+    {
+      "name": "RareBetSports",
+      "description": "Building consumer sports applications powered by the RBS Oracle. Play RareLink and win up to 100x your crypto.",
+      "projectType": "App",
+      "categories": [
+        "Betting",
+        "Prediction Market"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/RareBetSports",
+        "https://rarelink.rarebetsports.io/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9197348ee25af9be22afd_RareBetSports_banner.webp"
+      }
+    },
+    {
+      "name": "Rayvo",
+      "description": "First web3 smart glasses that combine AI, decentralized data ownership, and wear-to-earn rewards.",
+      "projectType": "App",
+      "categories": [
+        "DePIN"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/rayvo_xyz",
+        "https://rayvo.gitbook.io/rayvo"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6878157170c067c1a9fcaff1_rayvo%201500x500.webp"
+      }
+    },
+    {
+      "name": "RedStone",
+      "description": "RedStone is the fastest-growing Modular Oracle, specializing in yield-bearing collateral for lending markets, such as LSTs, LRTs and BTCFi.",
+      "projectType": "Infra",
+      "categories": [
+        "Oracle"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/redstone_defi",
+        "https://www.redstone.finance/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9197d89130464ea445896_RedStone_banner.webp"
+      }
+    },
+    {
+      "name": "Redbrick",
+      "description": "Create. Play. Earn. Redbrick is a next-generation web3 gaming engine empowering creators to publish & monetize their games.",
+      "projectType": "App",
+      "categories": [
+        "Gaming"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/RedbrickLand",
+        "https://redbrick.land/monad"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b9198f6b6cb4307d56797d_Redbrick_banner.webp"
+      }
+    },
+    {
+      "name": "Relend Network",
+      "description": "Relend Network supplies rUSDC into Monad money markets.",
+      "projectType": "Infra",
+      "categories": [
+        "Stablecoin"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/relend_network",
+        "https://relend.network/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6883e31b7521ac0c5bd871a9_relend-monad-banner.webp"
+      }
+    },
+    {
+      "name": "Renzo",
+      "description": "Renzo simplifies restaking with AVS strategies for LRTs, supporting $ezETH, $pzETH, and $ezSOL on Ethereum & Solana.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/RenzoProtocol",
+        "https://www.renzoprotocol.com/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b919988330a99a8711b6b8_Renzo_banner.webp"
+      }
+    },
+    {
+      "name": "Reown",
+      "description": "Reown gives developers the tools to build user experiences that make digital ownership effortless, intuitive, and secure.",
+      "projectType": "Infra",
+      "categories": [
+        "Account Abstraction",
+        "Dev Tooling"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/reown_",
+        "https://reown.com/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b919a83a3a575251c71b64_Reown_banner.webp"
+      }
+    },
+    {
+      "name": "Reservoir",
+      "description": "Reservoir is a developer platform that lets you interact with the NFT market using a single toolkit.",
+      "projectType": "Infra",
+      "categories": [
+        "Indexer",
+        "Dev Tooling"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/reservoir0x",
+        "https://reservoir.tools/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b919b4779fac86351ec334_Reservoir_banner.webp"
+      }
+    },
+    {
+      "name": "RgbClash",
+      "description": "Unleash your creativity and draw your yield bearing NFTs. Play to earn with multiplayer drawing-guessing game.",
+      "projectType": "App",
+      "categories": [
+        "Gaming",
+        "NFT"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/rgbclash_xyz",
+        "https://rgbclash.xyz"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/683ec5094a13f49335363bed_photo_2025-06-03_17.09.50.webp"
+      }
+    },
+    {
+      "name": "Rhino.fi",
+      "description": "rhino.fi is the ultimate bridge for effortless multi-chain token movement.",
+      "projectType": "Infra",
+      "categories": [
+        "Cross-Chain"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/rhinofi",
+        "https://rhino.fi/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b919bc5d51b1bcd91ece20_Rhino.fi_banner.webp"
+      }
+    },
+    {
+      "name": "Rubic",
+      "description": "Rubic. Your Best Rate Finder across 90+ chains and 360+ DEXs and bridges. For users and dApps.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://twitter.com/CryptoRubic",
+        "https://testnet.rubic.exchange/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b919c6c3ad7da1ddf5ab36_Rubic_banner.webp"
+      }
+    },
+    {
+      "name": "Rug Rumble",
+      "description": "Gamifying the speculative memecoin landscape. Wager your memecoins, defend your banner, and win outsized returns.",
+      "projectType": "App",
+      "categories": [
+        "DeFi",
+        "Betting",
+        "Gaming"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "http://x.com/RugRumble",
+        "http://rugrumble.xyz"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b919d06b6cb4307d569c60_Rug%20Rumble_banner.webp"
+      }
+    },
+    {
+      "name": "Rumi",
+      "description": "Rumi enables users to watch, earn, and help build the future of AI-powered entertainment.",
+      "projectType": "App",
+      "categories": [
+        "AI",
+        "DePIN"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/RumiLabs_io",
+        "https://rumilabs.io/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6878156220a133701406a3ef_rumi%201500x500%20(1).webp"
+      }
+    },
+    {
+      "name": "SQD",
+      "description": "SQD enables permissionless, cost-efficient access to petabytes of high-value Web3 data.",
+      "projectType": "Infra",
+      "categories": [
+        "Indexer"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/helloSQD",
+        "https://www.sqd.ai"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b919e36b6cb4307d56a631_SQD_banner.webp"
+      }
+    },
+    {
+      "name": "STAGE.fun",
+      "description": "STAGE.fun is a crowdfunding platform for festivals and events.",
+      "projectType": "App",
+      "categories": [
+        "Social",
+        "DeFi",
+        "RWA"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/stagedotfun",
+        "https://stage.fun/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6875106c949bec27002cd3d7_STAGE-1500x500.png"
+      }
+    },
+    {
+      "name": "SafePal",
+      "description": "SafePal is a non-custodial crypto wallet suite (hardware, mobile, browser) backed by Animoca and Binance, serving 20M+ users.",
+      "projectType": "Infra",
+      "categories": [
+        "Wallet"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/iSafePal",
+        "https://www.safepal.com/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67c4e72cd927573fcfe57461_safepal%20banner.webp"
+      }
+    },
+    {
+      "name": "Scatter.art",
+      "description": "Scatter is an artist-first NFT launchpad enabling free artistic expression where VC-funded markets cannot.",
+      "projectType": "App",
+      "categories": [
+        "NFT",
+        "Social"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/scatter_art",
+        "https://www.scatter.art/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6883f7a81cd24a3b861310a2_scatter%20banner.webp"
+      }
+    },
+    {
+      "name": "Sela Network",
+      "description": "With Sela Network, users run nodes, earn rewards & power real transactions. Sela transforms idle computing power into a global data infrastructure",
+      "projectType": "App",
+      "categories": [
+        "DePIN"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/SelaNetwork",
+        "https://www.selanetwork.io/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68966d48ecb4f9b082c64212_sela%20banner.webp"
+      }
+    },
+    {
+      "name": "Sherpa",
+      "description": "On-chain automation made simple: users can leverage AI to trade, earn, and dominate the DeFi landscape strategically.",
+      "projectType": "App",
+      "categories": [
+        "DeFi",
+        "AI",
+        "Other Apps"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/sherpa_trade",
+        "https://app.sherpa.trade/lander"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6888280b254c67fbfb86411e_sherpa_banner-offset.webp"
+      }
+    },
+    {
+      "name": "Showdown",
+      "description": "Powering competitive gaming's future on Monad. Automated tournaments & skill-based wagering for all gamers on their favorite gaming titles!",
+      "projectType": "App/Infra",
+      "categories": [
+        "Gaming",
+        "Gaming Infra"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/showdown_gg",
+        "https://showdown.win/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b919f75d51b1bcd91ef730_Showdown_banner.webp"
+      }
+    },
+    {
+      "name": "Sidekick",
+      "description": "Sidekick Protocol is a one-stop platform for asset distribution & trading. Launch, distribute, and trade assets via live streaming.",
+      "projectType": "App",
+      "categories": [
+        "Social",
+        "Gaming"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://twitter.com/Sidekick_Labs",
+        "https://sidekick.fans/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91a019142d5944649063c_Sidekick_banner.webp"
+      }
+    },
+    {
+      "name": "SkyTrade",
+      "description": "SkyTrade lets you monetize your air rights, the legal right to use and control the space above buildings and land.",
+      "projectType": "App",
+      "categories": [
+        "RWA",
+        "DePIN"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/SkyTradeNetwork",
+        "https://sky.trade"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91a2d5d51b1bcd91f2304_SkyTrade_banner.webp"
+      }
+    },
+    {
+      "name": "Slogain",
+      "description": "Post and Bump. Content Rewards Made Easy. Everyone has a stake in the content ecosystem. Each click translates into tangible recognition.",
+      "projectType": "App",
+      "categories": [
+        "Social",
+        "Prediction Market"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/SlogainDaily",
+        "https://monad.slogain.gg/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91a361e79a03f6da8b61f_Slogain_banner.webp"
+      }
+    },
+    {
+      "name": "Solv Protocol",
+      "description": "Solv Protocol is the On-Chain Bitcoin Reserve, connecting TradFi, CeFi, and DeFi to unlock Bitcoin's $1T+ potential.",
+      "projectType": "App",
+      "categories": [
+        "DeFi",
+        "RWA"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/SolvProtocol",
+        "https://solv.finance/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67c4e882e9484a5cfe524044_solv%20banner.webp"
+      }
+    },
+    {
+      "name": "Spine Finance",
+      "description": "Instant, Efficient, and Flexible Fixed-Rate Money Markets.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/spineprotocol",
+        "https://spine.finance/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91a3ef9180e8745b654d2_Spine%20Finance_banner.webp"
+      }
+    },
+    {
+      "name": "Sprout",
+      "description": "Yield app that helps users earn personalized DeFi yields matching risk tolerance, built for everyone.",
+      "projectType": "App",
+      "categories": [
+        "DeFi",
+        "Other Apps"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/sproutfi_xyz",
+        "https://www.sproutfi.xyz/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68fe71a688d8e714a821b7f7_1500x500.webp"
+      }
+    },
+    {
+      "name": "StakeStone",
+      "description": "Omnichain liquidity infrastructure for yield-bearing assets, redistributing liquidity across chains and protocols through Liquidity Pad.",
+      "projectType": "Infra",
+      "categories": [
+        "Other Infra"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/stake_stone",
+        "https://stakestone.io/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91a7c6e9a2707acfe54e5_StakeStone_banner.webp"
+      }
+    },
+    {
+      "name": "Stargate",
+      "description": "Stargate is a fully composable liquidity transport protocol that lives at the heart of Omnichain DeFi.",
+      "projectType": "App/Infra",
+      "categories": [
+        "DeFi",
+        "Cross-Chain"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/StargateFinance",
+        "https://stargate.finance/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91a8ef6998cf2420a4cfe_Stargate_banner.webp"
+      }
+    },
+    {
+      "name": "StationX",
+      "description": "StationX tokenises private investments - enabling users to join syndicates & invest in deals",
+      "projectType": "App",
+      "categories": [
+        "Social",
+        "RWA",
+        "Other Apps"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/stationxnetwork",
+        "https://stationx.network"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6883e31bd059f065788130ee_stnx_banner.webp"
+      }
+    },
+    {
+      "name": "Stork",
+      "description": "Stork, the fastest-growing oracle, offers over 355 real-time feeds for dApps, helping developers build Web2-level speed and efficiency.",
+      "projectType": "Infra",
+      "categories": [
+        "Oracle",
+        "Dev Tooling"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/StorkOracle",
+        "https://www.stork.network/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91a96e0429ca00f5326ce_Stork_banner.webp"
+      }
+    },
+    {
+      "name": "SubQuery",
+      "description": "SubQuery’s infrastructure network offers everything from data indexers, RPCs and AI agents — all fully decentralised and production ready.",
+      "projectType": "Infra",
+      "categories": [
+        "Indexer",
+        "Dev Tooling"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://twitter.com/SubQueryNetwork",
+        "https://subquery.network/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91a9e779fac86351f6840_SubQuery_banner.webp"
+      }
+    },
+    {
+      "name": "Sumer",
+      "description": "Sumer unifies correlated/non-correlated asset lending, CDP synthetics, and bridge liquidity into a capital-efficient DeFi pool.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://twitter.com/sumermoney",
+        "https://app.sumer.money"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91aab8f00b5fa4ab976d9_Sumer_banner.webp"
+      }
+    },
+    {
+      "name": "Sunscreen",
+      "description": "Sunscreen transforms advanced FHE research into real-world cryptography tools, bringing post-quantum privacy to web3.",
+      "projectType": "Infra",
+      "categories": [
+        "Privacy"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/sunscreentech",
+        "https://sunscreen.tech/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6863135aaa6db2d22d376c07_Frame-1.webp"
+      }
+    },
+    {
+      "name": "Swaap",
+      "description": "Swaap is the most efficient onchain liquidity source.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/SwaapFinance",
+        "https://www.swaap.finance/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91ab47095d061fc6bfc21_Swaap_banner.webp"
+      }
+    },
+    {
+      "name": "Switchboard",
+      "description": "Switchboard is the largest customizable oracle network and first oracle aggregator, helping secure nearly $1.5B in value across 10+ chains.",
+      "projectType": "Infra",
+      "categories": [
+        "Oracle"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/switchboardxyz",
+        "https://switchboard.xyz"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91abc779fac86351f7774_Switchboard_banner.webp"
+      }
+    },
+    {
+      "name": "Swyrl Finance",
+      "description": "Swyrl is a Monad-native DEX with dual AMMs and liquid staking, aligning users and protocols via ve(3,3)-driven governance.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/SwyrlFi",
+        "https://swyrl.finance/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6883e31a5f263ff733767df3_swyrl_banner-2-.webp"
+      }
+    },
+    {
+      "name": "T3rn",
+      "description": "t3rn executes cross-chain transactions at the protocol layer — no need for wrapping assets or trusting third-party relayers.",
+      "projectType": "Infra",
+      "categories": [
+        "Cross-Chain"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/t3rn_io",
+        "https://t3rn.io/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/680607b149323df089f54b50_t3rn.webp"
+      }
+    },
+    {
+      "name": "Tadle",
+      "description": "Tadle is a full-stack platform offering Points trading, Missions, and Odds Marketplaces to boost engagement, liquidity, and growth.",
+      "projectType": "App",
+      "categories": [
+        "Social",
+        "Prediction Market",
+        "Other Apps"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/tadle_com",
+        "https://tadle.com/en"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91add84cbdc367d66fd4c_Tadle_banner.webp"
+      }
+    },
+    {
+      "name": "Talentum",
+      "description": "Talentum is an attention layer focused on on-chain activities and credentials.",
+      "projectType": "App",
+      "categories": [
+        "Social"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/TalentumID",
+        "https://monad.talentum.id/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91ae63a3a575251c7dcd3_Talentum_banner.webp"
+      }
+    },
+    {
+      "name": "Tally",
+      "description": "Tally is the industry standard for onchain governance.",
+      "projectType": "App",
+      "categories": [
+        "Governance"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/tallyxyz",
+        "https://www.tally.xyz/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91af16b6cb4307d576c5c_Tally_banner.webp"
+      }
+    },
+    {
+      "name": "Tarobase",
+      "description": "Build on-chain apps with Tarobase—from Venmo & Pump.fun clones to endless possibilities—without writing smart contracts.",
+      "projectType": "Infra",
+      "categories": [
+        "Dev Tooling"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/0xtarobase",
+        "https://tarobase.com"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg"
+      }
+    },
+    {
+      "name": "Terminal 3",
+      "description": "Terminal 3 is Web3’s most powerful user identity and data oracle.",
+      "projectType": "Infra",
+      "categories": [
+        "Oracle",
+        "Identity"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/terminal3io",
+        "https://www.terminal3.io/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67eff2c6563c6021491d9617_T3-Banner.webp"
+      }
+    },
+    {
+      "name": "Tezza Poker",
+      "description": "Play, win, mint. Tezza Poker lets you compete free, earn Points, and claim NFTs—pure skill, real rewards.",
+      "projectType": "App",
+      "categories": [
+        "Gaming",
+        "Betting"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/tezzapoker",
+        "https://t.me/playtezzapoker_bot"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/682f7cac4788b984140dfb05_tezza%20banner.webp"
+      }
+    },
+    {
+      "name": "The Graph",
+      "description": "The Graph is a decentralized protocol for indexing blockchain data, enabling developers to build web3 apps without managing infrastructure.",
+      "projectType": "Infra",
+      "categories": [
+        "Indexer"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/graphprotocol",
+        "https://thegraph.com/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91affb9188e59b9aa71a6_The%20Graph_banner.webp"
+      }
+    },
+    {
+      "name": "The Vape Labs",
+      "description": "The Vape Labs pioneers DePIN x Vape2Earn with AI-powered smart vapes, rewarding users and providing anonymized data for public health.",
+      "projectType": "App",
+      "categories": [
+        "DePIN",
+        "AI"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/thevapelabs",
+        "https://app.thevapelabs.io"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91b0ac0e02b5b7bf43abb_The%20Vape%20Labs_banner.webp"
+      }
+    },
+    {
+      "name": "Thirdweb",
+      "description": "thirdweb is a full-stack, open-source Web3 platform with SDKs, smart contracts, indexers & wallets for EVM chains. Build & scale apps fast!",
+      "projectType": "Infra",
+      "categories": [
+        "Account Abstraction",
+        "Dev Tooling",
+        "Indexer"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/thirdweb",
+        "https://thirdweb.com/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91b146e9a2707acfebf17_Thirdweb_banner.webp"
+      }
+    },
+    {
+      "name": "Timelock",
+      "description": "Timebound, liquidation free leverage.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/Timelock_Trade",
+        "https://www.timelock.trade/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68781558a496d6d0155a2d82_timelock%201500x500%20(1).webp"
+      }
+    },
+    {
+      "name": "Timeswap",
+      "description": "Timeswap is the first oracleless lending/borrowing protocol — enabling the creation of money markets for ANY ERC20 tokens.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/TimeswapLabs",
+        "https://timeswap.io/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91b206e9a2707acfec9fd_Timeswap_banner.webp"
+      }
+    },
+    {
+      "name": "TokenPocket",
+      "description": "TokenPocket is the world's leading multi-chain self-custodial wallet.",
+      "projectType": "Infra",
+      "categories": [
+        "Wallet"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://twitter.com/TokenPocket_TP",
+        "https://www.tokenpocket.pro/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67bebce3648677a1ce11c01c_token%20pocket%20banner.webp"
+      }
+    },
+    {
+      "name": "TownSquare",
+      "description": "Modular money market & yield layer for next-gen onchain assets & RWAs, with crosschain interoperability",
+      "projectType": "Infra",
+      "categories": [
+        "Account Abstraction",
+        "Other Infra",
+        "Dev Tooling"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/TownSquarexyz",
+        "https://www.townsq.xyz/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/685c77d9b431fd4907b839da_townsequare%20cover.webp"
+      }
+    },
+    {
+      "name": "Tread.fi",
+      "description": "Exchange aggregator and algorithmic trading platform, standardizing and elevating institutional and retail trading experiences.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/tread_fi",
+        "http://www.tread.fi"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91b306e9a2707acfed0ec_Tread.fi_banner.webp"
+      }
+    },
+    {
+      "name": "Triton One",
+      "description": "Triton One is a bare-metal RPC service provider for high-throughput blockchains. Build, iterate, and ship faster with Triton.",
+      "projectType": "Infra",
+      "categories": [
+        "RPC"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/triton_one",
+        "https://triton.one"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91b386e9a2707acfed6da_Triton%20One_banner.webp"
+      }
+    },
+    {
+      "name": "Turnkey",
+      "description": "Modular, secure, scalable enterprise-grade wallet OS for building non-custodial embedded wallets, automating backend transactions, & more.",
+      "projectType": "Infra",
+      "categories": [
+        "Account Abstraction",
+        "Wallet"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/turnkeyhq",
+        "https://www.turnkey.com/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91b4189130464ea45b135_Turnkey_banner.webp"
+      }
+    },
+    {
+      "name": "TypeX",
+      "description": "TypeX is a keyboard app that transforms user input value into on-chain assets, offering a seamless trading experience.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/TypeXKeyboard",
+        "https://typex.cc/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6878164627c80485c2deaaed_typex%20background%201500x500%20(1).webp"
+      }
+    },
+    {
+      "name": "Uniswap",
+      "description": "The largest onchain marketplace. Buy and sell crypto on Monad and 11+ other chains.",
+      "projectType": "App",
+      "categories": [
+        "DeFi"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/Uniswap",
+        "https://app.uniswap.org/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91b5ec0e02b5b7bf473df_Uniswap%20Wallet_banner.webp"
+      }
+    },
+    {
+      "name": "Uniswap Wallet",
+      "description": "The Uniswap Wallet is self-custody crypto wallet built for swapping. It lets you buy crypto, browse NFTs, explore Web3 apps, and swap tokens",
+      "projectType": "Infra",
+      "categories": [
+        "Wallet"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/Uniswap",
+        "https://wallet.uniswap.org"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91b5ec0e02b5b7bf473df_Uniswap%20Wallet_banner.webp"
+      }
+    },
+    {
+      "name": "Unmarshal",
+      "description": "UnmarshalAI is a leading decentralized multi-chain data network, enabling Web3 projects to access accurate, real-time blockchain data.",
+      "projectType": "Infra",
+      "categories": [
+        "Indexer"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/unmarshalAI",
+        "https://unmarshal.ai"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91b7c0238916836891d8d_Unmarshal_banner.webp"
+      }
+    },
+    {
+      "name": "Valor Quest",
+      "description": "The No.1 Mythic-themed AFK game on Telegram with NFTs, mining, and epic battles.",
+      "projectType": "App",
+      "categories": [
+        "Gaming"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/valorquestgame",
+        "https://t.me/ValorQuestBot"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6834a1e83865425985bf4d07_6834a1646afb796987d92ca0_Banner.webp"
+      }
+    },
+    {
+      "name": "Web3Auth",
+      "description": "Web3Auth simplifies Web3 access with social logins, customisable wallet UI & advanced security, with non-custodial MPC wallet management.",
+      "projectType": "Infra",
+      "categories": [
+        "Account Abstraction"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/web3auth",
+        "https://web3auth.io/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91b9183477f8bd77fc9b5_Web3Auth_banner.webp"
+      }
+    },
+    {
+      "name": "Winks.fun",
+      "description": "Winks enable end-to-end on-chain actions within social media apps, without any middleware!",
+      "projectType": "Infra",
+      "categories": [
+        "Other Infra"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://www.x.com/winksdotfun",
+        "https://www.winks.fun"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91ba473996311555169aa_Winks.fun_banner.webp"
+      }
+    },
+    {
+      "name": "Wonad",
+      "description": "First Plant to Earn project on Monad. Offering a way to create real-world impact while earning rewards",
+      "projectType": "App",
+      "categories": [
+        "Social",
+        "DeFi",
+        "NFT"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/thiswonad",
+        "https://www.thiswonad.xyz/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6883e31ceeab028ff508564d_IMG_4396.webp"
+      }
+    },
+    {
+      "name": "Wormhole",
+      "description": "Wormhole is a generic message-passing protocol designed to enable secure and efficient communication between different blockchains.",
+      "projectType": "Infra",
+      "categories": [
+        "Cross-Chain"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/wormhole",
+        "https://wormhole.com/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91bb483477f8bd77fdb6c_Wormhole_banner.webp"
+      }
+    },
+    {
+      "name": "X2C",
+      "description": "X2C is where degens play to win. Users skill up in ultra-casual games for token rewards.",
+      "projectType": "App",
+      "categories": [
+        "Gaming"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/PlayFlappyTrump",
+        "https://x2c.fun/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/6893d9cb3aa0c3e58d29e9c9_x2c-banner.webp"
+      }
+    },
+    {
+      "name": "XL",
+      "description": "XL is a memecoin launchpad enabling easy, low-cost token creation across various networks.",
+      "projectType": "App",
+      "categories": [
+        "DeFi",
+        "Social"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/xldotfun",
+        "https://testnet.xl.fun/monad"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91bc08f00b5fa4aba1835_XL_banner.webp"
+      }
+    },
+    {
+      "name": "Yamata",
+      "description": "Yamata is full-stack DeFi: advanced CLOB trading, perps, options, vaults & predictions - all fast, all trustless, all under one roof.",
+      "projectType": "App",
+      "categories": [
+        "DeFi",
+        "Prediction Market"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/yamataexchange",
+        "https://yamata.io"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68ceb78045702f6c824d809c_xbanner.webp"
+      }
+    },
+    {
+      "name": "YieldKingZ",
+      "description": "YieldKingZ: A Web3 Game-Fi casino featuring yield farming, sustainable tokenomics, and Club-Fi for community-driven finance.",
+      "projectType": "App",
+      "categories": [
+        "Gaming"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/Yieldkingz",
+        "https://test-monad.yieldkingz.io/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67bd6833bb5faf1829906fb5_yieldkingz.webp"
+      }
+    },
+    {
+      "name": "Zapry",
+      "description": "Zapry is a one-stop web3 entrance that incubates viral trends and offers one-step crypto transfers.",
+      "projectType": "App",
+      "categories": [
+        "AI"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/0xZapry",
+        "https://www.zapry.net/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67c4e8387809fd04396e8084_zapry.webp"
+      }
+    },
+    {
+      "name": "Zerion",
+      "description": "Build feature-rich crypto apps, wallets, protocols and supercharge your product using Zerion API!",
+      "projectType": "Infra",
+      "categories": [
+        "Indexer",
+        "Wallet"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/zerion",
+        "https://zerion.io/api"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91be4d9acff489824abbf_Zerion_banner.webp"
+      }
+    },
+    {
+      "name": "ZeroDev",
+      "description": "The most powerful smart account development platform. Build Web3 experiences without gas, confirmations, seed phrases, and bridging.",
+      "projectType": "Infra",
+      "categories": [
+        "Account Abstraction",
+        "Wallet"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/zerodev_app",
+        "https://zerodev.app"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67b91bee11a6f589667eefe5_ZeroDev_banner.webp"
+      }
+    },
+    {
+      "name": "Zona",
+      "description": "Zona is building scalable infra for composable RWA tokens. We let users mint, speculate, and earn yield on real estate Index Tokens.",
+      "projectType": "App",
+      "categories": [
+        "DeFi",
+        "RWA"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/zona_io",
+        "https://www.zona.finance/"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/67c4e6f2fb2041fb4c035f17_zona.webp"
+      }
+    },
+    {
+      "name": "dFusion AI",
+      "description": "dFusion unlocks private and domain specific data into enriched, curated datasets - fueling accurate, next-gen AI models.",
+      "projectType": "App",
+      "categories": [
+        "AI"
+      ],
+      "metadata": [],
+      "status": "Coming Soon",
+      "onlyOnMonad": true,
+      "links": [
+        "https://x.com/dfusionai",
+        "https://www.dfusion.ai"
+      ],
+      "image": {
+        "logo": "",
+        "banner": "https://cdn.prod.website-files.com/669ade140a683001b9f7fd78/68cebe9400e8d42c392200cd_dfusion%20ai%20background.webp"
+      }
+    }
+  ]
+}

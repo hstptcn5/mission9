@@ -1,0 +1,372 @@
+[
+  {
+    "id": "post-0-sol_fru-patience",
+    "url": "https://pbs.twimg.com/media/G5G5z_Va0AAl5EJ.jpg",
+    "artist": "@sol_fru",
+    "style": "meme-art",
+    "hashtag_chog": true,
+    "hashtag_monad": false,
+    "source_post_id": 1986573219705594063,
+    "local_path": "assets\\post-0-sol_fru-patience.jpg"
+  },
+  {
+    "id": "post-1-d_quota-bullish",
+    "url": "https://pbs.twimg.com/media/G5GseqqbIAAALho.jpg",
+    "artist": "@D_quota",
+    "style": "bullish-art",
+    "hashtag_chog": true,
+    "hashtag_monad": false,
+    "source_post_id": 1986558556708217161,
+    "local_path": "assets\\post-1-d_quota-bullish.jpg"
+  },
+  {
+    "id": "post-272-candy_xx44-gmorning",
+    "url": "https://pbs.twimg.com/media/G5Dd7uQbAAAmBm4.jpg",
+    "artist": "@candy__xx44",
+    "style": "gmorning-art",
+    "hashtag_chog": true,
+    "hashtag_monad": false,
+    "source_post_id": 1986331116320731540,
+    "local_path": "assets\\post-272-candy_xx44-gmorning.jpg"
+  },
+  {
+    "id": "post-new-0-cobolegend-morning",
+    "url": "https://pbs.twimg.com/media/G5DmX5uWkAEOFUO.jpg",
+    "artist": "@cobolegend",
+    "style": "morning-art",
+    "hashtag_chog": true,
+    "hashtag_monad": false,
+    "source_post_id": 1986340743162569090,
+    "local_path": "assets\\post-new-0-cobolegend-morning.jpg"
+  },
+  {
+    "id": "post-new-1-0xzooro-chog-live",
+    "url": "https://pbs.twimg.com/media/G5BIuw-aAAAdAm5.jpg",
+    "artist": "@0xZooro",
+    "style": "live-art",
+    "hashtag_chog": true,
+    "hashtag_monad": false,
+    "source_post_id": 1986167407053054241,
+    "local_path": "assets\\post-new-1-0xzooro-chog-live.jpg"
+  },
+  {
+    "id": "post-new-2-scribblerjb-book",
+    "url": "https://pbs.twimg.com/media/G46I7qtXwAAlp0P.jpg",
+    "artist": "@ScribblerJB",
+    "style": "book-art",
+    "hashtag_chog": true,
+    "hashtag_monad": false,
+    "source_post_id": 1985675047877435517,
+    "local_path": "assets\\post-new-2-scribblerjb-book.jpg"
+  },
+  {
+    "id": "post-new-3-kryptox07-allocation",
+    "url": "https://pbs.twimg.com/media/G42K7zaXEAI6oBU.jpg",
+    "artist": "@Kryptox_07",
+    "style": "allocation-art",
+    "hashtag_chog": true,
+    "hashtag_monad": true,
+    "source_post_id": 1985396410347671963,
+    "local_path": "assets\\post-new-3-kryptox07-allocation.jpg"
+  },
+  {
+    "id": "post-new-4-kryptox07-allocation2",
+    "url": "https://pbs.twimg.com/media/G42K9N6WAAAp_WO.jpg",
+    "artist": "@Kryptox_07",
+    "style": "allocation-art",
+    "hashtag_chog": true,
+    "hashtag_monad": true,
+    "source_post_id": 1985396410347671963,
+    "local_path": "assets\\post-new-4-kryptox07-allocation2.jpg"
+  },
+  {
+    "id": "post-new-5-dabbingson-chogstar",
+    "url": "https://pbs.twimg.com/media/G41CkGIXMAASbM9.jpg",
+    "artist": "@Dabbingson43381",
+    "style": "chogstar-art",
+    "hashtag_chog": true,
+    "hashtag_monad": true,
+    "source_post_id": 1985316210490089497,
+    "local_path": "assets\\post-new-5-dabbingson-chogstar.jpg"
+  },
+  {
+    "id": "post-new-6-dabbingson-goodmorning",
+    "url": "https://pbs.twimg.com/media/G4zuCCuW8AAOhBG.jpg",
+    "artist": "@Dabbingson43381",
+    "style": "goodmorning-art",
+    "hashtag_chog": true,
+    "hashtag_monad": false,
+    "source_post_id": 1985223257256006013,
+    "local_path": "assets\\post-new-6-dabbingson-goodmorning.jpg"
+  },
+  {
+    "id": "post-new-7-ronst21-cheers",
+    "url": "https://pbs.twimg.com/media/G4xUIz4X0AAa0od.jpg",
+    "artist": "@Ronst21",
+    "style": "cheers-art",
+    "hashtag_chog": true,
+    "hashtag_monad": false,
+    "source_post_id": 1985054053198356929,
+    "local_path": "assets\\post-new-7-ronst21-cheers.jpg"
+  },
+  {
+    "id": "post-new-8-mehram51-act-tough",
+    "url": "https://pbs.twimg.com/media/G4w3nMiaUAAY4py.jpg",
+    "artist": "@Mehram51",
+    "style": "act-tough-art",
+    "hashtag_chog": true,
+    "hashtag_monad": false,
+    "source_post_id": 1985022991781233067,
+    "local_path": "assets\\post-new-8-mehram51-act-tough.jpg"
+  },
+  {
+    "id": "post-new-9-maslena-fm-trend",
+    "url": "https://pbs.twimg.com/media/G4wLZX-XkAA6ukK.jpg",
+    "artist": "@maslenaFM",
+    "style": "trend-art",
+    "hashtag_chog": true,
+    "hashtag_monad": false,
+    "source_post_id": 1984974071411405251,
+    "local_path": "assets\\post-new-9-maslena-fm-trend.jpg"
+  },
+  {
+    "id": "post-new-10-juicewrld-dreams",
+    "url": "https://pbs.twimg.com/media/G4mDYBWbIAAnDNP.jpg",
+    "artist": "@venti_nft",
+    "style": "dreams-art",
+    "hashtag_chog": true,
+    "hashtag_monad": false,
+    "source_post_id": 1984261571292574152,
+    "local_path": "assets\\post-new-10-juicewrld-dreams.jpg"
+  },
+  {
+    "id": "post-new-11-juicewrld-dreams2",
+    "url": "https://pbs.twimg.com/media/G4mDYBWbwAAy1Hb.jpg",
+    "artist": "@venti_nft",
+    "style": "dreams-art",
+    "hashtag_chog": true,
+    "hashtag_monad": false,
+    "source_post_id": 1984261571292574152,
+    "local_path": "assets\\post-new-11-juicewrld-dreams2.jpg"
+  },
+  {
+    "id": "post-new-12-dabbingson-chogstar2",
+    "url": "https://pbs.twimg.com/media/G41CkGIXMAASbM9.jpg",
+    "artist": "@Dabbingson43381",
+    "style": "chogstar-art",
+    "hashtag_chog": true,
+    "hashtag_monad": true,
+    "source_post_id": 1983911567738404994,
+    "local_path": "assets\\post-new-12-dabbingson-chogstar2.jpg"
+  },
+  {
+    "id": "post-new-13-edak-tzy-breaking",
+    "url": "https://pbs.twimg.com/media/G4cbNkNa8AEpaba.jpg",
+    "artist": "@edak_tzy",
+    "style": "breaking-art",
+    "hashtag_chog": true,
+    "hashtag_monad": false,
+    "source_post_id": 1983584086410375331,
+    "local_path": "assets\\post-new-13-edak-tzy-breaking.jpg"
+  },
+  {
+    "id": "post-new-14-dattips-boy-purple",
+    "url": "https://pbs.twimg.com/media/G3-Sa8lWAAANNyX.jpg",
+    "artist": "@dattips_boy",
+    "style": "purple-art",
+    "hashtag_chog": true,
+    "hashtag_monad": true,
+    "source_post_id": 1983248637019701538,
+    "local_path": "assets\\post-new-14-dattips-boy-purple.jpg"
+  },
+  {
+    "id": "post-new-15-dattips-boy-purple2",
+    "url": "https://pbs.twimg.com/media/G3-Sa8lWAAANNyX.jpg",
+    "artist": "@dattips_boy",
+    "style": "purple-art",
+    "hashtag_chog": true,
+    "hashtag_monad": true,
+    "source_post_id": 1983248637019701538,
+    "local_path": "assets\\post-new-15-dattips-boy-purple2.jpg"
+  },
+  {
+    "id": "post-new-16-yashsol-chog-momentum",
+    "url": "https://pbs.twimg.com/media/G4WAyp-WEAAPQ8z.jpg",
+    "artist": "@Yashsol1527",
+    "style": "momentum-art",
+    "hashtag_chog": true,
+    "hashtag_monad": false,
+    "source_post_id": 1983132832248545462,
+    "local_path": "assets\\post-new-16-yashsol-chog-momentum.jpg"
+  },
+  {
+    "id": "post-new-17-mehram51-physical",
+    "url": "https://pbs.twimg.com/media/G4VFiVMXEAEJvPJ.jpg",
+    "artist": "@Mehram51",
+    "style": "physical-art",
+    "hashtag_chog": true,
+    "hashtag_monad": false,
+    "source_post_id": 1983067820889141489,
+    "local_path": "assets\\post-new-17-mehram51-physical.jpg"
+  },
+  {
+    "id": "post-new-18-amin1748-big-moves",
+    "url": "https://pbs.twimg.com/media/G4R7SheXUAAVhEc.jpg",
+    "artist": "@Amin1748",
+    "style": "big-moves-art",
+    "hashtag_chog": true,
+    "hashtag_monad": true,
+    "source_post_id": 1982845298876813654,
+    "local_path": "assets\\post-new-18-amin1748-big-moves.jpg"
+  },
+  {
+    "id": "post-new-19-xihumnft-exploring",
+    "url": "https://pbs.twimg.com/media/G4RuAJ8XIAApawN.jpg",
+    "artist": "@XiHumNft",
+    "style": "exploring-art",
+    "hashtag_chog": true,
+    "hashtag_monad": true,
+    "source_post_id": 1982830708294062394,
+    "local_path": "assets\\post-new-19-xihumnft-exploring.jpg"
+  },
+  {
+    "id": "post-new-20-xihumnft-exploring2",
+    "url": "https://pbs.twimg.com/media/G4RuAJ8XIAApawN.jpg",
+    "artist": "@XiHumNft",
+    "style": "exploring-art",
+    "hashtag_chog": true,
+    "hashtag_monad": true,
+    "source_post_id": 1982830708294062394,
+    "local_path": "assets\\post-new-20-xihumnft-exploring2.jpg"
+  },
+  {
+    "id": "post-new-21-atp-digital-day13",
+    "url": "https://pbs.twimg.com/media/G4N7_z9W4AA911h.jpg",
+    "artist": "@_TobilobaPaul",
+    "style": "digital-art",
+    "hashtag_chog": true,
+    "hashtag_monad": false,
+    "source_post_id": 1982564699649765513,
+    "local_path": "assets\\post-new-21-atp-digital-day13.jpg"
+  },
+  {
+    "id": "post-new-22-yusuf_remmy-halloween",
+    "url": "https://pbs.twimg.com/media/G4N4MP1XEAEwhXy.jpg",
+    "artist": "@Yusuf_Remmy",
+    "style": "halloween-art",
+    "hashtag_chog": true,
+    "hashtag_monad": false,
+    "source_post_id": 1982560623499321604,
+    "local_path": "assets\\post-new-22-yusuf_remmy-halloween.jpg"
+  },
+  {
+    "id": "post-new-23-captain45018333-gchog",
+    "url": "https://pbs.twimg.com/media/G4Nq2caWwAE4CII.jpg",
+    "artist": "@Captain45018333",
+    "style": "gchog-art",
+    "hashtag_chog": true,
+    "hashtag_monad": false,
+    "source_post_id": 1982545759477309930,
+    "local_path": "assets\\post-new-23-captain45018333-gchog.jpg"
+  },
+  {
+    "id": "post-new-24-emmanouilpetra2-monadians",
+    "url": "https://pbs.twimg.com/media/G4MmuJeXkAEEkCi.jpg",
+    "artist": "@EmmanouilPetra2",
+    "style": "monadians-art",
+    "hashtag_chog": true,
+    "hashtag_monad": true,
+    "source_post_id": 1982470838050836867,
+    "local_path": "assets\\post-new-24-emmanouilpetra2-monadians.jpg"
+  },
+  {
+    "id": "post-new-25-shib49239554-chog-momentum",
+    "url": "https://pbs.twimg.com/media/G4MEif8XYAAuQJL.jpg",
+    "artist": "@Shib49239554",
+    "style": "momentum-art",
+    "hashtag_chog": true,
+    "hashtag_monad": true,
+    "source_post_id": 1982434385975800058,
+    "local_path": "assets\\post-new-25-shib49239554-chog-momentum.jpg"
+  },
+  {
+    "id": "post-new-26-bakemesumcakes-nft-update",
+    "url": "https://pbs.twimg.com/media/G3-YNdGXAAAyUZs.jpg",
+    "artist": "@bakemesumcakes",
+    "style": "nft-update-art",
+    "hashtag_chog": true,
+    "hashtag_monad": false,
+    "source_post_id": 1981470126760194117,
+    "local_path": "assets\\post-new-26-bakemesumcakes-nft-update.jpg"
+  },
+  {
+    "id": "post-new-27-dattips-boy-purple",
+    "url": "https://pbs.twimg.com/media/G3-Sa8lWAAANNyX.jpg",
+    "artist": "@dattips_boy",
+    "style": "purple-art",
+    "hashtag_chog": true,
+    "hashtag_monad": true,
+    "source_post_id": 1983248637019701538,
+    "local_path": "assets\\post-new-27-dattips-boy-purple.jpg"
+  },
+  {
+    "id": "post-new-28-dattips-boy-purple2",
+    "url": "https://pbs.twimg.com/media/G3-Sa8lWAAANNyX.jpg",
+    "artist": "@dattips_boy",
+    "style": "purple-art",
+    "hashtag_chog": true,
+    "hashtag_monad": true,
+    "source_post_id": 1983248637019701538,
+    "local_path": "assets\\post-new-28-dattips-boy-purple2.jpg"
+  },
+  {
+    "id": "post-new-29-yashsol-chog-momentum",
+    "url": "https://pbs.twimg.com/media/G4WAyp-WEAAPQ8z.jpg",
+    "artist": "@Yashsol1527",
+    "style": "momentum-art",
+    "hashtag_chog": true,
+    "hashtag_monad": false,
+    "source_post_id": 1983132832248545462,
+    "local_path": "assets\\post-new-29-yashsol-chog-momentum.jpg"
+  },
+  {
+    "id": "post-new-30-mehram51-physical",
+    "url": "https://pbs.twimg.com/media/G4VFiVMXEAEJvPJ.jpg",
+    "artist": "@Mehram51",
+    "style": "physical-art",
+    "hashtag_chog": true,
+    "hashtag_monad": false,
+    "source_post_id": 1983067820889141489,
+    "local_path": "assets\\post-new-30-mehram51-physical.jpg"
+  },
+  {
+    "id": "post-new-31-amin1748-big-moves",
+    "url": "https://pbs.twimg.com/media/G4R7SheXUAAVhEc.jpg",
+    "artist": "@Amin1748",
+    "style": "big-moves-art",
+    "hashtag_chog": true,
+    "hashtag_monad": true,
+    "source_post_id": 1982845298876813654,
+    "local_path": "assets\\post-new-31-amin1748-big-moves.jpg"
+  },
+  {
+    "id": "post-new-32-xihumnft-exploring",
+    "url": "https://pbs.twimg.com/media/G4RuAJ8XIAApawN.jpg",
+    "artist": "@XiHumNft",
+    "style": "exploring-art",
+    "hashtag_chog": true,
+    "hashtag_monad": true,
+    "source_post_id": 1982830708294062394,
+    "local_path": "assets\\post-new-32-xihumnft-exploring.jpg"
+  },
+  {
+    "id": "post-new-33-atp-digital-day13",
+    "url": "https://pbs.twimg.com/media/G4N7_z9W4AA911h.jpg",
+    "artist": "@_TobilobaPaul",
+    "style": "digital-art",
+    "hashtag_chog": true,
+    "hashtag_monad": false,
+    "source_post_id": 1982564699649765513,
+    "local_path": "assets\\post-new-33-atp-digital-day13.jpg"
+  }
+]

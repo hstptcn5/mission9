@@ -1,0 +1,66 @@
+[
+  {
+    "id": "post-0-fin-comic",
+    "url": "https://pbs.twimg.com/media/GyQVtdHXgAE57xj.jpg",
+    "artist": "@thisisfin_ (via @ChogNFT)",
+    "style": "comic-art",
+    "description": "Fin drawing the comic - Chog in Monad ETH ATH vibe",
+    "local_path": "assets\\post-0-fin-comic.jpg"
+  },
+  {
+    "id": "post-2-benja-art",
+    "url": "https://pbs.twimg.com/media/GxNNnQ1XYAIWKYE.jpg",
+    "artist": "@1stBenjaNAD (via @ChogNFT)",
+    "style": "meme-art",
+    "description": "I'm in Monad for the art - funny Chog meme",
+    "local_path": "assets\\post-2-benja-art.jpg"
+  },
+  {
+    "id": "post-4-auri-chog",
+    "url": "https://pbs.twimg.com/media/GvLStGjWUAA5X_V.jpg",
+    "artist": "@Auri_0x (via @ChogNFT)",
+    "style": "cultural-art",
+    "description": "Chog as art in Monad ecosystem analogy",
+    "local_path": "assets\\post-4-auri-chog.jpg"
+  },
+  {
+    "id": "post-6-chogstar-wl",
+    "url": "https://pbs.twimg.com/media/GrUFqOdWYAAEeDC.jpg",
+    "artist": "@ChogNFT community",
+    "style": "nft-starlist",
+    "description": "Chogstar WL blessed - star-themed art",
+    "local_path": "assets\\post-6-chogstar-wl.jpg"
+  },
+  {
+    "id": "post-7-arkai-collab",
+    "url": "https://pbs.twimg.com/media/GoftKTzXQAA3qtP.jpg",
+    "artist": "@ChogNFT x Arkai",
+    "style": "competition-art",
+    "description": "Arkai enters Chogverse - art contest entry",
+    "local_path": "assets\\post-7-arkai-collab.jpg"
+  },
+  {
+    "id": "post-8-overnads-nom",
+    "url": "https://pbs.twimg.com/media/GmFlXAQbcAEd6MC.jpg",
+    "artist": "@overnads (via @ChogNFT)",
+    "style": "contest-nom-nom",
+    "description": "Nom nom Overnads - art contest with WLs",
+    "local_path": "assets\\post-8-overnads-nom.jpg"
+  },
+  {
+    "id": "post-10-nft-week-contest",
+    "url": "https://pbs.twimg.com/media/GlMcNyxboAANQBn.jpg",
+    "artist": "@ChogNFT community",
+    "style": "finish-drawing",
+    "description": "Monad NFT week - finish this drawing contest",
+    "local_path": "assets\\post-10-nft-week-contest.jpg"
+  },
+  {
+    "id": "post-11-nft-reveal",
+    "url": "https://pbs.twimg.com/media/Ggx1DNRW4AAzow7.jpg",
+    "artist": "@ChogNFT community",
+    "style": "nft-art-thread",
+    "description": "NFT reveal - best Chog NFT art comments",
+    "local_path": "assets\\post-11-nft-reveal.jpg"
+  }
+]

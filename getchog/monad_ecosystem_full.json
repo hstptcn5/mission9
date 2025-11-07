@@ -1,0 +1,489 @@
+{
+  "total_projects": 95,
+  "projects": [
+    {
+      "name": "0x",
+      "category": "Infra",
+      "description": "0x allows you to embed swaps in any onchain app. Tap into aggregated liquidity from 130+ sources, best prices & optimal trade execution.",
+      "website": "",
+      "twitter": "",
+      "metrics": {
+        "tvl": "",
+        "users": ""
+      }
+    },
+    {
+      "name": "AUSD",
+      "category": "App/Infra",
+      "description": "Agora is a stablecoin issuer of AUSD, backed 1:1 by cash and cash equivalent reserves managed by VanEck and custodied by State Street.",
+      "website": "",
+      "twitter": "",
+      "metrics": {
+        "tvl": "",
+        "users": ""
+      }
+    },
+    {
+      "name": "AZEx",
+      "category": "App",
+      "description": "Your A-Z DeFi Hub in One Click. Trade any asset as margin with 100x leverage. Multi-Chain Protocol. AI-Powered Copytrading.",
+      "website": "",
+      "twitter": "",
+      "metrics": {
+        "tvl": "",
+        "users": ""
+      }
+    },
+    {
+      "name": "Aarna",
+      "category": "App",
+      "description": "Next-generation DeFi asset management platform via crypto structured products, merging AI and tokenization.",
+      "website": "",
+      "twitter": "",
+      "metrics": {
+        "tvl": "",
+        "users": ""
+      }
+    },
+    {
+      "name": "Accountable",
+      "category": "App",
+      "description": "YieldApp is the first yield marketplace backed by live, cryptographically verifiable data users can trust.",
+      "website": "",
+      "twitter": "",
+      "metrics": {
+        "tvl": "",
+        "users": ""
+      }
+    },
+    {
+      "name": "Across Protocol",
+      "category": "Infra",
+      "description": "Across is the first intent-based crosschain bridge protocol. It's fast, cheap, and secure. Powering $30B+ in volume for 4M+ users.",
+      "website": "",
+      "twitter": "",
+      "metrics": {
+        "tvl": "$30B+",
+        "users": "4M+"
+      }
+    },
+    {
+      "name": "Acurast",
+      "category": "App/Infra",
+      "description": "Confidential AI, hyper-personalized agents, and privacy-focused computation using thousands of smartphones worldwide.",
+      "website": "",
+      "twitter": "",
+      "metrics": {
+        "tvl": "",
+        "users": ""
+      }
+    },
+    {
+      "name": "AethonSwap",
+      "category": "App",
+      "description": "AethonSwap is a CLAMM V4 DEX combining next-gen tech with intelligent design, for low-slippage trading & efficient liquidity management",
+      "website": "",
+      "twitter": "",
+      "metrics": {
+        "tvl": "",
+        "users": ""
+      }
+    },
+    {
+      "name": "Alchemy",
+      "category": "Infra",
+      "description": "Alchemy's end-to-end platform gives devs everything to build and scale web3 apps - from APIs to monitoring, across multiple chains.",
+      "website": "",
+      "twitter": "",
+      "metrics": {
+        "tvl": "",
+        "users": ""
+      }
+    },
+    {
+      "name": "AllDomains",
+      "category": "Infra",
+      "description": "AllDomains: the web3 identity asset layer to create and trade web3 domains | Customizable for everyone.",
+      "website": "",
+      "twitter": "",
+      "metrics": {
+        "tvl": "",
+        "users": ""
+      }
+    },
+    {
+      "name": "Allium",
+      "category": "Infra",
+      "description": "Allium delivers blockchain data for analytics, applications, and accounting use cases via dashboards, APIs, datashares, and data streams.",
+      "website": "",
+      "twitter": "",
+      "metrics": {
+        "tvl": "",
+        "users": ""
+      }
+    },
+    {
+      "name": "Ambient",
+      "category": "App",
+      "description": "Spot AMM with combining multiple liquidity types with modular hooks, dynamic fees and MEV protection.",
+      "website": "",
+      "twitter": "",
+      "metrics": {
+        "tvl": "",
+        "users": ""
+      }
+    },
+    {
+      "name": "Ambire Wallet",
+      "category": "Infra",
+      "description": "Еasy and secure self-custody for smart accounts, EOAs, and hardware wallets. EIP-7702 ready wallet.",
+      "website": "",
+      "twitter": "",
+      "metrics": {
+        "tvl": "",
+        "users": ""
+      }
+    },
+    {
+      "name": "Amertis",
+      "category": "App",
+      "description": "Connecting users to deep liquidity across multiple sources, ensuring the best rates, minimal slippage, and an optimised DeFi experience.",
+      "website": "",
+      "twitter": "",
+      "metrics": {
+        "tvl": "",
+        "users": ""
+      }
+    },
+    {
+      "name": "Ammalgam",
+      "category": "App",
+      "description": "Ammalgam is a new primitive that combines lending and trading into one protocol called a Decentralized Lending Exchange.",
+      "website": "",
+      "twitter": "",
+      "metrics": {
+        "tvl": "",
+        "users": ""
+      }
+    },
+    {
+      "name": "ApeBond",
+      "category": "App",
+      "description": "The #1 Bonding Protocol in DeFi, with $20M+ bonded and 80k+ bonds sold, transforming how projects raise funds and secure liquidity.",
+      "website": "",
+      "twitter": "",
+      "metrics": {
+        "tvl": "$20M+",
+        "users": "80k+"
+      }
+    },
+    {
+      "name": "Apriori",
+      "category": "App",
+      "description": "aPriori is an MEV infrastructure and liquid staking protocol, designed for the parallel execution era and natively built on Monad.",
+      "website": "",
+      "twitter": "",
+      "metrics": {
+        "tvl": "",
+        "users": ""
+      }
+    },
+    {
+      "name": "Atlantis",
+      "category": "App",
+      "description": "Modular V4 DEX offering cross-chain swaps, DeFAI, a launchpad, farming, staking, fiat on-ramp, & more.",
+      "website": "",
+      "twitter": "",
+      "metrics": {
+        "tvl": "",
+        "users": ""
+      }
+    },
+    {
+      "name": "Atomic Wallet",
+      "category": "Infra",
+      "description": "Manage, exchange, and stake 1000+ assets securely on desktop & mobile.",
+      "website": "",
+      "twitter": "",
+      "metrics": {
+        "tvl": "",
+        "users": ""
+      }
+    },
+    {
+      "name": "Azaar",
+      "category": "App",
+      "description": "Azaar is a high-performance DEX aggregator and trading platform built for Monad.",
+      "website": "",
+      "twitter": "",
+      "metrics": {
+        "tvl": "",
+        "users": ""
+      }
+    },
+    {
+      "name": "Backpack Wallet",
+      "category": "Infra",
+      "description": "Backpack is a next-level wallet and exchange. Buy tokens, trade futures, and explore on-chain apps—seamlessly and securely. 🎒",
+      "website": "",
+      "twitter": "",
+      "metrics": {
+        "tvl": "",
+        "users": ""
+      }
+    },
+    {
+      "name": "Balancer",
+      "category": "App",
+      "description": "Balancer is a decentralized automated market maker (AMM) protocol built on Ethereum.",
+      "website": "",
+      "twitter": "",
+      "metrics": {
+        "tvl": "",
+        "users": ""
+      }
+    },
+    {
+      "name": "Band Protocol",
+      "category": "Infra",
+      "description": "Band Protocol is a cross-chain data oracle platform that aggregates and connects real-world data and APIs to smart contracts.",
+      "website": "",
+      "twitter": "",
+      "metrics": {
+        "tvl": "",
+        "users": ""
+      }
+    },
+    {
+      "name": "Bean Exchange",
+      "category": "App",
+      "description": "Bean Exchange is a gamified decentralized spot & perpetual exchange natively built on Monad Network.",
+      "website": "",
+      "twitter": "",
+      "metrics": {
+        "tvl": "",
+        "users": ""
+      }
+    },
+    {
+      "name": "Bebop",
+      "category": "App",
+      "description": "Seamless and efficient crypto trading for everyone. Web3 trading app and API that finds the best route for all your trades.",
+      "website": "",
+      "twitter": "",
+      "metrics": {
+        "tvl": "",
+        "users": ""
+      }
+    },
+    {
+      "name": "Biconomy",
+      "category": "Infra",
+      "description": "Biconomy helps devs build user-friendly dApps with modular tools. Our stack powers 300+ dApps & 50M+ transactions, accelerating adoption.",
+      "website": "",
+      "twitter": "",
+      "metrics": {
+        "tvl": "",
+        "users": "300+ dApps & 50M+ transactions"
+      }
+    },
+    {
+      "name": "Bima",
+      "category": "App",
+      "description": "BIMA is a DeFi platform that lets you earn yield on your BTC across multiple chains by using USBD, a Bitcoin-backed stablecoin.",
+      "website": "",
+      "twitter": "",
+      "metrics": {
+        "tvl": "",
+        "users": ""
+      }
+    },
+    {
+      "name": "Birdeye",
+      "category": "App",
+      "description": "The all-in-one trading data tool for alpha traders: real-time charts, smart money flows, gems & historical data across 300+ exchanges.",
+      "website": "",
+      "twitter": "",
+      "metrics": {
+        "tvl": "",
+        "users": ""
+      }
+    },
+    {
+      "name": "Birdeye Data Services",
+      "category": "Infra",
+      "description": "High-performance onchain data provider with real-time, accurate data across tokens, wallets & protocols.",
+      "website": "",
+      "twitter": "",
+      "metrics": {
+        "tvl": "",
+        "users": ""
+      }
+    },
+    {
+      "name": "Bitget Wallet",
+      "category": "Infra",
+      "description": "Bitget Wallet is a non-custodial wallet with advanced multi-chain capabilities and a powerful swap function.",
+      "website": "",
+      "twitter": "",
+      "metrics": {
+        "tvl": "",
+        "users": ""
+      }
+    },
+    {
+      "name": "Blazpay",
+      "category": "App",
+      "description": "Blazpay AI: Simplifying Crypto | 1.2M+ Users | AI-Swap | Portfolio | Alerts | Cross-Chain | Gamified Learning | Multi-Platform",
+      "website": "",
+      "twitter": "",
+      "metrics": {
+        "tvl": "",
+        "users": "1.2M+"
+      }
+    },
+    {
+      "name": "BlockStreet",
+      "category": "Infra",
+      "description": "Unified liquidity layer for tokenized equities - delivering secure settlement, deep liquidity, and institutional-grade efficiency.",
+      "website": "",
+      "twitter": "",
+      "metrics": {
+        "tvl": "",
+        "users": ""
+      }
+    },
+    {
+      "name": "BlockVision",
+      "category": "Infra",
+      "description": "BlockVision provides blockchain infrastructure services, offering APIs, RPC services to empower developers and users alike.",
+      "website": "",
+      "twitter": "",
+      "metrics": {
+        "tvl": "",
+        "users": ""
+      }
+    },
+    {
+      "name": "Blockdaemon",
+      "category": "Infra",
+      "description": "Blockdaemon provides enterprise-grade web3 infrastructure, including dedicated nodes, APIs, staking, liquid staking, MPC wallets, and more.",
+      "website": "",
+      "twitter": "",
+      "metrics": {
+        "tvl": "",
+        "users": ""
+      }
+    },
+    {
+      "name": "Blocklive",
+      "category": "App",
+      "description": "Blocklive is a platform for end-to-end onchain event management and ticketing, using proof of history to target and reward fans.",
+      "website": "",
+      "twitter": "",
+      "metrics": {
+        "tvl": "",
+        "users": ""
+      }
+    },
+    {
+      "name": "Breath of Estova",
+      "category": "App",
+      "description": "Breath of Estova is a play-to-earn 2D action-based MMORPG where classic nostalgia meets a vast open world.",
+      "website": "",
+      "twitter": "",
+      "metrics": {
+        "tvl": "",
+        "users": ""
+      }
+    },
+    {
+      "name": "Buzzing Club",
+      "category": "App",
+      "description": "Buzzing Club is an app where users trade opinions on trending topics.",
+      "website": "",
+      "twitter": "",
+      "metrics": {
+        "tvl": "",
+        "users": ""
+      }
+    },
+    {
+      "name": "Bybit Web3 Wallet",
+      "category": "Infra",
+      "description": "Bybit Web3 is your gateway to Web3. Explore DeFi offerings, and trade thousands of tokens across various networks.",
+      "website": "",
+      "twitter": "",
+      "metrics": {
+        "tvl": "",
+        "users": ""
+      }
+    },
+    {
+      "name": "CPLX",
+      "category": "App",
+      "description": "CPLX is a modular perpetuals DEX with deep liquidity and low fees, built on Monad.",
+      "website": "",
+      "twitter": "",
+      "metrics": {
+        "tvl": "",
+        "users": ""
+      }
+    },
+    {
+      "name": "Clober",
+      "category": "App",
+      "description": "Clober is a central limit order book (CLOB) DEX on Monad, offering advanced trading features with low latency.",
+      "website": "",
+      "twitter": "",
+      "metrics": {
+        "tvl": "",
+        "users": ""
+      }
+    },
+    {
+      "name": "Envio",
+      "category": "Infra",
+      "description": "Envio is a high-performance indexing protocol for Monad, enabling fast data queries for dApps.",
+      "website": "",
+      "twitter": "",
+      "metrics": {
+        "tvl": "",
+        "users": ""
+      }
+    },
+    {
+      "name": "Euler",
+      "category": "App",
+      "description": "Euler is a non-custodial lending protocol with permissionless credit markets on Monad.",
+      "website": "",
+      "twitter": "",
+      "metrics": {
+        "tvl": "",
+        "users": ""
+      }
+    },
+    {
+      "name": "DRKVRS",
+      "category": "Gaming",
+      "description": "DRKVRS is a cyberpunk-themed MMORPG with on-chain assets on Monad.",
+      "website": "",
+      "twitter": "",
+      "metrics": {
+        "tvl": "",
+        "users": ""
+      }
+    },
+    {
+      "name": "GM Agents",
+      "category": "App",
+      "description": "AI agents for Monad ecosystem, automating DeFi tasks.",
+      "website": "",
+      "twitter": "",
+      "metrics": {
+        "tvl": "",
+        "users": ""
+      }
+    }
+  ]
+}

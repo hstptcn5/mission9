@@ -1,0 +1,17 @@
+{
+  "name": "chog-art-badge-contract",
+  "version": "1.0.0",
+  "description": "ERC-721 NFT contract for Chog Art Badges",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:testnet": "hardhat run scripts/deploy.js --network monadTestnet",
+    "verify": "hardhat verify --network monadTestnet"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@openzeppelin/contracts": "^5.0.2",
+    "dotenv": "^16.6.1",
+    "hardhat": "^2.19.0"
+  }
+}

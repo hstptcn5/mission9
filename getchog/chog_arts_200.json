@@ -1,0 +1,102 @@
+[
+  {
+    "id": "post-0-mehram-chog",
+    "url": "https://pbs.twimg.com/media/G4VFiVMXEAEJvPJ.jpg",
+    "artist": "@Mehram51 (tag @ChogNFT)",
+    "style": "chog-art",
+    "description": "Chog steps out the screen #ChogNFT #CHOG",
+    "source_post_id": 1983067820889141489,
+    "hashtag_chog": true,
+    "local_path": "assets\\post-0-mehram-chog.jpg"
+  },
+  {
+    "id": "post-1-atp-digital",
+    "url": "https://pbs.twimg.com/media/G4N7_z9W4AA911h.jpg",
+    "artist": "@_TobilobaPaul (tag @ChogNFT)",
+    "style": "digital-art",
+    "description": "Day 13 digital art #digitalart #chog",
+    "source_post_id": 1982564699649765513,
+    "hashtag_chog": true,
+    "local_path": "assets\\post-1-atp-digital.jpg"
+  },
+  {
+    "id": "post-3-pink-anime",
+    "url": "https://pbs.twimg.com/media/G4LWrhpXwAAU66E.jpg",
+    "artist": "@PinkdreamsPink (tag @ChogNFT)",
+    "style": "anime-art",
+    "description": "Chog and Mondana anime style #mondana #chog",
+    "source_post_id": 1982383278024798478,
+    "hashtag_chog": true,
+    "local_path": "assets\\post-3-pink-anime.jpg"
+  },
+  {
+    "id": "post-4-bakeme-nft",
+    "url": "https://pbs.twimg.com/media/G3-YNdGXAAAyUZs.jpg",
+    "artist": "@bakemesumcakes (tag @ChogNFT)",
+    "style": "nft-art",
+    "description": "CHOG NFT Update #CHOG",
+    "source_post_id": 1981470126760194117,
+    "hashtag_chog": true,
+    "local_path": "assets\\post-4-bakeme-nft.jpg"
+  },
+  {
+    "id": "post-5-amin-halloween",
+    "url": "https://pbs.twimg.com/media/G3xoepuXYAAQSai.jpg",
+    "artist": "@Amin1748 (tag @ChogNFT)",
+    "style": "halloween-art",
+    "description": "Monad x CHOG #nft #monad #chog",
+    "source_post_id": 1980572816505467174,
+    "hashtag_chog": true,
+    "local_path": "assets\\post-5-amin-halloween.jpg"
+  },
+  {
+    "id": "post-6-mehram-lab",
+    "url": "https://pbs.twimg.com/media/G3kdJY_WMAAiwPV.jpg",
+    "artist": "@Mehram51 (tag @ChogNFT)",
+    "style": "handmade-art",
+    "description": "Mahram51 art lab #CHOG #FanArt",
+    "source_post_id": 1979645611940212884,
+    "hashtag_chog": true,
+    "local_path": "assets\\post-6-mehram-lab.jpg"
+  },
+  {
+    "id": "post-7-yashu-pfp",
+    "url": "https://pbs.twimg.com/media/G3izohjW4AAbJGE.jpg",
+    "artist": "@Yashsol1527 (tag @SaamzzMonad @ChogNFT)",
+    "style": "pfp-art",
+    "description": "Diwali PFP #pfp #chog",
+    "source_post_id": 1979529547759661109,
+    "hashtag_chog": true,
+    "local_path": "assets\\post-7-yashu-pfp.jpg"
+  },
+  {
+    "id": "post-8-mrfeezii-cute",
+    "url": "https://pbs.twimg.com/media/G3Z4IRKWkAAuY4Q.jpg",
+    "artist": "@MrFeezii (tag @ChogNFT)",
+    "style": "cute-art",
+    "description": "Not everything cute is harmless #Chog #NFT",
+    "source_post_id": 1978901461229539570,
+    "hashtag_chog": true,
+    "local_path": "assets\\post-8-mrfeezii-cute.jpg"
+  },
+  {
+    "id": "post-9-mondad-gmonad",
+    "url": "https://pbs.twimg.com/media/G23K8QKb0AAsgzN.jpg",
+    "artist": "@datcutesieucap (tag @Suyash6234 @ChogNFT)",
+    "style": "pfp-art",
+    "description": "First PFP #MonadMainnet #chog",
+    "source_post_id": 1976458955170926994,
+    "hashtag_chog": true,
+    "local_path": "assets\\post-9-mondad-gmonad.jpg"
+  },
+  {
+    "id": "post-10-amin-balance",
+    "url": "https://pbs.twimg.com/media/G2t8401W8AAz5uS.jpg",
+    "artist": "@Amin1748 (tag @ChogNFT)",
+    "style": "crypto-art",
+    "description": "Chog finds peace #Chog #Monad",
+    "source_post_id": 1975810180467089837,
+    "hashtag_chog": true,
+    "local_path": "assets\\post-10-amin-balance.jpg"
+  }
+]
