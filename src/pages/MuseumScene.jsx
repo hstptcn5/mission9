@@ -10,6 +10,7 @@ import {
   Text,
   useKeyboardControls,
   useTexture,
+  useGLTF,
 } from '@react-three/drei'
 import { dAppsData } from '../utils/dappsData'
 
@@ -100,6 +101,12 @@ const HALF_DEPTH = ((GRID_ROWS - 1) * CELL_SIZE) / 2
 
 const CAMERA_HEIGHT = 1.5
 const MOVE_SPEED = 1.5
+const AVATAR_FOLLOW_DISTANCE = 1.35
+const AVATAR_HEIGHT = 0.8
+const AVATAR_MODEL_PATH = '/models/chog.glb'
+const AVATAR_MODEL_SCALE = 0.6
+const AVATAR_MODEL_ROTATION = [0, 110, 0]
+const AVATAR_YAW_OFFSET = Math.PI
 
 const keyboardMap = [
   { name: 'forward', keys: ['KeyW', 'ArrowUp'] },
@@ -111,8 +118,12 @@ const keyboardMap = [
 const frontVector = new THREE.Vector3()
 const sideVector = new THREE.Vector3()
 const direction = new THREE.Vector3()
+const forwardHelper = new THREE.Vector3()
+const avatarTarget = new THREE.Vector3()
 const LIGHT_SAMPLE_STEP = 60
 const tempObject = new THREE.Object3D()
+
+useGLTF.preload(AVATAR_MODEL_PATH)
 
 const ART_IMAGE_URLS = Object.values(
   import.meta.glob('../../getchog/assets/*.jpg', { eager: true, query: '?url', import: 'default' })
@@ -393,11 +404,17 @@ function MazeLighting({ walkable }) {
 function MinimapTracker({ onUpdate }) {
   const last = useRef(0)
   const eulerRef = useRef(new THREE.Euler(0, 0, 0, 'YXZ'))
+  const prevPosition = useRef(new THREE.Vector3())
 
   useFrame(({ camera, clock }) => {
     if (clock.elapsedTime - last.current > 0.05) {
       eulerRef.current.setFromQuaternion(camera.quaternion, 'YXZ')
-      onUpdate({ x: camera.position.x, z: camera.position.z, heading: eulerRef.current.y })
+      const elapsed = Math.max(clock.elapsedTime - last.current, 0.0001)
+      const currentPos = camera.position
+      const distance = currentPos.distanceTo(prevPosition.current)
+      const speed = distance / elapsed
+      onUpdate({ x: currentPos.x, z: currentPos.z, heading: eulerRef.current.y, speed })
+      prevPosition.current.copy(currentPos)
       last.current = clock.elapsedTime
     }
   })
@@ -624,6 +641,52 @@ function WallArtPanel({ position, rotation, textureUrl, frameColor }) {
   )
 }
 
+function PlayerAvatar({ player }) {
+  const groupRef = useRef(null)
+  const avatarGroupRef = useRef(null)
+  const bobRef = useRef(0)
+  const { scene } = useGLTF(AVATAR_MODEL_PATH)
+  const avatarScene = useMemo(() => scene.clone(true), [scene])
+
+  useEffect(() => {
+    avatarScene.traverse((child) => {
+      if (child.isMesh) {
+        child.castShadow = true
+        child.receiveShadow = true
+      }
+    })
+  }, [avatarScene])
+
+  useFrame(({ camera }, delta) => {
+    if (!groupRef.current) return
+    forwardHelper.set(0, 0, -1).applyQuaternion(camera.quaternion)
+    forwardHelper.y = 0
+    if (forwardHelper.lengthSq() === 0) forwardHelper.set(0, 0, -1)
+    forwardHelper.normalize()
+
+    avatarTarget.copy(camera.position).addScaledVector(forwardHelper, AVATAR_FOLLOW_DISTANCE)
+    groupRef.current.position.set(avatarTarget.x, 0, avatarTarget.z)
+    groupRef.current.rotation.y = Math.atan2(forwardHelper.x, forwardHelper.z) + AVATAR_YAW_OFFSET
+
+    const speed = player?.speed ?? 0
+    if (speed > 0.2) {
+      bobRef.current += delta * Math.min(speed * 4, 8)
+    } else {
+      bobRef.current = Math.max(bobRef.current - delta * 4, 0)
+    }
+    const bobOffset = Math.sin(bobRef.current) * 0.08
+    if (avatarGroupRef.current) avatarGroupRef.current.position.y = AVATAR_HEIGHT + bobOffset
+  })
+
+  return (
+    <group ref={groupRef}>
+      <group ref={avatarGroupRef} scale={AVATAR_MODEL_SCALE}>
+        <primitive object={avatarScene} rotation={AVATAR_MODEL_ROTATION} />
+      </group>
+    </group>
+  )
+}
+
 const POPULAR_LIMIT = 30
 
 export default function MuseumScene() {
@@ -690,7 +753,7 @@ export default function MuseumScene() {
     return selected
   }, [remainingSpots])
 
-  const [playerPos, setPlayerPos] = useState({ x: 0, z: 0, heading: 0 })
+  const [playerPos, setPlayerPos] = useState({ x: 0, z: 0, heading: 0, speed: 0 })
 
   const startCell = layoutData.cellMap.get(`${START_CELL.row}:${START_CELL.col}`) || layoutData.walkableCells[0]
   const initialPosition = startCell?.position || [0, 0, 0]
@@ -704,7 +767,7 @@ export default function MuseumScene() {
             camera={{ position: [initialPosition[0], CAMERA_HEIGHT, initialPosition[2]], fov: 58 }}
             onCreated={({ camera }) => {
               camera.position.set(initialPosition[0], CAMERA_HEIGHT, initialPosition[2])
-              setPlayerPos({ x: initialPosition[0], z: initialPosition[2], heading: 0 })
+              setPlayerPos({ x: initialPosition[0], z: initialPosition[2], heading: 0, speed: 0 })
             }}
           >
             <color attach="background" args={[0x050220]} />
@@ -715,6 +778,7 @@ export default function MuseumScene() {
             <Stars radius={180} depth={90} count={900} factor={3} fade speed={1.1} />
 
             <PointerLockControls selector="#museum-lock" />
+            <PlayerAvatar player={playerPos} />
             <VisitorRig />
             <MinimapTracker onUpdate={setPlayerPos} />
 
