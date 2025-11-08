@@ -130,6 +130,7 @@ useGLTF.preload(AVATAR_MODEL_PATH)
 const ART_IMAGE_URLS = Object.values(
   import.meta.glob('../../getchog/assets/*.jpg', { eager: true, query: '?url', import: 'default' })
 )
+const SPRAY_COLOR_OPTIONS = ['#f97316', '#38bdf8', '#a855f7', '#22c55e', '#facc15', '#fb7185']
 
 const layoutData = (() => {
   const walkableCells = []
@@ -707,6 +708,26 @@ function DappExhibit({ dapp, position, rotation }) {
 
 function WallArtPanel({ position, rotation, textureUrl, frameColor }) {
   const texture = useTexture(textureUrl)
+  const groupRef = useRef(null)
+  const [active, setActive] = useState(false)
+  const [paintingEnabled, setPaintingEnabled] = useState(false)
+  const [colorIndex, setColorIndex] = useState(0)
+  const drawingRef = useRef(false)
+  const lastPointRef = useRef(null)
+  const brushColor = SPRAY_COLOR_OPTIONS[colorIndex]
+
+  const graffitiLayer = useMemo(() => {
+    if (typeof window === 'undefined') return null
+    const canvas = document.createElement('canvas')
+    canvas.width = 1024
+    canvas.height = 1024
+    const ctx = canvas.getContext('2d')
+    ctx.clearRect(0, 0, canvas.width, canvas.height)
+    const layerTexture = new THREE.CanvasTexture(canvas)
+    layerTexture.needsUpdate = true
+    layerTexture.transparent = true
+    return { canvas, ctx, texture: layerTexture }
+  }, [])
 
   useEffect(() => {
     if (!texture) return
@@ -715,16 +736,144 @@ function WallArtPanel({ position, rotation, textureUrl, frameColor }) {
     texture.anisotropy = 8
   }, [texture])
 
+  useFrame(({ camera }) => {
+    if (!groupRef.current) return
+    const dist = groupRef.current.position.distanceTo(camera.position)
+    if (dist < 2.6 && !active) setActive(true)
+    if (dist >= 3 && active) setActive(false)
+  })
+
+  useEffect(() => {
+    if (!active) {
+      setPaintingEnabled(false)
+      drawingRef.current = false
+      return undefined
+    }
+    const handleKey = (event) => {
+      if (event.repeat) return
+      if (event.code === 'KeyG' || event.key === 'g' || event.key === 'G') {
+        event.preventDefault()
+        setPaintingEnabled((prev) => !prev)
+      }
+      if (event.code === 'KeyN' || event.key === 'n' || event.key === 'N') {
+        event.preventDefault()
+        setColorIndex((index) => (index + 1) % SPRAY_COLOR_OPTIONS.length)
+      }
+      if ((event.code === 'KeyC' || event.key === 'c' || event.key === 'C') && graffitiLayer?.ctx) {
+        graffitiLayer.ctx.clearRect(0, 0, graffitiLayer.canvas.width, graffitiLayer.canvas.height)
+        graffitiLayer.texture.needsUpdate = true
+      }
+    }
+    window.addEventListener('keydown', handleKey)
+    return () => window.removeEventListener('keydown', handleKey)
+  }, [active, graffitiLayer])
+
+  const paintAt = useCallback(
+    (uv, force = false) => {
+      if (!graffitiLayer?.ctx) return
+      const ctx = graffitiLayer.ctx
+      const { canvas } = graffitiLayer
+      const x = uv.x * canvas.width
+      const y = (1 - uv.y) * canvas.height
+
+      ctx.save()
+      ctx.strokeStyle = brushColor
+      ctx.lineWidth = 28
+      ctx.lineCap = 'round'
+      ctx.lineJoin = 'round'
+      ctx.shadowColor = brushColor
+      ctx.shadowBlur = 12
+      ctx.globalAlpha = 0.9
+      ctx.beginPath()
+      if (!lastPointRef.current || force) {
+        ctx.moveTo(x, y)
+      } else {
+        ctx.moveTo(lastPointRef.current.x, lastPointRef.current.y)
+      }
+      ctx.lineTo(x, y)
+      ctx.stroke()
+      ctx.restore()
+
+      lastPointRef.current = { x, y }
+      graffitiLayer.texture.needsUpdate = true
+    },
+    [graffitiLayer, brushColor]
+  )
+
+  const handlePointerDown = useCallback(
+    (event) => {
+      if (!paintingEnabled || !event.uv) return
+      event.stopPropagation()
+      drawingRef.current = true
+      paintAt(event.uv, true)
+    },
+    [paintingEnabled, paintAt]
+  )
+
+  const handlePointerMove = useCallback(
+    (event) => {
+      if (!paintingEnabled || !drawingRef.current || !event.uv) return
+      event.stopPropagation()
+      paintAt(event.uv)
+    },
+    [paintingEnabled, paintAt]
+  )
+
+  const handlePointerUp = useCallback(() => {
+    drawingRef.current = false
+    lastPointRef.current = null
+  }, [])
+
   return (
-    <group position={position} rotation={rotation}>
+    <group ref={groupRef} position={position} rotation={rotation}>
       <mesh position={[0, 0, -0.04]} castShadow>
         <planeGeometry args={[1.7, 1.2]} />
         <meshStandardMaterial color={frameColor} roughness={0.4} metalness={0.35} emissive={new THREE.Color(frameColor).multiplyScalar(0.4)} emissiveIntensity={0.45} />
       </mesh>
       <mesh castShadow>
         <planeGeometry args={[1.55, 1.05]} />
-        <meshStandardMaterial map={texture} roughness={0.55} metalness={0.15} />
+        <meshStandardMaterial
+          map={texture}
+          roughness={0.55}
+          metalness={0.15}
+          onPointerDown={handlePointerDown}
+          onPointerMove={handlePointerMove}
+          onPointerUp={handlePointerUp}
+          onPointerLeave={handlePointerUp}
+        />
       </mesh>
+      {graffitiLayer?.texture && (
+        <mesh position={[0, 0, 0.004]} renderOrder={10} onPointerDown={handlePointerDown} onPointerMove={handlePointerMove} onPointerUp={handlePointerUp} onPointerLeave={handlePointerUp}>
+          <planeGeometry args={[1.55, 1.05]} />
+          <meshBasicMaterial map={graffitiLayer.texture} transparent opacity={0.94} toneMapped={false} depthTest={false} depthWrite={false} />
+        </mesh>
+      )}
+
+      {active && (
+        <Html position={[0.78, 0.85, 0]} transform occlude wrapperClass="pointer-events-none">
+          <div className="pointer-events-auto flex items-center gap-1 rounded-lg border border-white/35 bg-white/75 px-1.5 py-0.5 text-[8px] text-indigo-700 shadow-sm">
+            <button
+              type="button"
+              onClick={() => setColorIndex((index) => (index - 1 + SPRAY_COLOR_OPTIONS.length) % SPRAY_COLOR_OPTIONS.length)}
+              className="h-3.5 w-3.5 rounded border border-indigo-300 bg-indigo-100/60 text-[9px] leading-3.5 text-indigo-600 hover:bg-indigo-100"
+              aria-label="Previous color"
+            >
+              ‹
+            </button>
+            <span className="h-3 w-3 rounded-full border border-indigo-500 shadow-sm" style={{ backgroundColor: brushColor }} aria-label="Current color" />
+            <button
+              type="button"
+              onClick={() => setColorIndex((index) => (index + 1) % SPRAY_COLOR_OPTIONS.length)}
+              className="h-3.5 w-3.5 rounded border border-indigo-300 bg-indigo-100/60 text-[9px] leading-3.5 text-indigo-600 hover:bg-indigo-100"
+              aria-label="Next color"
+            >
+              ›
+            </button>
+            <span className="font-semibold">{paintingEnabled ? 'Spray' : 'Press G'}</span>
+            <span className="text-indigo-500">N color · C clear</span>
+          </div>
+        </Html>
+      )}
     </group>
   )
 }
