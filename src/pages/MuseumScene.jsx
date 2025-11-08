@@ -719,8 +719,8 @@ function WallArtPanel({ position, rotation, textureUrl, frameColor }) {
   const graffitiLayer = useMemo(() => {
     if (typeof window === 'undefined') return null
     const canvas = document.createElement('canvas')
-    canvas.width = 1024
-    canvas.height = 1024
+    canvas.width = 640
+    canvas.height = 640
     const ctx = canvas.getContext('2d')
     ctx.clearRect(0, 0, canvas.width, canvas.height)
     const layerTexture = new THREE.CanvasTexture(canvas)
@@ -778,7 +778,7 @@ function WallArtPanel({ position, rotation, textureUrl, frameColor }) {
 
       ctx.save()
       ctx.strokeStyle = brushColor
-      ctx.lineWidth = 28
+      ctx.lineWidth = 18
       ctx.lineCap = 'round'
       ctx.lineJoin = 'round'
       ctx.shadowColor = brushColor
@@ -1060,17 +1060,9 @@ export default function MuseumScene() {
         </KeyboardControls>
       </div>
 
-      <div className="pointer-events-none absolute top-8 left-1/2 -translate-x-1/2 text-center space-y-2 text-white/80">
-        <h2 className="text-2xl font-semibold tracking-wide">Chog's Museum Maze (Prototype)</h2>
-        <p className="text-sm text-white/60">Click inside the scene • WASD to move corridors • Mouse to look around</p>
-      </div>
-
       <MinimapOverlay walkable={layoutData.walkableCells} walls={layoutData.wallCells} exhibits={popularPlacements} playerPos={playerPos} />
 
-      <button
-        id="museum-lock"
-        className="pointer-events-auto absolute bottom-8 left-1/2 -translate-x-1/2 px-6 py-2 rounded-full bg-white/15 border border-white/25 text-white text-sm hover:bg-white/25 transition"
-      >
+      <button id="museum-lock" className="pointer-events-auto absolute bottom-8 left-1/2 -translate-x-1/2 px-6 py-2 rounded-full bg-white/15 border border-white/25 text-white text-sm hover:bg-white/25 transition">
         Click to (re)enter explore mode
       </button>
     </div>
