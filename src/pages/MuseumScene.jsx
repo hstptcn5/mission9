@@ -100,8 +100,8 @@ const HALF_WIDTH = ((GRID_COLS - 1) * CELL_SIZE) / 2
 const HALF_DEPTH = ((GRID_ROWS - 1) * CELL_SIZE) / 2
 
 const CAMERA_HEIGHT = 1.5
-const MOVE_SPEED = 1.5
-const AVATAR_FOLLOW_DISTANCE = 1.35
+const MOVE_SPEED = 1.4
+const AVATAR_FOLLOW_DISTANCE = 0.7
 const AVATAR_HEIGHT = 0.8
 const AVATAR_MODEL_PATH = '/models/chog.glb'
 const AVATAR_MODEL_SCALE = 0.6
