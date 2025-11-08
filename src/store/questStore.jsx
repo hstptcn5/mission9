@@ -26,6 +26,14 @@ const createInitialQuestState = () => {
     }, {}),
     claimedRewards: {},
     lastVisitAt: null,
+    legacyVotes: [],
+    legacyCollections: [],
+    questProgress: {
+      votes: 0,
+      collections: 0,
+      glitchUnlocked: false,
+      recommendationsUnlocked: false,
+    },
   }
 
   applyQuestProgress(baseState, baseState.questProgressMap, baseState.completedQuests)
@@ -112,6 +120,40 @@ export const useQuestStore = create(
             questProgressMap,
             completedQuests,
             lastVisitAt: Date.now(),
+          }
+        })
+      },
+
+      addVote: (dappId) => {
+        set((state) => {
+          if (!dappId) return {}
+          if (state.legacyVotes.includes(dappId)) return {}
+          const legacyVotes = [...state.legacyVotes, dappId]
+          const voteCount = legacyVotes.length
+          return {
+            legacyVotes,
+            questProgress: {
+              ...state.questProgress,
+              votes: voteCount,
+              glitchUnlocked: voteCount >= 3,
+            },
+          }
+        })
+      },
+
+      addCollection: (dappId) => {
+        set((state) => {
+          if (!dappId) return {}
+          if (state.legacyCollections.includes(dappId)) return {}
+          const legacyCollections = [...state.legacyCollections, dappId]
+          const collectionCount = legacyCollections.length
+          return {
+            legacyCollections,
+            questProgress: {
+              ...state.questProgress,
+              collections: collectionCount,
+              recommendationsUnlocked: collectionCount >= 5,
+            },
           }
         })
       },
