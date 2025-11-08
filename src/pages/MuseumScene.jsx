@@ -13,6 +13,8 @@ import {
   useGLTF,
 } from '@react-three/drei'
 import { dAppsData } from '../utils/dappsData'
+import QuestTracker from '../components/QuestTracker'
+import { useQuestStore } from '../store/questStore'
 
 const MAZE_SIZE = 39
 const START_CELL = { row: Math.floor(MAZE_SIZE / 2), col: Math.floor(MAZE_SIZE / 2) }
@@ -494,8 +496,20 @@ function MinimapOverlay({ walkable, walls, exhibits, playerPos }) {
 function DappExhibit({ dapp, position, rotation }) {
   const groupRef = useRef(null)
   const [active, setActive] = useState(false)
+  const [showDetails, setShowDetails] = useState(false)
   const prevActive = useRef(false)
   const audioCtxRef = useRef(null)
+  const registerVisit = useQuestStore((state) => state.registerVisit)
+  const visitLinkRef = useRef(null)
+  const visitPayload = useMemo(
+    () => ({
+      id: dapp.id,
+      name: dapp.name,
+      categories: Array.isArray(dapp.categories) ? dapp.categories : [],
+      onlyOnMonad: Boolean(dapp.onlyOnMonad),
+    }),
+    [dapp]
+  )
 
   const playEnterTone = useCallback(async () => {
     if (typeof window === 'undefined') return
@@ -546,10 +560,40 @@ function DappExhibit({ dapp, position, rotation }) {
 
   useEffect(() => {
     if (active && !prevActive.current) {
+      registerVisit(visitPayload)
+    }
+  }, [active, registerVisit, visitPayload])
+
+  useEffect(() => {
+    if (active && !prevActive.current) {
       playEnterTone()
     }
     prevActive.current = active
   }, [active, playEnterTone])
+
+  useEffect(() => {
+    if (!active) {
+      setShowDetails(false)
+      return undefined
+    }
+    const handleKeyDown = (event) => {
+      if (event.repeat) return
+      if (event.code === 'Space' || event.key === ' ') {
+        event.preventDefault()
+        if (visitLinkRef.current) {
+          visitLinkRef.current.click()
+        }
+      }
+      if (event.code === 'KeyF' || event.key === 'f' || event.key === 'F') {
+        event.preventDefault()
+        setShowDetails((prev) => !prev)
+      }
+    }
+    window.addEventListener('keydown', handleKeyDown)
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown)
+    }
+  }, [active])
 
   const categories = Array.isArray(dapp.categories) ? dapp.categories : []
 
@@ -616,6 +660,7 @@ function DappExhibit({ dapp, position, rotation }) {
             <div className="flex gap-2">
               {dapp.url && (
                 <a
+                  ref={visitLinkRef}
                   href={dapp.url}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -628,6 +673,31 @@ function DappExhibit({ dapp, position, rotation }) {
                 Quest +1
               </button>
             </div>
+            {dapp.url && (
+              <p className="mt-2 text-[10px] text-indigo-500/90 font-semibold text-center uppercase tracking-wide">
+                Press Space to Visit • Press F for Info
+              </p>
+            )}
+            {showDetails && (
+              <div className="mt-3 rounded-xl border border-indigo-100 bg-indigo-50/80 p-3 text-slate-800 text-[11px] leading-relaxed shadow-inner">
+                <p className="font-semibold uppercase tracking-wide text-indigo-500 mb-1 text-[10px]">Overview</p>
+                <p>{dapp.description || 'No additional description provided yet.'}</p>
+                {(dapp.metadata?.length || dapp.tags?.length) && (
+                  <div className="mt-2 space-y-1">
+                    {dapp.metadata?.length ? (
+                      <p className="text-[10px] text-indigo-600">
+                        {dapp.metadata.join(' • ')}
+                      </p>
+                    ) : null}
+                    {dapp.tags?.length ? (
+                      <p className="text-[10px] text-indigo-600">
+                        Tags: {dapp.tags.join(', ')}
+                      </p>
+                    ) : null}
+                  </div>
+                )}
+              </div>
+            )}
           </div>
         </Html>
       )}
@@ -777,8 +847,11 @@ export default function MuseumScene() {
   const initialPosition = startCell?.position || [0, 0, 0]
 
   return (
-    <div className="relative min-h-[calc(100vh-120px)] mt-6">
-      <div className="absolute inset-0 rounded-[40px] border border-white/8 bg-gradient-to-br from-[#2f1da9] via-[#21116e] to-[#100542] shadow-[0_45px_120px_rgba(32,26,120,0.6)] overflow-hidden">
+    <div className="relative mt-4 min-h-[calc(100vh-140px)] w-full px-4">
+      <div className="pointer-events-auto absolute top-6 left-8 z-20">
+        <QuestTracker variant="compact" maxItems={2} />
+      </div>
+      <div className="absolute inset-0 rounded-[32px] border border-white/6 bg-gradient-to-br from-[#2f1da9] via-[#21116e] to-[#100542] shadow-[0_45px_120px_rgba(32,26,120,0.5)] overflow-hidden">
         <KeyboardControls map={keyboardMap}>
           <Canvas
             shadows

@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react
 import Gallery from './components/Gallery'
 import Gallery3D from './pages/Gallery3D'
 import MuseumScene from './pages/MuseumScene'
-import QuestTracker from './components/QuestTracker'
 import WalletConnect from './components/WalletConnect'
 import './App.css'
 
@@ -54,7 +53,6 @@ function AppShell({ children, walletConnected, walletAddress, onConnect, onDisco
             <HeaderNav />
           </div>
           <div className="flex items-center gap-4">
-            <QuestTracker />
             <WalletConnect
               walletConnected={walletConnected}
               walletAddress={walletAddress}
@@ -65,7 +63,7 @@ function AppShell({ children, walletConnected, walletAddress, onConnect, onDisco
         </div>
       </header>
 
-      <main className="container mx-auto px-4 py-8">{children}</main>
+      <main className="px-0 py-8">{children}</main>
 
       <footer className="bg-black/30 backdrop-blur-md border-t border-white/10 mt-12">
         <div className="container mx-auto px-4 py-6 text-center text-white/70">
