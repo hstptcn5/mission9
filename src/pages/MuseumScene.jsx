@@ -98,8 +98,8 @@ const GRID_COLS = MAZE_LAYOUT[0].length
 const HALF_WIDTH = ((GRID_COLS - 1) * CELL_SIZE) / 2
 const HALF_DEPTH = ((GRID_ROWS - 1) * CELL_SIZE) / 2
 
-const CAMERA_HEIGHT = 1.7
-const MOVE_SPEED = 4.4
+const CAMERA_HEIGHT = 1.5
+const MOVE_SPEED = 1.5
 
 const keyboardMap = [
   { name: 'forward', keys: ['KeyW', 'ArrowUp'] },
@@ -392,10 +392,12 @@ function MazeLighting({ walkable }) {
 
 function MinimapTracker({ onUpdate }) {
   const last = useRef(0)
+  const eulerRef = useRef(new THREE.Euler(0, 0, 0, 'YXZ'))
 
   useFrame(({ camera, clock }) => {
     if (clock.elapsedTime - last.current > 0.05) {
-      onUpdate({ x: camera.position.x, z: camera.position.z })
+      eulerRef.current.setFromQuaternion(camera.quaternion, 'YXZ')
+      onUpdate({ x: camera.position.x, z: camera.position.z, heading: eulerRef.current.y })
       last.current = clock.elapsedTime
     }
   })
@@ -419,6 +421,7 @@ function MinimapOverlay({ walkable, walls, exhibits, playerPos }) {
   }
 
   const player = projectWorldToMinimap(playerPos.x, playerPos.z)
+  const headingDeg = ((playerPos.heading ?? 0) * 180) / Math.PI * -1
 
   return (
     <div className="pointer-events-none absolute top-8 right-6">
@@ -458,10 +461,12 @@ function MinimapOverlay({ walkable, walls, exhibits, playerPos }) {
             )
           })}
 
-          <g>
-            <circle cx={player.x} cy={player.y} r={7} fill="#fb923c" stroke="white" strokeWidth={2.4} />
-            <path d={`M${player.x} ${player.y - 13} L${player.x - 6} ${player.y - 3} L${player.x + 6} ${player.y - 3} Z`} fill="#fb923c" stroke="white" strokeWidth={1} />
-            <circle cx={player.x} cy={player.y} r={2.2} fill="#fff7ed" />
+          <g transform={`translate(${player.x} ${player.y})`}>
+            <circle cx={0} cy={0} r={7} fill="#fb923c" stroke="white" strokeWidth={2.4} />
+            <g transform={`rotate(${headingDeg})`}>
+              <path d="M0 -12 L-6 -3 L6 -3 Z" fill="#fb923c" stroke="white" strokeWidth={1} />
+            </g>
+            <circle cx={0} cy={0} r={2.2} fill="#fff7ed" />
           </g>
         </svg>
       </div>
@@ -532,22 +537,22 @@ function DappExhibit({ dapp, position, rotation }) {
   const categories = Array.isArray(dapp.categories) ? dapp.categories : []
 
   return (
-    <group ref={groupRef} position={position} rotation={rotation}>
+    <group ref={groupRef} position={position} rotation={rotation} scale={0.56}>
       <mesh position={[0, 0, 0]} rotation={[0, Math.PI, 0]} castShadow>
-        <planeGeometry args={[1.75, 1.15]} />
+        <planeGeometry args={[1.5, 1.02]} />
         <meshStandardMaterial color="#eef2ff" roughness={0.8} metalness={0.08} />
       </mesh>
       <mesh position={[0, 0, -0.035]} rotation={[0, Math.PI, 0]}>
-        <planeGeometry args={[1.9, 1.3]} />
+        <planeGeometry args={[1.72, 1.18]} />
         <meshStandardMaterial color="#4338ca" roughness={0.45} metalness={0.4} emissive="#6366f1" emissiveIntensity={0.25} />
       </mesh>
-      <Text position={[0, 0.44, -0.04]} fontSize={0.18} color="#f8fafc" anchorX="center" anchorY="bottom">
+      <Text position={[0, 0.4, -0.04]} fontSize={0.16} color="#f8fafc" anchorX="center" anchorY="bottom">
         {dapp.name}
       </Text>
-      <Text position={[0, 0.2, -0.04]} fontSize={0.11} color="#cbd5f5" anchorX="center" anchorY="middle">
+      <Text position={[0, 0.18, -0.04]} fontSize={0.1} color="#cbd5f5" anchorX="center" anchorY="middle">
         {dapp.projectType || (categories[0] ?? 'Project')}
       </Text>
-      <Text position={[0, -0.16, -0.04]} fontSize={0.09} color="#e2e8f0" anchorX="center" anchorY="middle" maxWidth={1.4} lineHeight={1.3}>
+      <Text position={[0, -0.15, -0.04]} fontSize={0.08} color="#e2e8f0" anchorX="center" anchorY="middle" maxWidth={1.2} lineHeight={1.25}>
         {(dapp.description || '').slice(0, 120)}
       </Text>
       {active && (
@@ -556,19 +561,19 @@ function DappExhibit({ dapp, position, rotation }) {
           occlude
           zIndexRange={[1, 0]}
           wrapperClass="pointer-events-auto"
-          position={[0, -0.85, -0.05]}
+          position={[0, -0.78, -0.05]}
           className="[&>*]:rounded-2xl"
         >
-          <div className="w-52 rounded-2xl border border-indigo-200 bg-white/95 p-3 shadow-xl text-gray-900">
-            <h4 className="text-sm font-semibold mb-2">Interact with {dapp.name}</h4>
-            <div className="flex flex-wrap gap-1 mb-2">
+          <div className="w-44 rounded-2xl border border-indigo-200 bg-white/95 p-3 shadow-xl text-gray-900">
+            <h4 className="text-xs font-semibold mb-2">Interact with {dapp.name}</h4>
+            <div className="flex flex-wrap gap-1 mb-2 text-[10px]">
               {categories.slice(0, 3).map((cat) => (
-                <span key={`${dapp.id}-tag-${cat}`} className="px-2 py-1 text-[10px] uppercase tracking-wide rounded-full bg-indigo-100 text-indigo-600">
+                <span key={`${dapp.id}-tag-${cat}`} className="px-2 py-0.5 uppercase tracking-wide rounded-full bg-indigo-100 text-indigo-600">
                   {cat}
                 </span>
               ))}
               {dapp.onlyOnMonad && (
-                <span className="px-2 py-1 text-[10px] uppercase tracking-wide rounded-full bg-amber-100 text-amber-600">
+                <span className="px-2 py-0.5 uppercase tracking-wide rounded-full bg-amber-100 text-amber-600">
                   Only on Monad
                 </span>
               )}
@@ -579,12 +584,12 @@ function DappExhibit({ dapp, position, rotation }) {
                   href={dapp.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex-1 rounded-xl bg-indigo-500 text-white text-xs font-semibold px-3 py-2 text-center hover:bg-indigo-400"
+                  className="flex-1 rounded-xl bg-indigo-500 text-white text-[11px] font-semibold px-3 py-1.5 text-center hover:bg-indigo-400"
                 >
                   Visit
                 </a>
               )}
-              <button className="flex-1 rounded-xl border border-indigo-400 text-indigo-500 text-xs font-semibold px-3 py-2">
+              <button className="flex-1 rounded-xl border border-indigo-400 text-indigo-500 text-[11px] font-semibold px-3 py-1.5">
                 Quest +1
               </button>
             </div>
@@ -658,15 +663,21 @@ export default function MuseumScene() {
 
   const decorativePanels = useMemo(() => {
     if (!remainingSpots.length || !ART_IMAGE_URLS.length) return []
-    const maxPanels = 48
+    const maxPanels = 96
     const palette = ['#0ea5e9', '#6366f1', '#f97316', '#14b8a6', '#facc15', '#ec4899']
     const selected = []
+    const shuffledSpots = remainingSpots.slice()
 
-    for (let i = 0; i < remainingSpots.length && selected.length < maxPanels; i += 1) {
-      const spot = remainingSpots[i]
-      const randomness = seededRandom(`art-select:${spot.key}`)
-      if (randomness < 0.65) {
-        const imageIndex = Math.floor(seededRandom(`art-image:${spot.key}`) * ART_IMAGE_URLS.length) % ART_IMAGE_URLS.length
+    for (let i = shuffledSpots.length - 1; i > 0; i -= 1) {
+      const j = Math.floor(Math.random() * (i + 1))
+      ;[shuffledSpots[i], shuffledSpots[j]] = [shuffledSpots[j], shuffledSpots[i]]
+    }
+
+    for (let i = 0; i < shuffledSpots.length && selected.length < maxPanels; i += 1) {
+      const spot = shuffledSpots[i]
+      const randomness = Math.random()
+      if (randomness < 0.85) {
+        const imageIndex = Math.floor(Math.random() * ART_IMAGE_URLS.length)
         selected.push({
           textureUrl: ART_IMAGE_URLS[imageIndex],
           position: spot.position,
@@ -679,7 +690,7 @@ export default function MuseumScene() {
     return selected
   }, [remainingSpots])
 
-  const [playerPos, setPlayerPos] = useState({ x: 0, z: 0 })
+  const [playerPos, setPlayerPos] = useState({ x: 0, z: 0, heading: 0 })
 
   const startCell = layoutData.cellMap.get(`${START_CELL.row}:${START_CELL.col}`) || layoutData.walkableCells[0]
   const initialPosition = startCell?.position || [0, 0, 0]
@@ -693,7 +704,7 @@ export default function MuseumScene() {
             camera={{ position: [initialPosition[0], CAMERA_HEIGHT, initialPosition[2]], fov: 58 }}
             onCreated={({ camera }) => {
               camera.position.set(initialPosition[0], CAMERA_HEIGHT, initialPosition[2])
-              setPlayerPos({ x: initialPosition[0], z: initialPosition[2] })
+              setPlayerPos({ x: initialPosition[0], z: initialPosition[2], heading: 0 })
             }}
           >
             <color attach="background" args={[0x050220]} />
