@@ -582,7 +582,25 @@ function DappExhibit({ dapp, position, rotation }) {
           className="[&>*]:rounded-2xl"
         >
           <div className="w-44 rounded-2xl border border-indigo-200 bg-white/95 p-3 shadow-xl text-gray-900">
-            <h4 className="text-xs font-semibold mb-2">Interact with {dapp.name}</h4>
+            <div className="flex items-center gap-2 mb-2">
+              {dapp.logoImage ? (
+                <img
+                  src={dapp.logoImage}
+                  alt={`${dapp.name} logo`}
+                  className="h-9 w-9 rounded-xl border border-indigo-200/80 object-cover shadow-sm bg-white"
+                />
+              ) : (
+                <div className="h-9 w-9 rounded-xl border border-indigo-200/80 bg-indigo-100 text-indigo-600 flex items-center justify-center text-xs font-semibold">
+                  {dapp.name?.slice(0, 2)?.toUpperCase() || 'DP'}
+                </div>
+              )}
+              <div className="min-w-0">
+                <h4 className="text-xs font-semibold truncate">{dapp.name}</h4>
+                <p className="text-[10px] text-indigo-500/90 uppercase tracking-wide">
+                  {dapp.projectType || (categories[0] ?? 'Project')}
+                </p>
+              </div>
+            </div>
             <div className="flex flex-wrap gap-1 mb-2 text-[10px]">
               {categories.slice(0, 3).map((cat) => (
                 <span key={`${dapp.id}-tag-${cat}`} className="px-2 py-0.5 uppercase tracking-wide rounded-full bg-indigo-100 text-indigo-600">

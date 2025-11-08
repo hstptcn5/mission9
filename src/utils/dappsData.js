@@ -1,4 +1,4 @@
-import ecosystem from '../../data/monad-ecosystem.json'
+import ecosystem from '../../data/monad-ecosystem.enriched.json'
 
 const slugify = (value) =>
   value
@@ -45,9 +45,20 @@ const mapEcosystemEntry = (entry) => {
     globalThis.crypto?.randomUUID?.() || Math.random().toString(36).slice(2)
   const id = uniqueSlug(baseSlug || randomId)
 
-  const website = entry.links.find((link) => !isSocialLink(link)) || entry.links[0] || ''
-  const socials = entry.links.filter((link) => isSocialLink(link))
+  const csvMeta = entry.csvMeta || {}
+  const website =
+    csvMeta.web ||
+    entry.links.find((link) => !isSocialLink(link)) ||
+    entry.links[0] ||
+    ''
+  const socials = [
+    ...entry.links.filter((link) => isSocialLink(link)),
+    ...(csvMeta.x && !isSocialLink(csvMeta.x) ? [csvMeta.x] : []),
+  ].filter(Boolean)
   const popularityScore = derivePopularityScore(entry)
+  const tags = Array.isArray(csvMeta.tags)
+    ? csvMeta.tags.filter(Boolean)
+    : []
 
   return {
     id,
@@ -67,6 +78,8 @@ const mapEcosystemEntry = (entry) => {
     votes: popularityScore,
     popularityScore,
     hidden: false,
+    warning: csvMeta.warning || '',
+    tags,
   }
 }
 
