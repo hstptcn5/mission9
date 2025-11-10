@@ -15,6 +15,7 @@ import {
 import { dAppsData } from '../utils/dappsData'
 import QuestTracker from '../components/QuestTracker'
 import BadgeInventory from '../components/BadgeInventory'
+import LocalLeaderboard from '../components/LocalLeaderboard'
 import { useQuestStore } from '../store/questStore'
 import { achievementDefinitions } from '../achievements/definitions'
 import { getQuizForDapp } from '../utils/dappQuizzes'
@@ -105,8 +106,8 @@ const HALF_WIDTH = ((GRID_COLS - 1) * CELL_SIZE) / 2
 const HALF_DEPTH = ((GRID_ROWS - 1) * CELL_SIZE) / 2
 
 const CAMERA_HEIGHT = 1.5
-const CAMERA_COLLISION_RADIUS = 0.45
-const CAMERA_COLLISION_HEIGHT = 1.6
+const CAMERA_COLLISION_RADIUS = 0.5
+const CAMERA_SLIDE_EPSILON = 0.005
 const MOVE_SPEED = 1.4
 const AVATAR_FOLLOW_DISTANCE = 0.7
 const AVATAR_HEIGHT = 0.8
@@ -215,20 +216,31 @@ function isWalkable(row, col) {
   return layoutData.walkableKeys.has(`${row}:${col}`)
 }
 
-function isBlocked(position) {
+function getCollisionNormal(position) {
   const { x, z } = position
   const radius = CAMERA_COLLISION_RADIUS
-  const samples = 8
+  let closestDistance = Infinity
+  const normal = new THREE.Vector3(0, 0, 0)
+  const samples = 12
+
   for (let i = 0; i < samples; i += 1) {
     const angle = (Math.PI * 2 * i) / samples
-    const sampleX = x + Math.cos(angle) * radius
-    const sampleZ = z + Math.sin(angle) * radius
+    const offsetX = Math.cos(angle) * radius
+    const offsetZ = Math.sin(angle) * radius
+    const sampleX = x + offsetX
+    const sampleZ = z + offsetZ
     const cell = positionToCell(sampleX, sampleZ)
     if (!isWalkable(cell.row, cell.col)) {
-      return true
+      const distance = Math.sqrt(offsetX * offsetX + offsetZ * offsetZ)
+      if (distance < closestDistance) {
+        closestDistance = distance
+        normal.set(offsetX, 0, offsetZ).normalize()
+      }
     }
   }
-  return false
+
+  if (closestDistance === Infinity) return null
+  return normal
 }
 
 function VisitorRig() {
@@ -239,8 +251,9 @@ function VisitorRig() {
   useFrame((state, delta) => {
     const { forward, backward, left, right } = getKeys()
 
-    const proposedPosition = state.camera.position.clone()
-    prevPosition.current.copy(state.camera.position)
+    const currentPosition = state.camera.position.clone()
+    const proposedPosition = currentPosition.clone()
+    prevPosition.current.copy(currentPosition)
     frontVector.set(0, 0, Number(backward) - Number(forward))
     sideVector.set(Number(right) - Number(left), 0, 0)
 
@@ -260,12 +273,39 @@ function VisitorRig() {
     proposedPosition.add(velocity.current)
     proposedPosition.y = CAMERA_HEIGHT
 
-    if (isBlocked(proposedPosition)) {
-      velocity.current.multiplyScalar(-0.3)
-    } else {
+    let moved = false
+    if (!getCollisionNormal(proposedPosition)) {
       state.camera.position.copy(proposedPosition)
       prevPosition.current.copy(proposedPosition)
+      moved = true
+    } else {
+      const slideX = new THREE.Vector3(velocity.current.x, 0, 0)
+      const candidateX = currentPosition.clone().add(slideX)
+      candidateX.y = CAMERA_HEIGHT
+
+      const slideZ = new THREE.Vector3(0, 0, velocity.current.z)
+      const candidateZ = currentPosition.clone().add(slideZ)
+      candidateZ.y = CAMERA_HEIGHT
+
+      if (!getCollisionNormal(candidateX) && slideX.lengthSq() > CAMERA_SLIDE_EPSILON) {
+        state.camera.position.copy(candidateX)
+        prevPosition.current.copy(candidateX)
+        velocity.current.z *= 0.4
+        moved = true
+      } else if (!getCollisionNormal(candidateZ) && slideZ.lengthSq() > CAMERA_SLIDE_EPSILON) {
+        state.camera.position.copy(candidateZ)
+        prevPosition.current.copy(candidateZ)
+        velocity.current.x *= 0.4
+        moved = true
+      }
     }
+
+    if (!moved) {
+      state.camera.position.copy(currentPosition)
+      prevPosition.current.copy(currentPosition)
+      velocity.current.multiplyScalar(0.2)
+    }
+
     velocity.current.multiplyScalar(0.8)
   })
 
@@ -278,6 +318,7 @@ function WallSegments({ cells }) {
 
   useEffect(() => {
     if (!instancedRef.current) return
+    instancedRef.current.frustumCulled = false
     cells.forEach((cell, idx) => {
       tempObject.position.set(cell.position[0], 1.9, cell.position[2])
       tempObject.rotation.set(0, 0, 0)
@@ -335,6 +376,7 @@ function WalkableTiles({ cells }) {
 
   useEffect(() => {
     if (!instancedRef.current) return
+    instancedRef.current.frustumCulled = false
     cells.forEach((cell, idx) => {
       tempObject.position.set(cell.position[0], 0.001, cell.position[2])
       tempObject.rotation.set(-Math.PI / 2, 0, 0)
@@ -1139,6 +1181,7 @@ export default function MuseumScene() {
   const [capturedImage, setCapturedImage] = useState(null)
   const [isCapturing, setIsCapturing] = useState(false)
   const [previewActive, setPreviewActive] = useState(false)
+  const [leaderboardOpen, setLeaderboardOpen] = useState(false)
   const badges = useQuestStore((state) => state.badges)
   const achievements = useQuestStore((state) => state.achievements)
   const level = useQuestStore((state) => state.level)
@@ -1261,6 +1304,18 @@ const axisOffsets = [
   }, [handleSelfieClick])
 
   useEffect(() => {
+    const handleLeaderboardHotkey = (event) => {
+      if (event.repeat) return
+      if (event.code === 'KeyL' || event.key === 'l' || event.key === 'L') {
+        event.preventDefault()
+        setLeaderboardOpen((prev) => !prev)
+      }
+    }
+    window.addEventListener('keydown', handleLeaderboardHotkey)
+    return () => window.removeEventListener('keydown', handleLeaderboardHotkey)
+  }, [])
+
+  useEffect(() => {
     const handlePreviewHotkey = (event) => {
       if (event.repeat) return
       if (event.code === 'KeyO' || event.key === 'o' || event.key === 'O') {
@@ -1334,6 +1389,13 @@ const axisOffsets = [
         >
           {previewActive ? 'Hide Selfie Preview (O)' : 'Show Selfie Preview (O)'}
         </button>
+        <button
+          type="button"
+          onClick={() => setLeaderboardOpen((prev) => !prev)}
+          className="rounded-xl border border-white/25 bg-white/12 px-3 py-1.5 text-xs font-semibold text-white hover:bg-white/25 transition"
+        >
+          {leaderboardOpen ? 'Hide Leaderboard (L)' : 'Show Leaderboard (L)'}
+        </button>
       </div>
       {inlineBadgeOpen && (
         <BadgeInventory inline open badgeIds={badges} achievements={achievements} onClose={() => setInlineBadgeOpen(false)} />
@@ -1351,6 +1413,11 @@ const axisOffsets = [
           </span>
         </div>
       )}
+      {leaderboardOpen && (
+        <div className="pointer-events-none absolute top-6 right-10 z-30">
+          <LocalLeaderboard />
+        </div>
+      )}
       <div className="absolute inset-0 rounded-[32px] border border-white/6 bg-gradient-to-br from-[#2f1da9] via-[#21116e] to-[#100542] shadow-[0_45px_120px_rgba(32,26,120,0.5)] overflow-hidden">
         <KeyboardControls map={keyboardMap}>
           <Canvas
@@ -1365,7 +1432,7 @@ const axisOffsets = [
                 type: THREE.BasicShadowMap,
               },
             }}
-            dpr={[0.6, 1]}
+            dpr={[0.55, 0.9]}
             onCreated={({ camera, gl, scene }) => {
               cameraRef.current = camera
               rendererRef.current = gl
@@ -1377,9 +1444,9 @@ const axisOffsets = [
             <color attach="background" args={[0x050220]} />
             <fog attach="fog" args={[0x050220, 20, 50]} />
             <ambientLight intensity={0.7} />
-            <directionalLight castShadow position={[16, 22, 14]} intensity={1.95} shadow-mapSize-width={2048} shadow-mapSize-height={2048} />
+            <directionalLight castShadow position={[16, 22, 14]} intensity={1.7} shadow-mapSize-width={1024} shadow-mapSize-height={1024} />
             <Environment preset="sunset" background={false} />
-            <Stars radius={180} depth={90} count={900} factor={3} fade speed={1.1} />
+            <Stars radius={160} depth={65} count={450} factor={2.2} fade speed={1} />
 
             <PointerLockControls selector="#museum-lock" />
             <PlayerAvatar player={playerPos} />
