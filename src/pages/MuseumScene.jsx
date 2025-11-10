@@ -1368,7 +1368,7 @@ const axisOffsets = [
   }, [previewActive, computeSelfiePlacement])
 
   return (
-    <div className="relative mt-4 min-h-[calc(100vh-140px)] w-full px-4">
+    <div className="relative mt-0 min-h-[calc(100vh-124px)] w-full px-4">
       <div className="pointer-events-auto absolute top-6 left-8 z-30 space-y-2">
         <QuestTracker variant="compact" maxItems={2} />
         <div className="rounded-xl border border-white/20 bg-white/15 px-3 py-1.5 text-[11px] text-white/80 backdrop-blur">
