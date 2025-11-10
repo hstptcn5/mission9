@@ -105,6 +105,8 @@ const HALF_WIDTH = ((GRID_COLS - 1) * CELL_SIZE) / 2
 const HALF_DEPTH = ((GRID_ROWS - 1) * CELL_SIZE) / 2
 
 const CAMERA_HEIGHT = 1.5
+const CAMERA_COLLISION_RADIUS = 0.45
+const CAMERA_COLLISION_HEIGHT = 1.6
 const MOVE_SPEED = 1.4
 const AVATAR_FOLLOW_DISTANCE = 0.7
 const AVATAR_HEIGHT = 0.8
@@ -213,6 +215,22 @@ function isWalkable(row, col) {
   return layoutData.walkableKeys.has(`${row}:${col}`)
 }
 
+function isBlocked(position) {
+  const { x, z } = position
+  const radius = CAMERA_COLLISION_RADIUS
+  const samples = 8
+  for (let i = 0; i < samples; i += 1) {
+    const angle = (Math.PI * 2 * i) / samples
+    const sampleX = x + Math.cos(angle) * radius
+    const sampleZ = z + Math.sin(angle) * radius
+    const cell = positionToCell(sampleX, sampleZ)
+    if (!isWalkable(cell.row, cell.col)) {
+      return true
+    }
+  }
+  return false
+}
+
 function VisitorRig() {
   const [, getKeys] = useKeyboardControls()
   const velocity = useRef(new THREE.Vector3())
@@ -221,6 +239,7 @@ function VisitorRig() {
   useFrame((state, delta) => {
     const { forward, backward, left, right } = getKeys()
 
+    const proposedPosition = state.camera.position.clone()
     prevPosition.current.copy(state.camera.position)
     frontVector.set(0, 0, Number(backward) - Number(forward))
     sideVector.set(Number(right) - Number(left), 0, 0)
@@ -232,36 +251,22 @@ function VisitorRig() {
       velocity.current.addScaledVector(direction, MOVE_SPEED * delta)
     }
 
-    state.camera.position.add(velocity.current)
-    state.camera.position.y = CAMERA_HEIGHT
+    velocity.current.y = 0
+    velocity.current.clamp(
+      new THREE.Vector3(-MOVE_SPEED, -MOVE_SPEED, -MOVE_SPEED),
+      new THREE.Vector3(MOVE_SPEED, MOVE_SPEED, MOVE_SPEED)
+    )
 
-    const current = state.camera.position
-    const { row, col } = positionToCell(current.x, current.z)
-    if (!isWalkable(row, col)) {
-      const cellSlideX = positionToCell(current.x, prevPosition.current.z)
-      const cellSlideZ = positionToCell(prevPosition.current.x, current.z)
-      const canSlideX = isWalkable(cellSlideX.row, cellSlideX.col)
-      const canSlideZ = isWalkable(cellSlideZ.row, cellSlideZ.col)
+    proposedPosition.add(velocity.current)
+    proposedPosition.y = CAMERA_HEIGHT
 
-      if (canSlideX && !canSlideZ) {
-        state.camera.position.set(current.x, CAMERA_HEIGHT, prevPosition.current.z)
-      } else if (!canSlideX && canSlideZ) {
-        state.camera.position.set(prevPosition.current.x, CAMERA_HEIGHT, current.z)
-      } else if (canSlideX && canSlideZ) {
-        const distX = Math.abs(current.z - prevPosition.current.z)
-        const distZ = Math.abs(current.x - prevPosition.current.x)
-        if (distX < distZ) {
-          state.camera.position.set(current.x, CAMERA_HEIGHT, prevPosition.current.z)
-        } else {
-          state.camera.position.set(prevPosition.current.x, CAMERA_HEIGHT, current.z)
-        }
-      } else {
-        state.camera.position.copy(prevPosition.current)
-      }
-      velocity.current.set(0, 0, 0)
+    if (isBlocked(proposedPosition)) {
+      velocity.current.multiplyScalar(-0.3)
     } else {
-      velocity.current.multiplyScalar(0.82)
+      state.camera.position.copy(proposedPosition)
+      prevPosition.current.copy(proposedPosition)
     }
+    velocity.current.multiplyScalar(0.8)
   })
 
   return null
@@ -1143,8 +1148,20 @@ export default function MuseumScene() {
   const previewCanvasRef = useRef(null)
   const previewCameraRef = useRef(new THREE.PerspectiveCamera(58, 1, 0.1, 100))
 
-  const startCell = layoutData.cellMap.get(`${START_CELL.row}:${START_CELL.col}`) || layoutData.walkableCells[0]
-  const initialPosition = startCell?.position || [0, 0, 0]
+const startCell = layoutData.cellMap.get(`${START_CELL.row}:${START_CELL.col}`) || layoutData.walkableCells[0]
+const initialPosition = startCell?.position || [0, 0, 0]
+
+const axisOffsets = [
+  [0, 0],
+  [1, 0],
+  [-1, 0],
+  [0, 1],
+  [0, -1],
+  [1, 1],
+  [-1, -1],
+  [1, -1],
+  [-1, 1],
+]
 
   useEffect(() => {
     const toggleInventory = (event) => {
@@ -1339,6 +1356,16 @@ export default function MuseumScene() {
           <Canvas
             shadows
             camera={{ position: [initialPosition[0], CAMERA_HEIGHT, initialPosition[2]], fov: 58 }}
+            gl={{
+              antialias: false,
+              powerPreference: 'high-performance',
+              toneMapping: THREE.ACESFilmicToneMapping,
+              shadowMap: {
+                enabled: true,
+                type: THREE.BasicShadowMap,
+              },
+            }}
+            dpr={[0.6, 1]}
             onCreated={({ camera, gl, scene }) => {
               cameraRef.current = camera
               rendererRef.current = gl
