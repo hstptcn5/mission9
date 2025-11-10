@@ -16,6 +16,7 @@ import { dAppsData } from '../utils/dappsData'
 import QuestTracker from '../components/QuestTracker'
 import BadgeInventory from '../components/BadgeInventory'
 import { useQuestStore } from '../store/questStore'
+import { achievementDefinitions } from '../achievements/definitions'
 import { getQuizForDapp } from '../utils/dappQuizzes'
 
 const MAZE_SIZE = 39
@@ -1130,8 +1131,17 @@ export default function MuseumScene() {
 
   const [playerPos, setPlayerPos] = useState({ x: 0, z: 0, heading: 0, speed: 0 })
   const [inlineBadgeOpen, setInlineBadgeOpen] = useState(false)
+  const [capturedImage, setCapturedImage] = useState(null)
+  const [isCapturing, setIsCapturing] = useState(false)
+  const [previewActive, setPreviewActive] = useState(false)
   const badges = useQuestStore((state) => state.badges)
   const achievements = useQuestStore((state) => state.achievements)
+  const level = useQuestStore((state) => state.level)
+  const rendererRef = useRef(null)
+  const sceneRef = useRef(null)
+  const cameraRef = useRef(null)
+  const previewCanvasRef = useRef(null)
+  const previewCameraRef = useRef(new THREE.PerspectiveCamera(58, 1, 0.1, 100))
 
   const startCell = layoutData.cellMap.get(`${START_CELL.row}:${START_CELL.col}`) || layoutData.walkableCells[0]
   const initialPosition = startCell?.position || [0, 0, 0]
@@ -1139,7 +1149,7 @@ export default function MuseumScene() {
   useEffect(() => {
     const toggleInventory = (event) => {
       if (event.repeat) return
-      if (event.code === 'KeyG' || event.key === 'g' || event.key === 'G') {
+      if (event.code === 'KeyB' || event.key === 'b' || event.key === 'B') {
         event.preventDefault()
         setInlineBadgeOpen((prev) => !prev)
       }
@@ -1148,23 +1158,191 @@ export default function MuseumScene() {
     return () => window.removeEventListener('keydown', toggleInventory)
   }, [])
 
+  const computeSelfiePlacement = useCallback(() => {
+    if (!cameraRef.current) return null
+    const mainCamera = cameraRef.current
+    const forward = new THREE.Vector3()
+    mainCamera.getWorldDirection(forward)
+    if (forward.lengthSq() === 0) forward.set(0, 0, -1)
+    forward.normalize()
+
+    const originalPosition = mainCamera.position.clone()
+    const avatarPos = originalPosition.clone().add(forward.clone().multiplyScalar(AVATAR_FOLLOW_DISTANCE))
+    const selfiePos = avatarPos.clone().add(forward.clone().multiplyScalar(1.4))
+    selfiePos.y = originalPosition.y + 0.15
+
+    return { originalPosition, avatarPos, selfiePos }
+  }, [])
+
+  const captureSelfie = useCallback(() => {
+    if (!rendererRef.current || !sceneRef.current) return
+    const placement = computeSelfiePlacement()
+    if (!placement) return
+    const { originalPosition, avatarPos, selfiePos } = placement
+    const camera = cameraRef.current
+    const renderer = rendererRef.current
+    const scene = sceneRef.current
+
+    const overlayCanvas = document.createElement('canvas')
+    overlayCanvas.width = renderer.domElement.width
+    overlayCanvas.height = renderer.domElement.height
+    const ctx = overlayCanvas.getContext('2d')
+
+    camera.position.copy(selfiePos)
+    camera.lookAt(avatarPos)
+    renderer.render(scene, camera)
+
+    ctx.drawImage(renderer.domElement, 0, 0, overlayCanvas.width, overlayCanvas.height)
+    ctx.fillStyle = 'rgba(8, 4, 32, 0.4)'
+    ctx.fillRect(0, overlayCanvas.height - 120, overlayCanvas.width, 120)
+    ctx.fillStyle = '#f7f7ff'
+    ctx.font = 'bold 48px "Segoe UI", sans-serif'
+    ctx.fillText(`Level ${level}`, 40, overlayCanvas.height - 65)
+    ctx.font = '24px "Segoe UI", sans-serif'
+    const latestAchievementId = achievements[achievements.length - 1]
+    const latestAchievement =
+      latestAchievementId && achievementDefinitions.find((item) => item.id === latestAchievementId)
+    const achievementText = latestAchievement ? `${latestAchievement.icon} ${latestAchievement.title}` : 'Explorer'
+    ctx.fillText(achievementText, 40, overlayCanvas.height - 28)
+
+    ctx.fillStyle = '#cbd5ff'
+    ctx.font = '20px "Segoe UI", sans-serif'
+    ctx.fillText(new Date().toLocaleString(), overlayCanvas.width - 320, overlayCanvas.height - 28)
+
+    const finalImage = overlayCanvas.toDataURL('image/png')
+
+    camera.position.copy(originalPosition)
+    camera.lookAt(avatarPos)
+    renderer.render(scene, camera)
+    setCapturedImage(finalImage)
+  }, [computeSelfiePlacement, level, achievements])
+
+  const handleSelfieClick = useCallback(() => {
+    if (isCapturing) return
+    setIsCapturing(true)
+    requestAnimationFrame(() => {
+      captureSelfie()
+      setIsCapturing(false)
+    })
+  }, [captureSelfie, isCapturing])
+
+  const handleShareX = useCallback(() => {
+    const text = encodeURIComponent("Captured a snapshot inside Chog's Immersive Gallery! #Monad #Web3")
+    window.open(`https://twitter.com/intent/tweet?text=${text}`, '_blank', 'noopener')
+  }, [])
+
+  useEffect(() => {
+    const handleSelfieHotkey = (event) => {
+      if (event.repeat) return
+      if (event.code === 'KeyP' || event.key === 'p' || event.key === 'P') {
+        event.preventDefault()
+        handleSelfieClick()
+      }
+    }
+    window.addEventListener('keydown', handleSelfieHotkey)
+    return () => window.removeEventListener('keydown', handleSelfieHotkey)
+  }, [handleSelfieClick])
+
+  useEffect(() => {
+    const handlePreviewHotkey = (event) => {
+      if (event.repeat) return
+      if (event.code === 'KeyO' || event.key === 'o' || event.key === 'O') {
+        event.preventDefault()
+        setPreviewActive((prev) => !prev)
+      }
+    }
+    window.addEventListener('keydown', handlePreviewHotkey)
+    return () => window.removeEventListener('keydown', handlePreviewHotkey)
+  }, [])
+
+  useEffect(() => {
+    if (!previewActive) return undefined
+    const renderer = rendererRef.current
+    const scene = sceneRef.current
+    const mainCamera = cameraRef.current
+    const canvas = previewCanvasRef.current
+    const previewCameraRefObj = previewCameraRef.current
+
+    if (!renderer || !scene || !mainCamera || !canvas || !previewCameraRefObj) return undefined
+
+    const ctx = canvas.getContext('2d')
+    let frameId
+
+    const renderPreview = () => {
+      const placement = computeSelfiePlacement()
+      if (placement) {
+        const { avatarPos, selfiePos } = placement
+        const width = canvas.width
+        const height = canvas.height
+        const aspect = width / height
+        if (previewCameraRefObj.aspect !== aspect) {
+          previewCameraRefObj.aspect = aspect
+          previewCameraRefObj.updateProjectionMatrix()
+        }
+
+        previewCameraRefObj.position.copy(selfiePos)
+        previewCameraRefObj.lookAt(avatarPos)
+        renderer.render(scene, previewCameraRefObj)
+        ctx.clearRect(0, 0, width, height)
+        ctx.drawImage(renderer.domElement, 0, 0, width, height)
+        renderer.render(scene, mainCamera)
+      }
+      frameId = requestAnimationFrame(renderPreview)
+    }
+
+    frameId = requestAnimationFrame(renderPreview)
+
+    return () => cancelAnimationFrame(frameId)
+  }, [previewActive, computeSelfiePlacement])
+
   return (
     <div className="relative mt-4 min-h-[calc(100vh-140px)] w-full px-4">
       <div className="pointer-events-auto absolute top-6 left-8 z-30 space-y-2">
         <QuestTracker variant="compact" maxItems={2} />
         <div className="rounded-xl border border-white/20 bg-white/15 px-3 py-1.5 text-[11px] text-white/80 backdrop-blur">
-          Press <span className="font-semibold text-white">G</span> to toggle badge kit
+          Press <span className="font-semibold text-white">B</span> to toggle badge kit
         </div>
+        <button
+          type="button"
+          onClick={handleSelfieClick}
+          disabled={isCapturing}
+          className="rounded-xl border border-white/25 bg-white/20 px-3 py-1.5 text-xs font-semibold text-white hover:bg-white/30 transition disabled:opacity-60"
+        >
+          {isCapturing ? 'Capturing...' : 'Take Selfie (P)'}
+        </button>
+        <button
+          type="button"
+          onClick={() => setPreviewActive((prev) => !prev)}
+          className="rounded-xl border border-white/25 bg-white/12 px-3 py-1.5 text-xs font-semibold text-white hover:bg-white/25 transition"
+        >
+          {previewActive ? 'Hide Selfie Preview (O)' : 'Show Selfie Preview (O)'}
+        </button>
       </div>
       {inlineBadgeOpen && (
         <BadgeInventory inline open badgeIds={badges} achievements={achievements} onClose={() => setInlineBadgeOpen(false)} />
+      )}
+      {previewActive && (
+        <div className="pointer-events-none absolute bottom-32 right-10 z-30 flex flex-col items-end gap-2">
+          <canvas
+            ref={previewCanvasRef}
+            width={240}
+            height={240}
+            className="pointer-events-auto rounded-3xl border border-white/25 bg-black/40 shadow-[0_25px_65px_rgba(10,0,60,0.45)]"
+          />
+          <span className="rounded-lg border border-white/20 bg-white/10 px-2 py-0.5 text-[10px] text-white/80 backdrop-blur">
+            Live selfie preview
+          </span>
+        </div>
       )}
       <div className="absolute inset-0 rounded-[32px] border border-white/6 bg-gradient-to-br from-[#2f1da9] via-[#21116e] to-[#100542] shadow-[0_45px_120px_rgba(32,26,120,0.5)] overflow-hidden">
         <KeyboardControls map={keyboardMap}>
           <Canvas
             shadows
             camera={{ position: [initialPosition[0], CAMERA_HEIGHT, initialPosition[2]], fov: 58 }}
-            onCreated={({ camera }) => {
+            onCreated={({ camera, gl, scene }) => {
+              cameraRef.current = camera
+              rendererRef.current = gl
+              sceneRef.current = scene
               camera.position.set(initialPosition[0], CAMERA_HEIGHT, initialPosition[2])
               setPlayerPos({ x: initialPosition[0], z: initialPosition[2], heading: 0, speed: 0 })
             }}
@@ -1208,7 +1386,6 @@ export default function MuseumScene() {
                   frameColor={panel.frameColor}
                 />
               ))}
-
             </group>
           </Canvas>
         </KeyboardControls>
@@ -1219,7 +1396,37 @@ export default function MuseumScene() {
       <button id="museum-lock" className="pointer-events-auto absolute bottom-8 left-1/2 -translate-x-1/2 px-6 py-2 rounded-full bg-white/15 border border-white/25 text-white text-sm hover:bg-white/25 transition">
         Click to (re)enter explore mode
       </button>
+
+      {capturedImage && (
+        <div className="pointer-events-none fixed inset-0 z-40 flex items-center justify-center">
+          <div className="pointer-events-auto w-[min(520px,90vw)] rounded-3xl border border-white/25 bg-white/95 p-5 shadow-[0_40px_120px_rgba(17,12,79,0.45)] space-y-4">
+            <img src={capturedImage} alt="Selfie" className="w-full rounded-2xl border border-slate-200 object-cover" />
+            <div className="flex items-center justify-between text-sm text-slate-600">
+              <a
+                href={capturedImage}
+                download="chog-selfie.png"
+                className="rounded-xl border border-indigo-200 bg-indigo-500 px-3 py-1.5 text-white font-semibold hover:bg-indigo-400 transition"
+              >
+                Save Image
+              </a>
+              <button
+                type="button"
+                onClick={handleShareX}
+                className="rounded-xl border border-slate-200 bg-white px-3 py-1.5 text-slate-700 font-semibold hover:bg-slate-100 transition"
+              >
+                Share to X
+              </button>
+              <button
+                type="button"
+                onClick={() => setCapturedImage(null)}
+                className="rounded-xl border border-slate-300 bg-white px-3 py-1.5 text-slate-600 font-semibold hover:bg-slate-100 transition"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   )
 }
-

@@ -128,7 +128,7 @@ function BadgeInventory({ open, onClose, badgeIds = [], achievements = [], inlin
           </div>
           {!inline && (
             <div className="flex justify-end text-[10px] text-indigo-400">
-              Tip: Press <span className="px-1 font-semibold text-indigo-600">G</span> in the maze to toggle this kit without leaving explore mode.
+              Tip: Press <span className="px-1 font-semibold text-indigo-600">B</span> in the maze to toggle this kit without leaving explore mode.
             </div>
           )}
         </div>
