@@ -1,6 +1,7 @@
 import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
 import { questDefinitions, evaluateQuestProgress, isQuestUnlocked, calculateLevelFromXp, xpForLevel, LEVEL_XP_STEP } from '../quests/questConfig'
+import { achievementDefinitions } from '../achievements/definitions'
 
 const XP_GAIN = {
   unique: 25,
@@ -35,6 +36,8 @@ const createInitialQuestState = () => {
       recommendationsUnlocked: false,
     },
     badges: [],
+    achievements: [],
+    achievementFeed: [],
   }
 
   applyQuestProgress(baseState, baseState.questProgressMap, baseState.completedQuests)
@@ -50,6 +53,39 @@ const applyQuestProgress = (snapshot, questProgressMap, completedQuests) => {
       completedQuests[quest.id] = true
     }
   })
+}
+
+const computeAchievementUpdates = (prevState, partialUpdate) => {
+  const nextState = {
+    ...prevState,
+    ...partialUpdate,
+    badges: partialUpdate.badges ?? prevState.badges,
+    level: partialUpdate.level ?? prevState.level,
+    xp: partialUpdate.xp ?? prevState.xp,
+  }
+
+  const unlockedSet = new Set(prevState.achievements || [])
+  const newAchievements = []
+
+  achievementDefinitions.forEach((def) => {
+    if (unlockedSet.has(def.id)) return
+    if (def.check(nextState)) {
+      unlockedSet.add(def.id)
+      newAchievements.push({ id: def.id, unlockedAt: Date.now() })
+    }
+  })
+
+  if (!newAchievements.length) {
+    return partialUpdate
+  }
+
+  const feed = [...(prevState.achievementFeed || []), ...newAchievements]
+
+  return {
+    ...partialUpdate,
+    achievements: Array.from(unlockedSet),
+    achievementFeed: feed.slice(-20),
+  }
 }
 
 export const useQuestStore = create(
@@ -111,7 +147,7 @@ export const useQuestStore = create(
           }
           applyQuestProgress(snapshot, questProgressMap, completedQuests)
 
-          return {
+          const partial = {
             xp,
             level,
             visitedDapps,
@@ -122,6 +158,7 @@ export const useQuestStore = create(
             completedQuests,
             lastVisitAt: Date.now(),
           }
+          return computeAchievementUpdates(state, partial)
         })
       },
 
@@ -131,7 +168,7 @@ export const useQuestStore = create(
           if (state.legacyVotes.includes(dappId)) return {}
           const legacyVotes = [...state.legacyVotes, dappId]
           const voteCount = legacyVotes.length
-          return {
+          const partial = {
             legacyVotes,
             questProgress: {
               ...state.questProgress,
@@ -139,6 +176,7 @@ export const useQuestStore = create(
               glitchUnlocked: voteCount >= 3,
             },
           }
+          return computeAchievementUpdates(state, partial)
         })
       },
 
@@ -148,7 +186,7 @@ export const useQuestStore = create(
           if (state.legacyCollections.includes(dappId)) return {}
           const legacyCollections = [...state.legacyCollections, dappId]
           const collectionCount = legacyCollections.length
-          return {
+          const partial = {
             legacyCollections,
             questProgress: {
               ...state.questProgress,
@@ -156,6 +194,7 @@ export const useQuestStore = create(
               recommendationsUnlocked: collectionCount >= 5,
             },
           }
+          return computeAchievementUpdates(state, partial)
         })
       },
       hasBadge: (dappId) => {
@@ -167,7 +206,7 @@ export const useQuestStore = create(
           if (!dappId) return {}
           if (state.badges.includes(dappId)) return {}
           const badges = [...state.badges, dappId]
-          return { badges }
+          return computeAchievementUpdates(state, { badges })
         })
       },
 
@@ -192,15 +231,18 @@ export const useQuestStore = create(
         const state = get()
         if (!state.completedQuests[questId] || state.claimedRewards[questId]) return false
 
-        const newXp = state.xp + (quest.xpReward || 0)
-        const newLevel = calculateLevelFromXp(newXp)
-        set({
-          xp: newXp,
-          level: newLevel,
-          claimedRewards: {
-            ...state.claimedRewards,
-            [questId]: true,
-          },
+        set((current) => {
+          const updatedXp = current.xp + (quest.xpReward || 0)
+          const updatedLevel = calculateLevelFromXp(updatedXp)
+          const partial = {
+            xp: updatedXp,
+            level: updatedLevel,
+            claimedRewards: {
+              ...current.claimedRewards,
+              [questId]: true,
+            },
+          }
+          return computeAchievementUpdates(current, partial)
         })
         return true
       },

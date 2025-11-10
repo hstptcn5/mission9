@@ -9,6 +9,7 @@ import './App.css'
 function AppShell({ children, walletConnected, walletAddress, onConnect, onDisconnect }) {
   const [inventoryOpen, setInventoryOpen] = useState(false)
   const badges = useQuestStore((state) => state.badges)
+  const achievements = useQuestStore((state) => state.achievements)
 
   return (
     <div className="relative min-h-screen bg-gradient-to-br from-purple-950 via-blue-950 to-[#05012a] overflow-hidden">
@@ -41,7 +42,7 @@ function AppShell({ children, walletConnected, walletAddress, onConnect, onDisco
 
       <main className="px-0 py-8">{children}</main>
 
-      <BadgeInventory open={inventoryOpen} onClose={() => setInventoryOpen(false)} badgeIds={badges} />
+      <BadgeInventory open={inventoryOpen} onClose={() => setInventoryOpen(false)} badgeIds={badges} achievements={achievements} />
     </div>
   )
 }

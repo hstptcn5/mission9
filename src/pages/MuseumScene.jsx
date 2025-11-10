@@ -14,6 +14,7 @@ import {
 } from '@react-three/drei'
 import { dAppsData } from '../utils/dappsData'
 import QuestTracker from '../components/QuestTracker'
+import BadgeInventory from '../components/BadgeInventory'
 import { useQuestStore } from '../store/questStore'
 import { getQuizForDapp } from '../utils/dappQuizzes'
 
@@ -1128,15 +1129,33 @@ export default function MuseumScene() {
   }, [remainingSpots])
 
   const [playerPos, setPlayerPos] = useState({ x: 0, z: 0, heading: 0, speed: 0 })
+  const [inlineBadgeOpen, setInlineBadgeOpen] = useState(false)
+  const badges = useQuestStore((state) => state.badges)
+  const achievements = useQuestStore((state) => state.achievements)
 
   const startCell = layoutData.cellMap.get(`${START_CELL.row}:${START_CELL.col}`) || layoutData.walkableCells[0]
   const initialPosition = startCell?.position || [0, 0, 0]
 
+  useEffect(() => {
+    const toggleInventory = (event) => {
+      if (event.repeat) return
+      if (event.code === 'KeyG' || event.key === 'g' || event.key === 'G') {
+        event.preventDefault()
+        setInlineBadgeOpen((prev) => !prev)
+      }
+    }
+    window.addEventListener('keydown', toggleInventory)
+    return () => window.removeEventListener('keydown', toggleInventory)
+  }, [])
+
   return (
     <div className="relative mt-4 min-h-[calc(100vh-140px)] w-full px-4">
-      <div className="pointer-events-auto absolute top-6 left-8 z-20">
+      <div className="pointer-events-auto absolute top-6 left-8 z-30">
         <QuestTracker variant="compact" maxItems={2} />
       </div>
+      {inlineBadgeOpen && (
+        <BadgeInventory inline open badgeIds={badges} achievements={achievements} onClose={() => setInlineBadgeOpen(false)} />
+      )}
       <div className="absolute inset-0 rounded-[32px] border border-white/6 bg-gradient-to-br from-[#2f1da9] via-[#21116e] to-[#100542] shadow-[0_45px_120px_rgba(32,26,120,0.5)] overflow-hidden">
         <KeyboardControls map={keyboardMap}>
           <Canvas
@@ -1187,11 +1206,6 @@ export default function MuseumScene() {
                 />
               ))}
 
-              <Html position={[0, 2.5, 0]} center>
-                <div className="px-6 py-3 rounded-full bg-white/15 border border-white/25 text-white text-sm backdrop-blur">
-                  <strong>Welcome to Chog's Museum</strong> — click to lock pointer, use WASD to walk
-                </div>
-              </Html>
             </group>
           </Canvas>
         </KeyboardControls>
