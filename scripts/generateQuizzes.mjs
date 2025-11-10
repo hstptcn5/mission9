@@ -56,29 +56,74 @@ const parseCSV = (text) => {
   return rows
 }
 
-const buildQuiz = (entry, allTypes, usedIds) => {
-  const name = normalizeValue(entry.NAME)
-  const type = normalizeValue(entry['PJ TYPE'] || entry['PJ TYPE '])
-  if (!name) return null
+const typePrompts = [
+  'Which project type best fits __NAME__?',
+  'How would you classify __NAME__ within the Monad ecosystem?',
+  'Choose the most accurate project type for __NAME__.',
+  '__NAME__ is primarily which kind of project?',
+]
 
-  const slug = slugify(name)
-  const dappId = usedIds.has(slug) ? `${slug}-${usedIds.get(slug)}` : slug
-  usedIds.set(slug, (usedIds.get(slug) || 0) + 1)
+const tagPrompts = [
+  'Which focus area is most associated with __NAME__?',
+  'Select the key category that __NAME__ highlights.',
+  '__NAME__ is closely linked to which focus tag?',
+  'Pick the tag that best represents __NAME__.',
+]
 
-  const question = `Which project type best describes ${name}?`
-
+const buildTypeQuestion = (name, type, allTypes) => {
   const incorrectPool = allTypes.filter((item) => item && item.toLowerCase() !== type.toLowerCase())
   const shuffled = incorrectPool.sort(() => Math.random() - 0.5)
   const distractors = shuffled.slice(0, 3)
   const options = [...distractors, type].sort(() => Math.random() - 0.5)
   const answerIndex = options.findIndex((option) => option === type)
-
   return {
-    dappId,
-    question,
+    question: typePrompts[Math.floor(Math.random() * typePrompts.length)].replace('__NAME__', name),
     options,
     answerIndex,
     explanation: `${name} is categorized as ${type || 'a Monad project'}.`,
+  }
+}
+
+const buildTagQuestion = (name, tag, allTags) => {
+  const incorrectPool = allTags.filter((item) => item && item.toLowerCase() !== tag.toLowerCase())
+  const distractors = incorrectPool.sort(() => Math.random() - 0.5).slice(0, 3)
+  const options = [...distractors, tag].sort(() => Math.random() - 0.5)
+  const answerIndex = options.findIndex((option) => option === tag)
+  return {
+    question: tagPrompts[Math.floor(Math.random() * tagPrompts.length)].replace('__NAME__', name),
+    options,
+    answerIndex,
+    explanation: `${name} is commonly associated with ${tag}.`,
+  }
+}
+
+const buildQuiz = (entry, allTypes, allTags, usedIds) => {
+  const name = normalizeValue(entry.NAME)
+  const type = normalizeValue(entry['PJ TYPE'] || entry['PJ TYPE '])
+  if (!name) return null
+
+  const tags = normalizeValue(entry.TAGS)
+    .split(/[,|]/)
+    .map((tag) => tag.trim())
+    .filter(Boolean)
+
+  const baseSlug = slugify(name) || slugify(entry.WEB || entry.NAME)
+  const slug = baseSlug || `dapp-${usedIds.size}`
+  const dappId = usedIds.has(slug) ? `${slug}-${usedIds.get(slug)}` : slug
+  usedIds.set(slug, (usedIds.get(slug) || 0) + 1)
+
+  let quizBody = null
+  if (!quizBody && tags.length) {
+    quizBody = buildTagQuestion(name, tags[0], allTags)
+  }
+  if (!quizBody && type) {
+    quizBody = buildTypeQuestion(name, type, allTypes)
+  }
+  if (!quizBody) return null
+
+  return {
+    dappId,
+    ...quizBody,
   }
 }
 
@@ -97,16 +142,25 @@ async function main() {
     )
     .filter((entry) => normalizeValue(entry.NAME))
 
+  const allTags = new Set()
+
   entries.forEach((entry) => {
     const type = normalizeValue(entry['PJ TYPE'] || entry['PJ TYPE '])
     if (type) allTypes.add(type)
+    const tags = normalizeValue(entry.TAGS)
+      .split(/[,|]/)
+      .map((tag) => tag.trim())
+      .filter(Boolean)
+    tags.forEach((tag) => {
+      if (tag) allTags.add(tag)
+    })
   })
 
   const quizzes = []
   const usedIds = new Map()
 
   entries.forEach((entry) => {
-    const quiz = buildQuiz(entry, Array.from(allTypes), usedIds)
+    const quiz = buildQuiz(entry, Array.from(allTypes), Array.from(allTags), usedIds)
     if (quiz) quizzes.push(quiz)
   })
 

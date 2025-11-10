@@ -1,3335 +1,3638 @@
 [
   {
     "dappId": "0x",
-    "question": "Which project type best describes 0x?",
+    "question": "Select the key category that 0x highlights.",
     "options": [
-      "App",
-      "Infra",
-      "App/Infra"
+      "Indexer",
+      "RPC",
+      "NFT",
+      "Dev"
     ],
-    "answerIndex": 1,
-    "explanation": "0x is categorized as Infra."
+    "answerIndex": 3,
+    "explanation": "0x is commonly associated with Dev."
   },
   {
     "dappId": "ausd",
-    "question": "Which project type best describes AUSD?",
+    "question": "Which focus area is most associated with AUSD?",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "Onramp",
+      "DeFi",
+      "Indexer",
+      "Payments"
     ],
-    "answerIndex": 0,
-    "explanation": "AUSD is categorized as App/Infra."
+    "answerIndex": 1,
+    "explanation": "AUSD is commonly associated with DeFi."
   },
   {
     "dappId": "azex",
-    "question": "Which project type best describes AZEx?",
+    "question": "Pick the tag that best represents AZEx.",
     "options": [
-      "App/Infra",
-      "App",
-      "Infra"
+      "DeFi",
+      "Indexer",
+      "Identity",
+      "NFT"
     ],
-    "answerIndex": 1,
-    "explanation": "AZEx is categorized as App."
+    "answerIndex": 0,
+    "explanation": "AZEx is commonly associated with DeFi."
   },
   {
     "dappId": "aarna",
-    "question": "Which project type best describes Aarna?",
+    "question": "Which focus area is most associated with Aarna?",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "Betting",
+      "Governance",
+      "DeFi",
+      "Payments"
     ],
     "answerIndex": 2,
-    "explanation": "Aarna is categorized as App."
+    "explanation": "Aarna is commonly associated with DeFi."
   },
   {
     "dappId": "accountable",
-    "question": "Which project type best describes Accountable?",
+    "question": "Which focus area is most associated with Accountable?",
     "options": [
-      "App",
-      "Infra",
-      "App/Infra"
+      "Other",
+      "Indexer",
+      "Zero-Knowledge",
+      "DeFi"
     ],
-    "answerIndex": 0,
-    "explanation": "Accountable is categorized as App."
+    "answerIndex": 3,
+    "explanation": "Accountable is commonly associated with DeFi."
   },
   {
     "dappId": "across-protocol",
-    "question": "Which project type best describes Across Protocol?",
+    "question": "Select the key category that Across Protocol highlights.",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "Cross-Chain",
+      "Governance",
+      "Analytics",
+      "DeFi"
     ],
     "answerIndex": 0,
-    "explanation": "Across Protocol is categorized as Infra."
+    "explanation": "Across Protocol is commonly associated with Cross-Chain."
   },
   {
     "dappId": "acurast",
-    "question": "Which project type best describes Acurast?",
+    "question": "Acurast is closely linked to which focus tag?",
     "options": [
-      "App",
-      "Infra",
-      "App/Infra"
+      "RWA",
+      "Cross-Chain",
+      "Gaming",
+      "DePIN"
     ],
-    "answerIndex": 2,
-    "explanation": "Acurast is categorized as App/Infra."
+    "answerIndex": 3,
+    "explanation": "Acurast is commonly associated with DePIN."
   },
   {
     "dappId": "aethonswap",
-    "question": "Which project type best describes AethonSwap?",
+    "question": "Which focus area is most associated with AethonSwap?",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "DeFi",
+      "Stablecoin",
+      "Governance",
+      "Apps"
     ],
     "answerIndex": 0,
-    "explanation": "AethonSwap is categorized as App."
+    "explanation": "AethonSwap is commonly associated with DeFi."
   },
   {
     "dappId": "alchemy",
-    "question": "Which project type best describes Alchemy?",
+    "question": "Alchemy is closely linked to which focus tag?",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "Dev",
+      "Cross-Chain",
+      "RWA",
+      "Wallet"
     ],
-    "answerIndex": 2,
-    "explanation": "Alchemy is categorized as Infra."
+    "answerIndex": 0,
+    "explanation": "Alchemy is commonly associated with Dev."
   },
   {
     "dappId": "alldomains",
-    "question": "Which project type best describes AllDomains?",
+    "question": "Select the key category that AllDomains highlights.",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "Identity",
+      "Infra",
+      "DeFi",
+      "Account"
     ],
-    "answerIndex": 2,
-    "explanation": "AllDomains is categorized as Infra."
+    "answerIndex": 0,
+    "explanation": "AllDomains is commonly associated with Identity."
   },
   {
     "dappId": "allium",
-    "question": "Which project type best describes Allium?",
+    "question": "Select the key category that Allium highlights.",
     "options": [
-      "App/Infra",
-      "App",
-      "Infra"
+      "Onramp",
+      "Identity",
+      "Account",
+      "Analytics"
     ],
-    "answerIndex": 2,
-    "explanation": "Allium is categorized as Infra."
+    "answerIndex": 3,
+    "explanation": "Allium is commonly associated with Analytics."
   },
   {
     "dappId": "ambient",
-    "question": "Which project type best describes Ambient?",
+    "question": "Ambient is closely linked to which focus tag?",
     "options": [
-      "App",
-      "Infra",
-      "App/Infra"
+      "Cross-Chain",
+      "Zero-Knowledge",
+      "Dev",
+      "DeFi"
     ],
-    "answerIndex": 0,
-    "explanation": "Ambient is categorized as App."
+    "answerIndex": 3,
+    "explanation": "Ambient is commonly associated with DeFi."
   },
   {
     "dappId": "ambire-wallet",
-    "question": "Which project type best describes Ambire Wallet?",
+    "question": "Ambire Wallet is closely linked to which focus tag?",
     "options": [
-      "Infra",
-      "App",
-      "App/Infra"
+      "Cross-Chain",
+      "Privacy",
+      "Payments",
+      "Wallet"
     ],
-    "answerIndex": 0,
-    "explanation": "Ambire Wallet is categorized as Infra."
+    "answerIndex": 3,
+    "explanation": "Ambire Wallet is commonly associated with Wallet."
   },
   {
     "dappId": "amertis",
-    "question": "Which project type best describes Amertis?",
+    "question": "Amertis is closely linked to which focus tag?",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "Tooling",
+      "Privacy",
+      "Oracle",
+      "DeFi"
     ],
-    "answerIndex": 2,
-    "explanation": "Amertis is categorized as App."
+    "answerIndex": 3,
+    "explanation": "Amertis is commonly associated with DeFi."
   },
   {
     "dappId": "ammalgam",
-    "question": "Which project type best describes Ammalgam?",
+    "question": "Select the key category that Ammalgam highlights.",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "RWA",
+      "Market",
+      "Privacy",
+      "DeFi"
     ],
-    "answerIndex": 2,
-    "explanation": "Ammalgam is categorized as App."
+    "answerIndex": 3,
+    "explanation": "Ammalgam is commonly associated with DeFi."
   },
   {
     "dappId": "apebond",
-    "question": "Which project type best describes ApeBond?",
+    "question": "Pick the tag that best represents ApeBond.",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "DeFi",
+      "NFT",
+      "Tooling",
+      "Dev"
     ],
     "answerIndex": 0,
-    "explanation": "ApeBond is categorized as App."
+    "explanation": "ApeBond is commonly associated with DeFi."
   },
   {
     "dappId": "apriori",
-    "question": "Which project type best describes Apriori?",
+    "question": "Select the key category that Apriori highlights.",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "DeFi",
+      "Social",
+      "Wallet",
+      "Payments"
     ],
-    "answerIndex": 2,
-    "explanation": "Apriori is categorized as App."
+    "answerIndex": 0,
+    "explanation": "Apriori is commonly associated with DeFi."
   },
   {
     "dappId": "atlantis",
-    "question": "Which project type best describes Atlantis?",
+    "question": "Atlantis is closely linked to which focus tag?",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "DeFi",
+      "NFT",
+      "Market",
+      "Abstraction"
     ],
     "answerIndex": 0,
-    "explanation": "Atlantis is categorized as App."
+    "explanation": "Atlantis is commonly associated with DeFi."
   },
   {
     "dappId": "atomic-wallet",
-    "question": "Which project type best describes Atomic Wallet?",
+    "question": "Select the key category that Atomic Wallet highlights.",
     "options": [
-      "Infra",
-      "App",
-      "App/Infra"
+      "Prediction",
+      "Wallet",
+      "Abstraction",
+      "Oracle"
     ],
-    "answerIndex": 0,
-    "explanation": "Atomic Wallet is categorized as Infra."
+    "answerIndex": 1,
+    "explanation": "Atomic Wallet is commonly associated with Wallet."
   },
   {
     "dappId": "azaar",
-    "question": "Which project type best describes Azaar?",
+    "question": "Select the key category that Azaar highlights.",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "Social",
+      "Onramp",
+      "DeFi",
+      "DePIN"
     ],
     "answerIndex": 2,
-    "explanation": "Azaar is categorized as App."
+    "explanation": "Azaar is commonly associated with DeFi."
   },
   {
     "dappId": "backpack-wallet",
-    "question": "Which project type best describes Backpack Wallet?",
+    "question": "Pick the tag that best represents Backpack Wallet.",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "Identity",
+      "Infra",
+      "Privacy",
+      "Wallet"
     ],
-    "answerIndex": 2,
-    "explanation": "Backpack Wallet is categorized as Infra."
+    "answerIndex": 3,
+    "explanation": "Backpack Wallet is commonly associated with Wallet."
   },
   {
     "dappId": "balancer",
-    "question": "Which project type best describes Balancer?",
+    "question": "Pick the tag that best represents Balancer.",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "DeFi",
+      "Dev",
+      "Payments",
+      "Zero-Knowledge"
     ],
     "answerIndex": 0,
-    "explanation": "Balancer is categorized as App."
+    "explanation": "Balancer is commonly associated with DeFi."
   },
   {
     "dappId": "band-protocol",
-    "question": "Which project type best describes Band Protocol?",
+    "question": "Select the key category that Band Protocol highlights.",
     "options": [
-      "App",
-      "Infra",
-      "App/Infra"
+      "Dev",
+      "Onramp",
+      "Oracle",
+      "Indexer"
     ],
-    "answerIndex": 1,
-    "explanation": "Band Protocol is categorized as Infra."
+    "answerIndex": 2,
+    "explanation": "Band Protocol is commonly associated with Oracle."
   },
   {
     "dappId": "bean-exchange",
-    "question": "Which project type best describes Bean Exchange?",
+    "question": "Pick the tag that best represents Bean Exchange.",
     "options": [
-      "App",
-      "Infra",
-      "App/Infra"
+      "DeFi",
+      "Governance",
+      "NFT",
+      "Dev"
     ],
     "answerIndex": 0,
-    "explanation": "Bean Exchange is categorized as App."
+    "explanation": "Bean Exchange is commonly associated with DeFi."
   },
   {
     "dappId": "bebop",
-    "question": "Which project type best describes Bebop?",
+    "question": "Pick the tag that best represents Bebop.",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "Market",
+      "DeFi",
+      "Indexer",
+      "Dev"
     ],
-    "answerIndex": 2,
-    "explanation": "Bebop is categorized as App."
+    "answerIndex": 1,
+    "explanation": "Bebop is commonly associated with DeFi."
   },
   {
     "dappId": "biconomy",
-    "question": "Which project type best describes Biconomy?",
+    "question": "Select the key category that Biconomy highlights.",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "Account",
+      "Indexer",
+      "DePIN",
+      "Tooling"
     ],
-    "answerIndex": 2,
-    "explanation": "Biconomy is categorized as Infra."
+    "answerIndex": 0,
+    "explanation": "Biconomy is commonly associated with Account."
   },
   {
     "dappId": "bima",
-    "question": "Which project type best describes Bima?",
+    "question": "Bima is closely linked to which focus tag?",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "DeFi",
+      "DePIN",
+      "Oracle",
+      "Zero-Knowledge"
     ],
     "answerIndex": 0,
-    "explanation": "Bima is categorized as App."
+    "explanation": "Bima is commonly associated with DeFi."
   },
   {
     "dappId": "birdeye",
-    "question": "Which project type best describes Birdeye?",
+    "question": "Which focus area is most associated with Birdeye?",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "DeFi",
+      "Cross-Chain",
+      "Stablecoin",
+      "Payments"
     ],
-    "answerIndex": 2,
-    "explanation": "Birdeye is categorized as App."
+    "answerIndex": 0,
+    "explanation": "Birdeye is commonly associated with DeFi."
   },
   {
     "dappId": "birdeye-data-services",
-    "question": "Which project type best describes Birdeye Data Services?",
+    "question": "Which focus area is most associated with Birdeye Data Services?",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "Indexer",
+      "Account",
+      "Privacy",
+      "Onramp"
     ],
-    "answerIndex": 2,
-    "explanation": "Birdeye Data Services is categorized as Infra."
+    "answerIndex": 0,
+    "explanation": "Birdeye Data Services is commonly associated with Indexer."
   },
   {
     "dappId": "bitget-wallet",
-    "question": "Which project type best describes Bitget Wallet?",
+    "question": "Bitget Wallet is closely linked to which focus tag?",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "Tooling",
+      "Apps",
+      "Analytics",
+      "Wallet"
     ],
-    "answerIndex": 0,
-    "explanation": "Bitget Wallet is categorized as Infra."
+    "answerIndex": 3,
+    "explanation": "Bitget Wallet is commonly associated with Wallet."
   },
   {
     "dappId": "blazpay",
-    "question": "Which project type best describes Blazpay?",
+    "question": "Pick the tag that best represents Blazpay.",
     "options": [
-      "App/Infra",
-      "App",
-      "Infra"
+      "Dev",
+      "DeFi",
+      "Governance",
+      "Social"
     ],
     "answerIndex": 1,
-    "explanation": "Blazpay is categorized as App."
+    "explanation": "Blazpay is commonly associated with DeFi."
   },
   {
     "dappId": "blockstreet",
-    "question": "Which project type best describes BlockStreet?",
+    "question": "Which focus area is most associated with BlockStreet?",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "NFT",
+      "Governance",
+      "DePIN",
+      "Other"
     ],
-    "answerIndex": 0,
-    "explanation": "BlockStreet is categorized as Infra."
+    "answerIndex": 3,
+    "explanation": "BlockStreet is commonly associated with Other."
   },
   {
     "dappId": "blockvision",
-    "question": "Which project type best describes BlockVision?",
+    "question": "Select the key category that BlockVision highlights.",
     "options": [
-      "App/Infra",
-      "App",
-      "Infra"
+      "RWA",
+      "Indexer",
+      "NFT",
+      "Analytics"
     ],
-    "answerIndex": 2,
-    "explanation": "BlockVision is categorized as Infra."
+    "answerIndex": 1,
+    "explanation": "BlockVision is commonly associated with Indexer."
   },
   {
     "dappId": "blockdaemon",
-    "question": "Which project type best describes Blockdaemon?",
+    "question": "Select the key category that Blockdaemon highlights.",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "Cross-Chain",
+      "Payments",
+      "Stablecoin",
+      "RPC"
     ],
-    "answerIndex": 2,
-    "explanation": "Blockdaemon is categorized as Infra."
+    "answerIndex": 3,
+    "explanation": "Blockdaemon is commonly associated with RPC."
   },
   {
     "dappId": "blocklive",
-    "question": "Which project type best describes Blocklive?",
+    "question": "Blocklive is closely linked to which focus tag?",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "NFT",
+      "Account",
+      "Cross-Chain",
+      "Market"
     ],
-    "answerIndex": 2,
-    "explanation": "Blocklive is categorized as App."
+    "answerIndex": 0,
+    "explanation": "Blocklive is commonly associated with NFT."
   },
   {
     "dappId": "breath-of-estova",
-    "question": "Which project type best describes Breath of Estova?",
+    "question": "Pick the tag that best represents Breath of Estova.",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "Governance",
+      "Abstraction",
+      "Gaming",
+      "RWA"
     ],
     "answerIndex": 2,
-    "explanation": "Breath of Estova is categorized as App."
+    "explanation": "Breath of Estova is commonly associated with Gaming."
   },
   {
     "dappId": "buzzing-app",
-    "question": "Which project type best describes Buzzing App?",
+    "question": "Select the key category that Buzzing App highlights.",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "Prediction",
+      "Wallet",
+      "Identity",
+      "Apps"
     ],
-    "answerIndex": 2,
-    "explanation": "Buzzing App is categorized as App."
+    "answerIndex": 0,
+    "explanation": "Buzzing App is commonly associated with Prediction."
   },
   {
     "dappId": "bybit-web3-wallet",
-    "question": "Which project type best describes Bybit Web3 Wallet?",
+    "question": "Which focus area is most associated with Bybit Web3 Wallet?",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "Abstraction",
+      "Cross-Chain",
+      "Payments",
+      "Wallet"
     ],
-    "answerIndex": 0,
-    "explanation": "Bybit Web3 Wallet is categorized as Infra."
+    "answerIndex": 3,
+    "explanation": "Bybit Web3 Wallet is commonly associated with Wallet."
   },
   {
     "dappId": "cplx",
-    "question": "Which project type best describes CPLX?",
+    "question": "Pick the tag that best represents CPLX.",
     "options": [
-      "Infra",
-      "App",
-      "App/Infra"
+      "Other",
+      "Social",
+      "Wallet",
+      "DeFi"
     ],
-    "answerIndex": 1,
-    "explanation": "CPLX is categorized as App."
+    "answerIndex": 3,
+    "explanation": "CPLX is commonly associated with DeFi."
   },
   {
     "dappId": "cult",
-    "question": "Which project type best describes CULT?",
+    "question": "Pick the tag that best represents CULT.",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "Dev",
+      "NFT",
+      "Payments",
+      "Social"
     ],
-    "answerIndex": 2,
-    "explanation": "CULT is categorized as App."
+    "answerIndex": 3,
+    "explanation": "CULT is commonly associated with Social."
   },
   {
     "dappId": "caddy-finance",
-    "question": "Which project type best describes Caddy Finance?",
+    "question": "Select the key category that Caddy Finance highlights.",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "DeFi",
+      "Market",
+      "RPC",
+      "Dev"
     ],
-    "answerIndex": 2,
-    "explanation": "Caddy Finance is categorized as App."
+    "answerIndex": 0,
+    "explanation": "Caddy Finance is commonly associated with DeFi."
   },
   {
     "dappId": "capa",
-    "question": "Which project type best describes Capa?",
+    "question": "Capa is closely linked to which focus tag?",
     "options": [
-      "App/Infra",
-      "App",
-      "Infra"
+      "Governance",
+      "Zero-Knowledge",
+      "Infra",
+      "Onramp"
     ],
-    "answerIndex": 2,
-    "explanation": "Capa is categorized as Infra."
+    "answerIndex": 3,
+    "explanation": "Capa is commonly associated with Onramp."
   },
   {
     "dappId": "castora",
-    "question": "Which project type best describes Castora?",
+    "question": "Castora is closely linked to which focus tag?",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "Prediction",
+      "Apps",
+      "Oracle",
+      "Identity"
     ],
-    "answerIndex": 2,
-    "explanation": "Castora is categorized as App."
+    "answerIndex": 0,
+    "explanation": "Castora is commonly associated with Prediction."
   },
   {
     "dappId": "catton-ai",
-    "question": "Which project type best describes Catton AI?",
+    "question": "Pick the tag that best represents Catton AI.",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "NFT",
+      "AI",
+      "RPC",
+      "RWA"
     ],
-    "answerIndex": 2,
-    "explanation": "Catton AI is categorized as App."
+    "answerIndex": 1,
+    "explanation": "Catton AI is commonly associated with AI."
   },
   {
     "dappId": "celeris",
-    "question": "Which project type best describes Celeris?",
+    "question": "Which focus area is most associated with Celeris?",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "DeFi",
+      "Prediction",
+      "Wallet",
+      "DePIN"
     ],
     "answerIndex": 0,
-    "explanation": "Celeris is categorized as App."
+    "explanation": "Celeris is commonly associated with DeFi."
   },
   {
     "dappId": "chainbase",
-    "question": "Which project type best describes Chainbase?",
+    "question": "Pick the tag that best represents Chainbase.",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "Tooling",
+      "RPC",
+      "Dev",
+      "Betting"
     ],
     "answerIndex": 2,
-    "explanation": "Chainbase is categorized as Infra."
+    "explanation": "Chainbase is commonly associated with Dev."
   },
   {
     "dappId": "chainlink",
-    "question": "Which project type best describes Chainlink?",
+    "question": "Chainlink is closely linked to which focus tag?",
     "options": [
-      "App/Infra",
-      "App",
-      "Infra"
+      "Other",
+      "Onramp",
+      "Governance",
+      "Cross-Chain"
     ],
-    "answerIndex": 2,
-    "explanation": "Chainlink is categorized as Infra."
+    "answerIndex": 3,
+    "explanation": "Chainlink is commonly associated with Cross-Chain."
   },
   {
     "dappId": "chainsight",
-    "question": "Which project type best describes Chainsight?",
+    "question": "Pick the tag that best represents Chainsight.",
     "options": [
-      "Infra",
-      "App",
-      "App/Infra"
+      "Gaming",
+      "Account",
+      "Payments",
+      "Indexer"
     ],
-    "answerIndex": 0,
-    "explanation": "Chainsight is categorized as Infra."
+    "answerIndex": 3,
+    "explanation": "Chainsight is commonly associated with Indexer."
   },
   {
     "dappId": "chronicle",
-    "question": "Which project type best describes Chronicle?",
+    "question": "Pick the tag that best represents Chronicle.",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "Oracle",
+      "Analytics",
+      "Dev",
+      "Indexer"
     ],
     "answerIndex": 0,
-    "explanation": "Chronicle is categorized as Infra."
+    "explanation": "Chronicle is commonly associated with Oracle."
   },
   {
     "dappId": "clober",
-    "question": "Which project type best describes Clober?",
+    "question": "Clober is closely linked to which focus tag?",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "Zero-Knowledge",
+      "Wallet",
+      "Indexer",
+      "DeFi"
     ],
-    "answerIndex": 2,
-    "explanation": "Clober is categorized as App."
+    "answerIndex": 3,
+    "explanation": "Clober is commonly associated with DeFi."
   },
   {
     "dappId": "conft",
-    "question": "Which project type best describes CoNFT?",
+    "question": "Which focus area is most associated with CoNFT?",
     "options": [
-      "App",
-      "Infra",
-      "App/Infra"
+      "Apps",
+      "Privacy",
+      "NFT",
+      "Betting"
     ],
-    "answerIndex": 0,
-    "explanation": "CoNFT is categorized as App."
+    "answerIndex": 2,
+    "explanation": "CoNFT is commonly associated with NFT."
   },
   {
     "dappId": "codex",
-    "question": "Which project type best describes Codex?",
+    "question": "Which focus area is most associated with Codex?",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "Indexer",
+      "Zero-Knowledge",
+      "Cross-Chain",
+      "Wallet"
     ],
-    "answerIndex": 2,
-    "explanation": "Codex is categorized as Infra."
+    "answerIndex": 0,
+    "explanation": "Codex is commonly associated with Indexer."
   },
   {
     "dappId": "coin98-ai-wallet",
-    "question": "Which project type best describes Coin98 AI Wallet?",
+    "question": "Select the key category that Coin98 AI Wallet highlights.",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "DePIN",
+      "AI",
+      "Onramp",
+      "Infra"
     ],
-    "answerIndex": 0,
-    "explanation": "Coin98 AI Wallet is categorized as Infra."
+    "answerIndex": 1,
+    "explanation": "Coin98 AI Wallet is commonly associated with AI."
   },
   {
     "dappId": "covenant",
-    "question": "Which project type best describes Covenant?",
+    "question": "Which focus area is most associated with Covenant?",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "Stablecoin",
+      "Market",
+      "DeFi",
+      "Privacy"
     ],
     "answerIndex": 2,
-    "explanation": "Covenant is categorized as App."
+    "explanation": "Covenant is commonly associated with DeFi."
   },
   {
     "dappId": "crust-finance",
-    "question": "Which project type best describes Crust Finance?",
+    "question": "Pick the tag that best represents Crust Finance.",
     "options": [
-      "App",
-      "Infra",
-      "App/Infra"
+      "Wallet",
+      "DeFi",
+      "Governance",
+      "Cross-Chain"
     ],
-    "answerIndex": 0,
-    "explanation": "Crust Finance is categorized as App."
+    "answerIndex": 1,
+    "explanation": "Crust Finance is commonly associated with DeFi."
   },
   {
     "dappId": "crystal",
-    "question": "Which project type best describes Crystal?",
+    "question": "Select the key category that Crystal highlights.",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "Stablecoin",
+      "DeFi",
+      "Dev",
+      "RPC"
     ],
-    "answerIndex": 2,
-    "explanation": "Crystal is categorized as App."
+    "answerIndex": 1,
+    "explanation": "Crystal is commonly associated with DeFi."
   },
   {
     "dappId": "cult-markets",
-    "question": "Which project type best describes Cult Markets?",
+    "question": "Select the key category that Cult Markets highlights.",
     "options": [
-      "App",
-      "Infra",
-      "App/Infra"
+      "RPC",
+      "NFT",
+      "Other",
+      "Apps"
     ],
-    "answerIndex": 0,
-    "explanation": "Cult Markets is categorized as App."
+    "answerIndex": 1,
+    "explanation": "Cult Markets is commonly associated with NFT."
   },
   {
     "dappId": "curvance",
-    "question": "Which project type best describes Curvance?",
+    "question": "Pick the tag that best represents Curvance.",
     "options": [
+      "DeFi",
+      "Zero-Knowledge",
       "Infra",
-      "App/Infra",
-      "App"
+      "Account"
     ],
-    "answerIndex": 2,
-    "explanation": "Curvance is categorized as App."
+    "answerIndex": 0,
+    "explanation": "Curvance is commonly associated with DeFi."
   },
   {
     "dappId": "cycle-network",
-    "question": "Which project type best describes Cycle Network?",
+    "question": "Cycle Network is closely linked to which focus tag?",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "Cross-Chain",
+      "Prediction",
+      "Dev",
+      "Social"
     ],
-    "answerIndex": 2,
-    "explanation": "Cycle Network is categorized as Infra."
+    "answerIndex": 0,
+    "explanation": "Cycle Network is commonly associated with Cross-Chain."
   },
   {
     "dappId": "cyferio",
-    "question": "Which project type best describes Cyferio?",
+    "question": "Pick the tag that best represents Cyferio.",
     "options": [
-      "App",
-      "Infra",
-      "App/Infra"
+      "Tooling",
+      "Stablecoin",
+      "Indexer",
+      "Privacy"
     ],
-    "answerIndex": 1,
-    "explanation": "Cyferio is categorized as Infra."
+    "answerIndex": 3,
+    "explanation": "Cyferio is commonly associated with Privacy."
   },
   {
     "dappId": "dau-cards",
-    "question": "Which project type best describes DAU Cards?",
+    "question": "Select the key category that DAU Cards highlights.",
     "options": [
       "Infra",
-      "App/Infra",
-      "App"
+      "Market",
+      "Payments",
+      "Analytics"
     ],
     "answerIndex": 2,
-    "explanation": "DAU Cards is categorized as App."
+    "explanation": "DAU Cards is commonly associated with Payments."
   },
   {
     "dappId": "drkvrs",
-    "question": "Which project type best describes DRKVRS?",
+    "question": "Which focus area is most associated with DRKVRS?",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "Gaming",
+      "Tooling",
+      "Social",
+      "Dev"
     ],
     "answerIndex": 0,
-    "explanation": "DRKVRS is categorized as App."
+    "explanation": "DRKVRS is commonly associated with Gaming."
   },
   {
     "dappId": "drpc",
-    "question": "Which project type best describes DRPC?",
+    "question": "DRPC is closely linked to which focus tag?",
     "options": [
+      "Analytics",
+      "Account",
       "Infra",
-      "App/Infra",
-      "App"
+      "RPC"
     ],
-    "answerIndex": 0,
-    "explanation": "DRPC is categorized as Infra."
+    "answerIndex": 3,
+    "explanation": "DRPC is commonly associated with RPC."
   },
   {
     "dappId": "dashx",
-    "question": "Which project type best describes DashX?",
+    "question": "Which focus area is most associated with DashX?",
     "options": [
-      "App/Infra",
-      "App",
-      "Infra"
+      "Privacy",
+      "DeFi",
+      "Infra",
+      "Abstraction"
     ],
     "answerIndex": 1,
-    "explanation": "DashX is categorized as App."
+    "explanation": "DashX is commonly associated with DeFi."
   },
   {
     "dappId": "defined",
-    "question": "Which project type best describes Defined?",
+    "question": "Select the key category that Defined highlights.",
     "options": [
-      "Infra",
-      "App",
-      "App/Infra"
+      "Analytics",
+      "Betting",
+      "Governance",
+      "Social"
     ],
     "answerIndex": 0,
-    "explanation": "Defined is categorized as Infra."
+    "explanation": "Defined is commonly associated with Analytics."
   },
   {
     "dappId": "demask-finance",
-    "question": "Which project type best describes Demask Finance?",
+    "question": "Pick the tag that best represents Demask Finance.",
     "options": [
-      "App",
-      "Infra",
-      "App/Infra"
+      "Onramp",
+      "Cross-Chain",
+      "Gaming",
+      "NFT"
     ],
-    "answerIndex": 0,
-    "explanation": "Demask Finance is categorized as App."
+    "answerIndex": 3,
+    "explanation": "Demask Finance is commonly associated with NFT."
   },
   {
     "dappId": "dialect",
-    "question": "Which project type best describes Dialect?",
+    "question": "Which focus area is most associated with Dialect?",
     "options": [
-      "App/Infra",
-      "App",
-      "Infra"
+      "Payments",
+      "Other",
+      "RPC",
+      "RWA"
     ],
-    "answerIndex": 2,
-    "explanation": "Dialect is categorized as Infra."
+    "answerIndex": 1,
+    "explanation": "Dialect is commonly associated with Other."
   },
   {
     "dappId": "diffuse",
-    "question": "Which project type best describes Diffuse?",
+    "question": "Pick the tag that best represents Diffuse.",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "Analytics",
+      "Governance",
+      "Zero-Knowledge",
+      "Oracle"
     ],
     "answerIndex": 2,
-    "explanation": "Diffuse is categorized as Infra."
+    "explanation": "Diffuse is commonly associated with Zero-Knowledge."
   },
   {
     "dappId": "dirol-protocol",
-    "question": "Which project type best describes Dirol Protocol?",
+    "question": "Which focus area is most associated with Dirol Protocol?",
     "options": [
-      "App",
-      "Infra",
-      "App/Infra"
+      "Cross-Chain",
+      "Analytics",
+      "DeFi",
+      "DePIN"
     ],
-    "answerIndex": 0,
-    "explanation": "Dirol Protocol is categorized as App."
+    "answerIndex": 2,
+    "explanation": "Dirol Protocol is commonly associated with DeFi."
   },
   {
     "dappId": "discocats",
-    "question": "Which project type best describes DiscoCats?",
+    "question": "DiscoCats is closely linked to which focus tag?",
     "options": [
-      "App",
-      "Infra",
-      "App/Infra"
+      "Identity",
+      "Cross-Chain",
+      "DeFi",
+      "Zero-Knowledge"
     ],
-    "answerIndex": 0,
-    "explanation": "DiscoCats is categorized as App."
+    "answerIndex": 2,
+    "explanation": "DiscoCats is commonly associated with DeFi."
   },
   {
     "dappId": "doppler",
-    "question": "Which project type best describes Doppler?",
+    "question": "Select the key category that Doppler highlights.",
     "options": [
-      "App/Infra",
-      "App",
-      "Infra"
+      "AI",
+      "Gaming",
+      "Other",
+      "Governance"
     ],
     "answerIndex": 2,
-    "explanation": "Doppler is categorized as Infra."
+    "explanation": "Doppler is commonly associated with Other."
   },
   {
     "dappId": "drake",
-    "question": "Which project type best describes Drake?",
+    "question": "Pick the tag that best represents Drake.",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "DeFi",
+      "Indexer",
+      "Apps",
+      "Identity"
     ],
-    "answerIndex": 2,
-    "explanation": "Drake is categorized as App."
+    "answerIndex": 0,
+    "explanation": "Drake is commonly associated with DeFi."
   },
   {
     "dappId": "dune",
-    "question": "Which project type best describes Dune?",
+    "question": "Dune is closely linked to which focus tag?",
     "options": [
-      "Infra",
-      "App",
-      "App/Infra"
+      "Analytics",
+      "Privacy",
+      "Betting",
+      "Infra"
     ],
     "answerIndex": 0,
-    "explanation": "Dune is categorized as Infra."
+    "explanation": "Dune is commonly associated with Analytics."
   },
   {
     "dappId": "dusted",
-    "question": "Which project type best describes Dusted?",
+    "question": "Pick the tag that best represents Dusted.",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "Betting",
+      "Gaming",
+      "Social",
+      "RWA"
     ],
     "answerIndex": 2,
-    "explanation": "Dusted is categorized as App."
+    "explanation": "Dusted is commonly associated with Social."
   },
   {
     "dappId": "dynamic",
-    "question": "Which project type best describes Dynamic?",
+    "question": "Select the key category that Dynamic highlights.",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "Dev",
+      "Account",
+      "Prediction",
+      "Tooling"
     ],
-    "answerIndex": 0,
-    "explanation": "Dynamic is categorized as Infra."
+    "answerIndex": 1,
+    "explanation": "Dynamic is commonly associated with Account."
   },
   {
     "dappId": "dyson-finance",
-    "question": "Which project type best describes Dyson Finance?",
+    "question": "Dyson Finance is closely linked to which focus tag?",
     "options": [
-      "App/Infra",
-      "App",
-      "Infra"
+      "Apps",
+      "DePIN",
+      "Account",
+      "DeFi"
     ],
-    "answerIndex": 1,
-    "explanation": "Dyson Finance is categorized as App."
+    "answerIndex": 3,
+    "explanation": "Dyson Finance is commonly associated with DeFi."
   },
   {
     "dappId": "elfi",
-    "question": "Which project type best describes ELFi?",
+    "question": "Which focus area is most associated with ELFi?",
     "options": [
-      "App",
-      "Infra",
-      "App/Infra"
+      "Privacy",
+      "Tooling",
+      "Identity",
+      "DeFi"
     ],
-    "answerIndex": 0,
-    "explanation": "ELFi is categorized as App."
+    "answerIndex": 3,
+    "explanation": "ELFi is commonly associated with DeFi."
   },
   {
     "dappId": "eoracle",
-    "question": "Which project type best describes EOracle?",
+    "question": "Which focus area is most associated with EOracle?",
     "options": [
-      "App/Infra",
-      "App",
-      "Infra"
+      "Oracle",
+      "Tooling",
+      "Dev",
+      "Stablecoin"
     ],
-    "answerIndex": 2,
-    "explanation": "EOracle is categorized as Infra."
+    "answerIndex": 0,
+    "explanation": "EOracle is commonly associated with Oracle."
   },
   {
     "dappId": "eisen-finance",
-    "question": "Which project type best describes Eisen Finance?",
+    "question": "Which focus area is most associated with Eisen Finance?",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "Wallet",
+      "Dev",
+      "DeFi",
+      "RPC"
     ],
     "answerIndex": 2,
-    "explanation": "Eisen Finance is categorized as App."
+    "explanation": "Eisen Finance is commonly associated with DeFi."
   },
   {
     "dappId": "enjoyoors",
-    "question": "Which project type best describes Enjoyoors?",
+    "question": "Select the key category that Enjoyoors highlights.",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "DeFi",
+      "Dev",
+      "Privacy",
+      "Wallet"
     ],
-    "answerIndex": 2,
-    "explanation": "Enjoyoors is categorized as App."
+    "answerIndex": 0,
+    "explanation": "Enjoyoors is commonly associated with DeFi."
   },
   {
     "dappId": "entangle",
-    "question": "Which project type best describes Entangle?",
+    "question": "Which focus area is most associated with Entangle?",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "Tooling",
+      "Infra",
+      "Cross-Chain",
+      "Privacy"
     ],
     "answerIndex": 2,
-    "explanation": "Entangle is categorized as Infra."
+    "explanation": "Entangle is commonly associated with Cross-Chain."
   },
   {
     "dappId": "envio",
-    "question": "Which project type best describes Envio?",
+    "question": "Pick the tag that best represents Envio.",
     "options": [
-      "App",
-      "Infra",
-      "App/Infra"
+      "Cross-Chain",
+      "NFT",
+      "Indexer",
+      "RPC"
     ],
-    "answerIndex": 1,
-    "explanation": "Envio is categorized as Infra."
+    "answerIndex": 2,
+    "explanation": "Envio is commonly associated with Indexer."
   },
   {
     "dappId": "euclid-protocol",
-    "question": "Which project type best describes Euclid Protocol?",
+    "question": "Select the key category that Euclid Protocol highlights.",
     "options": [
-      "Infra",
-      "App",
-      "App/Infra"
+      "Payments",
+      "Tooling",
+      "Dev",
+      "Other"
     ],
-    "answerIndex": 0,
-    "explanation": "Euclid Protocol is categorized as Infra."
+    "answerIndex": 2,
+    "explanation": "Euclid Protocol is commonly associated with Dev."
   },
   {
     "dappId": "euler",
-    "question": "Which project type best describes Euler?",
+    "question": "Pick the tag that best represents Euler.",
     "options": [
-      "App",
-      "Infra",
-      "App/Infra"
+      "Identity",
+      "DePIN",
+      "Stablecoin",
+      "DeFi"
     ],
-    "answerIndex": 0,
-    "explanation": "Euler is categorized as App."
+    "answerIndex": 3,
+    "explanation": "Euler is commonly associated with DeFi."
   },
   {
     "dappId": "fuku",
-    "question": "Which project type best describes FUKU?",
+    "question": "FUKU is closely linked to which focus tag?",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "Indexer",
+      "DeFi",
+      "Cross-Chain",
+      "DePIN"
     ],
-    "answerIndex": 2,
-    "explanation": "FUKU is categorized as App."
+    "answerIndex": 1,
+    "explanation": "FUKU is commonly associated with DeFi."
   },
   {
     "dappId": "fwx",
-    "question": "Which project type best describes FWX?",
+    "question": "Select the key category that FWX highlights.",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "Governance",
+      "AI",
+      "RPC",
+      "DeFi"
     ],
-    "answerIndex": 2,
-    "explanation": "FWX is categorized as App."
+    "answerIndex": 3,
+    "explanation": "FWX is commonly associated with DeFi."
   },
   {
     "dappId": "fans3-ai",
-    "question": "Which project type best describes Fans3 AI?",
+    "question": "Which focus area is most associated with Fans3 AI?",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "Tooling",
+      "Cross-Chain",
+      "AI",
+      "Abstraction"
     ],
     "answerIndex": 2,
-    "explanation": "Fans3 AI is categorized as App."
+    "explanation": "Fans3 AI is commonly associated with AI."
   },
   {
     "dappId": "farcaster",
-    "question": "Which project type best describes Farcaster?",
+    "question": "Farcaster is closely linked to which focus tag?",
     "options": [
-      "Infra",
-      "App",
-      "App/Infra"
+      "Betting",
+      "Other",
+      "Analytics",
+      "Social"
     ],
-    "answerIndex": 1,
-    "explanation": "Farcaster is categorized as App."
+    "answerIndex": 3,
+    "explanation": "Farcaster is commonly associated with Social."
   },
   {
     "dappId": "fastlane",
-    "question": "Which project type best describes FastLane?",
+    "question": "Which focus area is most associated with FastLane?",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "DePIN",
+      "Stablecoin",
+      "Gaming",
+      "Dev"
     ],
-    "answerIndex": 1,
-    "explanation": "FastLane is categorized as App/Infra."
+    "answerIndex": 3,
+    "explanation": "FastLane is commonly associated with Dev."
   },
   {
     "dappId": "fiamma",
-    "question": "Which project type best describes Fiamma?",
+    "question": "Pick the tag that best represents Fiamma.",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "RWA",
+      "Social",
+      "Market",
+      "Cross-Chain"
     ],
-    "answerIndex": 1,
-    "explanation": "Fiamma is categorized as Infra."
+    "answerIndex": 3,
+    "explanation": "Fiamma is commonly associated with Cross-Chain."
   },
   {
     "dappId": "fizen-io",
-    "question": "Which project type best describes Fizen.io?",
+    "question": "Pick the tag that best represents Fizen.io.",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "Payments",
+      "Gaming",
+      "Wallet",
+      "RPC"
     ],
-    "answerIndex": 2,
-    "explanation": "Fizen.io is categorized as App."
+    "answerIndex": 0,
+    "explanation": "Fizen.io is commonly associated with Payments."
   },
   {
     "dappId": "flap",
-    "question": "Which project type best describes Flap?",
+    "question": "Pick the tag that best represents Flap.",
     "options": [
       "Infra",
-      "App",
-      "App/Infra"
+      "Indexer",
+      "Prediction",
+      "DeFi"
     ],
-    "answerIndex": 1,
-    "explanation": "Flap is categorized as App."
+    "answerIndex": 3,
+    "explanation": "Flap is commonly associated with DeFi."
   },
   {
     "dappId": "flipside-crypto",
-    "question": "Which project type best describes Flipside Crypto?",
+    "question": "Select the key category that Flipside Crypto highlights.",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "AI",
+      "RWA",
+      "Analytics",
+      "Gaming"
     ],
-    "answerIndex": 0,
-    "explanation": "Flipside Crypto is categorized as Infra."
+    "answerIndex": 2,
+    "explanation": "Flipside Crypto is commonly associated with Analytics."
   },
   {
     "dappId": "folks-finance",
-    "question": "Which project type best describes Folks Finance?",
+    "question": "Pick the tag that best represents Folks Finance.",
     "options": [
-      "App",
-      "Infra",
-      "App/Infra"
+      "DeFi",
+      "Zero-Knowledge",
+      "NFT",
+      "DePIN"
     ],
     "answerIndex": 0,
-    "explanation": "Folks Finance is categorized as App."
+    "explanation": "Folks Finance is commonly associated with DeFi."
   },
   {
     "dappId": "fonbnk",
-    "question": "Which project type best describes Fonbnk?",
+    "question": "Select the key category that Fonbnk highlights.",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "Onramp",
+      "Betting",
+      "Stablecoin",
+      "Oracle"
     ],
     "answerIndex": 0,
-    "explanation": "Fonbnk is categorized as Infra."
+    "explanation": "Fonbnk is commonly associated with Onramp."
   },
   {
     "dappId": "fortytwo",
-    "question": "Which project type best describes Fortytwo?",
+    "question": "Pick the tag that best represents Fortytwo.",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "AI",
+      "Tooling",
+      "DeFi",
+      "Market"
     ],
     "answerIndex": 0,
-    "explanation": "Fortytwo is categorized as App/Infra."
+    "explanation": "Fortytwo is commonly associated with AI."
   },
   {
     "dappId": "foxwallet",
-    "question": "Which project type best describes FoxWallet?",
+    "question": "Which focus area is most associated with FoxWallet?",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "Wallet",
+      "Gaming",
+      "RPC",
+      "Other"
     ],
-    "answerIndex": 2,
-    "explanation": "FoxWallet is categorized as Infra."
+    "answerIndex": 0,
+    "explanation": "FoxWallet is commonly associated with Wallet."
   },
   {
     "dappId": "gm-agents",
-    "question": "Which project type best describes GM Agents?",
+    "question": "Which focus area is most associated with GM Agents?",
     "options": [
-      "App",
-      "Infra",
-      "App/Infra"
+      "Tooling",
+      "DeFi",
+      "AI",
+      "Governance"
     ],
-    "answerIndex": 0,
-    "explanation": "GM Agents is categorized as App."
+    "answerIndex": 2,
+    "explanation": "GM Agents is commonly associated with AI."
   },
   {
     "dappId": "garden",
-    "question": "Which project type best describes Garden?",
+    "question": "Which focus area is most associated with Garden?",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "Cross-Chain",
+      "Indexer",
+      "Dev",
+      "Payments"
     ],
-    "answerIndex": 2,
-    "explanation": "Garden is categorized as Infra."
+    "answerIndex": 0,
+    "explanation": "Garden is commonly associated with Cross-Chain."
   },
   {
     "dappId": "gasp",
-    "question": "Which project type best describes Gasp?",
+    "question": "Pick the tag that best represents Gasp.",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "DeFi",
+      "Governance",
+      "Privacy",
+      "Gaming"
     ],
-    "answerIndex": 2,
-    "explanation": "Gasp is categorized as App."
+    "answerIndex": 0,
+    "explanation": "Gasp is commonly associated with DeFi."
   },
   {
     "dappId": "gateway",
-    "question": "Which project type best describes Gateway?",
+    "question": "Gateway is closely linked to which focus tag?",
     "options": [
-      "App/Infra",
-      "App",
-      "Infra"
+      "Privacy",
+      "Tooling",
+      "Account",
+      "RWA"
     ],
-    "answerIndex": 2,
-    "explanation": "Gateway is categorized as Infra."
+    "answerIndex": 0,
+    "explanation": "Gateway is commonly associated with Privacy."
   },
   {
     "dappId": "gearbox-protocol",
-    "question": "Which project type best describes Gearbox Protocol?",
+    "question": "Select the key category that Gearbox Protocol highlights.",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "AI",
+      "Dev",
+      "DeFi",
+      "Oracle"
     ],
-    "answerIndex": 0,
-    "explanation": "Gearbox Protocol is categorized as App."
+    "answerIndex": 2,
+    "explanation": "Gearbox Protocol is commonly associated with DeFi."
   },
   {
     "dappId": "gelato",
-    "question": "Which project type best describes Gelato?",
+    "question": "Pick the tag that best represents Gelato.",
     "options": [
-      "Infra",
-      "App",
-      "App/Infra"
+      "Account",
+      "Cross-Chain",
+      "Identity",
+      "Zero-Knowledge"
     ],
     "answerIndex": 0,
-    "explanation": "Gelato is categorized as Infra."
+    "explanation": "Gelato is commonly associated with Account."
   },
   {
     "dappId": "ghost",
-    "question": "Which project type best describes Ghost?",
+    "question": "Pick the tag that best represents Ghost.",
     "options": [
-      "Infra",
-      "App",
-      "App/Infra"
+      "NFT",
+      "AI",
+      "Cross-Chain",
+      "Indexer"
     ],
-    "answerIndex": 0,
-    "explanation": "Ghost is categorized as Infra."
+    "answerIndex": 3,
+    "explanation": "Ghost is commonly associated with Indexer."
   },
   {
     "dappId": "gifted-art",
-    "question": "Which project type best describes Gifted.art?",
+    "question": "Gifted.art is closely linked to which focus tag?",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "NFT",
+      "Account",
+      "Apps",
+      "Infra"
     ],
-    "answerIndex": 2,
-    "explanation": "Gifted.art is categorized as App."
+    "answerIndex": 0,
+    "explanation": "Gifted.art is commonly associated with NFT."
   },
   {
     "dappId": "goplus",
-    "question": "Which project type best describes GoPlus?",
+    "question": "Select the key category that GoPlus highlights.",
     "options": [
-      "App/Infra",
-      "App",
-      "Infra"
+      "Indexer",
+      "AI",
+      "Tooling",
+      "Other"
     ],
-    "answerIndex": 2,
-    "explanation": "GoPlus is categorized as Infra."
+    "answerIndex": 3,
+    "explanation": "GoPlus is commonly associated with Other."
   },
   {
     "dappId": "goldrush-by-covalent",
-    "question": "Which project type best describes GoldRush by Covalent?",
+    "question": "Select the key category that GoldRush by Covalent highlights.",
     "options": [
-      "App/Infra",
-      "App",
-      "Infra"
+      "Privacy",
+      "Indexer",
+      "Stablecoin",
+      "DeFi"
     ],
-    "answerIndex": 2,
-    "explanation": "GoldRush by Covalent is categorized as Infra."
+    "answerIndex": 1,
+    "explanation": "GoldRush by Covalent is commonly associated with Indexer."
   },
   {
     "dappId": "golden-goose",
-    "question": "Which project type best describes Golden Goose?",
+    "question": "Which focus area is most associated with Golden Goose?",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "NFT",
+      "DeFi",
+      "RWA",
+      "Governance"
     ],
-    "answerIndex": 2,
-    "explanation": "Golden Goose is categorized as App."
+    "answerIndex": 1,
+    "explanation": "Golden Goose is commonly associated with DeFi."
   },
   {
     "dappId": "goldsky",
-    "question": "Which project type best describes Goldsky?",
+    "question": "Select the key category that Goldsky highlights.",
     "options": [
-      "App/Infra",
-      "App",
-      "Infra"
+      "Indexer",
+      "Onramp",
+      "RWA",
+      "Dev"
     ],
-    "answerIndex": 2,
-    "explanation": "Goldsky is categorized as Infra."
+    "answerIndex": 0,
+    "explanation": "Goldsky is commonly associated with Indexer."
   },
   {
     "dappId": "gorillionaire",
-    "question": "Which project type best describes Gorillionaire?",
+    "question": "Gorillionaire is closely linked to which focus tag?",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "Apps",
+      "NFT",
+      "DePIN",
+      "DeFi"
     ],
-    "answerIndex": 2,
-    "explanation": "Gorillionaire is categorized as App."
+    "answerIndex": 3,
+    "explanation": "Gorillionaire is commonly associated with DeFi."
   },
   {
     "dappId": "haha-wallet",
-    "question": "Which project type best describes HaHa Wallet?",
+    "question": "Which focus area is most associated with HaHa Wallet?",
     "options": [
-      "App/Infra",
-      "App",
-      "Infra"
+      "Oracle",
+      "Account",
+      "RPC",
+      "Abstraction"
     ],
-    "answerIndex": 2,
-    "explanation": "HaHa Wallet is categorized as Infra."
+    "answerIndex": 1,
+    "explanation": "HaHa Wallet is commonly associated with Account."
   },
   {
     "dappId": "hashflow",
-    "question": "Which project type best describes Hashflow?",
+    "question": "Hashflow is closely linked to which focus tag?",
     "options": [
-      "App",
-      "Infra",
-      "App/Infra"
+      "NFT",
+      "DeFi",
+      "Stablecoin",
+      "Gaming"
     ],
-    "answerIndex": 0,
-    "explanation": "Hashflow is categorized as App."
+    "answerIndex": 1,
+    "explanation": "Hashflow is commonly associated with DeFi."
   },
   {
     "dappId": "hawk-terminal",
-    "question": "Which project type best describes Hawk Terminal?",
+    "question": "Select the key category that Hawk Terminal highlights.",
     "options": [
-      "Infra",
-      "App",
-      "App/Infra"
+      "Indexer",
+      "Wallet",
+      "Gaming",
+      "Dev"
     ],
-    "answerIndex": 1,
-    "explanation": "Hawk Terminal is categorized as App."
+    "answerIndex": 2,
+    "explanation": "Hawk Terminal is commonly associated with Gaming."
   },
   {
     "dappId": "hemera",
-    "question": "Which project type best describes Hemera?",
+    "question": "Which focus area is most associated with Hemera?",
     "options": [
-      "App",
-      "Infra",
-      "App/Infra"
+      "Gaming",
+      "Abstraction",
+      "Analytics",
+      "Dev"
     ],
-    "answerIndex": 1,
-    "explanation": "Hemera is categorized as Infra."
+    "answerIndex": 3,
+    "explanation": "Hemera is commonly associated with Dev."
   },
   {
     "dappId": "henry-labs",
-    "question": "Which project type best describes Henry Labs?",
+    "question": "Which focus area is most associated with Henry Labs?",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "AI",
+      "Privacy",
+      "Payments",
+      "Other"
     ],
-    "answerIndex": 2,
-    "explanation": "Henry Labs is categorized as App."
+    "answerIndex": 0,
+    "explanation": "Henry Labs is commonly associated with AI."
   },
   {
     "dappId": "hive",
-    "question": "Which project type best describes Hive?",
+    "question": "Pick the tag that best represents Hive.",
     "options": [
-      "Infra",
-      "App",
-      "App/Infra"
+      "DeFi",
+      "Account",
+      "Payments",
+      "RPC"
     ],
-    "answerIndex": 1,
-    "explanation": "Hive is categorized as App."
+    "answerIndex": 0,
+    "explanation": "Hive is commonly associated with DeFi."
   },
   {
     "dappId": "hyperlane",
-    "question": "Which project type best describes Hyperlane?",
+    "question": "Hyperlane is closely linked to which focus tag?",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "Wallet",
+      "RPC",
+      "Cross-Chain",
+      "Prediction"
     ],
     "answerIndex": 2,
-    "explanation": "Hyperlane is categorized as Infra."
+    "explanation": "Hyperlane is commonly associated with Cross-Chain."
   },
   {
     "dappId": "infinit",
-    "question": "Which project type best describes INFINIT?",
+    "question": "Pick the tag that best represents INFINIT.",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "DeFi",
+      "Dev",
+      "Governance",
+      "Onramp"
     ],
-    "answerIndex": 2,
-    "explanation": "INFINIT is categorized as App."
+    "answerIndex": 0,
+    "explanation": "INFINIT is commonly associated with DeFi."
   },
   {
     "dappId": "izumi-finance",
-    "question": "Which project type best describes IZUMi Finance?",
+    "question": "Pick the tag that best represents IZUMi Finance.",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "DeFi",
+      "Indexer",
+      "Onramp",
+      "Stablecoin"
     ],
-    "answerIndex": 2,
-    "explanation": "IZUMi Finance is categorized as App."
+    "answerIndex": 0,
+    "explanation": "IZUMi Finance is commonly associated with DeFi."
   },
   {
     "dappId": "impossible-finance",
-    "question": "Which project type best describes Impossible Finance?",
+    "question": "Pick the tag that best represents Impossible Finance.",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "Identity",
+      "Analytics",
+      "Account",
+      "DeFi"
     ],
-    "answerIndex": 2,
-    "explanation": "Impossible Finance is categorized as App."
+    "answerIndex": 3,
+    "explanation": "Impossible Finance is commonly associated with DeFi."
   },
   {
     "dappId": "index-network",
-    "question": "Which project type best describes Index Network?",
+    "question": "Which focus area is most associated with Index Network?",
     "options": [
-      "App/Infra",
-      "App",
-      "Infra"
+      "Identity",
+      "Dev",
+      "Tooling",
+      "Abstraction"
     ],
-    "answerIndex": 2,
-    "explanation": "Index Network is categorized as Infra."
+    "answerIndex": 0,
+    "explanation": "Index Network is commonly associated with Identity."
   },
   {
     "dappId": "jenius",
-    "question": "Which project type best describes Jenius?",
+    "question": "Jenius is closely linked to which focus tag?",
     "options": [
-      "App",
-      "Infra",
-      "App/Infra"
+      "Cross-Chain",
+      "Analytics",
+      "Betting",
+      "AI"
     ],
-    "answerIndex": 0,
-    "explanation": "Jenius is categorized as App."
+    "answerIndex": 3,
+    "explanation": "Jenius is commonly associated with AI."
   },
   {
     "dappId": "jumper-exchange",
-    "question": "Which project type best describes Jumper Exchange?",
+    "question": "Select the key category that Jumper Exchange highlights.",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "DePIN",
+      "Privacy",
+      "DeFi",
+      "Identity"
     ],
     "answerIndex": 2,
-    "explanation": "Jumper Exchange is categorized as App."
+    "explanation": "Jumper Exchange is commonly associated with DeFi."
   },
   {
     "dappId": "kinetk",
-    "question": "Which project type best describes KINETK?",
+    "question": "KINETK is closely linked to which focus tag?",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "AI",
+      "Zero-Knowledge",
+      "Abstraction",
+      "Dev"
     ],
-    "answerIndex": 2,
-    "explanation": "KINETK is categorized as App."
+    "answerIndex": 0,
+    "explanation": "KINETK is commonly associated with AI."
   },
   {
     "dappId": "kansei",
-    "question": "Which project type best describes Kansei?",
+    "question": "Kansei is closely linked to which focus tag?",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "RWA",
+      "DeFi",
+      "Tooling",
+      "Dev"
     ],
-    "answerIndex": 0,
-    "explanation": "Kansei is categorized as App."
+    "answerIndex": 1,
+    "explanation": "Kansei is commonly associated with DeFi."
   },
   {
     "dappId": "kiloex",
-    "question": "Which project type best describes KiloEx?",
+    "question": "KiloEx is closely linked to which focus tag?",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "DeFi",
+      "Analytics",
+      "Privacy",
+      "Dev"
     ],
     "answerIndex": 0,
-    "explanation": "KiloEx is categorized as App."
+    "explanation": "KiloEx is commonly associated with DeFi."
   },
   {
     "dappId": "kingdomly",
-    "question": "Which project type best describes Kingdomly?",
+    "question": "Pick the tag that best represents Kingdomly.",
     "options": [
-      "App",
-      "Infra",
-      "App/Infra"
+      "Wallet",
+      "RPC",
+      "RWA",
+      "NFT"
     ],
-    "answerIndex": 0,
-    "explanation": "Kingdomly is categorized as App."
+    "answerIndex": 3,
+    "explanation": "Kingdomly is commonly associated with NFT."
   },
   {
     "dappId": "kintsu",
-    "question": "Which project type best describes Kintsu?",
+    "question": "Kintsu is closely linked to which focus tag?",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "DeFi",
+      "DePIN",
+      "Oracle",
+      "Zero-Knowledge"
     ],
     "answerIndex": 0,
-    "explanation": "Kintsu is categorized as App."
+    "explanation": "Kintsu is commonly associated with DeFi."
   },
   {
     "dappId": "kinza-finance",
-    "question": "Which project type best describes Kinza Finance?",
+    "question": "Select the key category that Kinza Finance highlights.",
     "options": [
-      "App/Infra",
-      "App",
-      "Infra"
+      "DeFi",
+      "Zero-Knowledge",
+      "RPC",
+      "Account"
     ],
-    "answerIndex": 1,
-    "explanation": "Kinza Finance is categorized as App."
+    "answerIndex": 0,
+    "explanation": "Kinza Finance is commonly associated with DeFi."
   },
   {
     "dappId": "kizzy",
-    "question": "Which project type best describes Kizzy?",
+    "question": "Kizzy is closely linked to which focus tag?",
     "options": [
-      "App",
-      "Infra",
-      "App/Infra"
+      "RPC",
+      "Wallet",
+      "Identity",
+      "Social"
     ],
-    "answerIndex": 0,
-    "explanation": "Kizzy is categorized as App."
+    "answerIndex": 3,
+    "explanation": "Kizzy is commonly associated with Social."
   },
   {
     "dappId": "kodeus-ai",
-    "question": "Which project type best describes Kodeus AI?",
+    "question": "Kodeus AI is closely linked to which focus tag?",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "Abstraction",
+      "Indexer",
+      "Other",
+      "AI"
     ],
-    "answerIndex": 2,
-    "explanation": "Kodeus AI is categorized as App."
+    "answerIndex": 3,
+    "explanation": "Kodeus AI is commonly associated with AI."
   },
   {
     "dappId": "koywe",
-    "question": "Which project type best describes Koywe?",
+    "question": "Select the key category that Koywe highlights.",
     "options": [
-      "Infra",
-      "App",
-      "App/Infra"
+      "Gaming",
+      "Other",
+      "Onramp",
+      "Zero-Knowledge"
     ],
-    "answerIndex": 0,
-    "explanation": "Koywe is categorized as Infra."
+    "answerIndex": 2,
+    "explanation": "Koywe is commonly associated with Onramp."
   },
   {
     "dappId": "kucoin-web3-wallet",
-    "question": "Which project type best describes KuCoin Web3 Wallet?",
+    "question": "Which focus area is most associated with KuCoin Web3 Wallet?",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "Wallet",
+      "DeFi",
+      "Prediction",
+      "Tooling"
     ],
     "answerIndex": 0,
-    "explanation": "KuCoin Web3 Wallet is categorized as Infra."
+    "explanation": "KuCoin Web3 Wallet is commonly associated with Wallet."
   },
   {
     "dappId": "kuru",
-    "question": "Which project type best describes Kuru?",
+    "question": "Kuru is closely linked to which focus tag?",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "DeFi",
+      "Governance",
+      "Dev",
+      "Gaming"
     ],
     "answerIndex": 0,
-    "explanation": "Kuru is categorized as App."
+    "explanation": "Kuru is commonly associated with DeFi."
   },
   {
     "dappId": "lagoon",
-    "question": "Which project type best describes LAGOON?",
+    "question": "Which focus area is most associated with LAGOON?",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "Zero-Knowledge",
+      "Analytics",
+      "DeFi",
+      "Cross-Chain"
     ],
-    "answerIndex": 0,
-    "explanation": "LAGOON is categorized as App."
+    "answerIndex": 2,
+    "explanation": "LAGOON is commonly associated with DeFi."
   },
   {
     "dappId": "levr-bet",
-    "question": "Which project type best describes LEVR.bet?",
+    "question": "Pick the tag that best represents LEVR.bet.",
     "options": [
-      "Infra",
-      "App",
-      "App/Infra"
+      "Gaming",
+      "Analytics",
+      "DePIN",
+      "DeFi"
     ],
-    "answerIndex": 1,
-    "explanation": "LEVR.bet is categorized as App."
+    "answerIndex": 3,
+    "explanation": "LEVR.bet is commonly associated with DeFi."
   },
   {
     "dappId": "lfj",
-    "question": "Which project type best describes LFJ?",
+    "question": "Pick the tag that best represents LFJ.",
     "options": [
       "Infra",
-      "App/Infra",
-      "App"
+      "RWA",
+      "AI",
+      "DeFi"
     ],
-    "answerIndex": 2,
-    "explanation": "LFJ is categorized as App."
+    "answerIndex": 3,
+    "explanation": "LFJ is commonly associated with DeFi."
   },
   {
     "dappId": "li-fi",
-    "question": "Which project type best describes LI.FI?",
+    "question": "LI.FI is closely linked to which focus tag?",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "DePIN",
+      "Social",
+      "Privacy",
+      "Cross-Chain"
     ],
-    "answerIndex": 0,
-    "explanation": "LI.FI is categorized as Infra."
+    "answerIndex": 3,
+    "explanation": "LI.FI is commonly associated with Cross-Chain."
   },
   {
     "dappId": "layerzero",
-    "question": "Which project type best describes LayerZero?",
+    "question": "Pick the tag that best represents LayerZero.",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "Betting",
+      "Dev",
+      "Wallet",
+      "Cross-Chain"
     ],
-    "answerIndex": 2,
-    "explanation": "LayerZero is categorized as Infra."
+    "answerIndex": 3,
+    "explanation": "LayerZero is commonly associated with Cross-Chain."
   },
   {
     "dappId": "layerhub",
-    "question": "Which project type best describes Layerhub?",
+    "question": "Which focus area is most associated with Layerhub?",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "Market",
+      "Analytics",
+      "AI",
+      "Prediction"
     ],
-    "answerIndex": 0,
-    "explanation": "Layerhub is categorized as Infra."
+    "answerIndex": 1,
+    "explanation": "Layerhub is commonly associated with Analytics."
   },
   {
     "dappId": "leap-wallet",
-    "question": "Which project type best describes Leap Wallet?",
+    "question": "Select the key category that Leap Wallet highlights.",
     "options": [
+      "Stablecoin",
+      "DePIN",
       "Infra",
-      "App/Infra",
-      "App"
+      "Account"
     ],
-    "answerIndex": 0,
-    "explanation": "Leap Wallet is categorized as Infra."
+    "answerIndex": 3,
+    "explanation": "Leap Wallet is commonly associated with Account."
   },
   {
     "dappId": "legends-of-elysium",
-    "question": "Which project type best describes Legends of Elysium?",
+    "question": "Select the key category that Legends of Elysium highlights.",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "Gaming",
+      "Dev",
+      "Oracle",
+      "Tooling"
     ],
-    "answerIndex": 2,
-    "explanation": "Legends of Elysium is categorized as App."
+    "answerIndex": 0,
+    "explanation": "Legends of Elysium is commonly associated with Gaming."
   },
   {
     "dappId": "leverup",
-    "question": "Which project type best describes LeverUp?",
+    "question": "Select the key category that LeverUp highlights.",
     "options": [
-      "App",
-      "Infra",
-      "App/Infra"
+      "Cross-Chain",
+      "Wallet",
+      "DeFi",
+      "Gaming"
     ],
-    "answerIndex": 0,
-    "explanation": "LeverUp is categorized as App."
+    "answerIndex": 2,
+    "explanation": "LeverUp is commonly associated with DeFi."
   },
   {
     "dappId": "likwid",
-    "question": "Which project type best describes Likwid?",
+    "question": "Likwid is closely linked to which focus tag?",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "DeFi",
+      "Dev",
+      "Market",
+      "Analytics"
     ],
-    "answerIndex": 2,
-    "explanation": "Likwid is categorized as App."
+    "answerIndex": 0,
+    "explanation": "Likwid is commonly associated with DeFi."
   },
   {
     "dappId": "lombard",
-    "question": "Which project type best describes Lombard?",
+    "question": "Which focus area is most associated with Lombard?",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "Other",
+      "Privacy",
+      "Abstraction",
+      "Account"
     ],
     "answerIndex": 0,
-    "explanation": "Lombard is categorized as Infra."
+    "explanation": "Lombard is commonly associated with Other."
   },
   {
     "dappId": "lootgo",
-    "question": "Which project type best describes LootGO?",
+    "question": "LootGO is closely linked to which focus tag?",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "Abstraction",
+      "Gaming",
+      "Privacy",
+      "Analytics"
     ],
-    "answerIndex": 2,
-    "explanation": "LootGO is categorized as App."
+    "answerIndex": 1,
+    "explanation": "LootGO is commonly associated with Gaming."
   },
   {
     "dappId": "lootify",
-    "question": "Which project type best describes Lootify?",
+    "question": "Which focus area is most associated with Lootify?",
     "options": [
-      "App",
+      "Other",
       "Infra",
-      "App/Infra"
+      "Dev",
+      "Gaming"
     ],
-    "answerIndex": 0,
-    "explanation": "Lootify is categorized as App."
+    "answerIndex": 3,
+    "explanation": "Lootify is commonly associated with Gaming."
   },
   {
     "dappId": "lumiterra",
-    "question": "Which project type best describes Lumiterra?",
+    "question": "Which focus area is most associated with Lumiterra?",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "Dev",
+      "Other",
+      "Account",
+      "AI"
     ],
-    "answerIndex": 2,
-    "explanation": "Lumiterra is categorized as App."
+    "answerIndex": 3,
+    "explanation": "Lumiterra is commonly associated with AI."
   },
   {
     "dappId": "m0narch",
-    "question": "Which project type best describes M0narch?",
+    "question": "Which focus area is most associated with M0narch?",
     "options": [
-      "App/Infra",
-      "App",
-      "Infra"
+      "Betting",
+      "Wallet",
+      "Abstraction",
+      "Zero-Knowledge"
     ],
-    "answerIndex": 1,
-    "explanation": "M0narch is categorized as App."
+    "answerIndex": 0,
+    "explanation": "M0narch is commonly associated with Betting."
   },
   {
     "dappId": "merv",
-    "question": "Which project type best describes MERV?",
+    "question": "Select the key category that MERV highlights.",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "Other",
+      "Governance",
+      "Social",
+      "AI"
     ],
-    "answerIndex": 0,
-    "explanation": "MERV is categorized as App."
+    "answerIndex": 3,
+    "explanation": "MERV is commonly associated with AI."
   },
   {
     "dappId": "mace",
-    "question": "Which project type best describes Mace?",
+    "question": "Pick the tag that best represents Mace.",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "DeFi",
+      "Onramp",
+      "Zero-Knowledge",
+      "Analytics"
     ],
-    "answerIndex": 2,
-    "explanation": "Mace is categorized as App."
+    "answerIndex": 0,
+    "explanation": "Mace is commonly associated with DeFi."
   },
   {
     "dappId": "mach-exchange",
-    "question": "Which project type best describes Mach Exchange?",
+    "question": "Select the key category that Mach Exchange highlights.",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "Oracle",
+      "Other",
+      "DeFi",
+      "Zero-Knowledge"
     ],
     "answerIndex": 2,
-    "explanation": "Mach Exchange is categorized as App."
+    "explanation": "Mach Exchange is commonly associated with DeFi."
   },
   {
     "dappId": "madhouse",
-    "question": "Which project type best describes Madhouse?",
+    "question": "Madhouse is closely linked to which focus tag?",
     "options": [
-      "Infra",
-      "App",
-      "App/Infra"
+      "Payments",
+      "DeFi",
+      "Apps",
+      "DePIN"
     ],
     "answerIndex": 1,
-    "explanation": "Madhouse is categorized as App."
+    "explanation": "Madhouse is commonly associated with DeFi."
   },
   {
     "dappId": "magic-eden",
-    "question": "Which project type best describes Magic Eden?",
+    "question": "Select the key category that Magic Eden highlights.",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "Identity",
+      "Analytics",
+      "Governance",
+      "NFT"
     ],
-    "answerIndex": 0,
-    "explanation": "Magic Eden is categorized as App."
+    "answerIndex": 3,
+    "explanation": "Magic Eden is commonly associated with NFT."
   },
   {
     "dappId": "magma",
-    "question": "Which project type best describes Magma?",
+    "question": "Magma is closely linked to which focus tag?",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "DeFi",
+      "Wallet",
+      "Gaming",
+      "DePIN"
     ],
-    "answerIndex": 2,
-    "explanation": "Magma is categorized as App."
+    "answerIndex": 0,
+    "explanation": "Magma is commonly associated with DeFi."
   },
   {
     "dappId": "mahjong123",
-    "question": "Which project type best describes Mahjong123?",
+    "question": "Mahjong123 is closely linked to which focus tag?",
     "options": [
-      "App/Infra",
-      "App",
-      "Infra"
+      "Wallet",
+      "AI",
+      "Gaming",
+      "Other"
     ],
-    "answerIndex": 1,
-    "explanation": "Mahjong123 is categorized as App."
+    "answerIndex": 2,
+    "explanation": "Mahjong123 is commonly associated with Gaming."
   },
   {
     "dappId": "memesteroid",
-    "question": "Which project type best describes Memesteroid?",
+    "question": "Pick the tag that best represents Memesteroid.",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "DeFi",
+      "DePIN",
+      "Analytics",
+      "Indexer"
     ],
-    "answerIndex": 2,
-    "explanation": "Memesteroid is categorized as App."
+    "answerIndex": 0,
+    "explanation": "Memesteroid is commonly associated with DeFi."
   },
   {
     "dappId": "mentaport",
-    "question": "Which project type best describes Mentaport?",
+    "question": "Which focus area is most associated with Mentaport?",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "Prediction",
+      "Gaming",
+      "DePIN",
+      "Identity"
     ],
-    "answerIndex": 2,
-    "explanation": "Mentaport is categorized as Infra."
+    "answerIndex": 3,
+    "explanation": "Mentaport is commonly associated with Identity."
   },
   {
     "dappId": "meow-finance",
-    "question": "Which project type best describes Meow Finance?",
+    "question": "Meow Finance is closely linked to which focus tag?",
     "options": [
-      "App",
-      "Infra",
-      "App/Infra"
+      "Other",
+      "Abstraction",
+      "DePIN",
+      "DeFi"
     ],
-    "answerIndex": 0,
-    "explanation": "Meow Finance is categorized as App."
+    "answerIndex": 3,
+    "explanation": "Meow Finance is commonly associated with DeFi."
   },
   {
     "dappId": "meta-leap",
-    "question": "Which project type best describes Meta Leap?",
+    "question": "Select the key category that Meta Leap highlights.",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "Wallet",
+      "NFT",
+      "Gaming",
+      "Identity"
     ],
     "answerIndex": 2,
-    "explanation": "Meta Leap is categorized as App."
+    "explanation": "Meta Leap is commonly associated with Gaming."
   },
   {
     "dappId": "metakeep",
-    "question": "Which project type best describes MetaKeep?",
+    "question": "Select the key category that MetaKeep highlights.",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "Dev",
+      "Tooling",
+      "Account",
+      "Oracle"
     ],
-    "answerIndex": 0,
-    "explanation": "MetaKeep is categorized as Infra."
+    "answerIndex": 2,
+    "explanation": "MetaKeep is commonly associated with Account."
   },
   {
     "dappId": "mflo",
-    "question": "Which project type best describes Mflo?",
+    "question": "Which focus area is most associated with Mflo?",
     "options": [
-      "App/Infra",
+      "Payments",
+      "RWA",
       "Infra",
-      "App"
+      "Other"
     ],
-    "answerIndex": 2,
-    "explanation": "Mflo is categorized as App."
+    "answerIndex": 0,
+    "explanation": "Mflo is commonly associated with Payments."
   },
   {
     "dappId": "mindagentsai",
-    "question": "Which project type best describes MindAgentsAI?",
+    "question": "MindAgentsAI is closely linked to which focus tag?",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "AI",
+      "Dev",
+      "RWA",
+      "Zero-Knowledge"
     ],
     "answerIndex": 0,
-    "explanation": "MindAgentsAI is categorized as App."
+    "explanation": "MindAgentsAI is commonly associated with AI."
   },
   {
     "dappId": "mintpad",
-    "question": "Which project type best describes Mintpad?",
+    "question": "Mintpad is closely linked to which focus tag?",
     "options": [
-      "App",
+      "Indexer",
       "Infra",
-      "App/Infra"
+      "Account",
+      "NFT"
     ],
-    "answerIndex": 0,
-    "explanation": "Mintpad is categorized as App."
+    "answerIndex": 3,
+    "explanation": "Mintpad is commonly associated with NFT."
   },
   {
     "dappId": "mobula",
-    "question": "Which project type best describes Mobula?",
+    "question": "Pick the tag that best represents Mobula.",
     "options": [
-      "App/Infra",
-      "App",
-      "Infra"
+      "Indexer",
+      "DeFi",
+      "Gaming",
+      "Onramp"
     ],
-    "answerIndex": 2,
-    "explanation": "Mobula is categorized as Infra."
+    "answerIndex": 0,
+    "explanation": "Mobula is commonly associated with Indexer."
   },
   {
     "dappId": "monadexplorer-by-blockvision",
-    "question": "Which project type best describes MonadExplorer by BlockVision?",
+    "question": "Select the key category that MonadExplorer by BlockVision highlights.",
     "options": [
-      "Infra",
-      "App",
-      "App/Infra"
+      "Cross-Chain",
+      "Dev",
+      "Stablecoin",
+      "Analytics"
     ],
-    "answerIndex": 0,
-    "explanation": "MonadExplorer by BlockVision is categorized as Infra."
+    "answerIndex": 3,
+    "explanation": "MonadExplorer by BlockVision is commonly associated with Analytics."
   },
   {
     "dappId": "monadata-ai",
-    "question": "Which project type best describes Monadata AI?",
+    "question": "Which focus area is most associated with Monadata AI?",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "AI",
+      "Cross-Chain",
+      "Privacy",
+      "Stablecoin"
     ],
-    "answerIndex": 2,
-    "explanation": "Monadata AI is categorized as App."
+    "answerIndex": 0,
+    "explanation": "Monadata AI is commonly associated with AI."
   },
   {
     "dappId": "monday-trade",
-    "question": "Which project type best describes Monday Trade?",
+    "question": "Monday Trade is closely linked to which focus tag?",
     "options": [
-      "App/Infra",
-      "App",
-      "Infra"
+      "DeFi",
+      "Stablecoin",
+      "Gaming",
+      "Betting"
     ],
-    "answerIndex": 1,
-    "explanation": "Monday Trade is categorized as App."
+    "answerIndex": 0,
+    "explanation": "Monday Trade is commonly associated with DeFi."
   },
   {
     "dappId": "monorail",
-    "question": "Which project type best describes Monorail?",
+    "question": "Monorail is closely linked to which focus tag?",
     "options": [
-      "App",
       "Infra",
-      "App/Infra"
+      "Onramp",
+      "Tooling",
+      "DeFi"
     ],
-    "answerIndex": 0,
-    "explanation": "Monorail is categorized as App."
+    "answerIndex": 3,
+    "explanation": "Monorail is commonly associated with DeFi."
   },
   {
     "dappId": "morpheus",
-    "question": "Which project type best describes Morpheus?",
+    "question": "Select the key category that Morpheus highlights.",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "NFT",
+      "Onramp",
+      "Other",
+      "DeFi"
     ],
-    "answerIndex": 0,
-    "explanation": "Morpheus is categorized as App."
+    "answerIndex": 3,
+    "explanation": "Morpheus is commonly associated with DeFi."
   },
   {
     "dappId": "moseiki",
-    "question": "Which project type best describes Moseiki?",
+    "question": "Which focus area is most associated with Moseiki?",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "AI",
+      "RPC",
+      "Social",
+      "Infra"
     ],
     "answerIndex": 2,
-    "explanation": "Moseiki is categorized as App."
+    "explanation": "Moseiki is commonly associated with Social."
   },
   {
     "dappId": "mozi",
-    "question": "Which project type best describes Mozi?",
+    "question": "Mozi is closely linked to which focus tag?",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "Social",
+      "Governance",
+      "Wallet",
+      "Abstraction"
     ],
-    "answerIndex": 1,
-    "explanation": "Mozi is categorized as App/Infra."
+    "answerIndex": 0,
+    "explanation": "Mozi is commonly associated with Social."
   },
   {
     "dappId": "mu-digital",
-    "question": "Which project type best describes Mu Digital?",
+    "question": "Which focus area is most associated with Mu Digital?",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "Governance",
+      "RPC",
+      "Dev",
+      "DeFi"
     ],
-    "answerIndex": 2,
-    "explanation": "Mu Digital is categorized as App."
+    "answerIndex": 3,
+    "explanation": "Mu Digital is commonly associated with DeFi."
   },
   {
     "dappId": "multipli-fi",
-    "question": "Which project type best describes Multipli.fi?",
+    "question": "Pick the tag that best represents Multipli.fi.",
     "options": [
-      "App",
-      "Infra",
-      "App/Infra"
+      "DeFi",
+      "Cross-Chain",
+      "Account",
+      "DePIN"
     ],
     "answerIndex": 0,
-    "explanation": "Multipli.fi is categorized as App."
+    "explanation": "Multipli.fi is commonly associated with DeFi."
   },
   {
     "dappId": "multisynq",
-    "question": "Which project type best describes Multisynq?",
+    "question": "Pick the tag that best represents Multisynq.",
     "options": [
-      "App/Infra",
-      "App",
-      "Infra"
+      "Gaming",
+      "DePIN",
+      "Oracle",
+      "Betting"
     ],
-    "answerIndex": 0,
-    "explanation": "Multisynq is categorized as App/Infra."
+    "answerIndex": 1,
+    "explanation": "Multisynq is commonly associated with DePIN."
   },
   {
     "dappId": "nadsa",
-    "question": "Which project type best describes NADSA?",
+    "question": "Which focus area is most associated with NADSA?",
     "options": [
-      "App",
-      "Infra",
-      "App/Infra"
+      "Cross-Chain",
+      "Market",
+      "Tooling",
+      "DeFi"
     ],
-    "answerIndex": 0,
-    "explanation": "NADSA is categorized as App."
+    "answerIndex": 3,
+    "explanation": "NADSA is commonly associated with DeFi."
   },
   {
     "dappId": "nfts2me",
-    "question": "Which project type best describes NFTs2Me?",
+    "question": "Pick the tag that best represents NFTs2Me.",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "Prediction",
+      "DeFi",
+      "RWA",
+      "NFT"
     ],
-    "answerIndex": 2,
-    "explanation": "NFTs2Me is categorized as App."
+    "answerIndex": 3,
+    "explanation": "NFTs2Me is commonly associated with NFT."
   },
   {
     "dappId": "nxtchain",
-    "question": "Which project type best describes NXTchain?",
+    "question": "NXTchain is closely linked to which focus tag?",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "RWA",
+      "DePIN",
+      "Market",
+      "RPC"
     ],
-    "answerIndex": 0,
-    "explanation": "NXTchain is categorized as App."
+    "answerIndex": 1,
+    "explanation": "NXTchain is commonly associated with DePIN."
   },
   {
     "dappId": "nabla-finance",
-    "question": "Which project type best describes Nabla Finance?",
+    "question": "Nabla Finance is closely linked to which focus tag?",
     "options": [
-      "App/Infra",
-      "App",
+      "Betting",
+      "DeFi",
+      "NFT",
       "Infra"
     ],
     "answerIndex": 1,
-    "explanation": "Nabla Finance is categorized as App."
+    "explanation": "Nabla Finance is commonly associated with DeFi."
   },
   {
     "dappId": "nad-fun",
-    "question": "Which project type best describes Nad.fun?",
+    "question": "Pick the tag that best represents Nad.fun.",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "Other",
+      "RPC",
+      "DeFi",
+      "Analytics"
     ],
     "answerIndex": 2,
-    "explanation": "Nad.fun is categorized as App."
+    "explanation": "Nad.fun is commonly associated with DeFi."
   },
   {
     "dappId": "nadsmith",
-    "question": "Which project type best describes NadSmith?",
+    "question": "Pick the tag that best represents NadSmith.",
     "options": [
-      "App",
+      "Identity",
+      "DeFi",
       "Infra",
-      "App/Infra"
+      "AI"
     ],
-    "answerIndex": 0,
-    "explanation": "NadSmith is categorized as App."
+    "answerIndex": 3,
+    "explanation": "NadSmith is commonly associated with AI."
   },
   {
     "dappId": "narrative",
-    "question": "Which project type best describes Narrative?",
+    "question": "Select the key category that Narrative highlights.",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "Betting",
+      "NFT",
+      "DeFi",
+      "Cross-Chain"
     ],
-    "answerIndex": 0,
-    "explanation": "Narrative is categorized as App."
+    "answerIndex": 2,
+    "explanation": "Narrative is commonly associated with DeFi."
   },
   {
     "dappId": "narwhal-finance",
-    "question": "Which project type best describes Narwhal Finance?",
+    "question": "Narwhal Finance is closely linked to which focus tag?",
     "options": [
-      "App",
       "Infra",
-      "App/Infra"
+      "Indexer",
+      "DeFi",
+      "NFT"
     ],
-    "answerIndex": 0,
-    "explanation": "Narwhal Finance is categorized as App."
+    "answerIndex": 2,
+    "explanation": "Narwhal Finance is commonly associated with DeFi."
   },
   {
     "dappId": "neverland",
-    "question": "Which project type best describes Neverland?",
+    "question": "Neverland is closely linked to which focus tag?",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "DeFi",
+      "Analytics",
+      "Account",
+      "Wallet"
     ],
-    "answerIndex": 2,
-    "explanation": "Neverland is categorized as App."
+    "answerIndex": 0,
+    "explanation": "Neverland is commonly associated with DeFi."
   },
   {
     "dappId": "nillion",
-    "question": "Which project type best describes Nillion?",
+    "question": "Pick the tag that best represents Nillion.",
     "options": [
-      "App/Infra",
-      "App",
-      "Infra"
+      "Abstraction",
+      "Governance",
+      "AI",
+      "Stablecoin"
     ],
     "answerIndex": 2,
-    "explanation": "Nillion is categorized as Infra."
+    "explanation": "Nillion is commonly associated with AI."
   },
   {
     "dappId": "nitro-by-router-protocol",
-    "question": "Which project type best describes Nitro by Router Protocol?",
+    "question": "Which focus area is most associated with Nitro by Router Protocol?",
     "options": [
-      "App/Infra",
-      "App",
-      "Infra"
+      "Infra",
+      "Indexer",
+      "RWA",
+      "Cross-Chain"
     ],
-    "answerIndex": 2,
-    "explanation": "Nitro by Router Protocol is categorized as Infra."
+    "answerIndex": 3,
+    "explanation": "Nitro by Router Protocol is commonly associated with Cross-Chain."
   },
   {
     "dappId": "nitrofinance",
-    "question": "Which project type best describes NitroFinance?",
+    "question": "Which focus area is most associated with NitroFinance?",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "DeFi",
+      "Apps",
+      "RPC",
+      "DePIN"
     ],
     "answerIndex": 0,
-    "explanation": "NitroFinance is categorized as App."
+    "explanation": "NitroFinance is commonly associated with DeFi."
   },
   {
     "dappId": "nomas-wallet",
-    "question": "Which project type best describes Nomas Wallet?",
+    "question": "Pick the tag that best represents Nomas Wallet.",
     "options": [
-      "App",
-      "Infra",
-      "App/Infra"
+      "Prediction",
+      "DePIN",
+      "RPC",
+      "Account"
     ],
-    "answerIndex": 1,
-    "explanation": "Nomas Wallet is categorized as Infra."
+    "answerIndex": 3,
+    "explanation": "Nomas Wallet is commonly associated with Account."
   },
   {
     "dappId": "nostra",
-    "question": "Which project type best describes Nostra?",
+    "question": "Nostra is closely linked to which focus tag?",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "DeFi",
+      "RWA",
+      "Zero-Knowledge",
+      "Account"
     ],
-    "answerIndex": 2,
-    "explanation": "Nostra is categorized as App."
+    "answerIndex": 0,
+    "explanation": "Nostra is commonly associated with DeFi."
   },
   {
     "dappId": "notifi",
-    "question": "Which project type best describes Notifi?",
+    "question": "Pick the tag that best represents Notifi.",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "Dev",
+      "Governance",
+      "Identity",
+      "Wallet"
     ],
     "answerIndex": 0,
-    "explanation": "Notifi is categorized as Infra."
+    "explanation": "Notifi is commonly associated with Dev."
   },
   {
     "dappId": "noves",
-    "question": "Which project type best describes Noves?",
+    "question": "Which focus area is most associated with Noves?",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "Zero-Knowledge",
+      "RPC",
+      "Tooling",
+      "Dev"
     ],
-    "answerIndex": 2,
-    "explanation": "Noves is categorized as Infra."
+    "answerIndex": 3,
+    "explanation": "Noves is commonly associated with Dev."
   },
   {
     "dappId": "nubila",
-    "question": "Which project type best describes Nubila?",
+    "question": "Select the key category that Nubila highlights.",
     "options": [
-      "App/Infra",
+      "AI",
+      "Analytics",
       "Infra",
-      "App"
+      "Prediction"
     ],
-    "answerIndex": 2,
-    "explanation": "Nubila is categorized as App."
+    "answerIndex": 0,
+    "explanation": "Nubila is commonly associated with AI."
   },
   {
     "dappId": "nunchi",
-    "question": "Which project type best describes Nunchi?",
+    "question": "Pick the tag that best represents Nunchi.",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "Cross-Chain",
+      "RWA",
+      "DeFi",
+      "Identity"
     ],
     "answerIndex": 2,
-    "explanation": "Nunchi is categorized as App."
+    "explanation": "Nunchi is commonly associated with DeFi."
   },
   {
     "dappId": "okx-explorer",
-    "question": "Which project type best describes OKX Explorer?",
+    "question": "Select the key category that OKX Explorer highlights.",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "Wallet",
+      "Analytics",
+      "Gaming",
+      "Onramp"
     ],
-    "answerIndex": 2,
-    "explanation": "OKX Explorer is categorized as Infra."
+    "answerIndex": 1,
+    "explanation": "OKX Explorer is commonly associated with Analytics."
   },
   {
     "dappId": "okx-wallet",
-    "question": "Which project type best describes OKX Wallet?",
+    "question": "Which focus area is most associated with OKX Wallet?",
     "options": [
-      "App/Infra",
-      "App",
-      "Infra"
+      "Cross-Chain",
+      "Other",
+      "Wallet",
+      "RPC"
     ],
     "answerIndex": 2,
-    "explanation": "OKX Wallet is categorized as Infra."
+    "explanation": "OKX Wallet is commonly associated with Wallet."
   },
   {
     "dappId": "osl-pay",
-    "question": "Which project type best describes OSL Pay?",
+    "question": "OSL Pay is closely linked to which focus tag?",
     "options": [
-      "Infra",
-      "App",
-      "App/Infra"
+      "Privacy",
+      "Analytics",
+      "Other",
+      "Onramp"
     ],
-    "answerIndex": 0,
-    "explanation": "OSL Pay is categorized as Infra."
+    "answerIndex": 3,
+    "explanation": "OSL Pay is commonly associated with Onramp."
   },
   {
     "dappId": "octoswap",
-    "question": "Which project type best describes OctoSwap?",
+    "question": "Which focus area is most associated with OctoSwap?",
     "options": [
-      "App",
-      "Infra",
-      "App/Infra"
+      "NFT",
+      "Tooling",
+      "Other",
+      "DeFi"
     ],
-    "answerIndex": 0,
-    "explanation": "OctoSwap is categorized as App."
+    "answerIndex": 3,
+    "explanation": "OctoSwap is commonly associated with DeFi."
   },
   {
     "dappId": "omnia",
-    "question": "Which project type best describes Omnia?",
+    "question": "Select the key category that Omnia highlights.",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "Analytics",
+      "Prediction",
+      "NFT",
+      "Account"
     ],
     "answerIndex": 2,
-    "explanation": "Omnia is categorized as App."
+    "explanation": "Omnia is commonly associated with NFT."
   },
   {
     "dappId": "opals",
-    "question": "Which project type best describes Opals?",
+    "question": "Pick the tag that best represents Opals.",
     "options": [
-      "App/Infra",
-      "App",
-      "Infra"
+      "Onramp",
+      "Payments",
+      "Oracle",
+      "Social"
     ],
-    "answerIndex": 1,
-    "explanation": "Opals is categorized as App."
+    "answerIndex": 3,
+    "explanation": "Opals is commonly associated with Social."
   },
   {
     "dappId": "openocean",
-    "question": "Which project type best describes OpenOcean?",
+    "question": "Select the key category that OpenOcean highlights.",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "RPC",
+      "DeFi",
+      "Stablecoin",
+      "Apps"
     ],
-    "answerIndex": 2,
-    "explanation": "OpenOcean is categorized as App."
+    "answerIndex": 1,
+    "explanation": "OpenOcean is commonly associated with DeFi."
   },
   {
     "dappId": "opensea",
-    "question": "Which project type best describes OpenSea?",
+    "question": "OpenSea is closely linked to which focus tag?",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "NFT",
+      "Other",
+      "Dev",
+      "Tooling"
     ],
     "answerIndex": 0,
-    "explanation": "OpenSea is categorized as App."
+    "explanation": "OpenSea is commonly associated with NFT."
   },
   {
     "dappId": "orbiter-finance",
-    "question": "Which project type best describes Orbiter Finance?",
+    "question": "Orbiter Finance is closely linked to which focus tag?",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "Cross-Chain",
+      "Oracle",
+      "Other",
+      "Wallet"
     ],
-    "answerIndex": 2,
-    "explanation": "Orbiter Finance is categorized as Infra."
+    "answerIndex": 0,
+    "explanation": "Orbiter Finance is commonly associated with Cross-Chain."
   },
   {
     "dappId": "orderly",
-    "question": "Which project type best describes Orderly?",
+    "question": "Select the key category that Orderly highlights.",
     "options": [
-      "App/Infra",
-      "App",
-      "Infra"
+      "Other",
+      "Cross-Chain",
+      "NFT",
+      "DeFi"
     ],
-    "answerIndex": 0,
-    "explanation": "Orderly is categorized as App/Infra."
+    "answerIndex": 3,
+    "explanation": "Orderly is commonly associated with DeFi."
   },
   {
     "dappId": "orochi-network",
-    "question": "Which project type best describes Orochi Network?",
+    "question": "Select the key category that Orochi Network highlights.",
     "options": [
-      "Infra",
-      "App",
-      "App/Infra"
+      "Prediction",
+      "Apps",
+      "Oracle",
+      "DeFi"
     ],
-    "answerIndex": 0,
-    "explanation": "Orochi Network is categorized as Infra."
+    "answerIndex": 2,
+    "explanation": "Orochi Network is commonly associated with Oracle."
   },
   {
     "dappId": "outpost-surge",
-    "question": "Which project type best describes Outpost Surge?",
+    "question": "Which focus area is most associated with Outpost Surge?",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "DePIN",
+      "Cross-Chain",
+      "NFT",
+      "Gaming"
     ],
-    "answerIndex": 0,
-    "explanation": "Outpost Surge is categorized as App."
+    "answerIndex": 3,
+    "explanation": "Outpost Surge is commonly associated with Gaming."
   },
   {
     "dappId": "owlto-finance",
-    "question": "Which project type best describes Owlto Finance?",
+    "question": "Which focus area is most associated with Owlto Finance?",
     "options": [
-      "Infra",
-      "App",
-      "App/Infra"
+      "Account",
+      "DeFi",
+      "Identity",
+      "Cross-Chain"
     ],
     "answerIndex": 1,
-    "explanation": "Owlto Finance is categorized as App."
+    "explanation": "Owlto Finance is commonly associated with DeFi."
   },
   {
     "dappId": "play-network",
-    "question": "Which project type best describes PLAY Network?",
+    "question": "Which focus area is most associated with PLAY Network?",
     "options": [
-      "App/Infra",
-      "App",
-      "Infra"
+      "Dev",
+      "Gaming",
+      "DePIN",
+      "Indexer"
     ],
-    "answerIndex": 0,
-    "explanation": "PLAY Network is categorized as App/Infra."
+    "answerIndex": 1,
+    "explanation": "PLAY Network is commonly associated with Gaming."
   },
   {
     "dappId": "poink",
-    "question": "Which project type best describes POINK?",
+    "question": "Select the key category that POINK highlights.",
     "options": [
-      "App",
-      "Infra",
-      "App/Infra"
+      "Zero-Knowledge",
+      "Tooling",
+      "Account",
+      "Other"
     ],
-    "answerIndex": 1,
-    "explanation": "POINK is categorized as Infra."
+    "answerIndex": 3,
+    "explanation": "POINK is commonly associated with Other."
   },
   {
     "dappId": "pancakeswap",
-    "question": "Which project type best describes PancakeSwap?",
+    "question": "Select the key category that PancakeSwap highlights.",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "DeFi",
+      "Gaming",
+      "Abstraction",
+      "Oracle"
     ],
-    "answerIndex": 2,
-    "explanation": "PancakeSwap is categorized as App."
+    "answerIndex": 0,
+    "explanation": "PancakeSwap is commonly associated with DeFi."
   },
   {
     "dappId": "pangea",
-    "question": "Which project type best describes Pangea?",
+    "question": "Select the key category that Pangea highlights.",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "Indexer",
+      "Dev",
+      "Prediction",
+      "Cross-Chain"
     ],
     "answerIndex": 0,
-    "explanation": "Pangea is categorized as Infra."
+    "explanation": "Pangea is commonly associated with Indexer."
   },
   {
     "dappId": "para",
-    "question": "Which project type best describes Para?",
+    "question": "Select the key category that Para highlights.",
     "options": [
-      "App",
+      "Account",
       "Infra",
-      "App/Infra"
+      "Dev",
+      "DePIN"
     ],
-    "answerIndex": 1,
-    "explanation": "Para is categorized as Infra."
+    "answerIndex": 0,
+    "explanation": "Para is commonly associated with Account."
   },
   {
     "dappId": "pecker",
-    "question": "Which project type best describes Pecker?",
+    "question": "Which focus area is most associated with Pecker?",
     "options": [
-      "App",
-      "Infra",
-      "App/Infra"
+      "Betting",
+      "DeFi",
+      "Apps",
+      "Payments"
     ],
-    "answerIndex": 0,
-    "explanation": "Pecker is categorized as App."
+    "answerIndex": 1,
+    "explanation": "Pecker is commonly associated with DeFi."
   },
   {
     "dappId": "peridot",
-    "question": "Which project type best describes Peridot?",
+    "question": "Peridot is closely linked to which focus tag?",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "Governance",
+      "DeFi",
+      "RWA",
+      "Dev"
     ],
-    "answerIndex": 2,
-    "explanation": "Peridot is categorized as App."
+    "answerIndex": 1,
+    "explanation": "Peridot is commonly associated with DeFi."
   },
   {
     "dappId": "permute-finance",
-    "question": "Which project type best describes Permute Finance?",
+    "question": "Which focus area is most associated with Permute Finance?",
     "options": [
-      "App",
-      "Infra",
-      "App/Infra"
+      "Oracle",
+      "Cross-Chain",
+      "Social",
+      "Stablecoin"
     ],
     "answerIndex": 1,
-    "explanation": "Permute Finance is categorized as Infra."
+    "explanation": "Permute Finance is commonly associated with Cross-Chain."
   },
   {
     "dappId": "perpl",
-    "question": "Which project type best describes Perpl?",
+    "question": "Pick the tag that best represents Perpl.",
     "options": [
-      "App",
+      "DeFi",
+      "Onramp",
       "Infra",
-      "App/Infra"
+      "Wallet"
     ],
     "answerIndex": 0,
-    "explanation": "Perpl is categorized as App."
+    "explanation": "Perpl is commonly associated with DeFi."
   },
   {
     "dappId": "phantom",
-    "question": "Which project type best describes Phantom?",
+    "question": "Phantom is closely linked to which focus tag?",
     "options": [
-      "App/Infra",
-      "App",
-      "Infra"
+      "Wallet",
+      "RPC",
+      "Market",
+      "Stablecoin"
     ],
-    "answerIndex": 2,
-    "explanation": "Phantom is categorized as Infra."
+    "answerIndex": 0,
+    "explanation": "Phantom is commonly associated with Wallet."
   },
   {
     "dappId": "pimlico",
-    "question": "Which project type best describes Pimlico?",
+    "question": "Which focus area is most associated with Pimlico?",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "Account",
+      "Indexer",
+      "RPC",
+      "Onramp"
     ],
-    "answerIndex": 1,
-    "explanation": "Pimlico is categorized as Infra."
+    "answerIndex": 0,
+    "explanation": "Pimlico is commonly associated with Account."
   },
   {
     "dappId": "pingu-exchange",
-    "question": "Which project type best describes Pingu Exchange?",
+    "question": "Which focus area is most associated with Pingu Exchange?",
     "options": [
-      "App",
-      "Infra",
-      "App/Infra"
+      "Oracle",
+      "DeFi",
+      "NFT",
+      "Privacy"
     ],
-    "answerIndex": 0,
-    "explanation": "Pingu Exchange is categorized as App."
+    "answerIndex": 1,
+    "explanation": "Pingu Exchange is commonly associated with DeFi."
   },
   {
     "dappId": "plato",
-    "question": "Which project type best describes Plato?",
+    "question": "Pick the tag that best represents Plato.",
     "options": [
-      "App",
-      "Infra",
-      "App/Infra"
+      "Onramp",
+      "RPC",
+      "Oracle",
+      "Social"
     ],
-    "answerIndex": 0,
-    "explanation": "Plato is categorized as App."
+    "answerIndex": 3,
+    "explanation": "Plato is commonly associated with Social."
   },
   {
     "dappId": "polyflow",
-    "question": "Which project type best describes PolyFlow?",
+    "question": "Pick the tag that best represents PolyFlow.",
     "options": [
-      "App",
-      "Infra",
-      "App/Infra"
+      "Account",
+      "Apps",
+      "RWA",
+      "Oracle"
     ],
-    "answerIndex": 0,
-    "explanation": "PolyFlow is categorized as App."
+    "answerIndex": 2,
+    "explanation": "PolyFlow is commonly associated with RWA."
   },
   {
     "dappId": "poply",
-    "question": "Which project type best describes Poply?",
+    "question": "Pick the tag that best represents Poply.",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "Dev",
+      "NFT",
+      "Gaming",
+      "Privacy"
     ],
-    "answerIndex": 2,
-    "explanation": "Poply is categorized as App."
+    "answerIndex": 1,
+    "explanation": "Poply is commonly associated with NFT."
   },
   {
     "dappId": "poster-fun",
-    "question": "Which project type best describes Poster.fun?",
+    "question": "Pick the tag that best represents Poster.fun.",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "Apps",
+      "Abstraction",
+      "Social",
+      "Stablecoin"
     ],
-    "answerIndex": 0,
-    "explanation": "Poster.fun is categorized as App."
+    "answerIndex": 2,
+    "explanation": "Poster.fun is commonly associated with Social."
   },
   {
     "dappId": "primex-finance",
-    "question": "Which project type best describes Primex Finance?",
+    "question": "Select the key category that Primex Finance highlights.",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "Privacy",
+      "Cross-Chain",
+      "Betting",
+      "DeFi"
     ],
-    "answerIndex": 2,
-    "explanation": "Primex Finance is categorized as App."
+    "answerIndex": 3,
+    "explanation": "Primex Finance is commonly associated with DeFi."
   },
   {
     "dappId": "primus",
-    "question": "Which project type best describes Primus?",
+    "question": "Primus is closely linked to which focus tag?",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "Apps",
+      "Zero-Knowledge",
+      "Other",
+      "NFT"
     ],
-    "answerIndex": 2,
-    "explanation": "Primus is categorized as Infra."
+    "answerIndex": 1,
+    "explanation": "Primus is commonly associated with Zero-Knowledge."
   },
   {
     "dappId": "privy",
-    "question": "Which project type best describes Privy?",
+    "question": "Select the key category that Privy highlights.",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "Account",
+      "Wallet",
+      "Privacy",
+      "Dev"
     ],
-    "answerIndex": 2,
-    "explanation": "Privy is categorized as Infra."
+    "answerIndex": 0,
+    "explanation": "Privy is commonly associated with Account."
   },
   {
     "dappId": "proof-of-skill",
-    "question": "Which project type best describes Proof-of-Skill?",
+    "question": "Select the key category that Proof-of-Skill highlights.",
     "options": [
-      "Infra",
-      "App",
-      "App/Infra"
+      "Cross-Chain",
+      "Other",
+      "Oracle",
+      "Tooling"
     ],
     "answerIndex": 1,
-    "explanation": "Proof-of-Skill is categorized as App."
+    "explanation": "Proof-of-Skill is commonly associated with Other."
   },
   {
     "dappId": "puffer-finance",
-    "question": "Which project type best describes Puffer Finance?",
+    "question": "Puffer Finance is closely linked to which focus tag?",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "DeFi",
+      "Governance",
+      "Cross-Chain",
+      "Other"
     ],
     "answerIndex": 0,
-    "explanation": "Puffer Finance is categorized as App."
+    "explanation": "Puffer Finance is commonly associated with DeFi."
   },
   {
     "dappId": "pumpbtc",
-    "question": "Which project type best describes PumpBTC?",
+    "question": "Pick the tag that best represents PumpBTC.",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "RPC",
+      "Dev",
+      "Gaming",
+      "AI"
     ],
-    "answerIndex": 0,
-    "explanation": "PumpBTC is categorized as App."
+    "answerIndex": 3,
+    "explanation": "PumpBTC is commonly associated with AI."
   },
   {
     "dappId": "purps",
-    "question": "Which project type best describes Purps?",
+    "question": "Select the key category that Purps highlights.",
     "options": [
-      "Infra",
-      "App",
-      "App/Infra"
+      "DeFi",
+      "Zero-Knowledge",
+      "Tooling",
+      "Account"
     ],
-    "answerIndex": 1,
-    "explanation": "Purps is categorized as App."
+    "answerIndex": 0,
+    "explanation": "Purps is commonly associated with DeFi."
   },
   {
     "dappId": "pyth-network",
-    "question": "Which project type best describes Pyth Network?",
+    "question": "Which focus area is most associated with Pyth Network?",
     "options": [
-      "Infra",
-      "App",
-      "App/Infra"
+      "Dev",
+      "AI",
+      "Gaming",
+      "Oracle"
     ],
-    "answerIndex": 0,
-    "explanation": "Pyth Network is categorized as Infra."
+    "answerIndex": 3,
+    "explanation": "Pyth Network is commonly associated with Oracle."
   },
   {
     "dappId": "quicknode",
-    "question": "Which project type best describes QuickNode?",
+    "question": "Which focus area is most associated with QuickNode?",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "Indexer",
+      "Dev",
+      "Prediction",
+      "RPC"
     ],
-    "answerIndex": 2,
-    "explanation": "QuickNode is categorized as Infra."
+    "answerIndex": 3,
+    "explanation": "QuickNode is commonly associated with RPC."
   },
   {
     "dappId": "rabble",
-    "question": "Which project type best describes Rabble?",
+    "question": "Which focus area is most associated with Rabble?",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "Social",
+      "Privacy",
+      "Analytics",
+      "DeFi"
     ],
     "answerIndex": 0,
-    "explanation": "Rabble is categorized as App."
+    "explanation": "Rabble is commonly associated with Social."
   },
   {
     "dappId": "rarebetsports",
-    "question": "Which project type best describes RareBetSports?",
+    "question": "Which focus area is most associated with RareBetSports?",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "Betting",
+      "Identity",
+      "RPC",
+      "RWA"
     ],
-    "answerIndex": 2,
-    "explanation": "RareBetSports is categorized as App."
+    "answerIndex": 0,
+    "explanation": "RareBetSports is commonly associated with Betting."
   },
   {
     "dappId": "rayvo",
-    "question": "Which project type best describes Rayvo?",
+    "question": "Rayvo is closely linked to which focus tag?",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "NFT",
+      "DePIN",
+      "Payments",
+      "Dev"
     ],
-    "answerIndex": 0,
-    "explanation": "Rayvo is categorized as App."
+    "answerIndex": 1,
+    "explanation": "Rayvo is commonly associated with DePIN."
   },
   {
     "dappId": "redstone",
-    "question": "Which project type best describes RedStone?",
+    "question": "RedStone is closely linked to which focus tag?",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "RPC",
+      "Analytics",
+      "Indexer",
+      "Oracle"
     ],
-    "answerIndex": 0,
-    "explanation": "RedStone is categorized as Infra."
+    "answerIndex": 3,
+    "explanation": "RedStone is commonly associated with Oracle."
   },
   {
     "dappId": "redbrick",
-    "question": "Which project type best describes Redbrick?",
+    "question": "Redbrick is closely linked to which focus tag?",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "Market",
+      "Gaming",
+      "Dev",
+      "Tooling"
     ],
-    "answerIndex": 2,
-    "explanation": "Redbrick is categorized as App."
+    "answerIndex": 1,
+    "explanation": "Redbrick is commonly associated with Gaming."
   },
   {
     "dappId": "relend-network",
-    "question": "Which project type best describes Relend Network?",
+    "question": "Select the key category that Relend Network highlights.",
     "options": [
-      "App",
+      "NFT",
       "Infra",
-      "App/Infra"
+      "Cross-Chain",
+      "Stablecoin"
     ],
-    "answerIndex": 1,
-    "explanation": "Relend Network is categorized as Infra."
+    "answerIndex": 3,
+    "explanation": "Relend Network is commonly associated with Stablecoin."
   },
   {
     "dappId": "renzo",
-    "question": "Which project type best describes Renzo?",
+    "question": "Select the key category that Renzo highlights.",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "Wallet",
+      "Oracle",
+      "DeFi",
+      "Other"
     ],
     "answerIndex": 2,
-    "explanation": "Renzo is categorized as App."
+    "explanation": "Renzo is commonly associated with DeFi."
   },
   {
     "dappId": "reown",
-    "question": "Which project type best describes Reown?",
+    "question": "Pick the tag that best represents Reown.",
     "options": [
-      "Infra",
-      "App",
-      "App/Infra"
+      "Payments",
+      "DeFi",
+      "Analytics",
+      "Account"
     ],
-    "answerIndex": 0,
-    "explanation": "Reown is categorized as Infra."
+    "answerIndex": 3,
+    "explanation": "Reown is commonly associated with Account."
   },
   {
     "dappId": "reservoir",
-    "question": "Which project type best describes Reservoir?",
+    "question": "Which focus area is most associated with Reservoir?",
     "options": [
-      "App/Infra",
-      "App",
-      "Infra"
+      "Social",
+      "Indexer",
+      "Gaming",
+      "Account"
     ],
-    "answerIndex": 2,
-    "explanation": "Reservoir is categorized as Infra."
+    "answerIndex": 1,
+    "explanation": "Reservoir is commonly associated with Indexer."
   },
   {
     "dappId": "rgbclash",
-    "question": "Which project type best describes RgbClash?",
+    "question": "RgbClash is closely linked to which focus tag?",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "Apps",
+      "Indexer",
+      "Oracle",
+      "Gaming"
     ],
-    "answerIndex": 2,
-    "explanation": "RgbClash is categorized as App."
+    "answerIndex": 3,
+    "explanation": "RgbClash is commonly associated with Gaming."
   },
   {
     "dappId": "rhino-fi",
-    "question": "Which project type best describes Rhino.fi?",
+    "question": "Select the key category that Rhino.fi highlights.",
     "options": [
-      "Infra",
-      "App",
-      "App/Infra"
+      "Oracle",
+      "Social",
+      "Cross-Chain",
+      "Tooling"
     ],
-    "answerIndex": 0,
-    "explanation": "Rhino.fi is categorized as Infra."
+    "answerIndex": 2,
+    "explanation": "Rhino.fi is commonly associated with Cross-Chain."
   },
   {
     "dappId": "rubic",
-    "question": "Which project type best describes Rubic?",
+    "question": "Rubic is closely linked to which focus tag?",
     "options": [
-      "Infra",
-      "App",
-      "App/Infra"
+      "RPC",
+      "DePIN",
+      "DeFi",
+      "Privacy"
     ],
-    "answerIndex": 1,
-    "explanation": "Rubic is categorized as App."
+    "answerIndex": 2,
+    "explanation": "Rubic is commonly associated with DeFi."
   },
   {
     "dappId": "rug-rumble",
-    "question": "Which project type best describes Rug Rumble?",
+    "question": "Which focus area is most associated with Rug Rumble?",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "DeFi",
+      "Other",
+      "Payments",
+      "Dev"
     ],
-    "answerIndex": 2,
-    "explanation": "Rug Rumble is categorized as App."
+    "answerIndex": 0,
+    "explanation": "Rug Rumble is commonly associated with DeFi."
   },
   {
     "dappId": "rumi",
-    "question": "Which project type best describes Rumi?",
+    "question": "Select the key category that Rumi highlights.",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "AI",
+      "Zero-Knowledge",
+      "Cross-Chain",
+      "Analytics"
     ],
-    "answerIndex": 2,
-    "explanation": "Rumi is categorized as App."
+    "answerIndex": 0,
+    "explanation": "Rumi is commonly associated with AI."
   },
   {
     "dappId": "sqd",
-    "question": "Which project type best describes SQD?",
+    "question": "Which focus area is most associated with SQD?",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "Indexer",
+      "Gaming",
+      "Account",
+      "Oracle"
     ],
     "answerIndex": 0,
-    "explanation": "SQD is categorized as Infra."
+    "explanation": "SQD is commonly associated with Indexer."
   },
   {
     "dappId": "stage-fun",
-    "question": "Which project type best describes STAGE.fun?",
+    "question": "Which focus area is most associated with STAGE.fun?",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "Wallet",
+      "Governance",
+      "Stablecoin",
+      "Social"
     ],
-    "answerIndex": 2,
-    "explanation": "STAGE.fun is categorized as App."
+    "answerIndex": 3,
+    "explanation": "STAGE.fun is commonly associated with Social."
   },
   {
     "dappId": "safepal",
-    "question": "Which project type best describes SafePal?",
+    "question": "SafePal is closely linked to which focus tag?",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "Dev",
+      "Payments",
+      "Cross-Chain",
+      "Wallet"
     ],
-    "answerIndex": 2,
-    "explanation": "SafePal is categorized as Infra."
+    "answerIndex": 3,
+    "explanation": "SafePal is commonly associated with Wallet."
   },
   {
     "dappId": "scatter-art",
-    "question": "Which project type best describes Scatter.art?",
+    "question": "Select the key category that Scatter.art highlights.",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "Zero-Knowledge",
+      "Privacy",
+      "Payments",
+      "NFT"
     ],
-    "answerIndex": 0,
-    "explanation": "Scatter.art is categorized as App."
+    "answerIndex": 3,
+    "explanation": "Scatter.art is commonly associated with NFT."
   },
   {
     "dappId": "sela-network",
-    "question": "Which project type best describes Sela Network?",
+    "question": "Sela Network is closely linked to which focus tag?",
     "options": [
-      "App/Infra",
-      "App",
-      "Infra"
+      "Gaming",
+      "Cross-Chain",
+      "Dev",
+      "DePIN"
     ],
-    "answerIndex": 1,
-    "explanation": "Sela Network is categorized as App."
+    "answerIndex": 3,
+    "explanation": "Sela Network is commonly associated with DePIN."
   },
   {
     "dappId": "sherpa",
-    "question": "Which project type best describes Sherpa?",
+    "question": "Which focus area is most associated with Sherpa?",
     "options": [
-      "App",
-      "Infra",
-      "App/Infra"
+      "Wallet",
+      "DeFi",
+      "Payments",
+      "Account"
     ],
-    "answerIndex": 0,
-    "explanation": "Sherpa is categorized as App."
+    "answerIndex": 1,
+    "explanation": "Sherpa is commonly associated with DeFi."
   },
   {
     "dappId": "showdown",
-    "question": "Which project type best describes Showdown?",
+    "question": "Select the key category that Showdown highlights.",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "Stablecoin",
+      "Gaming",
+      "Abstraction",
+      "Identity"
     ],
-    "answerIndex": 0,
-    "explanation": "Showdown is categorized as App/Infra."
+    "answerIndex": 1,
+    "explanation": "Showdown is commonly associated with Gaming."
   },
   {
     "dappId": "sidekick",
-    "question": "Which project type best describes Sidekick?",
+    "question": "Which focus area is most associated with Sidekick?",
     "options": [
-      "App",
+      "Social",
       "Infra",
-      "App/Infra"
+      "Market",
+      "Cross-Chain"
     ],
     "answerIndex": 0,
-    "explanation": "Sidekick is categorized as App."
+    "explanation": "Sidekick is commonly associated with Social."
   },
   {
     "dappId": "skytrade",
-    "question": "Which project type best describes SkyTrade?",
+    "question": "SkyTrade is closely linked to which focus tag?",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "Dev",
+      "RWA",
+      "DeFi",
+      "Governance"
     ],
-    "answerIndex": 2,
-    "explanation": "SkyTrade is categorized as App."
+    "answerIndex": 1,
+    "explanation": "SkyTrade is commonly associated with RWA."
   },
   {
     "dappId": "slogain",
-    "question": "Which project type best describes Slogain?",
+    "question": "Pick the tag that best represents Slogain.",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "Social",
+      "Market",
+      "Privacy",
+      "Betting"
     ],
-    "answerIndex": 2,
-    "explanation": "Slogain is categorized as App."
+    "answerIndex": 0,
+    "explanation": "Slogain is commonly associated with Social."
   },
   {
     "dappId": "solv-protocol",
-    "question": "Which project type best describes Solv Protocol?",
+    "question": "Which focus area is most associated with Solv Protocol?",
     "options": [
+      "Dev",
+      "Prediction",
       "Infra",
-      "App/Infra",
-      "App"
+      "DeFi"
     ],
-    "answerIndex": 2,
-    "explanation": "Solv Protocol is categorized as App."
+    "answerIndex": 3,
+    "explanation": "Solv Protocol is commonly associated with DeFi."
   },
   {
     "dappId": "spine-finance",
-    "question": "Which project type best describes Spine Finance?",
+    "question": "Select the key category that Spine Finance highlights.",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "RPC",
+      "Identity",
+      "AI",
+      "DeFi"
     ],
-    "answerIndex": 2,
-    "explanation": "Spine Finance is categorized as App."
+    "answerIndex": 3,
+    "explanation": "Spine Finance is commonly associated with DeFi."
   },
   {
     "dappId": "sprout",
-    "question": "Which project type best describes Sprout?",
+    "question": "Pick the tag that best represents Sprout.",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "DeFi",
+      "RWA",
+      "Zero-Knowledge",
+      "DePIN"
     ],
-    "answerIndex": 2,
-    "explanation": "Sprout is categorized as App."
+    "answerIndex": 0,
+    "explanation": "Sprout is commonly associated with DeFi."
   },
   {
     "dappId": "stakestone",
-    "question": "Which project type best describes StakeStone?",
+    "question": "Which focus area is most associated with StakeStone?",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "Other",
+      "Analytics",
+      "Cross-Chain",
+      "Betting"
     ],
-    "answerIndex": 2,
-    "explanation": "StakeStone is categorized as Infra."
+    "answerIndex": 0,
+    "explanation": "StakeStone is commonly associated with Other."
   },
   {
     "dappId": "stargate",
-    "question": "Which project type best describes Stargate?",
+    "question": "Pick the tag that best represents Stargate.",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "Wallet",
+      "DePIN",
+      "NFT",
+      "DeFi"
     ],
-    "answerIndex": 0,
-    "explanation": "Stargate is categorized as App/Infra."
+    "answerIndex": 3,
+    "explanation": "Stargate is commonly associated with DeFi."
   },
   {
     "dappId": "stationx",
-    "question": "Which project type best describes StationX?",
+    "question": "StationX is closely linked to which focus tag?",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "Social",
+      "NFT",
+      "Betting",
+      "Cross-Chain"
     ],
-    "answerIndex": 2,
-    "explanation": "StationX is categorized as App."
+    "answerIndex": 0,
+    "explanation": "StationX is commonly associated with Social."
   },
   {
     "dappId": "stork",
-    "question": "Which project type best describes Stork?",
+    "question": "Stork is closely linked to which focus tag?",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "Other",
+      "Social",
+      "Oracle",
+      "Dev"
     ],
-    "answerIndex": 0,
-    "explanation": "Stork is categorized as Infra."
+    "answerIndex": 2,
+    "explanation": "Stork is commonly associated with Oracle."
   },
   {
     "dappId": "subquery",
-    "question": "Which project type best describes SubQuery?",
+    "question": "Pick the tag that best represents SubQuery.",
     "options": [
-      "App/Infra",
-      "App",
-      "Infra"
+      "Onramp",
+      "Indexer",
+      "Identity",
+      "DeFi"
     ],
-    "answerIndex": 2,
-    "explanation": "SubQuery is categorized as Infra."
+    "answerIndex": 1,
+    "explanation": "SubQuery is commonly associated with Indexer."
   },
   {
     "dappId": "sumer",
-    "question": "Which project type best describes Sumer?",
+    "question": "Sumer is closely linked to which focus tag?",
     "options": [
-      "App",
-      "Infra",
-      "App/Infra"
+      "DeFi",
+      "Other",
+      "Analytics",
+      "Dev"
     ],
     "answerIndex": 0,
-    "explanation": "Sumer is categorized as App."
+    "explanation": "Sumer is commonly associated with DeFi."
   },
   {
     "dappId": "sunscreen",
-    "question": "Which project type best describes Sunscreen?",
+    "question": "Which focus area is most associated with Sunscreen?",
     "options": [
       "Infra",
-      "App",
-      "App/Infra"
+      "Privacy",
+      "Stablecoin",
+      "NFT"
     ],
-    "answerIndex": 0,
-    "explanation": "Sunscreen is categorized as Infra."
+    "answerIndex": 1,
+    "explanation": "Sunscreen is commonly associated with Privacy."
   },
   {
     "dappId": "swaap",
-    "question": "Which project type best describes Swaap?",
+    "question": "Pick the tag that best represents Swaap.",
     "options": [
-      "App/Infra",
-      "App",
-      "Infra"
+      "DeFi",
+      "Stablecoin",
+      "RWA",
+      "Analytics"
     ],
-    "answerIndex": 1,
-    "explanation": "Swaap is categorized as App."
+    "answerIndex": 0,
+    "explanation": "Swaap is commonly associated with DeFi."
   },
   {
     "dappId": "switchboard",
-    "question": "Which project type best describes Switchboard?",
+    "question": "Select the key category that Switchboard highlights.",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "Dev",
+      "Tooling",
+      "NFT",
+      "Oracle"
     ],
-    "answerIndex": 0,
-    "explanation": "Switchboard is categorized as Infra."
+    "answerIndex": 3,
+    "explanation": "Switchboard is commonly associated with Oracle."
   },
   {
     "dappId": "swyrl-finance",
-    "question": "Which project type best describes Swyrl Finance?",
+    "question": "Which focus area is most associated with Swyrl Finance?",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "Payments",
+      "DeFi",
+      "Oracle",
+      "Analytics"
     ],
-    "answerIndex": 2,
-    "explanation": "Swyrl Finance is categorized as App."
+    "answerIndex": 1,
+    "explanation": "Swyrl Finance is commonly associated with DeFi."
   },
   {
     "dappId": "t3rn",
-    "question": "Which project type best describes T3rn?",
+    "question": "T3rn is closely linked to which focus tag?",
     "options": [
-      "Infra",
-      "App",
-      "App/Infra"
+      "Oracle",
+      "Cross-Chain",
+      "Market",
+      "Privacy"
     ],
-    "answerIndex": 0,
-    "explanation": "T3rn is categorized as Infra."
+    "answerIndex": 1,
+    "explanation": "T3rn is commonly associated with Cross-Chain."
   },
   {
     "dappId": "tadle",
-    "question": "Which project type best describes Tadle?",
+    "question": "Pick the tag that best represents Tadle.",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "DeFi",
+      "Social",
+      "Privacy",
+      "Other"
     ],
-    "answerIndex": 2,
-    "explanation": "Tadle is categorized as App."
+    "answerIndex": 1,
+    "explanation": "Tadle is commonly associated with Social."
   },
   {
     "dappId": "talentum",
-    "question": "Which project type best describes Talentum?",
+    "question": "Talentum is closely linked to which focus tag?",
     "options": [
-      "App/Infra",
+      "Betting",
+      "Dev",
       "Infra",
-      "App"
+      "Social"
     ],
-    "answerIndex": 2,
-    "explanation": "Talentum is categorized as App."
+    "answerIndex": 3,
+    "explanation": "Talentum is commonly associated with Social."
   },
   {
     "dappId": "tally",
-    "question": "Which project type best describes Tally?",
+    "question": "Tally is closely linked to which focus tag?",
     "options": [
-      "App",
-      "Infra",
-      "App/Infra"
+      "Governance",
+      "Dev",
+      "Betting",
+      "DePIN"
     ],
     "answerIndex": 0,
-    "explanation": "Tally is categorized as App."
+    "explanation": "Tally is commonly associated with Governance."
   },
   {
     "dappId": "tarobase",
-    "question": "Which project type best describes Tarobase?",
+    "question": "Select the key category that Tarobase highlights.",
     "options": [
-      "Infra",
-      "App",
-      "App/Infra"
+      "Stablecoin",
+      "Tooling",
+      "DeFi",
+      "Dev"
     ],
-    "answerIndex": 0,
-    "explanation": "Tarobase is categorized as Infra."
+    "answerIndex": 3,
+    "explanation": "Tarobase is commonly associated with Dev."
   },
   {
     "dappId": "terminal-3",
-    "question": "Which project type best describes Terminal 3?",
+    "question": "Select the key category that Terminal 3 highlights.",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "Social",
+      "Oracle",
+      "RPC",
+      "Wallet"
     ],
-    "answerIndex": 0,
-    "explanation": "Terminal 3 is categorized as Infra."
+    "answerIndex": 1,
+    "explanation": "Terminal 3 is commonly associated with Oracle."
   },
   {
     "dappId": "tezza-poker",
-    "question": "Which project type best describes Tezza Poker?",
+    "question": "Which focus area is most associated with Tezza Poker?",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "NFT",
+      "Gaming",
+      "AI",
+      "Cross-Chain"
     ],
-    "answerIndex": 2,
-    "explanation": "Tezza Poker is categorized as App."
+    "answerIndex": 1,
+    "explanation": "Tezza Poker is commonly associated with Gaming."
   },
   {
     "dappId": "the-graph",
-    "question": "Which project type best describes The Graph?",
+    "question": "The Graph is closely linked to which focus tag?",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "Analytics",
+      "DePIN",
+      "Apps",
+      "Indexer"
     ],
-    "answerIndex": 1,
-    "explanation": "The Graph is categorized as Infra."
+    "answerIndex": 3,
+    "explanation": "The Graph is commonly associated with Indexer."
   },
   {
     "dappId": "the-vape-labs",
-    "question": "Which project type best describes The Vape Labs?",
+    "question": "The Vape Labs is closely linked to which focus tag?",
     "options": [
-      "App",
-      "Infra",
-      "App/Infra"
+      "Abstraction",
+      "Governance",
+      "Identity",
+      "DePIN"
     ],
-    "answerIndex": 0,
-    "explanation": "The Vape Labs is categorized as App."
+    "answerIndex": 3,
+    "explanation": "The Vape Labs is commonly associated with DePIN."
   },
   {
     "dappId": "thirdweb",
-    "question": "Which project type best describes Thirdweb?",
+    "question": "Select the key category that Thirdweb highlights.",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "DePIN",
+      "Other",
+      "Account",
+      "RPC"
     ],
-    "answerIndex": 1,
-    "explanation": "Thirdweb is categorized as Infra."
+    "answerIndex": 2,
+    "explanation": "Thirdweb is commonly associated with Account."
   },
   {
     "dappId": "timelock",
-    "question": "Which project type best describes Timelock?",
+    "question": "Pick the tag that best represents Timelock.",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "Oracle",
+      "DeFi",
+      "Cross-Chain",
+      "Identity"
     ],
-    "answerIndex": 2,
-    "explanation": "Timelock is categorized as App."
+    "answerIndex": 1,
+    "explanation": "Timelock is commonly associated with DeFi."
   },
   {
     "dappId": "timeswap",
-    "question": "Which project type best describes Timeswap?",
+    "question": "Timeswap is closely linked to which focus tag?",
     "options": [
-      "App/Infra",
       "Infra",
-      "App"
+      "DeFi",
+      "Privacy",
+      "Identity"
     ],
-    "answerIndex": 2,
-    "explanation": "Timeswap is categorized as App."
+    "answerIndex": 1,
+    "explanation": "Timeswap is commonly associated with DeFi."
   },
   {
     "dappId": "tokenpocket",
-    "question": "Which project type best describes TokenPocket?",
+    "question": "TokenPocket is closely linked to which focus tag?",
     "options": [
-      "Infra",
-      "App",
-      "App/Infra"
+      "Apps",
+      "Wallet",
+      "Other",
+      "Abstraction"
     ],
-    "answerIndex": 0,
-    "explanation": "TokenPocket is categorized as Infra."
+    "answerIndex": 1,
+    "explanation": "TokenPocket is commonly associated with Wallet."
   },
   {
     "dappId": "townsquare",
-    "question": "Which project type best describes TownSquare?",
+    "question": "TownSquare is closely linked to which focus tag?",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "DePIN",
+      "Prediction",
+      "DeFi",
+      "Account"
     ],
-    "answerIndex": 0,
-    "explanation": "TownSquare is categorized as Infra."
+    "answerIndex": 3,
+    "explanation": "TownSquare is commonly associated with Account."
   },
   {
     "dappId": "tread-fi",
-    "question": "Which project type best describes Tread.fi?",
+    "question": "Pick the tag that best represents Tread.fi.",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "DeFi",
+      "Other",
+      "Account",
+      "Analytics"
     ],
-    "answerIndex": 2,
-    "explanation": "Tread.fi is categorized as App."
+    "answerIndex": 0,
+    "explanation": "Tread.fi is commonly associated with DeFi."
   },
   {
     "dappId": "triton-one",
-    "question": "Which project type best describes Triton One?",
+    "question": "Which focus area is most associated with Triton One?",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "RPC",
+      "Other",
+      "Oracle",
+      "Dev"
     ],
-    "answerIndex": 2,
-    "explanation": "Triton One is categorized as Infra."
+    "answerIndex": 0,
+    "explanation": "Triton One is commonly associated with RPC."
   },
   {
     "dappId": "turnkey",
-    "question": "Which project type best describes Turnkey?",
+    "question": "Pick the tag that best represents Turnkey.",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "Dev",
+      "Zero-Knowledge",
+      "DePIN",
+      "Account"
     ],
-    "answerIndex": 2,
-    "explanation": "Turnkey is categorized as Infra."
+    "answerIndex": 3,
+    "explanation": "Turnkey is commonly associated with Account."
   },
   {
     "dappId": "typex",
-    "question": "Which project type best describes TypeX?",
+    "question": "Which focus area is most associated with TypeX?",
     "options": [
-      "App",
-      "Infra",
-      "App/Infra"
+      "Payments",
+      "Tooling",
+      "DeFi",
+      "Infra"
     ],
-    "answerIndex": 0,
-    "explanation": "TypeX is categorized as App."
+    "answerIndex": 2,
+    "explanation": "TypeX is commonly associated with DeFi."
   },
   {
     "dappId": "uniswap",
-    "question": "Which project type best describes Uniswap?",
+    "question": "Uniswap is closely linked to which focus tag?",
     "options": [
-      "Infra",
-      "App",
-      "App/Infra"
+      "DeFi",
+      "Payments",
+      "Stablecoin",
+      "Infra"
     ],
-    "answerIndex": 1,
-    "explanation": "Uniswap is categorized as App."
+    "answerIndex": 0,
+    "explanation": "Uniswap is commonly associated with DeFi."
   },
   {
     "dappId": "uniswap-wallet",
-    "question": "Which project type best describes Uniswap Wallet?",
+    "question": "Pick the tag that best represents Uniswap Wallet.",
     "options": [
-      "Infra",
-      "App",
-      "App/Infra"
+      "Dev",
+      "Prediction",
+      "Tooling",
+      "Wallet"
     ],
-    "answerIndex": 0,
-    "explanation": "Uniswap Wallet is categorized as Infra."
+    "answerIndex": 3,
+    "explanation": "Uniswap Wallet is commonly associated with Wallet."
   },
   {
     "dappId": "unmarshal",
-    "question": "Which project type best describes Unmarshal?",
+    "question": "Select the key category that Unmarshal highlights.",
     "options": [
-      "App/Infra",
-      "App",
-      "Infra"
+      "Dev",
+      "Analytics",
+      "AI",
+      "Indexer"
     ],
-    "answerIndex": 2,
-    "explanation": "Unmarshal is categorized as Infra."
+    "answerIndex": 3,
+    "explanation": "Unmarshal is commonly associated with Indexer."
   },
   {
     "dappId": "valor-quest",
-    "question": "Which project type best describes Valor Quest?",
+    "question": "Select the key category that Valor Quest highlights.",
     "options": [
-      "Infra",
-      "App",
-      "App/Infra"
+      "Gaming",
+      "Identity",
+      "Zero-Knowledge",
+      "Abstraction"
     ],
-    "answerIndex": 1,
-    "explanation": "Valor Quest is categorized as App."
+    "answerIndex": 0,
+    "explanation": "Valor Quest is commonly associated with Gaming."
   },
   {
     "dappId": "web3auth",
-    "question": "Which project type best describes Web3Auth?",
+    "question": "Which focus area is most associated with Web3Auth?",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "Account",
+      "Oracle",
+      "RWA",
+      "Zero-Knowledge"
     ],
-    "answerIndex": 2,
-    "explanation": "Web3Auth is categorized as Infra."
+    "answerIndex": 0,
+    "explanation": "Web3Auth is commonly associated with Account."
   },
   {
     "dappId": "winks-fun",
-    "question": "Which project type best describes Winks.fun?",
+    "question": "Select the key category that Winks.fun highlights.",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "Other",
+      "RPC",
+      "Apps",
+      "Infra"
     ],
     "answerIndex": 0,
-    "explanation": "Winks.fun is categorized as Infra."
+    "explanation": "Winks.fun is commonly associated with Other."
   },
   {
     "dappId": "wonad",
-    "question": "Which project type best describes Wonad?",
+    "question": "Pick the tag that best represents Wonad.",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "Betting",
+      "Cross-Chain",
+      "Social",
+      "Dev"
     ],
     "answerIndex": 2,
-    "explanation": "Wonad is categorized as App."
+    "explanation": "Wonad is commonly associated with Social."
   },
   {
     "dappId": "wormhole",
-    "question": "Which project type best describes Wormhole?",
+    "question": "Pick the tag that best represents Wormhole.",
     "options": [
-      "App/Infra",
-      "App",
-      "Infra"
+      "Oracle",
+      "NFT",
+      "Wallet",
+      "Cross-Chain"
     ],
-    "answerIndex": 2,
-    "explanation": "Wormhole is categorized as Infra."
+    "answerIndex": 3,
+    "explanation": "Wormhole is commonly associated with Cross-Chain."
   },
   {
     "dappId": "x2c",
-    "question": "Which project type best describes X2C?",
+    "question": "Which focus area is most associated with X2C?",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "Analytics",
+      "Account",
+      "Prediction",
+      "Gaming"
     ],
-    "answerIndex": 2,
-    "explanation": "X2C is categorized as App."
+    "answerIndex": 3,
+    "explanation": "X2C is commonly associated with Gaming."
   },
   {
     "dappId": "xl",
-    "question": "Which project type best describes XL?",
+    "question": "Which focus area is most associated with XL?",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "DePIN",
+      "DeFi",
+      "Tooling",
+      "Stablecoin"
     ],
-    "answerIndex": 0,
-    "explanation": "XL is categorized as App."
+    "answerIndex": 1,
+    "explanation": "XL is commonly associated with DeFi."
   },
   {
     "dappId": "yamata",
-    "question": "Which project type best describes Yamata?",
+    "question": "Select the key category that Yamata highlights.",
     "options": [
-      "App",
       "Infra",
-      "App/Infra"
+      "Gaming",
+      "Betting",
+      "DeFi"
     ],
-    "answerIndex": 0,
-    "explanation": "Yamata is categorized as App."
+    "answerIndex": 3,
+    "explanation": "Yamata is commonly associated with DeFi."
   },
   {
     "dappId": "yieldkingz",
-    "question": "Which project type best describes YieldKingZ?",
+    "question": "YieldKingZ is closely linked to which focus tag?",
     "options": [
-      "App",
-      "Infra",
-      "App/Infra"
+      "Tooling",
+      "Analytics",
+      "Dev",
+      "Gaming"
     ],
-    "answerIndex": 0,
-    "explanation": "YieldKingZ is categorized as App."
+    "answerIndex": 3,
+    "explanation": "YieldKingZ is commonly associated with Gaming."
   },
   {
     "dappId": "zapry",
-    "question": "Which project type best describes Zapry?",
+    "question": "Select the key category that Zapry highlights.",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "Tooling",
+      "Governance",
+      "AI",
+      "Analytics"
     ],
-    "answerIndex": 0,
-    "explanation": "Zapry is categorized as App."
+    "answerIndex": 2,
+    "explanation": "Zapry is commonly associated with AI."
   },
   {
     "dappId": "zerion",
-    "question": "Which project type best describes Zerion?",
+    "question": "Which focus area is most associated with Zerion?",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "Indexer",
+      "Privacy",
+      "Identity",
+      "DeFi"
     ],
-    "answerIndex": 1,
-    "explanation": "Zerion is categorized as Infra."
+    "answerIndex": 0,
+    "explanation": "Zerion is commonly associated with Indexer."
   },
   {
     "dappId": "zerodev",
-    "question": "Which project type best describes ZeroDev?",
+    "question": "ZeroDev is closely linked to which focus tag?",
     "options": [
-      "App",
-      "App/Infra",
-      "Infra"
+      "Identity",
+      "Account",
+      "Payments",
+      "Analytics"
     ],
-    "answerIndex": 2,
-    "explanation": "ZeroDev is categorized as Infra."
+    "answerIndex": 1,
+    "explanation": "ZeroDev is commonly associated with Account."
   },
   {
     "dappId": "zona",
-    "question": "Which project type best describes Zona?",
+    "question": "Select the key category that Zona highlights.",
     "options": [
-      "Infra",
-      "App/Infra",
-      "App"
+      "DeFi",
+      "Dev",
+      "DePIN",
+      "RPC"
     ],
-    "answerIndex": 2,
-    "explanation": "Zona is categorized as App."
+    "answerIndex": 0,
+    "explanation": "Zona is commonly associated with DeFi."
   },
   {
     "dappId": "dfusion-ai",
-    "question": "Which project type best describes dFusion AI?",
+    "question": "Which focus area is most associated with dFusion AI?",
     "options": [
-      "App/Infra",
-      "Infra",
-      "App"
+      "DeFi",
+      "AI",
+      "Tooling",
+      "Oracle"
     ],
-    "answerIndex": 2,
-    "explanation": "dFusion AI is categorized as App."
+    "answerIndex": 1,
+    "explanation": "dFusion AI is commonly associated with AI."
   }
 ]

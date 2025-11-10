@@ -84,6 +84,7 @@ const mapEcosystemEntry = (entry) => {
 }
 
 export const dAppsData = (ecosystem?.data || []).map(mapEcosystemEntry)
+const dappIndex = new Map(dAppsData.map((item) => [item.id, item]))
 
 const HIDDEN_SAMPLE_SIZE = 12
 dAppsData.slice(0, HIDDEN_SAMPLE_SIZE).forEach((item) => {
@@ -108,4 +109,8 @@ export function getDappsByCategory(category) {
 
 export function getHiddenDapps() {
   return dAppsData.filter((dapp) => dapp.hidden)
+}
+
+export function getDappById(id) {
+  return dappIndex.get(id) || null
 }
