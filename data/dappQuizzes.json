@@ -1,0 +1,3335 @@
+[
+  {
+    "dappId": "0x",
+    "question": "Which project type best describes 0x?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 1,
+    "explanation": "0x is categorized as Infra."
+  },
+  {
+    "dappId": "ausd",
+    "question": "Which project type best describes AUSD?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 0,
+    "explanation": "AUSD is categorized as App/Infra."
+  },
+  {
+    "dappId": "azex",
+    "question": "Which project type best describes AZEx?",
+    "options": [
+      "App/Infra",
+      "App",
+      "Infra"
+    ],
+    "answerIndex": 1,
+    "explanation": "AZEx is categorized as App."
+  },
+  {
+    "dappId": "aarna",
+    "question": "Which project type best describes Aarna?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Aarna is categorized as App."
+  },
+  {
+    "dappId": "accountable",
+    "question": "Which project type best describes Accountable?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Accountable is categorized as App."
+  },
+  {
+    "dappId": "across-protocol",
+    "question": "Which project type best describes Across Protocol?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 0,
+    "explanation": "Across Protocol is categorized as Infra."
+  },
+  {
+    "dappId": "acurast",
+    "question": "Which project type best describes Acurast?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "Acurast is categorized as App/Infra."
+  },
+  {
+    "dappId": "aethonswap",
+    "question": "Which project type best describes AethonSwap?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "AethonSwap is categorized as App."
+  },
+  {
+    "dappId": "alchemy",
+    "question": "Which project type best describes Alchemy?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "Alchemy is categorized as Infra."
+  },
+  {
+    "dappId": "alldomains",
+    "question": "Which project type best describes AllDomains?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "AllDomains is categorized as Infra."
+  },
+  {
+    "dappId": "allium",
+    "question": "Which project type best describes Allium?",
+    "options": [
+      "App/Infra",
+      "App",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "Allium is categorized as Infra."
+  },
+  {
+    "dappId": "ambient",
+    "question": "Which project type best describes Ambient?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Ambient is categorized as App."
+  },
+  {
+    "dappId": "ambire-wallet",
+    "question": "Which project type best describes Ambire Wallet?",
+    "options": [
+      "Infra",
+      "App",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Ambire Wallet is categorized as Infra."
+  },
+  {
+    "dappId": "amertis",
+    "question": "Which project type best describes Amertis?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Amertis is categorized as App."
+  },
+  {
+    "dappId": "ammalgam",
+    "question": "Which project type best describes Ammalgam?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Ammalgam is categorized as App."
+  },
+  {
+    "dappId": "apebond",
+    "question": "Which project type best describes ApeBond?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "ApeBond is categorized as App."
+  },
+  {
+    "dappId": "apriori",
+    "question": "Which project type best describes Apriori?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Apriori is categorized as App."
+  },
+  {
+    "dappId": "atlantis",
+    "question": "Which project type best describes Atlantis?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Atlantis is categorized as App."
+  },
+  {
+    "dappId": "atomic-wallet",
+    "question": "Which project type best describes Atomic Wallet?",
+    "options": [
+      "Infra",
+      "App",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Atomic Wallet is categorized as Infra."
+  },
+  {
+    "dappId": "azaar",
+    "question": "Which project type best describes Azaar?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Azaar is categorized as App."
+  },
+  {
+    "dappId": "backpack-wallet",
+    "question": "Which project type best describes Backpack Wallet?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "Backpack Wallet is categorized as Infra."
+  },
+  {
+    "dappId": "balancer",
+    "question": "Which project type best describes Balancer?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Balancer is categorized as App."
+  },
+  {
+    "dappId": "band-protocol",
+    "question": "Which project type best describes Band Protocol?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 1,
+    "explanation": "Band Protocol is categorized as Infra."
+  },
+  {
+    "dappId": "bean-exchange",
+    "question": "Which project type best describes Bean Exchange?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Bean Exchange is categorized as App."
+  },
+  {
+    "dappId": "bebop",
+    "question": "Which project type best describes Bebop?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Bebop is categorized as App."
+  },
+  {
+    "dappId": "biconomy",
+    "question": "Which project type best describes Biconomy?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "Biconomy is categorized as Infra."
+  },
+  {
+    "dappId": "bima",
+    "question": "Which project type best describes Bima?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Bima is categorized as App."
+  },
+  {
+    "dappId": "birdeye",
+    "question": "Which project type best describes Birdeye?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Birdeye is categorized as App."
+  },
+  {
+    "dappId": "birdeye-data-services",
+    "question": "Which project type best describes Birdeye Data Services?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "Birdeye Data Services is categorized as Infra."
+  },
+  {
+    "dappId": "bitget-wallet",
+    "question": "Which project type best describes Bitget Wallet?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 0,
+    "explanation": "Bitget Wallet is categorized as Infra."
+  },
+  {
+    "dappId": "blazpay",
+    "question": "Which project type best describes Blazpay?",
+    "options": [
+      "App/Infra",
+      "App",
+      "Infra"
+    ],
+    "answerIndex": 1,
+    "explanation": "Blazpay is categorized as App."
+  },
+  {
+    "dappId": "blockstreet",
+    "question": "Which project type best describes BlockStreet?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 0,
+    "explanation": "BlockStreet is categorized as Infra."
+  },
+  {
+    "dappId": "blockvision",
+    "question": "Which project type best describes BlockVision?",
+    "options": [
+      "App/Infra",
+      "App",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "BlockVision is categorized as Infra."
+  },
+  {
+    "dappId": "blockdaemon",
+    "question": "Which project type best describes Blockdaemon?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "Blockdaemon is categorized as Infra."
+  },
+  {
+    "dappId": "blocklive",
+    "question": "Which project type best describes Blocklive?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Blocklive is categorized as App."
+  },
+  {
+    "dappId": "breath-of-estova",
+    "question": "Which project type best describes Breath of Estova?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Breath of Estova is categorized as App."
+  },
+  {
+    "dappId": "buzzing-app",
+    "question": "Which project type best describes Buzzing App?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Buzzing App is categorized as App."
+  },
+  {
+    "dappId": "bybit-web3-wallet",
+    "question": "Which project type best describes Bybit Web3 Wallet?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 0,
+    "explanation": "Bybit Web3 Wallet is categorized as Infra."
+  },
+  {
+    "dappId": "cplx",
+    "question": "Which project type best describes CPLX?",
+    "options": [
+      "Infra",
+      "App",
+      "App/Infra"
+    ],
+    "answerIndex": 1,
+    "explanation": "CPLX is categorized as App."
+  },
+  {
+    "dappId": "cult",
+    "question": "Which project type best describes CULT?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "CULT is categorized as App."
+  },
+  {
+    "dappId": "caddy-finance",
+    "question": "Which project type best describes Caddy Finance?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Caddy Finance is categorized as App."
+  },
+  {
+    "dappId": "capa",
+    "question": "Which project type best describes Capa?",
+    "options": [
+      "App/Infra",
+      "App",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "Capa is categorized as Infra."
+  },
+  {
+    "dappId": "castora",
+    "question": "Which project type best describes Castora?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Castora is categorized as App."
+  },
+  {
+    "dappId": "catton-ai",
+    "question": "Which project type best describes Catton AI?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Catton AI is categorized as App."
+  },
+  {
+    "dappId": "celeris",
+    "question": "Which project type best describes Celeris?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Celeris is categorized as App."
+  },
+  {
+    "dappId": "chainbase",
+    "question": "Which project type best describes Chainbase?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "Chainbase is categorized as Infra."
+  },
+  {
+    "dappId": "chainlink",
+    "question": "Which project type best describes Chainlink?",
+    "options": [
+      "App/Infra",
+      "App",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "Chainlink is categorized as Infra."
+  },
+  {
+    "dappId": "chainsight",
+    "question": "Which project type best describes Chainsight?",
+    "options": [
+      "Infra",
+      "App",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Chainsight is categorized as Infra."
+  },
+  {
+    "dappId": "chronicle",
+    "question": "Which project type best describes Chronicle?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 0,
+    "explanation": "Chronicle is categorized as Infra."
+  },
+  {
+    "dappId": "clober",
+    "question": "Which project type best describes Clober?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Clober is categorized as App."
+  },
+  {
+    "dappId": "conft",
+    "question": "Which project type best describes CoNFT?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "CoNFT is categorized as App."
+  },
+  {
+    "dappId": "codex",
+    "question": "Which project type best describes Codex?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "Codex is categorized as Infra."
+  },
+  {
+    "dappId": "coin98-ai-wallet",
+    "question": "Which project type best describes Coin98 AI Wallet?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 0,
+    "explanation": "Coin98 AI Wallet is categorized as Infra."
+  },
+  {
+    "dappId": "covenant",
+    "question": "Which project type best describes Covenant?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Covenant is categorized as App."
+  },
+  {
+    "dappId": "crust-finance",
+    "question": "Which project type best describes Crust Finance?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Crust Finance is categorized as App."
+  },
+  {
+    "dappId": "crystal",
+    "question": "Which project type best describes Crystal?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Crystal is categorized as App."
+  },
+  {
+    "dappId": "cult-markets",
+    "question": "Which project type best describes Cult Markets?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Cult Markets is categorized as App."
+  },
+  {
+    "dappId": "curvance",
+    "question": "Which project type best describes Curvance?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Curvance is categorized as App."
+  },
+  {
+    "dappId": "cycle-network",
+    "question": "Which project type best describes Cycle Network?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "Cycle Network is categorized as Infra."
+  },
+  {
+    "dappId": "cyferio",
+    "question": "Which project type best describes Cyferio?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 1,
+    "explanation": "Cyferio is categorized as Infra."
+  },
+  {
+    "dappId": "dau-cards",
+    "question": "Which project type best describes DAU Cards?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "DAU Cards is categorized as App."
+  },
+  {
+    "dappId": "drkvrs",
+    "question": "Which project type best describes DRKVRS?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "DRKVRS is categorized as App."
+  },
+  {
+    "dappId": "drpc",
+    "question": "Which project type best describes DRPC?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 0,
+    "explanation": "DRPC is categorized as Infra."
+  },
+  {
+    "dappId": "dashx",
+    "question": "Which project type best describes DashX?",
+    "options": [
+      "App/Infra",
+      "App",
+      "Infra"
+    ],
+    "answerIndex": 1,
+    "explanation": "DashX is categorized as App."
+  },
+  {
+    "dappId": "defined",
+    "question": "Which project type best describes Defined?",
+    "options": [
+      "Infra",
+      "App",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Defined is categorized as Infra."
+  },
+  {
+    "dappId": "demask-finance",
+    "question": "Which project type best describes Demask Finance?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Demask Finance is categorized as App."
+  },
+  {
+    "dappId": "dialect",
+    "question": "Which project type best describes Dialect?",
+    "options": [
+      "App/Infra",
+      "App",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "Dialect is categorized as Infra."
+  },
+  {
+    "dappId": "diffuse",
+    "question": "Which project type best describes Diffuse?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "Diffuse is categorized as Infra."
+  },
+  {
+    "dappId": "dirol-protocol",
+    "question": "Which project type best describes Dirol Protocol?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Dirol Protocol is categorized as App."
+  },
+  {
+    "dappId": "discocats",
+    "question": "Which project type best describes DiscoCats?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "DiscoCats is categorized as App."
+  },
+  {
+    "dappId": "doppler",
+    "question": "Which project type best describes Doppler?",
+    "options": [
+      "App/Infra",
+      "App",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "Doppler is categorized as Infra."
+  },
+  {
+    "dappId": "drake",
+    "question": "Which project type best describes Drake?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Drake is categorized as App."
+  },
+  {
+    "dappId": "dune",
+    "question": "Which project type best describes Dune?",
+    "options": [
+      "Infra",
+      "App",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Dune is categorized as Infra."
+  },
+  {
+    "dappId": "dusted",
+    "question": "Which project type best describes Dusted?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Dusted is categorized as App."
+  },
+  {
+    "dappId": "dynamic",
+    "question": "Which project type best describes Dynamic?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 0,
+    "explanation": "Dynamic is categorized as Infra."
+  },
+  {
+    "dappId": "dyson-finance",
+    "question": "Which project type best describes Dyson Finance?",
+    "options": [
+      "App/Infra",
+      "App",
+      "Infra"
+    ],
+    "answerIndex": 1,
+    "explanation": "Dyson Finance is categorized as App."
+  },
+  {
+    "dappId": "elfi",
+    "question": "Which project type best describes ELFi?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "ELFi is categorized as App."
+  },
+  {
+    "dappId": "eoracle",
+    "question": "Which project type best describes EOracle?",
+    "options": [
+      "App/Infra",
+      "App",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "EOracle is categorized as Infra."
+  },
+  {
+    "dappId": "eisen-finance",
+    "question": "Which project type best describes Eisen Finance?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Eisen Finance is categorized as App."
+  },
+  {
+    "dappId": "enjoyoors",
+    "question": "Which project type best describes Enjoyoors?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Enjoyoors is categorized as App."
+  },
+  {
+    "dappId": "entangle",
+    "question": "Which project type best describes Entangle?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "Entangle is categorized as Infra."
+  },
+  {
+    "dappId": "envio",
+    "question": "Which project type best describes Envio?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 1,
+    "explanation": "Envio is categorized as Infra."
+  },
+  {
+    "dappId": "euclid-protocol",
+    "question": "Which project type best describes Euclid Protocol?",
+    "options": [
+      "Infra",
+      "App",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Euclid Protocol is categorized as Infra."
+  },
+  {
+    "dappId": "euler",
+    "question": "Which project type best describes Euler?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Euler is categorized as App."
+  },
+  {
+    "dappId": "fuku",
+    "question": "Which project type best describes FUKU?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "FUKU is categorized as App."
+  },
+  {
+    "dappId": "fwx",
+    "question": "Which project type best describes FWX?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "FWX is categorized as App."
+  },
+  {
+    "dappId": "fans3-ai",
+    "question": "Which project type best describes Fans3 AI?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Fans3 AI is categorized as App."
+  },
+  {
+    "dappId": "farcaster",
+    "question": "Which project type best describes Farcaster?",
+    "options": [
+      "Infra",
+      "App",
+      "App/Infra"
+    ],
+    "answerIndex": 1,
+    "explanation": "Farcaster is categorized as App."
+  },
+  {
+    "dappId": "fastlane",
+    "question": "Which project type best describes FastLane?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 1,
+    "explanation": "FastLane is categorized as App/Infra."
+  },
+  {
+    "dappId": "fiamma",
+    "question": "Which project type best describes Fiamma?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 1,
+    "explanation": "Fiamma is categorized as Infra."
+  },
+  {
+    "dappId": "fizen-io",
+    "question": "Which project type best describes Fizen.io?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Fizen.io is categorized as App."
+  },
+  {
+    "dappId": "flap",
+    "question": "Which project type best describes Flap?",
+    "options": [
+      "Infra",
+      "App",
+      "App/Infra"
+    ],
+    "answerIndex": 1,
+    "explanation": "Flap is categorized as App."
+  },
+  {
+    "dappId": "flipside-crypto",
+    "question": "Which project type best describes Flipside Crypto?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 0,
+    "explanation": "Flipside Crypto is categorized as Infra."
+  },
+  {
+    "dappId": "folks-finance",
+    "question": "Which project type best describes Folks Finance?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Folks Finance is categorized as App."
+  },
+  {
+    "dappId": "fonbnk",
+    "question": "Which project type best describes Fonbnk?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 0,
+    "explanation": "Fonbnk is categorized as Infra."
+  },
+  {
+    "dappId": "fortytwo",
+    "question": "Which project type best describes Fortytwo?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 0,
+    "explanation": "Fortytwo is categorized as App/Infra."
+  },
+  {
+    "dappId": "foxwallet",
+    "question": "Which project type best describes FoxWallet?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "FoxWallet is categorized as Infra."
+  },
+  {
+    "dappId": "gm-agents",
+    "question": "Which project type best describes GM Agents?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "GM Agents is categorized as App."
+  },
+  {
+    "dappId": "garden",
+    "question": "Which project type best describes Garden?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "Garden is categorized as Infra."
+  },
+  {
+    "dappId": "gasp",
+    "question": "Which project type best describes Gasp?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Gasp is categorized as App."
+  },
+  {
+    "dappId": "gateway",
+    "question": "Which project type best describes Gateway?",
+    "options": [
+      "App/Infra",
+      "App",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "Gateway is categorized as Infra."
+  },
+  {
+    "dappId": "gearbox-protocol",
+    "question": "Which project type best describes Gearbox Protocol?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Gearbox Protocol is categorized as App."
+  },
+  {
+    "dappId": "gelato",
+    "question": "Which project type best describes Gelato?",
+    "options": [
+      "Infra",
+      "App",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Gelato is categorized as Infra."
+  },
+  {
+    "dappId": "ghost",
+    "question": "Which project type best describes Ghost?",
+    "options": [
+      "Infra",
+      "App",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Ghost is categorized as Infra."
+  },
+  {
+    "dappId": "gifted-art",
+    "question": "Which project type best describes Gifted.art?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Gifted.art is categorized as App."
+  },
+  {
+    "dappId": "goplus",
+    "question": "Which project type best describes GoPlus?",
+    "options": [
+      "App/Infra",
+      "App",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "GoPlus is categorized as Infra."
+  },
+  {
+    "dappId": "goldrush-by-covalent",
+    "question": "Which project type best describes GoldRush by Covalent?",
+    "options": [
+      "App/Infra",
+      "App",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "GoldRush by Covalent is categorized as Infra."
+  },
+  {
+    "dappId": "golden-goose",
+    "question": "Which project type best describes Golden Goose?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Golden Goose is categorized as App."
+  },
+  {
+    "dappId": "goldsky",
+    "question": "Which project type best describes Goldsky?",
+    "options": [
+      "App/Infra",
+      "App",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "Goldsky is categorized as Infra."
+  },
+  {
+    "dappId": "gorillionaire",
+    "question": "Which project type best describes Gorillionaire?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Gorillionaire is categorized as App."
+  },
+  {
+    "dappId": "haha-wallet",
+    "question": "Which project type best describes HaHa Wallet?",
+    "options": [
+      "App/Infra",
+      "App",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "HaHa Wallet is categorized as Infra."
+  },
+  {
+    "dappId": "hashflow",
+    "question": "Which project type best describes Hashflow?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Hashflow is categorized as App."
+  },
+  {
+    "dappId": "hawk-terminal",
+    "question": "Which project type best describes Hawk Terminal?",
+    "options": [
+      "Infra",
+      "App",
+      "App/Infra"
+    ],
+    "answerIndex": 1,
+    "explanation": "Hawk Terminal is categorized as App."
+  },
+  {
+    "dappId": "hemera",
+    "question": "Which project type best describes Hemera?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 1,
+    "explanation": "Hemera is categorized as Infra."
+  },
+  {
+    "dappId": "henry-labs",
+    "question": "Which project type best describes Henry Labs?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Henry Labs is categorized as App."
+  },
+  {
+    "dappId": "hive",
+    "question": "Which project type best describes Hive?",
+    "options": [
+      "Infra",
+      "App",
+      "App/Infra"
+    ],
+    "answerIndex": 1,
+    "explanation": "Hive is categorized as App."
+  },
+  {
+    "dappId": "hyperlane",
+    "question": "Which project type best describes Hyperlane?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "Hyperlane is categorized as Infra."
+  },
+  {
+    "dappId": "infinit",
+    "question": "Which project type best describes INFINIT?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "INFINIT is categorized as App."
+  },
+  {
+    "dappId": "izumi-finance",
+    "question": "Which project type best describes IZUMi Finance?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "IZUMi Finance is categorized as App."
+  },
+  {
+    "dappId": "impossible-finance",
+    "question": "Which project type best describes Impossible Finance?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Impossible Finance is categorized as App."
+  },
+  {
+    "dappId": "index-network",
+    "question": "Which project type best describes Index Network?",
+    "options": [
+      "App/Infra",
+      "App",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "Index Network is categorized as Infra."
+  },
+  {
+    "dappId": "jenius",
+    "question": "Which project type best describes Jenius?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Jenius is categorized as App."
+  },
+  {
+    "dappId": "jumper-exchange",
+    "question": "Which project type best describes Jumper Exchange?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Jumper Exchange is categorized as App."
+  },
+  {
+    "dappId": "kinetk",
+    "question": "Which project type best describes KINETK?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "KINETK is categorized as App."
+  },
+  {
+    "dappId": "kansei",
+    "question": "Which project type best describes Kansei?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Kansei is categorized as App."
+  },
+  {
+    "dappId": "kiloex",
+    "question": "Which project type best describes KiloEx?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "KiloEx is categorized as App."
+  },
+  {
+    "dappId": "kingdomly",
+    "question": "Which project type best describes Kingdomly?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Kingdomly is categorized as App."
+  },
+  {
+    "dappId": "kintsu",
+    "question": "Which project type best describes Kintsu?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Kintsu is categorized as App."
+  },
+  {
+    "dappId": "kinza-finance",
+    "question": "Which project type best describes Kinza Finance?",
+    "options": [
+      "App/Infra",
+      "App",
+      "Infra"
+    ],
+    "answerIndex": 1,
+    "explanation": "Kinza Finance is categorized as App."
+  },
+  {
+    "dappId": "kizzy",
+    "question": "Which project type best describes Kizzy?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Kizzy is categorized as App."
+  },
+  {
+    "dappId": "kodeus-ai",
+    "question": "Which project type best describes Kodeus AI?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Kodeus AI is categorized as App."
+  },
+  {
+    "dappId": "koywe",
+    "question": "Which project type best describes Koywe?",
+    "options": [
+      "Infra",
+      "App",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Koywe is categorized as Infra."
+  },
+  {
+    "dappId": "kucoin-web3-wallet",
+    "question": "Which project type best describes KuCoin Web3 Wallet?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 0,
+    "explanation": "KuCoin Web3 Wallet is categorized as Infra."
+  },
+  {
+    "dappId": "kuru",
+    "question": "Which project type best describes Kuru?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Kuru is categorized as App."
+  },
+  {
+    "dappId": "lagoon",
+    "question": "Which project type best describes LAGOON?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "LAGOON is categorized as App."
+  },
+  {
+    "dappId": "levr-bet",
+    "question": "Which project type best describes LEVR.bet?",
+    "options": [
+      "Infra",
+      "App",
+      "App/Infra"
+    ],
+    "answerIndex": 1,
+    "explanation": "LEVR.bet is categorized as App."
+  },
+  {
+    "dappId": "lfj",
+    "question": "Which project type best describes LFJ?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "LFJ is categorized as App."
+  },
+  {
+    "dappId": "li-fi",
+    "question": "Which project type best describes LI.FI?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 0,
+    "explanation": "LI.FI is categorized as Infra."
+  },
+  {
+    "dappId": "layerzero",
+    "question": "Which project type best describes LayerZero?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "LayerZero is categorized as Infra."
+  },
+  {
+    "dappId": "layerhub",
+    "question": "Which project type best describes Layerhub?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 0,
+    "explanation": "Layerhub is categorized as Infra."
+  },
+  {
+    "dappId": "leap-wallet",
+    "question": "Which project type best describes Leap Wallet?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 0,
+    "explanation": "Leap Wallet is categorized as Infra."
+  },
+  {
+    "dappId": "legends-of-elysium",
+    "question": "Which project type best describes Legends of Elysium?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Legends of Elysium is categorized as App."
+  },
+  {
+    "dappId": "leverup",
+    "question": "Which project type best describes LeverUp?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "LeverUp is categorized as App."
+  },
+  {
+    "dappId": "likwid",
+    "question": "Which project type best describes Likwid?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Likwid is categorized as App."
+  },
+  {
+    "dappId": "lombard",
+    "question": "Which project type best describes Lombard?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 0,
+    "explanation": "Lombard is categorized as Infra."
+  },
+  {
+    "dappId": "lootgo",
+    "question": "Which project type best describes LootGO?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "LootGO is categorized as App."
+  },
+  {
+    "dappId": "lootify",
+    "question": "Which project type best describes Lootify?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Lootify is categorized as App."
+  },
+  {
+    "dappId": "lumiterra",
+    "question": "Which project type best describes Lumiterra?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Lumiterra is categorized as App."
+  },
+  {
+    "dappId": "m0narch",
+    "question": "Which project type best describes M0narch?",
+    "options": [
+      "App/Infra",
+      "App",
+      "Infra"
+    ],
+    "answerIndex": 1,
+    "explanation": "M0narch is categorized as App."
+  },
+  {
+    "dappId": "merv",
+    "question": "Which project type best describes MERV?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "MERV is categorized as App."
+  },
+  {
+    "dappId": "mace",
+    "question": "Which project type best describes Mace?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Mace is categorized as App."
+  },
+  {
+    "dappId": "mach-exchange",
+    "question": "Which project type best describes Mach Exchange?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Mach Exchange is categorized as App."
+  },
+  {
+    "dappId": "madhouse",
+    "question": "Which project type best describes Madhouse?",
+    "options": [
+      "Infra",
+      "App",
+      "App/Infra"
+    ],
+    "answerIndex": 1,
+    "explanation": "Madhouse is categorized as App."
+  },
+  {
+    "dappId": "magic-eden",
+    "question": "Which project type best describes Magic Eden?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Magic Eden is categorized as App."
+  },
+  {
+    "dappId": "magma",
+    "question": "Which project type best describes Magma?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Magma is categorized as App."
+  },
+  {
+    "dappId": "mahjong123",
+    "question": "Which project type best describes Mahjong123?",
+    "options": [
+      "App/Infra",
+      "App",
+      "Infra"
+    ],
+    "answerIndex": 1,
+    "explanation": "Mahjong123 is categorized as App."
+  },
+  {
+    "dappId": "memesteroid",
+    "question": "Which project type best describes Memesteroid?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Memesteroid is categorized as App."
+  },
+  {
+    "dappId": "mentaport",
+    "question": "Which project type best describes Mentaport?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "Mentaport is categorized as Infra."
+  },
+  {
+    "dappId": "meow-finance",
+    "question": "Which project type best describes Meow Finance?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Meow Finance is categorized as App."
+  },
+  {
+    "dappId": "meta-leap",
+    "question": "Which project type best describes Meta Leap?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Meta Leap is categorized as App."
+  },
+  {
+    "dappId": "metakeep",
+    "question": "Which project type best describes MetaKeep?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 0,
+    "explanation": "MetaKeep is categorized as Infra."
+  },
+  {
+    "dappId": "mflo",
+    "question": "Which project type best describes Mflo?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Mflo is categorized as App."
+  },
+  {
+    "dappId": "mindagentsai",
+    "question": "Which project type best describes MindAgentsAI?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "MindAgentsAI is categorized as App."
+  },
+  {
+    "dappId": "mintpad",
+    "question": "Which project type best describes Mintpad?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Mintpad is categorized as App."
+  },
+  {
+    "dappId": "mobula",
+    "question": "Which project type best describes Mobula?",
+    "options": [
+      "App/Infra",
+      "App",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "Mobula is categorized as Infra."
+  },
+  {
+    "dappId": "monadexplorer-by-blockvision",
+    "question": "Which project type best describes MonadExplorer by BlockVision?",
+    "options": [
+      "Infra",
+      "App",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "MonadExplorer by BlockVision is categorized as Infra."
+  },
+  {
+    "dappId": "monadata-ai",
+    "question": "Which project type best describes Monadata AI?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Monadata AI is categorized as App."
+  },
+  {
+    "dappId": "monday-trade",
+    "question": "Which project type best describes Monday Trade?",
+    "options": [
+      "App/Infra",
+      "App",
+      "Infra"
+    ],
+    "answerIndex": 1,
+    "explanation": "Monday Trade is categorized as App."
+  },
+  {
+    "dappId": "monorail",
+    "question": "Which project type best describes Monorail?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Monorail is categorized as App."
+  },
+  {
+    "dappId": "morpheus",
+    "question": "Which project type best describes Morpheus?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Morpheus is categorized as App."
+  },
+  {
+    "dappId": "moseiki",
+    "question": "Which project type best describes Moseiki?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Moseiki is categorized as App."
+  },
+  {
+    "dappId": "mozi",
+    "question": "Which project type best describes Mozi?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 1,
+    "explanation": "Mozi is categorized as App/Infra."
+  },
+  {
+    "dappId": "mu-digital",
+    "question": "Which project type best describes Mu Digital?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Mu Digital is categorized as App."
+  },
+  {
+    "dappId": "multipli-fi",
+    "question": "Which project type best describes Multipli.fi?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Multipli.fi is categorized as App."
+  },
+  {
+    "dappId": "multisynq",
+    "question": "Which project type best describes Multisynq?",
+    "options": [
+      "App/Infra",
+      "App",
+      "Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Multisynq is categorized as App/Infra."
+  },
+  {
+    "dappId": "nadsa",
+    "question": "Which project type best describes NADSA?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "NADSA is categorized as App."
+  },
+  {
+    "dappId": "nfts2me",
+    "question": "Which project type best describes NFTs2Me?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "NFTs2Me is categorized as App."
+  },
+  {
+    "dappId": "nxtchain",
+    "question": "Which project type best describes NXTchain?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "NXTchain is categorized as App."
+  },
+  {
+    "dappId": "nabla-finance",
+    "question": "Which project type best describes Nabla Finance?",
+    "options": [
+      "App/Infra",
+      "App",
+      "Infra"
+    ],
+    "answerIndex": 1,
+    "explanation": "Nabla Finance is categorized as App."
+  },
+  {
+    "dappId": "nad-fun",
+    "question": "Which project type best describes Nad.fun?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Nad.fun is categorized as App."
+  },
+  {
+    "dappId": "nadsmith",
+    "question": "Which project type best describes NadSmith?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "NadSmith is categorized as App."
+  },
+  {
+    "dappId": "narrative",
+    "question": "Which project type best describes Narrative?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Narrative is categorized as App."
+  },
+  {
+    "dappId": "narwhal-finance",
+    "question": "Which project type best describes Narwhal Finance?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Narwhal Finance is categorized as App."
+  },
+  {
+    "dappId": "neverland",
+    "question": "Which project type best describes Neverland?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Neverland is categorized as App."
+  },
+  {
+    "dappId": "nillion",
+    "question": "Which project type best describes Nillion?",
+    "options": [
+      "App/Infra",
+      "App",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "Nillion is categorized as Infra."
+  },
+  {
+    "dappId": "nitro-by-router-protocol",
+    "question": "Which project type best describes Nitro by Router Protocol?",
+    "options": [
+      "App/Infra",
+      "App",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "Nitro by Router Protocol is categorized as Infra."
+  },
+  {
+    "dappId": "nitrofinance",
+    "question": "Which project type best describes NitroFinance?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "NitroFinance is categorized as App."
+  },
+  {
+    "dappId": "nomas-wallet",
+    "question": "Which project type best describes Nomas Wallet?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 1,
+    "explanation": "Nomas Wallet is categorized as Infra."
+  },
+  {
+    "dappId": "nostra",
+    "question": "Which project type best describes Nostra?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Nostra is categorized as App."
+  },
+  {
+    "dappId": "notifi",
+    "question": "Which project type best describes Notifi?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 0,
+    "explanation": "Notifi is categorized as Infra."
+  },
+  {
+    "dappId": "noves",
+    "question": "Which project type best describes Noves?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "Noves is categorized as Infra."
+  },
+  {
+    "dappId": "nubila",
+    "question": "Which project type best describes Nubila?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Nubila is categorized as App."
+  },
+  {
+    "dappId": "nunchi",
+    "question": "Which project type best describes Nunchi?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Nunchi is categorized as App."
+  },
+  {
+    "dappId": "okx-explorer",
+    "question": "Which project type best describes OKX Explorer?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "OKX Explorer is categorized as Infra."
+  },
+  {
+    "dappId": "okx-wallet",
+    "question": "Which project type best describes OKX Wallet?",
+    "options": [
+      "App/Infra",
+      "App",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "OKX Wallet is categorized as Infra."
+  },
+  {
+    "dappId": "osl-pay",
+    "question": "Which project type best describes OSL Pay?",
+    "options": [
+      "Infra",
+      "App",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "OSL Pay is categorized as Infra."
+  },
+  {
+    "dappId": "octoswap",
+    "question": "Which project type best describes OctoSwap?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "OctoSwap is categorized as App."
+  },
+  {
+    "dappId": "omnia",
+    "question": "Which project type best describes Omnia?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Omnia is categorized as App."
+  },
+  {
+    "dappId": "opals",
+    "question": "Which project type best describes Opals?",
+    "options": [
+      "App/Infra",
+      "App",
+      "Infra"
+    ],
+    "answerIndex": 1,
+    "explanation": "Opals is categorized as App."
+  },
+  {
+    "dappId": "openocean",
+    "question": "Which project type best describes OpenOcean?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "OpenOcean is categorized as App."
+  },
+  {
+    "dappId": "opensea",
+    "question": "Which project type best describes OpenSea?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "OpenSea is categorized as App."
+  },
+  {
+    "dappId": "orbiter-finance",
+    "question": "Which project type best describes Orbiter Finance?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "Orbiter Finance is categorized as Infra."
+  },
+  {
+    "dappId": "orderly",
+    "question": "Which project type best describes Orderly?",
+    "options": [
+      "App/Infra",
+      "App",
+      "Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Orderly is categorized as App/Infra."
+  },
+  {
+    "dappId": "orochi-network",
+    "question": "Which project type best describes Orochi Network?",
+    "options": [
+      "Infra",
+      "App",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Orochi Network is categorized as Infra."
+  },
+  {
+    "dappId": "outpost-surge",
+    "question": "Which project type best describes Outpost Surge?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Outpost Surge is categorized as App."
+  },
+  {
+    "dappId": "owlto-finance",
+    "question": "Which project type best describes Owlto Finance?",
+    "options": [
+      "Infra",
+      "App",
+      "App/Infra"
+    ],
+    "answerIndex": 1,
+    "explanation": "Owlto Finance is categorized as App."
+  },
+  {
+    "dappId": "play-network",
+    "question": "Which project type best describes PLAY Network?",
+    "options": [
+      "App/Infra",
+      "App",
+      "Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "PLAY Network is categorized as App/Infra."
+  },
+  {
+    "dappId": "poink",
+    "question": "Which project type best describes POINK?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 1,
+    "explanation": "POINK is categorized as Infra."
+  },
+  {
+    "dappId": "pancakeswap",
+    "question": "Which project type best describes PancakeSwap?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "PancakeSwap is categorized as App."
+  },
+  {
+    "dappId": "pangea",
+    "question": "Which project type best describes Pangea?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 0,
+    "explanation": "Pangea is categorized as Infra."
+  },
+  {
+    "dappId": "para",
+    "question": "Which project type best describes Para?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 1,
+    "explanation": "Para is categorized as Infra."
+  },
+  {
+    "dappId": "pecker",
+    "question": "Which project type best describes Pecker?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Pecker is categorized as App."
+  },
+  {
+    "dappId": "peridot",
+    "question": "Which project type best describes Peridot?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Peridot is categorized as App."
+  },
+  {
+    "dappId": "permute-finance",
+    "question": "Which project type best describes Permute Finance?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 1,
+    "explanation": "Permute Finance is categorized as Infra."
+  },
+  {
+    "dappId": "perpl",
+    "question": "Which project type best describes Perpl?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Perpl is categorized as App."
+  },
+  {
+    "dappId": "phantom",
+    "question": "Which project type best describes Phantom?",
+    "options": [
+      "App/Infra",
+      "App",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "Phantom is categorized as Infra."
+  },
+  {
+    "dappId": "pimlico",
+    "question": "Which project type best describes Pimlico?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 1,
+    "explanation": "Pimlico is categorized as Infra."
+  },
+  {
+    "dappId": "pingu-exchange",
+    "question": "Which project type best describes Pingu Exchange?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Pingu Exchange is categorized as App."
+  },
+  {
+    "dappId": "plato",
+    "question": "Which project type best describes Plato?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Plato is categorized as App."
+  },
+  {
+    "dappId": "polyflow",
+    "question": "Which project type best describes PolyFlow?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "PolyFlow is categorized as App."
+  },
+  {
+    "dappId": "poply",
+    "question": "Which project type best describes Poply?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Poply is categorized as App."
+  },
+  {
+    "dappId": "poster-fun",
+    "question": "Which project type best describes Poster.fun?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Poster.fun is categorized as App."
+  },
+  {
+    "dappId": "primex-finance",
+    "question": "Which project type best describes Primex Finance?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Primex Finance is categorized as App."
+  },
+  {
+    "dappId": "primus",
+    "question": "Which project type best describes Primus?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "Primus is categorized as Infra."
+  },
+  {
+    "dappId": "privy",
+    "question": "Which project type best describes Privy?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "Privy is categorized as Infra."
+  },
+  {
+    "dappId": "proof-of-skill",
+    "question": "Which project type best describes Proof-of-Skill?",
+    "options": [
+      "Infra",
+      "App",
+      "App/Infra"
+    ],
+    "answerIndex": 1,
+    "explanation": "Proof-of-Skill is categorized as App."
+  },
+  {
+    "dappId": "puffer-finance",
+    "question": "Which project type best describes Puffer Finance?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Puffer Finance is categorized as App."
+  },
+  {
+    "dappId": "pumpbtc",
+    "question": "Which project type best describes PumpBTC?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "PumpBTC is categorized as App."
+  },
+  {
+    "dappId": "purps",
+    "question": "Which project type best describes Purps?",
+    "options": [
+      "Infra",
+      "App",
+      "App/Infra"
+    ],
+    "answerIndex": 1,
+    "explanation": "Purps is categorized as App."
+  },
+  {
+    "dappId": "pyth-network",
+    "question": "Which project type best describes Pyth Network?",
+    "options": [
+      "Infra",
+      "App",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Pyth Network is categorized as Infra."
+  },
+  {
+    "dappId": "quicknode",
+    "question": "Which project type best describes QuickNode?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "QuickNode is categorized as Infra."
+  },
+  {
+    "dappId": "rabble",
+    "question": "Which project type best describes Rabble?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Rabble is categorized as App."
+  },
+  {
+    "dappId": "rarebetsports",
+    "question": "Which project type best describes RareBetSports?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "RareBetSports is categorized as App."
+  },
+  {
+    "dappId": "rayvo",
+    "question": "Which project type best describes Rayvo?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Rayvo is categorized as App."
+  },
+  {
+    "dappId": "redstone",
+    "question": "Which project type best describes RedStone?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 0,
+    "explanation": "RedStone is categorized as Infra."
+  },
+  {
+    "dappId": "redbrick",
+    "question": "Which project type best describes Redbrick?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Redbrick is categorized as App."
+  },
+  {
+    "dappId": "relend-network",
+    "question": "Which project type best describes Relend Network?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 1,
+    "explanation": "Relend Network is categorized as Infra."
+  },
+  {
+    "dappId": "renzo",
+    "question": "Which project type best describes Renzo?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Renzo is categorized as App."
+  },
+  {
+    "dappId": "reown",
+    "question": "Which project type best describes Reown?",
+    "options": [
+      "Infra",
+      "App",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Reown is categorized as Infra."
+  },
+  {
+    "dappId": "reservoir",
+    "question": "Which project type best describes Reservoir?",
+    "options": [
+      "App/Infra",
+      "App",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "Reservoir is categorized as Infra."
+  },
+  {
+    "dappId": "rgbclash",
+    "question": "Which project type best describes RgbClash?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "RgbClash is categorized as App."
+  },
+  {
+    "dappId": "rhino-fi",
+    "question": "Which project type best describes Rhino.fi?",
+    "options": [
+      "Infra",
+      "App",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Rhino.fi is categorized as Infra."
+  },
+  {
+    "dappId": "rubic",
+    "question": "Which project type best describes Rubic?",
+    "options": [
+      "Infra",
+      "App",
+      "App/Infra"
+    ],
+    "answerIndex": 1,
+    "explanation": "Rubic is categorized as App."
+  },
+  {
+    "dappId": "rug-rumble",
+    "question": "Which project type best describes Rug Rumble?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Rug Rumble is categorized as App."
+  },
+  {
+    "dappId": "rumi",
+    "question": "Which project type best describes Rumi?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Rumi is categorized as App."
+  },
+  {
+    "dappId": "sqd",
+    "question": "Which project type best describes SQD?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 0,
+    "explanation": "SQD is categorized as Infra."
+  },
+  {
+    "dappId": "stage-fun",
+    "question": "Which project type best describes STAGE.fun?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "STAGE.fun is categorized as App."
+  },
+  {
+    "dappId": "safepal",
+    "question": "Which project type best describes SafePal?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "SafePal is categorized as Infra."
+  },
+  {
+    "dappId": "scatter-art",
+    "question": "Which project type best describes Scatter.art?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Scatter.art is categorized as App."
+  },
+  {
+    "dappId": "sela-network",
+    "question": "Which project type best describes Sela Network?",
+    "options": [
+      "App/Infra",
+      "App",
+      "Infra"
+    ],
+    "answerIndex": 1,
+    "explanation": "Sela Network is categorized as App."
+  },
+  {
+    "dappId": "sherpa",
+    "question": "Which project type best describes Sherpa?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Sherpa is categorized as App."
+  },
+  {
+    "dappId": "showdown",
+    "question": "Which project type best describes Showdown?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 0,
+    "explanation": "Showdown is categorized as App/Infra."
+  },
+  {
+    "dappId": "sidekick",
+    "question": "Which project type best describes Sidekick?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Sidekick is categorized as App."
+  },
+  {
+    "dappId": "skytrade",
+    "question": "Which project type best describes SkyTrade?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "SkyTrade is categorized as App."
+  },
+  {
+    "dappId": "slogain",
+    "question": "Which project type best describes Slogain?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Slogain is categorized as App."
+  },
+  {
+    "dappId": "solv-protocol",
+    "question": "Which project type best describes Solv Protocol?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Solv Protocol is categorized as App."
+  },
+  {
+    "dappId": "spine-finance",
+    "question": "Which project type best describes Spine Finance?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Spine Finance is categorized as App."
+  },
+  {
+    "dappId": "sprout",
+    "question": "Which project type best describes Sprout?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Sprout is categorized as App."
+  },
+  {
+    "dappId": "stakestone",
+    "question": "Which project type best describes StakeStone?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "StakeStone is categorized as Infra."
+  },
+  {
+    "dappId": "stargate",
+    "question": "Which project type best describes Stargate?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 0,
+    "explanation": "Stargate is categorized as App/Infra."
+  },
+  {
+    "dappId": "stationx",
+    "question": "Which project type best describes StationX?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "StationX is categorized as App."
+  },
+  {
+    "dappId": "stork",
+    "question": "Which project type best describes Stork?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 0,
+    "explanation": "Stork is categorized as Infra."
+  },
+  {
+    "dappId": "subquery",
+    "question": "Which project type best describes SubQuery?",
+    "options": [
+      "App/Infra",
+      "App",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "SubQuery is categorized as Infra."
+  },
+  {
+    "dappId": "sumer",
+    "question": "Which project type best describes Sumer?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Sumer is categorized as App."
+  },
+  {
+    "dappId": "sunscreen",
+    "question": "Which project type best describes Sunscreen?",
+    "options": [
+      "Infra",
+      "App",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Sunscreen is categorized as Infra."
+  },
+  {
+    "dappId": "swaap",
+    "question": "Which project type best describes Swaap?",
+    "options": [
+      "App/Infra",
+      "App",
+      "Infra"
+    ],
+    "answerIndex": 1,
+    "explanation": "Swaap is categorized as App."
+  },
+  {
+    "dappId": "switchboard",
+    "question": "Which project type best describes Switchboard?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 0,
+    "explanation": "Switchboard is categorized as Infra."
+  },
+  {
+    "dappId": "swyrl-finance",
+    "question": "Which project type best describes Swyrl Finance?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Swyrl Finance is categorized as App."
+  },
+  {
+    "dappId": "t3rn",
+    "question": "Which project type best describes T3rn?",
+    "options": [
+      "Infra",
+      "App",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "T3rn is categorized as Infra."
+  },
+  {
+    "dappId": "tadle",
+    "question": "Which project type best describes Tadle?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Tadle is categorized as App."
+  },
+  {
+    "dappId": "talentum",
+    "question": "Which project type best describes Talentum?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Talentum is categorized as App."
+  },
+  {
+    "dappId": "tally",
+    "question": "Which project type best describes Tally?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Tally is categorized as App."
+  },
+  {
+    "dappId": "tarobase",
+    "question": "Which project type best describes Tarobase?",
+    "options": [
+      "Infra",
+      "App",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Tarobase is categorized as Infra."
+  },
+  {
+    "dappId": "terminal-3",
+    "question": "Which project type best describes Terminal 3?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 0,
+    "explanation": "Terminal 3 is categorized as Infra."
+  },
+  {
+    "dappId": "tezza-poker",
+    "question": "Which project type best describes Tezza Poker?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Tezza Poker is categorized as App."
+  },
+  {
+    "dappId": "the-graph",
+    "question": "Which project type best describes The Graph?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 1,
+    "explanation": "The Graph is categorized as Infra."
+  },
+  {
+    "dappId": "the-vape-labs",
+    "question": "Which project type best describes The Vape Labs?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "The Vape Labs is categorized as App."
+  },
+  {
+    "dappId": "thirdweb",
+    "question": "Which project type best describes Thirdweb?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 1,
+    "explanation": "Thirdweb is categorized as Infra."
+  },
+  {
+    "dappId": "timelock",
+    "question": "Which project type best describes Timelock?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Timelock is categorized as App."
+  },
+  {
+    "dappId": "timeswap",
+    "question": "Which project type best describes Timeswap?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Timeswap is categorized as App."
+  },
+  {
+    "dappId": "tokenpocket",
+    "question": "Which project type best describes TokenPocket?",
+    "options": [
+      "Infra",
+      "App",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "TokenPocket is categorized as Infra."
+  },
+  {
+    "dappId": "townsquare",
+    "question": "Which project type best describes TownSquare?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 0,
+    "explanation": "TownSquare is categorized as Infra."
+  },
+  {
+    "dappId": "tread-fi",
+    "question": "Which project type best describes Tread.fi?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Tread.fi is categorized as App."
+  },
+  {
+    "dappId": "triton-one",
+    "question": "Which project type best describes Triton One?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "Triton One is categorized as Infra."
+  },
+  {
+    "dappId": "turnkey",
+    "question": "Which project type best describes Turnkey?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "Turnkey is categorized as Infra."
+  },
+  {
+    "dappId": "typex",
+    "question": "Which project type best describes TypeX?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "TypeX is categorized as App."
+  },
+  {
+    "dappId": "uniswap",
+    "question": "Which project type best describes Uniswap?",
+    "options": [
+      "Infra",
+      "App",
+      "App/Infra"
+    ],
+    "answerIndex": 1,
+    "explanation": "Uniswap is categorized as App."
+  },
+  {
+    "dappId": "uniswap-wallet",
+    "question": "Which project type best describes Uniswap Wallet?",
+    "options": [
+      "Infra",
+      "App",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Uniswap Wallet is categorized as Infra."
+  },
+  {
+    "dappId": "unmarshal",
+    "question": "Which project type best describes Unmarshal?",
+    "options": [
+      "App/Infra",
+      "App",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "Unmarshal is categorized as Infra."
+  },
+  {
+    "dappId": "valor-quest",
+    "question": "Which project type best describes Valor Quest?",
+    "options": [
+      "Infra",
+      "App",
+      "App/Infra"
+    ],
+    "answerIndex": 1,
+    "explanation": "Valor Quest is categorized as App."
+  },
+  {
+    "dappId": "web3auth",
+    "question": "Which project type best describes Web3Auth?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "Web3Auth is categorized as Infra."
+  },
+  {
+    "dappId": "winks-fun",
+    "question": "Which project type best describes Winks.fun?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 0,
+    "explanation": "Winks.fun is categorized as Infra."
+  },
+  {
+    "dappId": "wonad",
+    "question": "Which project type best describes Wonad?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Wonad is categorized as App."
+  },
+  {
+    "dappId": "wormhole",
+    "question": "Which project type best describes Wormhole?",
+    "options": [
+      "App/Infra",
+      "App",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "Wormhole is categorized as Infra."
+  },
+  {
+    "dappId": "x2c",
+    "question": "Which project type best describes X2C?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "X2C is categorized as App."
+  },
+  {
+    "dappId": "xl",
+    "question": "Which project type best describes XL?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "XL is categorized as App."
+  },
+  {
+    "dappId": "yamata",
+    "question": "Which project type best describes Yamata?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Yamata is categorized as App."
+  },
+  {
+    "dappId": "yieldkingz",
+    "question": "Which project type best describes YieldKingZ?",
+    "options": [
+      "App",
+      "Infra",
+      "App/Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "YieldKingZ is categorized as App."
+  },
+  {
+    "dappId": "zapry",
+    "question": "Which project type best describes Zapry?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 0,
+    "explanation": "Zapry is categorized as App."
+  },
+  {
+    "dappId": "zerion",
+    "question": "Which project type best describes Zerion?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 1,
+    "explanation": "Zerion is categorized as Infra."
+  },
+  {
+    "dappId": "zerodev",
+    "question": "Which project type best describes ZeroDev?",
+    "options": [
+      "App",
+      "App/Infra",
+      "Infra"
+    ],
+    "answerIndex": 2,
+    "explanation": "ZeroDev is categorized as Infra."
+  },
+  {
+    "dappId": "zona",
+    "question": "Which project type best describes Zona?",
+    "options": [
+      "Infra",
+      "App/Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "Zona is categorized as App."
+  },
+  {
+    "dappId": "dfusion-ai",
+    "question": "Which project type best describes dFusion AI?",
+    "options": [
+      "App/Infra",
+      "Infra",
+      "App"
+    ],
+    "answerIndex": 2,
+    "explanation": "dFusion AI is categorized as App."
+  }
+]

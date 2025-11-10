@@ -15,6 +15,7 @@ import {
 import { dAppsData } from '../utils/dappsData'
 import QuestTracker from '../components/QuestTracker'
 import { useQuestStore } from '../store/questStore'
+import { getQuizForDapp } from '../utils/dappQuizzes'
 
 const MAZE_SIZE = 39
 const START_CELL = { row: Math.floor(MAZE_SIZE / 2), col: Math.floor(MAZE_SIZE / 2) }
@@ -498,9 +499,14 @@ function DappExhibit({ dapp, position, rotation }) {
   const groupRef = useRef(null)
   const [active, setActive] = useState(false)
   const [showDetails, setShowDetails] = useState(false)
+  const [showQuiz, setShowQuiz] = useState(false)
+  const [selectedOption, setSelectedOption] = useState(null)
+  const [quizFeedback, setQuizFeedback] = useState(null)
   const prevActive = useRef(false)
   const audioCtxRef = useRef(null)
   const registerVisit = useQuestStore((state) => state.registerVisit)
+  const hasBadgeForDapp = useQuestStore((state) => state.badges.includes(dapp.id))
+  const claimBadge = useQuestStore((state) => state.claimBadge)
   const visitLinkRef = useRef(null)
   const visitPayload = useMemo(
     () => ({
@@ -511,6 +517,7 @@ function DappExhibit({ dapp, position, rotation }) {
     }),
     [dapp]
   )
+  const quiz = useMemo(() => getQuizForDapp(dapp.id), [dapp.id])
 
   const playEnterTone = useCallback(async () => {
     if (typeof window === 'undefined') return
@@ -575,6 +582,9 @@ function DappExhibit({ dapp, position, rotation }) {
   useEffect(() => {
     if (!active) {
       setShowDetails(false)
+      setShowQuiz(false)
+      setSelectedOption(null)
+      setQuizFeedback(null)
       return undefined
     }
     const handleKeyDown = (event) => {
@@ -589,14 +599,65 @@ function DappExhibit({ dapp, position, rotation }) {
         event.preventDefault()
         setShowDetails((prev) => !prev)
       }
+      if (quiz && (event.code === 'KeyQ' || event.key === 'q' || event.key === 'Q')) {
+        event.preventDefault()
+        if (!hasBadgeForDapp) {
+          setShowQuiz((prev) => !prev)
+          setSelectedOption(null)
+          setQuizFeedback(null)
+        }
+      }
     }
     window.addEventListener('keydown', handleKeyDown)
     return () => {
       window.removeEventListener('keydown', handleKeyDown)
     }
-  }, [active])
+  }, [active, quiz, hasBadgeForDapp])
 
   const categories = Array.isArray(dapp.categories) ? dapp.categories : []
+
+  const handleQuizAnswer = useCallback(
+    (optionIndex, submit = true) => {
+      if (!quiz || hasBadgeForDapp) return
+      setSelectedOption(optionIndex)
+      if (!submit) return
+      if (optionIndex === quiz.answerIndex) {
+        claimBadge(dapp.id)
+        setQuizFeedback('correct')
+        setTimeout(() => {
+          setShowQuiz(false)
+          setSelectedOption(null)
+          setQuizFeedback(null)
+        }, 1200)
+      } else {
+        setQuizFeedback('incorrect')
+      }
+    },
+    [quiz, hasBadgeForDapp, claimBadge, dapp.id]
+  )
+
+  useEffect(() => {
+    if (!showQuiz || hasBadgeForDapp || !quiz) return undefined
+    const handleKeys = (event) => {
+      if (event.repeat) return
+      const key = event.key
+      if (key >= '1' && key <= '9') {
+        const idx = Number(key) - 1
+        if (idx < quiz.options.length) {
+          event.preventDefault()
+          handleQuizAnswer(idx, false)
+        }
+      }
+      if (key === 'Enter') {
+        event.preventDefault()
+        if (selectedOption !== null) {
+          handleQuizAnswer(selectedOption, true)
+        }
+      }
+    }
+    window.addEventListener('keydown', handleKeys)
+    return () => window.removeEventListener('keydown', handleKeys)
+  }, [showQuiz, quiz, hasBadgeForDapp, selectedOption, handleQuizAnswer])
 
   return (
     <group ref={groupRef} position={position} rotation={rotation} scale={0.56}>
@@ -678,6 +739,82 @@ function DappExhibit({ dapp, position, rotation }) {
               <p className="mt-2 text-[10px] text-indigo-500/90 font-semibold text-center uppercase tracking-wide">
                 Press Space to Visit • Press F for Info
               </p>
+            )}
+            {quiz && !hasBadgeForDapp && (
+              <div className="mt-2 flex justify-center">
+                <button
+                  type="button"
+                  onClick={() => {
+                    setShowQuiz((prev) => !prev)
+                    setSelectedOption(null)
+                    setQuizFeedback(null)
+                  }}
+                  className="rounded-xl bg-purple-500 text-white text-[11px] font-semibold px-3 py-1.5 hover:bg-purple-400 transition"
+                >
+                  {showQuiz ? 'Hide Quiz (Q)' : 'Take Quiz (Press Q)'}
+                </button>
+              </div>
+            )}
+            {quiz && hasBadgeForDapp && (
+              <p className="mt-2 text-[10px] font-semibold text-emerald-600 text-center uppercase tracking-wide">Badge claimed ✅</p>
+            )}
+            {quiz && showQuiz && !hasBadgeForDapp && (
+              <div className="mt-3 space-y-2 rounded-xl border border-purple-200 bg-purple-50/80 p-3 text-[11px] text-slate-900 shadow-inner">
+                <div>
+                  <p className="text-[10px] font-semibold uppercase tracking-wide text-purple-500">Knowledge Check</p>
+                  <p className="font-semibold leading-snug">{quiz.question}</p>
+                </div>
+                <div className="space-y-1.5">
+                  {quiz.options.map((option, index) => {
+                    const isSelected = selectedOption === index
+                    const isCorrect = quizFeedback === 'correct' && index === quiz.answerIndex
+                    const showIncorrect = quizFeedback === 'incorrect' && isSelected && index !== quiz.answerIndex
+                    return (
+                      <button
+                        key={option}
+                        type="button"
+                        onClick={() => handleQuizAnswer(index, true)}
+                        className={`w-full rounded-lg border px-2.5 py-1.5 text-left transition ${
+                          isCorrect
+                            ? 'border-emerald-400 bg-emerald-100 text-emerald-700'
+                            : showIncorrect
+                            ? 'border-rose-300 bg-rose-50 text-rose-600'
+                            : isSelected
+                            ? 'border-purple-400 bg-purple-100 text-purple-600'
+                            : 'border-slate-200 bg-white/90 hover:border-purple-300'
+                        }`}
+                      >
+                        <span className="mr-2 text-[10px] font-semibold text-purple-500">{index + 1}</span>
+                        {option}
+                      </button>
+                    )
+                  })}
+                </div>
+                {quizFeedback && (
+                  <div
+                    className={`rounded-lg px-2.5 py-1.5 text-[10px] font-semibold ${
+                      quizFeedback === 'correct' ? 'bg-emerald-100 text-emerald-600' : 'bg-rose-100 text-rose-600'
+                    }`}
+                  >
+                    {quizFeedback === 'correct' ? 'Correct! Badge added to your kit.' : 'Not quite. Try again!'}
+                    {quiz.explanation && quizFeedback === 'correct' && <p className="mt-1 font-normal text-slate-600">{quiz.explanation}</p>}
+                  </div>
+                )}
+                <div className="flex justify-between text-[10px] text-purple-600/80">
+                  <span>Press Q to close</span>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setShowQuiz(false)
+                      setSelectedOption(null)
+                      setQuizFeedback(null)
+                    }}
+                    className="rounded-lg border border-purple-300 px-2 py-1 text-purple-600 hover:bg-purple-100/60"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
             )}
             {showDetails && (
               <div className="mt-3 rounded-xl border border-indigo-100 bg-indigo-50/80 p-3 text-slate-800 text-[11px] leading-relaxed shadow-inner">

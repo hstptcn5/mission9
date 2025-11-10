@@ -34,6 +34,7 @@ const createInitialQuestState = () => {
       glitchUnlocked: false,
       recommendationsUnlocked: false,
     },
+    badges: [],
   }
 
   applyQuestProgress(baseState, baseState.questProgressMap, baseState.completedQuests)
@@ -155,6 +156,18 @@ export const useQuestStore = create(
               recommendationsUnlocked: collectionCount >= 5,
             },
           }
+        })
+      },
+      hasBadge: (dappId) => {
+        const state = get()
+        return state.badges.includes(dappId)
+      },
+      claimBadge: (dappId) => {
+        set((state) => {
+          if (!dappId) return {}
+          if (state.badges.includes(dappId)) return {}
+          const badges = [...state.badges, dappId]
+          return { badges }
         })
       },
 
