@@ -2,7 +2,7 @@ import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
 import { questDefinitions, evaluateQuestProgress, isQuestUnlocked, calculateLevelFromXp, xpForLevel, LEVEL_XP_STEP } from '../quests/questConfig'
 import { achievementDefinitions } from '../achievements/definitions'
-import { useLocalLeaderboardStore } from './localLeaderboardStore'
+import { useLeaderboardStore } from './localLeaderboardStore'
 
 const XP_GAIN = {
   unique: 25,
@@ -91,13 +91,13 @@ const computeAchievementUpdates = (prevState, partialUpdate) => {
   }
 }
 
-const syncLocalLeaderboardState = (state) => {
+const syncLeaderboardState = (state) => {
   try {
     const leaderboardId = state.leaderboardId || 'guest'
     if (!leaderboardId) return
-    useLocalLeaderboardStore
-      .getState()
-      .updateEntry({
+    const store = useLeaderboardStore.getState()
+    store
+      .upsertEntry({
         id: leaderboardId,
         name: state.leaderboardName || leaderboardId,
         xp: state.xp || 0,
@@ -105,6 +105,9 @@ const syncLocalLeaderboardState = (state) => {
         level: state.level || 1,
         achievementCount: state.achievements?.length || 0,
         updatedAt: Date.now(),
+      })
+      .catch((error) => {
+        console.warn('Failed syncing leaderboard entry', error)
       })
   } catch (error) {
     console.warn('Failed syncing local leaderboard', error)
@@ -183,7 +186,7 @@ export const useQuestStore = create(
           }
           return computeAchievementUpdates(state, partial)
         })
-        syncLocalLeaderboardState(get())
+        syncLeaderboardState(get())
       },
 
       addVote: (dappId) => {
@@ -232,7 +235,7 @@ export const useQuestStore = create(
           const badges = [...state.badges, dappId]
           return computeAchievementUpdates(state, { badges })
         })
-        syncLocalLeaderboardState(get())
+        syncLeaderboardState(get())
       },
 
       getQuestList: () => {
@@ -269,7 +272,7 @@ export const useQuestStore = create(
           }
           return computeAchievementUpdates(current, partial)
         })
-        syncLocalLeaderboardState(get())
+        syncLeaderboardState(get())
         return true
       },
 
@@ -289,7 +292,7 @@ export const useQuestStore = create(
 
       resetQuestData: () => {
         set(createInitialQuestState())
-        syncLocalLeaderboardState(get())
+        syncLeaderboardState(get())
       },
       setLeaderboardIdentity: (id, name) => {
         const safeId = typeof id === 'string' && id.length ? id : null
@@ -303,7 +306,7 @@ export const useQuestStore = create(
           leaderboardId: safeId || 'guest',
           leaderboardName: fallbackName,
         }))
-        syncLocalLeaderboardState(get())
+        syncLeaderboardState(get())
       },
     }),
     {
