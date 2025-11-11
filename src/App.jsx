@@ -23,7 +23,7 @@ function AppShell({ children, walletConnected, walletAddress, onConnect, onDisco
         <div className="container mx-auto px-4 py-4 flex flex-wrap gap-4 justify-between items-center">
           <div className="flex items-center gap-6">
             <img
-              src="/getchog/tittle.png"
+              src="/tittle.png"
               alt="Chog's Gallery Maze"
               className="h-16 w-auto object-contain drop-shadow-[0_6px_18px_rgba(12,10,60,0.55)]"
             />
