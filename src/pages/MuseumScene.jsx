@@ -1298,6 +1298,7 @@ export default function MuseumScene({ avatarModelPath = DEFAULT_AVATAR_MODEL_PAT
   const [isCapturing, setIsCapturing] = useState(false)
   const [previewActive, setPreviewActive] = useState(false)
   const [leaderboardOpen, setLeaderboardOpen] = useState(false)
+  const [pointerLocked, setPointerLocked] = useState(false)
   const badges = useQuestStore((state) => state.badges)
   const achievements = useQuestStore((state) => state.achievements)
   const level = useQuestStore((state) => state.level)
@@ -1306,6 +1307,25 @@ export default function MuseumScene({ avatarModelPath = DEFAULT_AVATAR_MODEL_PAT
   const cameraRef = useRef(null)
   const previewCanvasRef = useRef(null)
   const previewCameraRef = useRef(new THREE.PerspectiveCamera(58, 1, 0.1, 100))
+
+  // Track pointer lock state
+  useEffect(() => {
+    const handlePointerLockChange = () => {
+      setPointerLocked(document.pointerLockElement !== null)
+    }
+
+    const handlePointerLockError = () => {
+      setPointerLocked(false)
+    }
+
+    document.addEventListener('pointerlockchange', handlePointerLockChange)
+    document.addEventListener('pointerlockerror', handlePointerLockError)
+
+    return () => {
+      document.removeEventListener('pointerlockchange', handlePointerLockChange)
+      document.removeEventListener('pointerlockerror', handlePointerLockError)
+    }
+  }, [])
 
 const startCell = layoutData.cellMap.get(`${START_CELL.row}:${START_CELL.col}`) || layoutData.walkableCells[0]
 const initialPosition = startCell?.position || [0, 0, 0]
@@ -1603,9 +1623,17 @@ const axisOffsets = [
 
       <MinimapOverlay walkable={layoutData.walkableCells} walls={layoutData.wallCells} exhibits={popularPlacements} playerPos={playerPos} />
 
-      <button id="museum-lock" className="pointer-events-auto absolute bottom-8 left-1/2 -translate-x-1/2 px-6 py-2 rounded-full bg-white/15 border border-white/25 text-white text-sm hover:bg-white/25 transition">
-        Click to (re)enter explore mode
-      </button>
+      {!pointerLocked && (
+        <button 
+          id="museum-lock" 
+          className="pointer-events-auto absolute bottom-8 left-1/2 -translate-x-1/2 px-8 py-4 rounded-full bg-gradient-to-r from-indigo-500/90 to-purple-500/90 border-2 border-white/40 text-white text-lg font-bold shadow-[0_8px_32px_rgba(99,102,241,0.4)] hover:from-indigo-600 hover:to-purple-600 hover:shadow-[0_12px_40px_rgba(99,102,241,0.6)] transition-all duration-200 hover:scale-105 z-50"
+        >
+          <div className="flex flex-col items-center gap-1">
+            <span>Click để bắt đầu khám phá</span>
+            <span className="text-sm font-normal opacity-90">(Sử dụng WASD hoặc mũi tên để di chuyển)</span>
+          </div>
+        </button>
+      )}
 
       {capturedImage && (
         <div className="pointer-events-none fixed inset-0 z-40 flex items-center justify-center">
