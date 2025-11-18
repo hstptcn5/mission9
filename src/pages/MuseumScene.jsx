@@ -1,6 +1,6 @@
 import * as THREE from 'three'
 import { useMemo, useRef, useState, useEffect, useCallback } from 'react'
-import { Canvas, useFrame } from '@react-three/fiber'
+import { Canvas, useFrame, useThree } from '@react-three/fiber'
 import {
   Environment,
   Html,
@@ -11,6 +11,7 @@ import {
   useKeyboardControls,
   useTexture,
   useGLTF,
+  useAnimations,
 } from '@react-three/drei'
 import { dAppsData } from '../utils/dappsData'
 import QuestTracker from '../components/QuestTracker'
@@ -111,7 +112,7 @@ const CAMERA_SLIDE_EPSILON = 0.005
 const MOVE_SPEED = 1.4
 const AVATAR_FOLLOW_DISTANCE = 0.7
 const AVATAR_HEIGHT = 0.8
-const AVATAR_MODEL_PATH = '/models/chog.glb'
+const DEFAULT_AVATAR_MODEL_PATH = '/models/chog.glb'
 const AVATAR_MODEL_SCALE = 0.6
 const AVATAR_MODEL_ROTATION = [0, 110, 0]
 const AVATAR_YAW_OFFSET = Math.PI
@@ -131,7 +132,10 @@ const avatarTarget = new THREE.Vector3()
 const LIGHT_SAMPLE_STEP = 60
 const tempObject = new THREE.Object3D()
 
-useGLTF.preload(AVATAR_MODEL_PATH)
+// Preload all avatar models
+useGLTF.preload('/models/chog.glb')
+useGLTF.preload('/models/chog2.glb')
+useGLTF.preload('/models/chog3.glb')
 
 const ART_IMAGE_URLS = Object.values(
   import.meta.glob('../../getchog/assets/*.jpg', { eager: true, query: '?url', import: 'default' })
@@ -454,6 +458,37 @@ function MazeLighting({ walkable }) {
   )
 }
 
+function EnvironmentMap() {
+  const { scene } = useThree()
+  const envMap = useMemo(() => {
+    const canvas = document.createElement('canvas')
+    canvas.width = 512
+    canvas.height = 256
+    const ctx = canvas.getContext('2d')
+    // Tạo gradient sáng hơn với màu tím/xanh sáng hơn
+    const gradient = ctx.createLinearGradient(0, 0, 0, 256)
+    gradient.addColorStop(0, '#3d2a8f') // Sáng hơn
+    gradient.addColorStop(0.3, '#4a3ba5') // Sáng hơn
+    gradient.addColorStop(0.6, '#2d1a6b')
+    gradient.addColorStop(1, '#1a0f4a')
+    ctx.fillStyle = gradient
+    ctx.fillRect(0, 0, 512, 256)
+    const texture = new THREE.CanvasTexture(canvas)
+    texture.mapping = THREE.EquirectangularReflectionMapping
+    return texture
+  }, [])
+
+  useEffect(() => {
+    scene.environment = envMap
+    scene.environmentIntensity = 1.2 // Tăng intensity để sáng hơn
+    return () => {
+      scene.environment = null
+    }
+  }, [scene, envMap])
+
+  return null
+}
+
 function MinimapTracker({ onUpdate }) {
   const last = useRef(0)
   const eulerRef = useRef(new THREE.Euler(0, 0, 0, 'YXZ'))
@@ -608,11 +643,40 @@ function DappExhibit({ dapp, position, rotation }) {
     }
   }, [])
 
-  useFrame(({ camera }) => {
+  const distanceRef = useRef(0)
+  const glowIntensityRef = useRef(0.25)
+  const glowMaterialRef = useRef(null)
+  const emissiveMaterialRef = useRef(null)
+  const pointLightRef = useRef(null)
+
+  useFrame(({ camera, clock }) => {
     if (!groupRef.current) return
     const dist = groupRef.current.position.distanceTo(camera.position)
+    distanceRef.current = dist
+    
     if (dist < 3.8 && !active) setActive(true)
     if (dist >= 4.2 && active) setActive(false)
+    
+    // Calculate glow intensity based on distance - brighter when far away
+    const farDistance = 15
+    const nearDistance = 3
+    const normalizedDist = Math.min(Math.max((dist - nearDistance) / (farDistance - nearDistance), 0), 1)
+    // Pulse effect for visibility at distance
+    const pulse = Math.sin(clock.elapsedTime * 2) * 0.15 + 0.85
+    const newIntensity = 0.25 + (normalizedDist * 0.6) * pulse
+    glowIntensityRef.current = newIntensity
+    
+    // Update materials and light
+    if (emissiveMaterialRef.current) {
+      emissiveMaterialRef.current.emissiveIntensity = newIntensity
+    }
+    if (glowMaterialRef.current) {
+      // Glow opacity increases with distance
+      glowMaterialRef.current.opacity = 0.2 + (normalizedDist * 0.4) * pulse
+    }
+    if (pointLightRef.current) {
+      pointLightRef.current.intensity = 0.5 + (normalizedDist * 0.5) * pulse
+    }
   })
 
   useEffect(() => {
@@ -710,13 +774,41 @@ function DappExhibit({ dapp, position, rotation }) {
 
   return (
     <group ref={groupRef} position={position} rotation={rotation} scale={0.56}>
+      {/* Glow effect behind panel - more visible at distance */}
+      <mesh position={[0, 0, -0.06]} rotation={[0, Math.PI, 0]}>
+        <planeGeometry args={[1.85, 1.3]} />
+        <meshBasicMaterial 
+          ref={glowMaterialRef}
+          color="#6366f1" 
+          transparent 
+          opacity={0.2}
+        />
+      </mesh>
+      
+      {/* Point light for glow effect */}
+      <pointLight 
+        ref={pointLightRef}
+        position={[0, 0, -0.05]} 
+        color="#6366f1" 
+        intensity={0.5} 
+        distance={8}
+        decay={2}
+      />
+      
       <mesh position={[0, 0, 0]} rotation={[0, Math.PI, 0]} castShadow>
         <planeGeometry args={[1.5, 1.02]} />
         <meshStandardMaterial color="#eef2ff" roughness={0.8} metalness={0.08} />
       </mesh>
       <mesh position={[0, 0, -0.035]} rotation={[0, Math.PI, 0]}>
         <planeGeometry args={[1.72, 1.18]} />
-        <meshStandardMaterial color="#4338ca" roughness={0.45} metalness={0.4} emissive="#6366f1" emissiveIntensity={0.25} />
+        <meshStandardMaterial 
+          ref={emissiveMaterialRef}
+          color="#4338ca" 
+          roughness={0.45} 
+          metalness={0.4} 
+          emissive="#6366f1" 
+          emissiveIntensity={0.25}
+        />
       </mesh>
       <Text position={[0, 0.4, -0.04]} fontSize={0.16} color="#f8fafc" anchorX="center" anchorY="bottom">
         {dapp.name}
@@ -1064,24 +1156,47 @@ function WallArtPanel({ position, rotation, textureUrl, frameColor }) {
   )
 }
 
-function PlayerAvatar({ player }) {
+function PlayerAvatar({ player, avatarModelPath = DEFAULT_AVATAR_MODEL_PATH }) {
   const groupRef = useRef(null)
   const avatarGroupRef = useRef(null)
   const bobRef = useRef(0)
-  const { scene } = useGLTF(AVATAR_MODEL_PATH)
+  const { scene, animations } = useGLTF(avatarModelPath)
   const avatarScene = useMemo(() => scene.clone(true), [scene])
+  
+  // Load animations if available - use scene as ref for animations
+  const { actions, mixer } = useAnimations(animations, avatarScene)
 
   useEffect(() => {
     avatarScene.traverse((child) => {
       if (child.isMesh) {
         child.castShadow = true
         child.receiveShadow = true
+        child.frustumCulled = false // Disable frustum culling so model is always visible
+        child.visible = true // Ensure mesh is always visible
+        // Ensure model renders at any distance
+        child.matrixAutoUpdate = true
+        if (child.material) {
+          // Make material more visible at distance
+          if (Array.isArray(child.material)) {
+            child.material.forEach(mat => {
+              if (mat) mat.needsUpdate = true
+            })
+          } else {
+            child.material.needsUpdate = true
+          }
+        }
       }
     })
+    // Also disable frustum culling on the scene itself
+    avatarScene.frustumCulled = false
+    avatarScene.matrixAutoUpdate = true
   }, [avatarScene])
 
+
   useFrame(({ camera }, delta) => {
-    if (!groupRef.current) return
+    if (!groupRef.current || !avatarGroupRef.current) return
+    
+    // Calculate avatar position FIRST - this should ALWAYS run regardless of animation state
     forwardHelper.set(0, 0, -1).applyQuaternion(camera.quaternion)
     forwardHelper.y = 0
     if (forwardHelper.lengthSq() === 0) forwardHelper.set(0, 0, -1)
@@ -1092,6 +1207,7 @@ function PlayerAvatar({ player }) {
     groupRef.current.rotation.y = Math.atan2(forwardHelper.x, forwardHelper.z) + AVATAR_YAW_OFFSET
 
     const speed = player?.speed ?? 0
+    
     if (speed > 0.2) {
       bobRef.current += delta * Math.min(speed * 4, 8)
     } else {
@@ -1112,7 +1228,7 @@ function PlayerAvatar({ player }) {
 
 const POPULAR_LIMIT = 30
 
-export default function MuseumScene() {
+export default function MuseumScene({ avatarModelPath = DEFAULT_AVATAR_MODEL_PATH }) {
   const popularDapps = useMemo(() => {
     return dAppsData
       .filter((dapp) => !dapp.hidden)
@@ -1422,7 +1538,7 @@ const axisOffsets = [
         <KeyboardControls map={keyboardMap}>
           <Canvas
             shadows
-            camera={{ position: [initialPosition[0], CAMERA_HEIGHT, initialPosition[2]], fov: 58 }}
+            camera={{ position: [initialPosition[0], CAMERA_HEIGHT, initialPosition[2]], fov: 58, near: 0.1, far: 200 }}
             gl={{
               antialias: false,
               powerPreference: 'high-performance',
@@ -1443,13 +1559,13 @@ const axisOffsets = [
           >
             <color attach="background" args={[0x050220]} />
             <fog attach="fog" args={[0x050220, 20, 50]} />
-            <ambientLight intensity={0.7} />
-            <directionalLight castShadow position={[16, 22, 14]} intensity={1.7} shadow-mapSize-width={1024} shadow-mapSize-height={1024} />
-            <Environment preset="sunset" background={false} />
+            <ambientLight intensity={1.0} />
+            <directionalLight castShadow position={[16, 22, 14]} intensity={2.0} shadow-mapSize-width={1024} shadow-mapSize-height={1024} />
+            <EnvironmentMap />
             <Stars radius={160} depth={65} count={450} factor={2.2} fade speed={1} />
 
             <PointerLockControls selector="#museum-lock" />
-            <PlayerAvatar player={playerPos} />
+            <PlayerAvatar player={playerPos} avatarModelPath={avatarModelPath} />
             <VisitorRig />
             <MinimapTracker onUpdate={setPlayerPos} />
 

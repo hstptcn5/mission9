@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react'
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
 import MuseumScene from './pages/MuseumScene'
 import WalletConnect from './components/WalletConnect'
+import LoadingScreen from './components/LoadingScreen'
+import ModelSelector from './components/ModelSelector'
 import { useQuestStore } from './store/questStore'
 import './App.css'
 
@@ -47,6 +49,13 @@ function AppShell({ children, walletConnected, walletAddress, onConnect, onDisco
 function App() {
   const [walletConnected, setWalletConnected] = useState(false)
   const [walletAddress, setWalletAddress] = useState(null)
+  const [isLoading, setIsLoading] = useState(true)
+  const [showModelSelector, setShowModelSelector] = useState(false)
+  const [selectedAvatarModel, setSelectedAvatarModel] = useState(() => {
+    return localStorage.getItem('selectedAvatarModel') 
+      ? `/models/${localStorage.getItem('selectedAvatarModel')}.glb`
+      : '/models/chog.glb'
+  })
 
   useEffect(() => {
     const savedAddress = localStorage.getItem('walletAddress')
@@ -68,7 +77,23 @@ function App() {
     localStorage.removeItem('walletAddress')
   }
 
+  const handleLoadingComplete = () => {
+    setIsLoading(false)
+    setShowModelSelector(true)
+  }
+
+  const handleModelSelect = (modelPath) => {
+    setSelectedAvatarModel(modelPath)
+    setShowModelSelector(false)
+  }
+
   return (
+    <>
+      {isLoading && <LoadingScreen onComplete={handleLoadingComplete} />}
+      {showModelSelector && !isLoading && (
+        <ModelSelector onSelect={handleModelSelect} />
+      )}
+      {!isLoading && !showModelSelector && (
     <Router>
       <Routes>
         <Route
@@ -80,13 +105,19 @@ function App() {
               onConnect={handleConnect}
               onDisconnect={handleDisconnect}
             >
-              <MuseumScene walletConnected={walletConnected} walletAddress={walletAddress} />
+                  <MuseumScene 
+                    walletConnected={walletConnected} 
+                    walletAddress={walletAddress}
+                    avatarModelPath={selectedAvatarModel}
+                  />
             </AppShell>
           }
         />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </Router>
+      )}
+    </>
   )
 }
 
