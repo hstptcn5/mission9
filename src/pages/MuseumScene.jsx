@@ -1629,8 +1629,8 @@ const axisOffsets = [
           className="pointer-events-auto absolute bottom-8 left-1/2 -translate-x-1/2 px-8 py-4 rounded-full bg-gradient-to-r from-indigo-500/90 to-purple-500/90 border-2 border-white/40 text-white text-lg font-bold shadow-[0_8px_32px_rgba(99,102,241,0.4)] hover:from-indigo-600 hover:to-purple-600 hover:shadow-[0_12px_40px_rgba(99,102,241,0.6)] transition-all duration-200 hover:scale-105 z-50"
         >
           <div className="flex flex-col items-center gap-1">
-            <span>Click để bắt đầu khám phá</span>
-            <span className="text-sm font-normal opacity-90">(Sử dụng WASD hoặc mũi tên để di chuyển)</span>
+            <span>Click to Start Exploring</span>
+            <span className="text-sm font-normal opacity-90">(Use WASD or Arrow Keys to Move)</span>
           </div>
         </button>
       )}

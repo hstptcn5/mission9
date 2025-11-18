@@ -29,6 +29,9 @@ function AppShell({ children, walletConnected, walletAddress, onConnect, onDisco
               alt="Chog's Gallery Maze"
               className="h-16 w-auto object-contain drop-shadow-[0_6px_18px_rgba(12,10,60,0.55)]"
             />
+            <p className="text-white/90 text-lg font-medium hidden md:block">
+              Let's explore the Monad ecosystem
+            </p>
           </div>
           <div className="flex items-center gap-4">
             <WalletConnect
